@@ -33,6 +33,7 @@
     "exclude": [
         "node_modules",
         "lib",
-        "src/stories"
+        "src/stories",
+        "src/website"
     ]
 }

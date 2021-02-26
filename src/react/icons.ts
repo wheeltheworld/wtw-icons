@@ -160,4 +160,6 @@ const icons = {
     wateractivity: WaterActivity,
 };
 
+export type Icon = keyof typeof icons
+
 export default icons;
