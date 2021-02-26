@@ -2,7 +2,7 @@
   "name": "wtw-icons",
   "version": "1.0.0",
   "description": "The best open source icon library with an accessibility focus",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc -w"
