@@ -5,5 +5,5 @@ The best open source icon library with an accessibility focus
  - ```npm install wtw-icons``` or ```yarn add wtw-icons```
 
 ## Use it in react:
- - import it ```import WTWIcon from '@wtw-icons/react'```
+ - import it ```import WTWIcon from 'wtw-icons'```
  - use it wherever you want ```<WTWIcon icon="wtwlogo" />```
