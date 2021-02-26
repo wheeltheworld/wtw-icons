@@ -1,7 +1,7 @@
 import React, { SVGProps } from 'react'
 import icons from './icons'
 
-interface WTWIconProps extends SVGProps<SVGSVGElement> {
+export interface WTWIconProps extends SVGProps<SVGSVGElement> {
     icon: keyof typeof icons
 }
 

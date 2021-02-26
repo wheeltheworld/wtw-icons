@@ -1,1 +1,2 @@
-export { default as WTWIcon } from './WTWIcon';
+import WTWIcon from './WTWIcon';
+export default WTWIcon;

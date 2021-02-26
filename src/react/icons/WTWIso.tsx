@@ -3,7 +3,7 @@ import Icon from '../Icon';
 import { IconComponent } from '../types';
 
 const WTWIso: IconComponent = (props) => (
-    <Icon viewBox="0 -5 27 27" {...props}>
+    <Icon viewBox="2 -3 27 27" {...props}>
         <polygon
             fill="currentColor"
             points="11.59 7.09 13.88 4.16 16.7 10.61 17.14 9.68 19.47 5.85 20.12 6.29 20.12 6.29 20.91 6.86 21.44 6.07 26.7 18.45 27.91 18.45 21.56 3.99 20.6 5.51 19.01 4.42 16.74 8.25 14.13 1.89 10.82 6.54 9.83 11.51 8 8.06 2.71 18.5 3.89 18.5 8.06 10.2 12.34 18.5 13.56 18.5 10.48 12.72 11.59 7.09"
