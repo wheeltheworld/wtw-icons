@@ -8,7 +8,9 @@
     "build": "tsc",
     "build:dev": "tsc -w",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "pregen": "tsc ./src/react/gen.ts --outDir ./lib --esModuleInterop",
+    "gen": "node ./lib/gen.js"
   },
   "repository": {
     "type": "git",
