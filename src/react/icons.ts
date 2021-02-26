@@ -76,6 +76,7 @@ import WTWLogo from './icons/WTWLogo';
 import WTWLogoVertical from './icons/WTWLogoVertical';
 import WTWIso from './icons/WTWIso';
 import WaterActivity from './icons/WaterActivity';
+import NotificationActive from './icons/NotificationActive';
 
 const icons = {
     atm: ATM,
@@ -124,6 +125,7 @@ const icons = {
     motel: Motel,
     next: Next,
     notification: Notification,
+    notificationactive: NotificationActive,
     nurse: Nurse,
     other: Other,
     outdoor: Outdoor,
