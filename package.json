@@ -10,7 +10,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "pregen": "tsc ./src/react/gen.ts --outDir ./lib --esModuleInterop",
-    "gen": "node ./lib/gen.js"
+    "gen": "node ./lib/gen.js",
     "build-website": "webpack-cli -c ./src/website/webpack.config.js",
     "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w"
   },
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/wheeltheworld/wtw-icons/issues"
   },
-  "homepage": "https://github.com/wheeltheworld/wtw-icons#readme",
+  "homepage": "https://wheeltheworld.github.io/wtw-icons/",
   "devDependencies": {
     "@babel/core": "^7.13.1",
     "@storybook/addon-actions": "^6.1.20",
