@@ -17,6 +17,8 @@ const icons = {
 ${object}
 };
 
+export type Icon = keyof typeof icons
+
 export default icons; 
 `;
 
