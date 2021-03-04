@@ -8,7 +8,9 @@ const icons = getIcons();
 
 const imports = icons.map((icon) => `import ${icon} from  './icons/${icon}';`).join('\n')
 
-const object = icons.map((icon) => `   ${icon.toLowerCase()}: ${icon},`).join('\n')
+const object = icons.map((icon) => `\t${icon.toLowerCase()}: ${icon},`).join('\n')
+
+const array = icons.map((icon) => `\t'${icon.toLowerCase()}',`).join('\n')
 
 let file = 
 `${imports}
@@ -17,7 +19,15 @@ const icons = {
 ${object}
 };
 
-export type Icon = keyof typeof icons
+const IconList = [
+${array}
+]
+
+export type TIconList = keyof typeof icons
+
+export function isValidIcon(possibleIcon: any): possibleIcon is TIconList {
+\treturn possibleIcon && typeof possibleIcon === 'string' && IconList.includes(possibleIcon);
+}
 
 export default icons; 
 `;
