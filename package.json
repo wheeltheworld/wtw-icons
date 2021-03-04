@@ -1,6 +1,6 @@
 {
   "name": "wtw-icons",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "The best open source icon library with an accessibility focus",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/wheeltheworld/wtw-icons.git"
   },
-  "keywords": [],
+  "keywords": ["a11y", "accessibility", "icons"],
   "author": "",
   "license": "MIT",
   "bugs": {

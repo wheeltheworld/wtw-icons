@@ -162,6 +162,7 @@ const icons = {
    wtwlogovertical: WTWLogoVertical,
 };
 
-export type Icon = keyof typeof icons
+export type Icon = keyof typeof icons;
+export const IconList = Object.keys(icons);
 
 export default icons;
