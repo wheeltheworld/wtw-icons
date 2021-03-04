@@ -46,7 +46,7 @@ const AvailableIcons: React.FC<AvailableIconsProps> = ({}) => {
     return (
         <Section>
             <Header>
-                <Heading>Availble Icons</Heading>
+                <Heading>Available Icons</Heading>
                 <Search type="text" onChange={handleChange} placeholder="Search Icon..." />
             </Header>
             <IconList>
