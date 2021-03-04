@@ -2,6 +2,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import AvailableIcons from './sections/AvailableIcons';
 import GetStarted from './sections/GetStarted';
+import Social from './sections/Social';
 
 interface AppProps {}
 
@@ -23,6 +24,7 @@ const App: React.FC<AppProps> = ({}) => {
             <ResetCss />
             <GetStarted />
             <AvailableIcons />
+            <Social />
         </>
     );
 };

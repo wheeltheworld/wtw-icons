@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = styled.div`
+const Section = styled.article`
     padding: 50px 100px;
 `;
 
