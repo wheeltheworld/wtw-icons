@@ -9,7 +9,9 @@ export default {
     component: WTWIcon,
 } as Meta;
 
-const Template: Story<WTWIconProps> = (args) => <WTWIcon width="200px" height="200px" {...args} />;
+const Template: Story<WTWIconProps> = (args) => (
+    <WTWIcon width="200px" height="200px" style={{ border: '1px solid black' }} {...args} />
+);
 
 export const WTWIconComponent = Template.bind({});
 WTWIconComponent.args = {

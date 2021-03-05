@@ -3,7 +3,7 @@ import Icon from '../Icon';
 import { IconComponent } from '../types';
 
 const AccessibleBathroom: IconComponent = (props: any) => (
-    <Icon viewBox="0 0 40 40" {...props}>
+    <Icon viewBox="0 0 24 24" {...props}>
         <g>
             <g transform="translate(0.5 0.5)">
                 <path
