@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const Restaurant: IconComponent = (props) => (
     <Icon viewBox="0 0 40 40" {...props}>
-        <g id="Layer_1" data-name="Layer 1">
+        <g>
             <path
                 fill="currentColor"
                 d="M20.42,15.81a8.48,8.48,0,1,0,8.47,8.49A8.49,8.49,0,0,0,20.42,15.81Zm0,15.77a7.29,7.29,0,1,1,7.29-7.28A7.29,7.29,0,0,1,20.4,31.58Z"

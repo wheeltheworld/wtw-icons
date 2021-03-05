@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const Transportation: IconComponent = (props) => (
     <Icon viewBox="0 0 40 40" {...props}>
-        <g id="Layer_1" data-name="Layer 1">
+        <g>
             <path
                 fill="none"
                 stroke="currentColor"

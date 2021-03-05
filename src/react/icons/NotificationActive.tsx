@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '../Icon';
 import { IconComponent } from '../types';
 
-const NotificationActive: IconComponent = (props ) => {
+const NotificationActive: IconComponent = (props) => {
     return (
         <Icon viewBox="0 0 40 40" {...props}>
             <g>
