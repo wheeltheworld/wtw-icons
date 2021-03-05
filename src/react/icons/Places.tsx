@@ -5,7 +5,7 @@ import { IconComponent } from '../types';
 const Places: IconComponent = (props) => {
     return (
         <Icon viewBox="0 0 40 40" {...props}>
-            <g id="Layer_2" data-name="Layer 2">
+            <g>
                 <path
                     fill="currentColor"
                     d="M20,6.39a7.29,7.29,0,1,0,7.29,7.29h0A7.31,7.31,0,0,0,20,6.39Zm0,12.69a5.4,5.4,0,1,1,5.4-5.4h0A5.4,5.4,0,0,1,20,19.08Z"

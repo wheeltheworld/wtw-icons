@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const Wifi: IconComponent = (props) => (
     <Icon viewBox="0 0 40 40" {...props}>
-        <g id="Layer_2" data-name="Layer 2">
+        <g>
             <path fill="currentColor" d="M20,39.61a3.28,3.28,0,1,1,3.38-3.28A3.33,3.33,0,0,1,20,39.61Z" />
             <path
                 fill="currentColor"
