@@ -1,5 +1,6 @@
 import Atm from  './icons/Atm';
 import Auditorium from  './icons/Auditorium';
+import Backpacker from  './icons/Backpacker';
 import Bar from  './icons/Bar';
 import Bathroom from  './icons/Bathroom';
 import BathroomAccessInterior from  './icons/BathroomAccessInterior';
@@ -19,6 +20,7 @@ import Closet from  './icons/Closet';
 import CommonBathroom from  './icons/CommonBathroom';
 import Complete from  './icons/Complete';
 import CulturalPlace from  './icons/CulturalPlace';
+import Culture from  './icons/Culture';
 import Daycare from  './icons/Daycare';
 import Dinner from  './icons/Dinner';
 import Done from  './icons/Done';
@@ -43,6 +45,7 @@ import Minus from  './icons/Minus';
 import Missing from  './icons/Missing';
 import MobilePhone from  './icons/MobilePhone';
 import Motel from  './icons/Motel';
+import MultiDayTrip from  './icons/MultiDayTrip';
 import Next from  './icons/Next';
 import Notification from  './icons/Notification';
 import NotificationActive from  './icons/NotificationActive';
@@ -53,6 +56,7 @@ import Park from  './icons/Park';
 import Parking from  './icons/Parking';
 import Pending from  './icons/Pending';
 import Places from  './icons/Places';
+import PlacesToStay from  './icons/PlacesToStay';
 import Playground from  './icons/Playground';
 import Plus from  './icons/Plus';
 import Profile from  './icons/Profile';
@@ -69,6 +73,7 @@ import Spa from  './icons/Spa';
 import SwimmingPool from  './icons/SwimmingPool';
 import TeaRoom from  './icons/TeaRoom';
 import Terrace from  './icons/Terrace';
+import ThingsToDo from  './icons/ThingsToDo';
 import Toilet from  './icons/Toilet';
 import ToursActivities from  './icons/ToursActivities';
 import Transport from  './icons/Transport';
@@ -78,10 +83,12 @@ import WTWLogo from  './icons/WTWLogo';
 import WTWLogoVertical from  './icons/WTWLogoVertical';
 import WaterActivity from  './icons/WaterActivity';
 import Wifi from  './icons/Wifi';
+import Work from  './icons/Work';
 
 const icons = {
 	atm: Atm,
 	auditorium: Auditorium,
+	backpacker: Backpacker,
 	bar: Bar,
 	bathroom: Bathroom,
 	bathroomaccessinterior: BathroomAccessInterior,
@@ -101,6 +108,7 @@ const icons = {
 	commonbathroom: CommonBathroom,
 	complete: Complete,
 	culturalplace: CulturalPlace,
+	culture: Culture,
 	daycare: Daycare,
 	dinner: Dinner,
 	done: Done,
@@ -125,6 +133,7 @@ const icons = {
 	missing: Missing,
 	mobilephone: MobilePhone,
 	motel: Motel,
+	multidaytrip: MultiDayTrip,
 	next: Next,
 	notification: Notification,
 	notificationactive: NotificationActive,
@@ -135,6 +144,7 @@ const icons = {
 	parking: Parking,
 	pending: Pending,
 	places: Places,
+	placestostay: PlacesToStay,
 	playground: Playground,
 	plus: Plus,
 	profile: Profile,
@@ -151,6 +161,7 @@ const icons = {
 	swimmingpool: SwimmingPool,
 	tearoom: TeaRoom,
 	terrace: Terrace,
+	thingstodo: ThingsToDo,
 	toilet: Toilet,
 	toursactivities: ToursActivities,
 	transport: Transport,
@@ -160,11 +171,13 @@ const icons = {
 	wtwlogovertical: WTWLogoVertical,
 	wateractivity: WaterActivity,
 	wifi: Wifi,
+	work: Work,
 };
 
 const IconList = [
 	'atm',
 	'auditorium',
+	'backpacker',
 	'bar',
 	'bathroom',
 	'bathroomaccessinterior',
@@ -184,6 +197,7 @@ const IconList = [
 	'commonbathroom',
 	'complete',
 	'culturalplace',
+	'culture',
 	'daycare',
 	'dinner',
 	'done',
@@ -208,6 +222,7 @@ const IconList = [
 	'missing',
 	'mobilephone',
 	'motel',
+	'multidaytrip',
 	'next',
 	'notification',
 	'notificationactive',
@@ -218,6 +233,7 @@ const IconList = [
 	'parking',
 	'pending',
 	'places',
+	'placestostay',
 	'playground',
 	'plus',
 	'profile',
@@ -234,6 +250,7 @@ const IconList = [
 	'swimmingpool',
 	'tearoom',
 	'terrace',
+	'thingstodo',
 	'toilet',
 	'toursactivities',
 	'transport',
@@ -243,12 +260,13 @@ const IconList = [
 	'wtwlogovertical',
 	'wateractivity',
 	'wifi',
+	'work',
 ]
 
 export type TIconList = keyof typeof icons
 
 export function isValidIcon(possibleIcon: any): possibleIcon is TIconList {
-    return possibleIcon && typeof possibleIcon === 'string' && IconList.includes(possibleIcon);
- }
+	return possibleIcon && typeof possibleIcon === 'string' && IconList.includes(possibleIcon);
+}
 
 export default icons; 
