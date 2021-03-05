@@ -1,10 +1,10 @@
 import React from 'react';
-import { Icon } from '../../react/icons';
+import { TIconList } from '../../react';
 import { WTWIcon } from '../../react/index';
 import styled from 'styled-components';
 
 interface ShowIconProps {
-    icon: Icon;
+    icon: TIconList;
 }
 
 const Item = styled.div`

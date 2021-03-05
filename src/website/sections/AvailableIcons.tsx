@@ -3,18 +3,18 @@ import styled from 'styled-components';
 import ShowIcon from '../components/ShowIcon';
 import { search } from '../funcs/search';
 
-const Section = styled.div`
+const Section = styled.article`
     background-color: #141414;
     min-height: 400px;
     padding: 50px 100px;
 `;
 
-const Header = styled.div`
+const Header = styled.header`
     display: flex;
     justify-content: space-between;
 `;
 
-const IconList = styled.div`
+const IconList = styled.section`
     color: white;
     display: flex;
     flex-wrap: wrap;

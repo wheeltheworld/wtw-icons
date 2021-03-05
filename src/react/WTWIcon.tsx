@@ -1,12 +1,12 @@
-import React, { SVGProps } from 'react'
-import icons, { Icon } from './icons'
+import React, { SVGProps } from 'react';
+import icons, { TIconList } from './icons';
 
 export interface WTWIconProps extends SVGProps<SVGSVGElement> {
-    icon: Icon
+    icon: TIconList;
 }
 
-const WTWIcon: React.FC<WTWIconProps> = ({icon, ...props}) => {
-    return React.createElement(icons[icon], props) 
-}
+const WTWIcon: React.FC<WTWIconProps> = ({ icon, ...props }) => {
+    return React.createElement(icons[icon], props);
+};
 
-export default WTWIcon
+export default WTWIcon;
