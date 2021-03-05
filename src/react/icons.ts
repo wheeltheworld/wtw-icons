@@ -1,8 +1,10 @@
 import AccessibleBathroom from  './icons/AccessibleBathroom';
 import AccessibleEquipment from  './icons/AccessibleEquipment';
+import AccessiblePaths from  './icons/AccessiblePaths';
 import AccessibleTransportation from  './icons/AccessibleTransportation';
 import Accommodation from  './icons/Accommodation';
 import Activities from  './icons/Activities';
+import AdaptiveEquipment from  './icons/AdaptiveEquipment';
 import AirConditioner from  './icons/AirConditioner';
 import AirportShuttle from  './icons/AirportShuttle';
 import AlcoholicBeverages from  './icons/AlcoholicBeverages';
@@ -36,6 +38,7 @@ import Cabin from  './icons/Cabin';
 import Cafeteria from  './icons/Cafeteria';
 import Calendar from  './icons/Calendar';
 import Car from  './icons/Car';
+import Chair from  './icons/Chair';
 import Champagne from  './icons/Champagne';
 import ChangingRoom from  './icons/ChangingRoom';
 import Clock from  './icons/Clock';
@@ -86,6 +89,7 @@ import LakeSea from  './icons/LakeSea';
 import LandActivity from  './icons/LandActivity';
 import Language from  './icons/Language';
 import Laundry from  './icons/Laundry';
+import Level from  './icons/Level';
 import Lifevest from  './icons/Lifevest';
 import Lobby from  './icons/Lobby';
 import Location from  './icons/Location';
@@ -120,6 +124,7 @@ import PlacesToStay from  './icons/PlacesToStay';
 import Plane from  './icons/Plane';
 import Playground from  './icons/Playground';
 import Plus from  './icons/Plus';
+import PrivateTour from  './icons/PrivateTour';
 import Profile from  './icons/Profile';
 import QueenBed from  './icons/QueenBed';
 import Reception from  './icons/Reception';
@@ -161,6 +166,7 @@ import TeaRoom from  './icons/TeaRoom';
 import Terrace from  './icons/Terrace';
 import ThingsToDo from  './icons/ThingsToDo';
 import ThreeSteps from  './icons/ThreeSteps';
+import Ticket from  './icons/Ticket';
 import Toilet from  './icons/Toilet';
 import ToiletGrabBar from  './icons/ToiletGrabBar';
 import ToiletPaper from  './icons/ToiletPaper';
@@ -189,9 +195,11 @@ import Work from  './icons/Work';
 const icons = {
 	accessiblebathroom: AccessibleBathroom,
 	accessibleequipment: AccessibleEquipment,
+	accessiblepaths: AccessiblePaths,
 	accessibletransportation: AccessibleTransportation,
 	accommodation: Accommodation,
 	activities: Activities,
+	adaptiveequipment: AdaptiveEquipment,
 	airconditioner: AirConditioner,
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
@@ -225,6 +233,7 @@ const icons = {
 	cafeteria: Cafeteria,
 	calendar: Calendar,
 	car: Car,
+	chair: Chair,
 	champagne: Champagne,
 	changingroom: ChangingRoom,
 	clock: Clock,
@@ -275,6 +284,7 @@ const icons = {
 	landactivity: LandActivity,
 	language: Language,
 	laundry: Laundry,
+	level: Level,
 	lifevest: Lifevest,
 	lobby: Lobby,
 	location: Location,
@@ -309,6 +319,7 @@ const icons = {
 	plane: Plane,
 	playground: Playground,
 	plus: Plus,
+	privatetour: PrivateTour,
 	profile: Profile,
 	queenbed: QueenBed,
 	reception: Reception,
@@ -350,6 +361,7 @@ const icons = {
 	terrace: Terrace,
 	thingstodo: ThingsToDo,
 	threesteps: ThreeSteps,
+	ticket: Ticket,
 	toilet: Toilet,
 	toiletgrabbar: ToiletGrabBar,
 	toiletpaper: ToiletPaper,
@@ -379,9 +391,11 @@ const icons = {
 const IconList = [
 	'accessiblebathroom',
 	'accessibleequipment',
+	'accessiblepaths',
 	'accessibletransportation',
 	'accommodation',
 	'activities',
+	'adaptiveequipment',
 	'airconditioner',
 	'airportshuttle',
 	'alcoholicbeverages',
@@ -415,6 +429,7 @@ const IconList = [
 	'cafeteria',
 	'calendar',
 	'car',
+	'chair',
 	'champagne',
 	'changingroom',
 	'clock',
@@ -465,6 +480,7 @@ const IconList = [
 	'landactivity',
 	'language',
 	'laundry',
+	'level',
 	'lifevest',
 	'lobby',
 	'location',
@@ -499,6 +515,7 @@ const IconList = [
 	'plane',
 	'playground',
 	'plus',
+	'privatetour',
 	'profile',
 	'queenbed',
 	'reception',
@@ -540,6 +557,7 @@ const IconList = [
 	'terrace',
 	'thingstodo',
 	'threesteps',
+	'ticket',
 	'toilet',
 	'toiletgrabbar',
 	'toiletpaper',
