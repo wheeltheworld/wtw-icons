@@ -1,24 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Code from '../components/atoms/Code';
+import { Heading1 } from '../components/atoms/Heading';
+import { Li, Ul } from '../components/atoms/List';
 
 const Section = styled.article`
     padding: 50px 100px;
-`;
-
-const Li = styled.li`
-    list-style: none;
-    margin: 10px 0;
-`;
-
-const Code = styled.code`
-    background-color: #141414;
-    border-radius: 5px;
-    color: white;
-    padding: 5px;
-`;
-
-const Title = styled.h1`
-    text-align: center;
 `;
 
 interface GetStartedProps {}
@@ -26,9 +13,11 @@ interface GetStartedProps {}
 const GetStarted: React.FC<GetStartedProps> = ({}) => {
     return (
         <Section>
-            <Title>Wheel the World Icons</Title>
+            <Heading1 align="center" color="#141414">
+                Wheel the World Icons
+            </Heading1>
             <h2>How to get started?</h2>
-            <ul>
+            <Ul>
                 <Li>
                     Install the package with <Code>yarn add wtw-icons</Code> or <Code>npm i wtw-icons</Code>
                 </Li>
@@ -44,7 +33,7 @@ const GetStarted: React.FC<GetStartedProps> = ({}) => {
                         {'<'}WTWIcon icon='wtwlogo' {'/>'}
                     </Code>
                 </Li>
-            </ul>
+            </Ul>
         </Section>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import AdvancedUsage from './sections/AdvancedUsage';
 import AvailableIcons from './sections/AvailableIcons';
 import GetStarted from './sections/GetStarted';
 import Social from './sections/Social';
@@ -24,6 +25,7 @@ const App: React.FC<AppProps> = ({}) => {
             <ResetCss />
             <GetStarted />
             <AvailableIcons />
+            <AdvancedUsage />
             <Social />
         </>
     );

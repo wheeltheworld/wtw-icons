@@ -1,18 +1,18 @@
-import icons from '../../react/icons';
-import { TIconList } from '../../react';
+import { iconsArray } from '../../react/helpers';
+import { IconTag } from '../../react';
 
-export const search = (query?: string): TIconList[] => {
-    if (!query) return Object.keys(icons) as TIconList[];
+export const search = (query?: string): IconTag[] => {
+    if (!query) return [...iconsArray];
 
     query = query.toLowerCase();
 
-    const result: TIconList[] = [];
+    const result: IconTag[] = [];
 
-    (Object.keys(icons) as TIconList[]).forEach((icon) => {
+    iconsArray.forEach((icon) => {
         if (icon.includes(query!)) result.push(icon);
     });
 
-    (Object.keys(icons) as TIconList[]).forEach((icon) => {
+    iconsArray.forEach((icon) => {
         if (icon.includes(query!.split(' ').join('')) && !result.includes(icon)) result.push(icon);
     });
 

@@ -9,8 +9,8 @@
         "build:dev": "tsc -w",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "pregen": "tsc ./src/react/gen.ts --outDir ./lib --esModuleInterop",
-        "gen": "node ./lib/gen.js",
+        "pregen": "tsc ./src/react/gen/gen.ts --outDir ./lib/gen --esModuleInterop",
+        "gen": "node ./lib/gen/gen.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development"
     },

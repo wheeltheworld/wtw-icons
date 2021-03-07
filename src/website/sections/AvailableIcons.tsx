@@ -1,13 +1,9 @@
 import React, { ChangeEvent, useState } from 'react';
 import styled from 'styled-components';
-import ShowIcon from '../components/ShowIcon';
+import ShowIcon from '../components/organisms/ShowIcon';
+import Section from '../components/atoms/Section';
 import { search } from '../funcs/search';
-
-const Section = styled.article`
-    background-color: #141414;
-    min-height: 400px;
-    padding: 50px 100px;
-`;
+import { Heading2, Heading3 } from '../components/atoms/Heading';
 
 const Header = styled.header`
     display: flex;
@@ -20,10 +16,6 @@ const IconList = styled.section`
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0;
-`;
-
-const Heading = styled.h2`
-    color: white;
 `;
 
 const Search = styled.input`
@@ -44,13 +36,13 @@ const AvailableIcons: React.FC<AvailableIconsProps> = ({}) => {
     };
 
     return (
-        <Section>
+        <Section isBlack>
             <Header>
-                <Heading>Available Icons</Heading>
+                <Heading2>Available Icons</Heading2>
                 <Search type="text" onChange={handleChange} placeholder="Search Icon..." />
             </Header>
             <IconList>
-                {list.length ? list.map((icon) => <ShowIcon icon={icon} />) : <Heading>Not Found</Heading>}
+                {list.length ? list.map((icon) => <ShowIcon icon={icon} key={icon} />) : <Heading3>Not Found</Heading3>}
             </IconList>
         </Section>
     );
