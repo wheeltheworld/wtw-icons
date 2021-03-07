@@ -11,9 +11,19 @@ fs.writeFile(path.join(__dirname, '../../src/react/icons.ts'), iconsTS, () =>
 
 const helpersTS = `${icons.map((icon) => `import ${icon} from  './ICONS/${icon}';`).join('\n')}
 
-export const iconsArray = [${icons.map((icon) => `\t'${icon.toLowerCase()}',`).join('\n')}] as const
+import { IconTag } from './types'
 
-export const iconsObject = {${icons.map((icon) => `\t${icon.toLowerCase()}: ${icon},`).join('\n')}} as const
+export const iconsArray = [
+${icons.map((icon) => `\t'${icon.toLowerCase()}',`).join('\n')}
+] as const;
+
+export const iconsObject = {
+${icons.map((icon) => `\t${icon.toLowerCase()}: ${icon},`).join('\n')}
+} as const;
+
+export function isValidIcon(possibleIcon: any): possibleIcon is IconTag {
+    return possibleIcon && typeof possibleIcon === 'string' && possibleIcon in iconsObject;
+}
 `;
 
 fs.writeFile(path.join(__dirname, '../../src/react/helpers.ts'), helpersTS, () =>
