@@ -2,7 +2,7 @@ import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { WTWIcon } from '../react';
-import { WTWIconProps } from '../react/WTWIcon';
+import { WTWIconProps } from '../react/types';
 
 export default {
     title: 'WTW Icons/WTWIcon',

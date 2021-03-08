@@ -1,593 +1,194 @@
-import AccessibleBathroom from  './icons/AccessibleBathroom';
-import AccessibleEquipment from  './icons/AccessibleEquipment';
-import AccessiblePaths from  './icons/AccessiblePaths';
-import AccessibleTransportation from  './icons/AccessibleTransportation';
-import Accommodation from  './icons/Accommodation';
-import Activities from  './icons/Activities';
-import AdaptiveEquipment from  './icons/AdaptiveEquipment';
-import AirConditioner from  './icons/AirConditioner';
-import AirportShuttle from  './icons/AirportShuttle';
-import AlcoholicBeverages from  './icons/AlcoholicBeverages';
-import Assistance from  './icons/Assistance';
-import Atm from  './icons/Atm';
-import AudioGuides from  './icons/AudioGuides';
-import Auditorium from  './icons/Auditorium';
-import AuditoryGuidance from  './icons/AuditoryGuidance';
-import Baby from  './icons/Baby';
-import Backpacker from  './icons/Backpacker';
-import Baggage from  './icons/Baggage';
-import Bar from  './icons/Bar';
-import Bathroom from  './icons/Bathroom';
-import BathroomAccessInterior from  './icons/BathroomAccessInterior';
-import BathroomInterior from  './icons/BathroomInterior';
-import BathroomSink from  './icons/BathroomSink';
-import BeachAccess from  './icons/BeachAccess';
-import BeachFront from  './icons/BeachFront';
-import Bed from  './icons/Bed';
-import BedBreakfast from  './icons/BedBreakfast';
-import BedroomAccess from  './icons/BedroomAccess';
-import BeerBar from  './icons/BeerBar';
-import Blind from  './icons/Blind';
-import Boat from  './icons/Boat';
-import Braille from  './icons/Braille';
-import Breakfast from  './icons/Breakfast';
-import BuildingEntrance from  './icons/BuildingEntrance';
-import Bus from  './icons/Bus';
-import BusinessCenter from  './icons/BusinessCenter';
-import Cabin from  './icons/Cabin';
-import Cafeteria from  './icons/Cafeteria';
-import Calendar from  './icons/Calendar';
-import Car from  './icons/Car';
-import Chair from  './icons/Chair';
-import Champagne from  './icons/Champagne';
-import ChangingRoom from  './icons/ChangingRoom';
-import Clock from  './icons/Clock';
-import Closet from  './icons/Closet';
-import CoffeeMaker from  './icons/CoffeeMaker';
-import CommonBathroom from  './icons/CommonBathroom';
-import Complete from  './icons/Complete';
-import Conference from  './icons/Conference';
-import Crutches from  './icons/Crutches';
-import CulturalPlace from  './icons/CulturalPlace';
-import Culture from  './icons/Culture';
-import CurrencyExchange from  './icons/CurrencyExchange';
-import Daycare from  './icons/Daycare';
-import Deaf from  './icons/Deaf';
-import Dinner from  './icons/Dinner';
-import Done from  './icons/Done';
-import DryCleaning from  './icons/DryCleaning';
-import ElectricDeviceWheelchair from  './icons/ElectricDeviceWheelchair';
-import Elevator from  './icons/Elevator';
-import Entertainment from  './icons/Entertainment';
-import Entrance from  './icons/Entrance';
-import Equipment from  './icons/Equipment';
-import EventRoom from  './icons/EventRoom';
-import FitnessCenter from  './icons/FitnessCenter';
-import FoldablePowerWheelchair from  './icons/FoldablePowerWheelchair';
-import FoodService from  './icons/FoodService';
-import GeneralAttribute from  './icons/GeneralAttribute';
-import Gratuities from  './icons/Gratuities';
-import GroundTransportation from  './icons/GroundTransportation';
-import Guides from  './icons/Guides';
-import Gym from  './icons/Gym';
-import Health from  './icons/Health';
-import HearingAid from  './icons/HearingAid';
-import HeatedPool from  './icons/HeatedPool';
-import HeavyPowerWheelchair from  './icons/HeavyPowerWheelchair';
-import Helmet from  './icons/Helmet';
-import HighBathtub from  './icons/HighBathtub';
-import Hotel from  './icons/Hotel';
-import Housekeeping from  './icons/Housekeeping';
-import Id from  './icons/Id';
-import Instructor from  './icons/Instructor';
-import Insurance from  './icons/Insurance';
-import Interior from  './icons/Interior';
-import JeepCar from  './icons/JeepCar';
-import Key from  './icons/Key';
-import Keys from  './icons/Keys';
-import LakeSea from  './icons/LakeSea';
-import LandActivity from  './icons/LandActivity';
-import Language from  './icons/Language';
-import Laundry from  './icons/Laundry';
-import Level from  './icons/Level';
-import Lifevest from  './icons/Lifevest';
-import Lobby from  './icons/Lobby';
-import Location from  './icons/Location';
-import LowerBathtub from  './icons/LowerBathtub';
-import LowerSteps from  './icons/LowerSteps';
-import Lunch from  './icons/Lunch';
-import MeasuringTape from  './icons/MeasuringTape';
-import MeetingPoint from  './icons/MeetingPoint';
-import MiniFridge from  './icons/MiniFridge';
-import Minus from  './icons/Minus';
-import Missing from  './icons/Missing';
-import MobilePhone from  './icons/MobilePhone';
-import Money from  './icons/Money';
-import Motel from  './icons/Motel';
-import MultiDayTrip from  './icons/MultiDayTrip';
-import Next from  './icons/Next';
-import No from  './icons/No';
-import Notification from  './icons/Notification';
-import NotificationActive from  './icons/NotificationActive';
-import Nurse from  './icons/Nurse';
-import OneStep from  './icons/OneStep';
-import Other from  './icons/Other';
-import Outdoor from  './icons/Outdoor';
-import Park from  './icons/Park';
-import Parking from  './icons/Parking';
-import Pending from  './icons/Pending';
-import Person from  './icons/Person';
-import PetFriendly from  './icons/PetFriendly';
-import PicnicTable from  './icons/PicnicTable';
-import Places from  './icons/Places';
-import PlacesToStay from  './icons/PlacesToStay';
-import Plane from  './icons/Plane';
-import Playground from  './icons/Playground';
-import Plus from  './icons/Plus';
-import PrivateTour from  './icons/PrivateTour';
-import Profile from  './icons/Profile';
-import QueenBed from  './icons/QueenBed';
-import Reception from  './icons/Reception';
-import Resort from  './icons/Resort';
-import Restaurant from  './icons/Restaurant';
-import Restrictions from  './icons/Restrictions';
-import RollInShower from  './icons/RollInShower';
-import RoomEntrance from  './icons/RoomEntrance';
-import RoomService from  './icons/RoomService';
-import Safe from  './icons/Safe';
-import SafetyEquipment from  './icons/SafetyEquipment';
-import Sauna from  './icons/Sauna';
-import Save from  './icons/Save';
-import Scooter from  './icons/Scooter';
-import SedanCar from  './icons/SedanCar';
-import Share from  './icons/Share';
-import Shop from  './icons/Shop';
-import Shopping from  './icons/Shopping';
-import Shower from  './icons/Shower';
-import ShowerGrabBar from  './icons/ShowerGrabBar';
-import ShowerLowStep from  './icons/ShowerLowStep';
-import ShowerSeat from  './icons/ShowerSeat';
-import Sink from  './icons/Sink';
-import SinkTap from  './icons/SinkTap';
-import SmokeFree from  './icons/SmokeFree';
-import SnackBar from  './icons/SnackBar';
-import Snacks from  './icons/Snacks';
-import SocialDistancing from  './icons/SocialDistancing';
-import SoftDrink from  './icons/SoftDrink';
-import Spa from  './icons/Spa';
-import Stairs from  './icons/Stairs';
-import StepFree from  './icons/StepFree';
-import SwimmingPool from  './icons/SwimmingPool';
-import Switch from  './icons/Switch';
-import TV from  './icons/TV';
-import Taxes from  './icons/Taxes';
-import Tea from  './icons/Tea';
-import TeaRoom from  './icons/TeaRoom';
-import Terrace from  './icons/Terrace';
-import ThingsToDo from  './icons/ThingsToDo';
-import ThreeSteps from  './icons/ThreeSteps';
-import Ticket from  './icons/Ticket';
-import Toilet from  './icons/Toilet';
-import ToiletGrabBar from  './icons/ToiletGrabBar';
-import ToiletPaper from  './icons/ToiletPaper';
-import TourGuide from  './icons/TourGuide';
-import ToursActivities from  './icons/ToursActivities';
-import Transport from  './icons/Transport';
-import Transportation from  './icons/Transportation';
-import TurningRadius from  './icons/TurningRadius';
-import TwentyFourHour from  './icons/TwentyFourHour';
-import ValetParking from  './icons/ValetParking';
-import VendingMachine from  './icons/VendingMachine';
-import Verified from  './icons/Verified';
-import WTWIso from  './icons/WTWIso';
-import WTWLogo from  './icons/WTWLogo';
-import WTWLogoVertical from  './icons/WTWLogoVertical';
-import Walker from  './icons/Walker';
-import WalkingAid from  './icons/WalkingAid';
-import WaterActivity from  './icons/WaterActivity';
-import WaterBottle from  './icons/WaterBottle';
-import WaterFountain from  './icons/WaterFountain';
-import Wheelchair from  './icons/Wheelchair';
-import WheelchairRamp from  './icons/WheelchairRamp';
-import Wifi from  './icons/Wifi';
-import Work from  './icons/Work';
-
-const icons = {
-	accessiblebathroom: AccessibleBathroom,
-	accessibleequipment: AccessibleEquipment,
-	accessiblepaths: AccessiblePaths,
-	accessibletransportation: AccessibleTransportation,
-	accommodation: Accommodation,
-	activities: Activities,
-	adaptiveequipment: AdaptiveEquipment,
-	airconditioner: AirConditioner,
-	airportshuttle: AirportShuttle,
-	alcoholicbeverages: AlcoholicBeverages,
-	assistance: Assistance,
-	atm: Atm,
-	audioguides: AudioGuides,
-	auditorium: Auditorium,
-	auditoryguidance: AuditoryGuidance,
-	baby: Baby,
-	backpacker: Backpacker,
-	baggage: Baggage,
-	bar: Bar,
-	bathroom: Bathroom,
-	bathroomaccessinterior: BathroomAccessInterior,
-	bathroominterior: BathroomInterior,
-	bathroomsink: BathroomSink,
-	beachaccess: BeachAccess,
-	beachfront: BeachFront,
-	bed: Bed,
-	bedbreakfast: BedBreakfast,
-	bedroomaccess: BedroomAccess,
-	beerbar: BeerBar,
-	blind: Blind,
-	boat: Boat,
-	braille: Braille,
-	breakfast: Breakfast,
-	buildingentrance: BuildingEntrance,
-	bus: Bus,
-	businesscenter: BusinessCenter,
-	cabin: Cabin,
-	cafeteria: Cafeteria,
-	calendar: Calendar,
-	car: Car,
-	chair: Chair,
-	champagne: Champagne,
-	changingroom: ChangingRoom,
-	clock: Clock,
-	closet: Closet,
-	coffeemaker: CoffeeMaker,
-	commonbathroom: CommonBathroom,
-	complete: Complete,
-	conference: Conference,
-	crutches: Crutches,
-	culturalplace: CulturalPlace,
-	culture: Culture,
-	currencyexchange: CurrencyExchange,
-	daycare: Daycare,
-	deaf: Deaf,
-	dinner: Dinner,
-	done: Done,
-	drycleaning: DryCleaning,
-	electricdevicewheelchair: ElectricDeviceWheelchair,
-	elevator: Elevator,
-	entertainment: Entertainment,
-	entrance: Entrance,
-	equipment: Equipment,
-	eventroom: EventRoom,
-	fitnesscenter: FitnessCenter,
-	foldablepowerwheelchair: FoldablePowerWheelchair,
-	foodservice: FoodService,
-	generalattribute: GeneralAttribute,
-	gratuities: Gratuities,
-	groundtransportation: GroundTransportation,
-	guides: Guides,
-	gym: Gym,
-	health: Health,
-	hearingaid: HearingAid,
-	heatedpool: HeatedPool,
-	heavypowerwheelchair: HeavyPowerWheelchair,
-	helmet: Helmet,
-	highbathtub: HighBathtub,
-	hotel: Hotel,
-	housekeeping: Housekeeping,
-	id: Id,
-	instructor: Instructor,
-	insurance: Insurance,
-	interior: Interior,
-	jeepcar: JeepCar,
-	key: Key,
-	keys: Keys,
-	lakesea: LakeSea,
-	landactivity: LandActivity,
-	language: Language,
-	laundry: Laundry,
-	level: Level,
-	lifevest: Lifevest,
-	lobby: Lobby,
-	location: Location,
-	lowerbathtub: LowerBathtub,
-	lowersteps: LowerSteps,
-	lunch: Lunch,
-	measuringtape: MeasuringTape,
-	meetingpoint: MeetingPoint,
-	minifridge: MiniFridge,
-	minus: Minus,
-	missing: Missing,
-	mobilephone: MobilePhone,
-	money: Money,
-	motel: Motel,
-	multidaytrip: MultiDayTrip,
-	next: Next,
-	no: No,
-	notification: Notification,
-	notificationactive: NotificationActive,
-	nurse: Nurse,
-	onestep: OneStep,
-	other: Other,
-	outdoor: Outdoor,
-	park: Park,
-	parking: Parking,
-	pending: Pending,
-	person: Person,
-	petfriendly: PetFriendly,
-	picnictable: PicnicTable,
-	places: Places,
-	placestostay: PlacesToStay,
-	plane: Plane,
-	playground: Playground,
-	plus: Plus,
-	privatetour: PrivateTour,
-	profile: Profile,
-	queenbed: QueenBed,
-	reception: Reception,
-	resort: Resort,
-	restaurant: Restaurant,
-	restrictions: Restrictions,
-	rollinshower: RollInShower,
-	roomentrance: RoomEntrance,
-	roomservice: RoomService,
-	safe: Safe,
-	safetyequipment: SafetyEquipment,
-	sauna: Sauna,
-	save: Save,
-	scooter: Scooter,
-	sedancar: SedanCar,
-	share: Share,
-	shop: Shop,
-	shopping: Shopping,
-	shower: Shower,
-	showergrabbar: ShowerGrabBar,
-	showerlowstep: ShowerLowStep,
-	showerseat: ShowerSeat,
-	sink: Sink,
-	sinktap: SinkTap,
-	smokefree: SmokeFree,
-	snackbar: SnackBar,
-	snacks: Snacks,
-	socialdistancing: SocialDistancing,
-	softdrink: SoftDrink,
-	spa: Spa,
-	stairs: Stairs,
-	stepfree: StepFree,
-	swimmingpool: SwimmingPool,
-	switch: Switch,
-	tv: TV,
-	taxes: Taxes,
-	tea: Tea,
-	tearoom: TeaRoom,
-	terrace: Terrace,
-	thingstodo: ThingsToDo,
-	threesteps: ThreeSteps,
-	ticket: Ticket,
-	toilet: Toilet,
-	toiletgrabbar: ToiletGrabBar,
-	toiletpaper: ToiletPaper,
-	tourguide: TourGuide,
-	toursactivities: ToursActivities,
-	transport: Transport,
-	transportation: Transportation,
-	turningradius: TurningRadius,
-	twentyfourhour: TwentyFourHour,
-	valetparking: ValetParking,
-	vendingmachine: VendingMachine,
-	verified: Verified,
-	wtwiso: WTWIso,
-	wtwlogo: WTWLogo,
-	wtwlogovertical: WTWLogoVertical,
-	walker: Walker,
-	walkingaid: WalkingAid,
-	wateractivity: WaterActivity,
-	waterbottle: WaterBottle,
-	waterfountain: WaterFountain,
-	wheelchair: Wheelchair,
-	wheelchairramp: WheelchairRamp,
-	wifi: Wifi,
-	work: Work,
-};
-
-const IconList = [
-	'accessiblebathroom',
-	'accessibleequipment',
-	'accessiblepaths',
-	'accessibletransportation',
-	'accommodation',
-	'activities',
-	'adaptiveequipment',
-	'airconditioner',
-	'airportshuttle',
-	'alcoholicbeverages',
-	'assistance',
-	'atm',
-	'audioguides',
-	'auditorium',
-	'auditoryguidance',
-	'baby',
-	'backpacker',
-	'baggage',
-	'bar',
-	'bathroom',
-	'bathroomaccessinterior',
-	'bathroominterior',
-	'bathroomsink',
-	'beachaccess',
-	'beachfront',
-	'bed',
-	'bedbreakfast',
-	'bedroomaccess',
-	'beerbar',
-	'blind',
-	'boat',
-	'braille',
-	'breakfast',
-	'buildingentrance',
-	'bus',
-	'businesscenter',
-	'cabin',
-	'cafeteria',
-	'calendar',
-	'car',
-	'chair',
-	'champagne',
-	'changingroom',
-	'clock',
-	'closet',
-	'coffeemaker',
-	'commonbathroom',
-	'complete',
-	'conference',
-	'crutches',
-	'culturalplace',
-	'culture',
-	'currencyexchange',
-	'daycare',
-	'deaf',
-	'dinner',
-	'done',
-	'drycleaning',
-	'electricdevicewheelchair',
-	'elevator',
-	'entertainment',
-	'entrance',
-	'equipment',
-	'eventroom',
-	'fitnesscenter',
-	'foldablepowerwheelchair',
-	'foodservice',
-	'generalattribute',
-	'gratuities',
-	'groundtransportation',
-	'guides',
-	'gym',
-	'health',
-	'hearingaid',
-	'heatedpool',
-	'heavypowerwheelchair',
-	'helmet',
-	'highbathtub',
-	'hotel',
-	'housekeeping',
-	'id',
-	'instructor',
-	'insurance',
-	'interior',
-	'jeepcar',
-	'key',
-	'keys',
-	'lakesea',
-	'landactivity',
-	'language',
-	'laundry',
-	'level',
-	'lifevest',
-	'lobby',
-	'location',
-	'lowerbathtub',
-	'lowersteps',
-	'lunch',
-	'measuringtape',
-	'meetingpoint',
-	'minifridge',
-	'minus',
-	'missing',
-	'mobilephone',
-	'money',
-	'motel',
-	'multidaytrip',
-	'next',
-	'no',
-	'notification',
-	'notificationactive',
-	'nurse',
-	'onestep',
-	'other',
-	'outdoor',
-	'park',
-	'parking',
-	'pending',
-	'person',
-	'petfriendly',
-	'picnictable',
-	'places',
-	'placestostay',
-	'plane',
-	'playground',
-	'plus',
-	'privatetour',
-	'profile',
-	'queenbed',
-	'reception',
-	'resort',
-	'restaurant',
-	'restrictions',
-	'rollinshower',
-	'roomentrance',
-	'roomservice',
-	'safe',
-	'safetyequipment',
-	'sauna',
-	'save',
-	'scooter',
-	'sedancar',
-	'share',
-	'shop',
-	'shopping',
-	'shower',
-	'showergrabbar',
-	'showerlowstep',
-	'showerseat',
-	'sink',
-	'sinktap',
-	'smokefree',
-	'snackbar',
-	'snacks',
-	'socialdistancing',
-	'softdrink',
-	'spa',
-	'stairs',
-	'stepfree',
-	'swimmingpool',
-	'switch',
-	'tv',
-	'taxes',
-	'tea',
-	'tearoom',
-	'terrace',
-	'thingstodo',
-	'threesteps',
-	'ticket',
-	'toilet',
-	'toiletgrabbar',
-	'toiletpaper',
-	'tourguide',
-	'toursactivities',
-	'transport',
-	'transportation',
-	'turningradius',
-	'twentyfourhour',
-	'valetparking',
-	'vendingmachine',
-	'verified',
-	'wtwiso',
-	'wtwlogo',
-	'wtwlogovertical',
-	'walker',
-	'walkingaid',
-	'wateractivity',
-	'waterbottle',
-	'waterfountain',
-	'wheelchair',
-	'wheelchairramp',
-	'wifi',
-	'work',
-]
-
-export type TIconList = keyof typeof icons
-
-export function isValidIcon(possibleIcon: any): possibleIcon is TIconList {
-	return possibleIcon && typeof possibleIcon === 'string' && IconList.includes(possibleIcon);
-}
-
-export default icons; 
+export { default as AccessibleBathroomIcon } from  './ICONS/AccessibleBathroom';
+export { default as AccessibleEquipmentIcon } from  './ICONS/AccessibleEquipment';
+export { default as AccessiblePathsIcon } from  './ICONS/AccessiblePaths';
+export { default as AccessibleTransportationIcon } from  './ICONS/AccessibleTransportation';
+export { default as AccommodationIcon } from  './ICONS/Accommodation';
+export { default as ActivitiesIcon } from  './ICONS/Activities';
+export { default as AdaptiveEquipmentIcon } from  './ICONS/AdaptiveEquipment';
+export { default as AirConditionerIcon } from  './ICONS/AirConditioner';
+export { default as AirportShuttleIcon } from  './ICONS/AirportShuttle';
+export { default as AlcoholicBeveragesIcon } from  './ICONS/AlcoholicBeverages';
+export { default as AssistanceIcon } from  './ICONS/Assistance';
+export { default as AtmIcon } from  './ICONS/Atm';
+export { default as AudioGuidesIcon } from  './ICONS/AudioGuides';
+export { default as AuditoriumIcon } from  './ICONS/Auditorium';
+export { default as AuditoryGuidanceIcon } from  './ICONS/AuditoryGuidance';
+export { default as BabyIcon } from  './ICONS/Baby';
+export { default as BackpackerIcon } from  './ICONS/Backpacker';
+export { default as BaggageIcon } from  './ICONS/Baggage';
+export { default as BarIcon } from  './ICONS/Bar';
+export { default as BathroomIcon } from  './ICONS/Bathroom';
+export { default as BathroomAccessInteriorIcon } from  './ICONS/BathroomAccessInterior';
+export { default as BathroomInteriorIcon } from  './ICONS/BathroomInterior';
+export { default as BathroomSinkIcon } from  './ICONS/BathroomSink';
+export { default as BeachAccessIcon } from  './ICONS/BeachAccess';
+export { default as BeachFrontIcon } from  './ICONS/BeachFront';
+export { default as BedIcon } from  './ICONS/Bed';
+export { default as BedBreakfastIcon } from  './ICONS/BedBreakfast';
+export { default as BedroomAccessIcon } from  './ICONS/BedroomAccess';
+export { default as BedroomInteriorIcon } from  './ICONS/BedroomInterior';
+export { default as BeerBarIcon } from  './ICONS/BeerBar';
+export { default as BlindIcon } from  './ICONS/Blind';
+export { default as BoatIcon } from  './ICONS/Boat';
+export { default as BrailleIcon } from  './ICONS/Braille';
+export { default as BreakfastIcon } from  './ICONS/Breakfast';
+export { default as BuildingEntranceIcon } from  './ICONS/BuildingEntrance';
+export { default as BusIcon } from  './ICONS/Bus';
+export { default as BusinessCenterIcon } from  './ICONS/BusinessCenter';
+export { default as CabinIcon } from  './ICONS/Cabin';
+export { default as CafeteriaIcon } from  './ICONS/Cafeteria';
+export { default as CalendarIcon } from  './ICONS/Calendar';
+export { default as CarIcon } from  './ICONS/Car';
+export { default as ChairIcon } from  './ICONS/Chair';
+export { default as ChampagneIcon } from  './ICONS/Champagne';
+export { default as ChangingRoomIcon } from  './ICONS/ChangingRoom';
+export { default as ClockIcon } from  './ICONS/Clock';
+export { default as ClosetIcon } from  './ICONS/Closet';
+export { default as CoffeeMakerIcon } from  './ICONS/CoffeeMaker';
+export { default as CommonBathroomIcon } from  './ICONS/CommonBathroom';
+export { default as CompleteIcon } from  './ICONS/Complete';
+export { default as ConferenceIcon } from  './ICONS/Conference';
+export { default as CrutchesIcon } from  './ICONS/Crutches';
+export { default as CulturalPlaceIcon } from  './ICONS/CulturalPlace';
+export { default as CultureIcon } from  './ICONS/Culture';
+export { default as CurrencyExchangeIcon } from  './ICONS/CurrencyExchange';
+export { default as DaycareIcon } from  './ICONS/Daycare';
+export { default as DeafIcon } from  './ICONS/Deaf';
+export { default as DinnerIcon } from  './ICONS/Dinner';
+export { default as DoneIcon } from  './ICONS/Done';
+export { default as DryCleaningIcon } from  './ICONS/DryCleaning';
+export { default as ElectricDeviceWheelchairIcon } from  './ICONS/ElectricDeviceWheelchair';
+export { default as ElevatorIcon } from  './ICONS/Elevator';
+export { default as EntertainmentIcon } from  './ICONS/Entertainment';
+export { default as EntranceIcon } from  './ICONS/Entrance';
+export { default as EquipmentIcon } from  './ICONS/Equipment';
+export { default as EventRoomIcon } from  './ICONS/EventRoom';
+export { default as FitnessCenterIcon } from  './ICONS/FitnessCenter';
+export { default as FoldablePowerWheelchairIcon } from  './ICONS/FoldablePowerWheelchair';
+export { default as FoodServiceIcon } from  './ICONS/FoodService';
+export { default as GeneralAttributeIcon } from  './ICONS/GeneralAttribute';
+export { default as GratuitiesIcon } from  './ICONS/Gratuities';
+export { default as GroundTransportationIcon } from  './ICONS/GroundTransportation';
+export { default as GuidesIcon } from  './ICONS/Guides';
+export { default as GymIcon } from  './ICONS/Gym';
+export { default as HealthIcon } from  './ICONS/Health';
+export { default as HearingAidIcon } from  './ICONS/HearingAid';
+export { default as HeatedPoolIcon } from  './ICONS/HeatedPool';
+export { default as HeavyPowerWheelchairIcon } from  './ICONS/HeavyPowerWheelchair';
+export { default as HelmetIcon } from  './ICONS/Helmet';
+export { default as HighBathtubIcon } from  './ICONS/HighBathtub';
+export { default as HotelIcon } from  './ICONS/Hotel';
+export { default as HousekeepingIcon } from  './ICONS/Housekeeping';
+export { default as IdIcon } from  './ICONS/Id';
+export { default as InstructorIcon } from  './ICONS/Instructor';
+export { default as InsuranceIcon } from  './ICONS/Insurance';
+export { default as InteriorIcon } from  './ICONS/Interior';
+export { default as JeepCarIcon } from  './ICONS/JeepCar';
+export { default as KeyIcon } from  './ICONS/Key';
+export { default as KeysIcon } from  './ICONS/Keys';
+export { default as LakeSeaIcon } from  './ICONS/LakeSea';
+export { default as LandActivityIcon } from  './ICONS/LandActivity';
+export { default as LanguageIcon } from  './ICONS/Language';
+export { default as LaundryIcon } from  './ICONS/Laundry';
+export { default as LevelIcon } from  './ICONS/Level';
+export { default as LifevestIcon } from  './ICONS/Lifevest';
+export { default as LobbyIcon } from  './ICONS/Lobby';
+export { default as LocationIcon } from  './ICONS/Location';
+export { default as LowerBathtubIcon } from  './ICONS/LowerBathtub';
+export { default as LowerStepsIcon } from  './ICONS/LowerSteps';
+export { default as LunchIcon } from  './ICONS/Lunch';
+export { default as MeasuringTapeIcon } from  './ICONS/MeasuringTape';
+export { default as MeetingPointIcon } from  './ICONS/MeetingPoint';
+export { default as MiniFridgeIcon } from  './ICONS/MiniFridge';
+export { default as MinusIcon } from  './ICONS/Minus';
+export { default as MissingIcon } from  './ICONS/Missing';
+export { default as MobilePhoneIcon } from  './ICONS/MobilePhone';
+export { default as MoneyIcon } from  './ICONS/Money';
+export { default as MotelIcon } from  './ICONS/Motel';
+export { default as MultiDayTripIcon } from  './ICONS/MultiDayTrip';
+export { default as NextIcon } from  './ICONS/Next';
+export { default as NoIcon } from  './ICONS/No';
+export { default as NotificationIcon } from  './ICONS/Notification';
+export { default as NotificationActiveIcon } from  './ICONS/NotificationActive';
+export { default as NurseIcon } from  './ICONS/Nurse';
+export { default as OneStepIcon } from  './ICONS/OneStep';
+export { default as OtherIcon } from  './ICONS/Other';
+export { default as OutdoorIcon } from  './ICONS/Outdoor';
+export { default as ParkIcon } from  './ICONS/Park';
+export { default as ParkingIcon } from  './ICONS/Parking';
+export { default as PendingIcon } from  './ICONS/Pending';
+export { default as PersonIcon } from  './ICONS/Person';
+export { default as PetFriendlyIcon } from  './ICONS/PetFriendly';
+export { default as PicnicTableIcon } from  './ICONS/PicnicTable';
+export { default as PlacesIcon } from  './ICONS/Places';
+export { default as PlacesToStayIcon } from  './ICONS/PlacesToStay';
+export { default as PlaneIcon } from  './ICONS/Plane';
+export { default as PlaygroundIcon } from  './ICONS/Playground';
+export { default as PlusIcon } from  './ICONS/Plus';
+export { default as PrivateTourIcon } from  './ICONS/PrivateTour';
+export { default as ProfileIcon } from  './ICONS/Profile';
+export { default as QueenBedIcon } from  './ICONS/QueenBed';
+export { default as ReceptionIcon } from  './ICONS/Reception';
+export { default as ResortIcon } from  './ICONS/Resort';
+export { default as RestaurantIcon } from  './ICONS/Restaurant';
+export { default as RestrictionsIcon } from  './ICONS/Restrictions';
+export { default as RollInShowerIcon } from  './ICONS/RollInShower';
+export { default as RoomEntranceIcon } from  './ICONS/RoomEntrance';
+export { default as RoomServiceIcon } from  './ICONS/RoomService';
+export { default as SafeIcon } from  './ICONS/Safe';
+export { default as SafetyEquipmentIcon } from  './ICONS/SafetyEquipment';
+export { default as SaunaIcon } from  './ICONS/Sauna';
+export { default as SaveIcon } from  './ICONS/Save';
+export { default as ScooterIcon } from  './ICONS/Scooter';
+export { default as SedanCarIcon } from  './ICONS/SedanCar';
+export { default as ShareIcon } from  './ICONS/Share';
+export { default as ShopIcon } from  './ICONS/Shop';
+export { default as ShoppingIcon } from  './ICONS/Shopping';
+export { default as ShowerIcon } from  './ICONS/Shower';
+export { default as ShowerGrabBarIcon } from  './ICONS/ShowerGrabBar';
+export { default as ShowerLowStepIcon } from  './ICONS/ShowerLowStep';
+export { default as ShowerSeatIcon } from  './ICONS/ShowerSeat';
+export { default as SinkIcon } from  './ICONS/Sink';
+export { default as SinkTapIcon } from  './ICONS/SinkTap';
+export { default as SmokeFreeIcon } from  './ICONS/SmokeFree';
+export { default as SnackBarIcon } from  './ICONS/SnackBar';
+export { default as SnacksIcon } from  './ICONS/Snacks';
+export { default as SocialDistancingIcon } from  './ICONS/SocialDistancing';
+export { default as SoftDrinkIcon } from  './ICONS/SoftDrink';
+export { default as SpaIcon } from  './ICONS/Spa';
+export { default as StairsIcon } from  './ICONS/Stairs';
+export { default as StepFreeIcon } from  './ICONS/StepFree';
+export { default as SwimmingPoolIcon } from  './ICONS/SwimmingPool';
+export { default as SwitchIcon } from  './ICONS/Switch';
+export { default as TVIcon } from  './ICONS/TV';
+export { default as TaxesIcon } from  './ICONS/Taxes';
+export { default as TeaIcon } from  './ICONS/Tea';
+export { default as TeaRoomIcon } from  './ICONS/TeaRoom';
+export { default as TerraceIcon } from  './ICONS/Terrace';
+export { default as ThingsToDoIcon } from  './ICONS/ThingsToDo';
+export { default as ThreeStepsIcon } from  './ICONS/ThreeSteps';
+export { default as TicketIcon } from  './ICONS/Ticket';
+export { default as ToiletIcon } from  './ICONS/Toilet';
+export { default as ToiletGrabBarIcon } from  './ICONS/ToiletGrabBar';
+export { default as ToiletPaperIcon } from  './ICONS/ToiletPaper';
+export { default as TourGuideIcon } from  './ICONS/TourGuide';
+export { default as ToursActivitiesIcon } from  './ICONS/ToursActivities';
+export { default as TransportIcon } from  './ICONS/Transport';
+export { default as TransportationIcon } from  './ICONS/Transportation';
+export { default as TurningRadiusIcon } from  './ICONS/TurningRadius';
+export { default as TwentyFourHourIcon } from  './ICONS/TwentyFourHour';
+export { default as ValetParkingIcon } from  './ICONS/ValetParking';
+export { default as VendingMachineIcon } from  './ICONS/VendingMachine';
+export { default as VerifiedIcon } from  './ICONS/Verified';
+export { default as WTWIsoIcon } from  './ICONS/WTWIso';
+export { default as WTWLogoIcon } from  './ICONS/WTWLogo';
+export { default as WTWLogoVerticalIcon } from  './ICONS/WTWLogoVertical';
+export { default as WalkerIcon } from  './ICONS/Walker';
+export { default as WalkingAidIcon } from  './ICONS/WalkingAid';
+export { default as WaterActivityIcon } from  './ICONS/WaterActivity';
+export { default as WaterBottleIcon } from  './ICONS/WaterBottle';
+export { default as WaterFountainIcon } from  './ICONS/WaterFountain';
+export { default as WheelchairIcon } from  './ICONS/Wheelchair';
+export { default as WheelchairRampIcon } from  './ICONS/WheelchairRamp';
+export { default as WifiIcon } from  './ICONS/Wifi';
+export { default as WorkIcon } from  './ICONS/Work';

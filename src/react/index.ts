@@ -1,2 +1,2 @@
-export { default as WTWIcon } from './WTWIcon';
-export { isValidIcon, TIconList } from './icons'
+export { default as WTWIcon, WTWIconProps } from './components/WTWIcon';
+export { IconTag } from './types';

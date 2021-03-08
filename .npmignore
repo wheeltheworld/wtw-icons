@@ -3,5 +3,8 @@ node_modules/
 tsconfig.json
 .prettierrc.js
 docs/
+docs
 .github/
 .storybook/
+.storybook
+gen/

@@ -1,3 +1,10 @@
 import { SVGProps } from 'react';
+import { iconsArray } from './helpers';
 
-export type IconComponent<T = {}> = React.FC<SVGProps<SVGSVGElement> & T>;
+export type IconComponentProps = SVGProps<SVGSVGElement>;
+
+export type IconComponent = React.FC<IconComponentProps>;
+
+export type IconTag = typeof iconsArray[number];
+
+export { WTWIconProps } from './components/WTWIcon';
