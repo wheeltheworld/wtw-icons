@@ -1,8 +1,10 @@
 # How to publish
 
 -   make your changes
--   commit your changes
+-   run `yarn gen`
 -   run `yarn build`
+-   run `yarn build-website`
+-   commit your changes
 -   run `npm version patch` or `npm version minor` or `npm version major` depending on the change
 -   push your changes
 -   open a PR
