@@ -59,14 +59,19 @@ import Done from './ICONS/Done';
 import DryCleaning from './ICONS/DryCleaning';
 import ElectricDeviceWheelchair from './ICONS/ElectricDeviceWheelchair';
 import Elevator from './ICONS/Elevator';
+import Email from './ICONS/Email';
 import Entertainment from './ICONS/Entertainment';
 import Entrance from './ICONS/Entrance';
 import Equipment from './ICONS/Equipment';
 import EventRoom from './ICONS/EventRoom';
+import Facebook from './ICONS/Facebook';
+import FacebookNeutral from './ICONS/FacebookNeutral';
 import FitnessCenter from './ICONS/FitnessCenter';
 import FoldablePowerWheelchair from './ICONS/FoldablePowerWheelchair';
 import FoodService from './ICONS/FoodService';
 import GeneralAttribute from './ICONS/GeneralAttribute';
+import Google from './ICONS/Google';
+import GoogleNeutral from './ICONS/GoogleNeutral';
 import Gratuities from './ICONS/Gratuities';
 import GroundTransportation from './ICONS/GroundTransportation';
 import Guides from './ICONS/Guides';
@@ -80,6 +85,8 @@ import HighBathtub from './ICONS/HighBathtub';
 import Hotel from './ICONS/Hotel';
 import Housekeeping from './ICONS/Housekeeping';
 import Id from './ICONS/Id';
+import Instagram from './ICONS/Instagram';
+import InstagramNeutral from './ICONS/InstagramNeutral';
 import Instructor from './ICONS/Instructor';
 import Insurance from './ICONS/Insurance';
 import Interior from './ICONS/Interior';
@@ -257,14 +264,19 @@ export const iconsArray = [
     'drycleaning',
     'electricdevicewheelchair',
     'elevator',
+    'email',
     'entertainment',
     'entrance',
     'equipment',
     'eventroom',
+    'facebook',
+    'facebookneutral',
     'fitnesscenter',
     'foldablepowerwheelchair',
     'foodservice',
     'generalattribute',
+    'google',
+    'googleneutral',
     'gratuities',
     'groundtransportation',
     'guides',
@@ -278,6 +290,8 @@ export const iconsArray = [
     'hotel',
     'housekeeping',
     'id',
+    'instagram',
+    'instagramneutral',
     'instructor',
     'insurance',
     'interior',
@@ -454,14 +468,19 @@ export const iconsObject = {
     drycleaning: DryCleaning,
     electricdevicewheelchair: ElectricDeviceWheelchair,
     elevator: Elevator,
+    email: Email,
     entertainment: Entertainment,
     entrance: Entrance,
     equipment: Equipment,
     eventroom: EventRoom,
+    facebook: Facebook,
+    facebookneutral: FacebookNeutral,
     fitnesscenter: FitnessCenter,
     foldablepowerwheelchair: FoldablePowerWheelchair,
     foodservice: FoodService,
     generalattribute: GeneralAttribute,
+    google: Google,
+    googleneutral: GoogleNeutral,
     gratuities: Gratuities,
     groundtransportation: GroundTransportation,
     guides: Guides,
@@ -475,6 +494,8 @@ export const iconsObject = {
     hotel: Hotel,
     housekeeping: Housekeeping,
     id: Id,
+    instagram: Instagram,
+    instagramneutral: InstagramNeutral,
     instructor: Instructor,
     insurance: Insurance,
     interior: Interior,
