@@ -7,6 +7,10 @@ export interface WTWIconProps extends SVGProps<SVGSVGElement> {
 }
 
 const WTWIcon: React.FC<WTWIconProps> = ({ icon, ...props }) => {
+    if (!(icon in iconsObject)) {
+        console.error(`${icon} is not a valid icon!!`);
+        return React.createElement(iconsObject['missing'], props);
+    }
     return React.createElement(iconsObject[icon], props);
 };
 
