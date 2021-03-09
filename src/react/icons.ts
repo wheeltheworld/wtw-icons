@@ -101,6 +101,7 @@ export { default as LevelIcon } from  './ICONS/Level';
 export { default as LifevestIcon } from  './ICONS/Lifevest';
 export { default as LobbyIcon } from  './ICONS/Lobby';
 export { default as LocationIcon } from  './ICONS/Location';
+export { default as LocationBlackIcon } from  './ICONS/LocationBlack';
 export { default as LowerBathtubIcon } from  './ICONS/LowerBathtub';
 export { default as LowerStepsIcon } from  './ICONS/LowerSteps';
 export { default as LunchIcon } from  './ICONS/Lunch';

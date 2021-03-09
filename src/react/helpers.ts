@@ -101,6 +101,7 @@ import Level from  './ICONS/Level';
 import Lifevest from  './ICONS/Lifevest';
 import Lobby from  './ICONS/Lobby';
 import Location from  './ICONS/Location';
+import LocationBlack from  './ICONS/LocationBlack';
 import LowerBathtub from  './ICONS/LowerBathtub';
 import LowerSteps from  './ICONS/LowerSteps';
 import Lunch from  './ICONS/Lunch';
@@ -306,6 +307,7 @@ export const iconsArray = [
 	'lifevest',
 	'lobby',
 	'location',
+	'locationblack',
 	'lowerbathtub',
 	'lowersteps',
 	'lunch',
@@ -510,6 +512,7 @@ export const iconsObject = {
 	lifevest: Lifevest,
 	lobby: Lobby,
 	location: Location,
+	locationblack: LocationBlack,
 	lowerbathtub: LowerBathtub,
 	lowersteps: LowerSteps,
 	lunch: Lunch,
