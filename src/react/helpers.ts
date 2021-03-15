@@ -81,6 +81,7 @@ import HearingAid from  './ICONS/HearingAid';
 import HeatedPool from  './ICONS/HeatedPool';
 import HeavyPowerWheelchair from  './ICONS/HeavyPowerWheelchair';
 import Helmet from  './ICONS/Helmet';
+import Hide from  './ICONS/Hide';
 import HighBathtub from  './ICONS/HighBathtub';
 import Hotel from  './ICONS/Hotel';
 import Housekeeping from  './ICONS/Housekeeping';
@@ -110,6 +111,7 @@ import MeetingPoint from  './ICONS/MeetingPoint';
 import MiniFridge from  './ICONS/MiniFridge';
 import Minus from  './ICONS/Minus';
 import Missing from  './ICONS/Missing';
+import MissingAlt from  './ICONS/MissingAlt';
 import MobilePhone from  './ICONS/MobilePhone';
 import Money from  './ICONS/Money';
 import Motel from  './ICONS/Motel';
@@ -188,6 +190,7 @@ import TwentyFourHour from  './ICONS/TwentyFourHour';
 import ValetParking from  './ICONS/ValetParking';
 import VendingMachine from  './ICONS/VendingMachine';
 import Verified from  './ICONS/Verified';
+import View from  './ICONS/View';
 import WTWIso from  './ICONS/WTWIso';
 import WTWLogo from  './ICONS/WTWLogo';
 import WTWLogoVertical from  './ICONS/WTWLogoVertical';
@@ -287,6 +290,7 @@ export const iconsArray = [
 	'heatedpool',
 	'heavypowerwheelchair',
 	'helmet',
+	'hide',
 	'highbathtub',
 	'hotel',
 	'housekeeping',
@@ -316,6 +320,7 @@ export const iconsArray = [
 	'minifridge',
 	'minus',
 	'missing',
+	'missingalt',
 	'mobilephone',
 	'money',
 	'motel',
@@ -394,6 +399,7 @@ export const iconsArray = [
 	'valetparking',
 	'vendingmachine',
 	'verified',
+	'view',
 	'wtwiso',
 	'wtwlogo',
 	'wtwlogovertical',
@@ -492,6 +498,7 @@ export const iconsObject = {
 	heatedpool: HeatedPool,
 	heavypowerwheelchair: HeavyPowerWheelchair,
 	helmet: Helmet,
+	hide: Hide,
 	highbathtub: HighBathtub,
 	hotel: Hotel,
 	housekeeping: Housekeeping,
@@ -521,6 +528,7 @@ export const iconsObject = {
 	minifridge: MiniFridge,
 	minus: Minus,
 	missing: Missing,
+	missingalt: MissingAlt,
 	mobilephone: MobilePhone,
 	money: Money,
 	motel: Motel,
@@ -599,6 +607,7 @@ export const iconsObject = {
 	valetparking: ValetParking,
 	vendingmachine: VendingMachine,
 	verified: Verified,
+	view: View,
 	wtwiso: WTWIso,
 	wtwlogo: WTWLogo,
 	wtwlogovertical: WTWLogoVertical,
