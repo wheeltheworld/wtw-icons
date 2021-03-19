@@ -1,15 +1,15 @@
 import fs from 'fs';
 import path from 'path';
 
-const icons = fs.readdirSync(path.join(__dirname, '../../src/react/ICONS/')).map((file) => file.replace(/\.tsx?/, ''));
+const icons = fs.readdirSync(path.join(__dirname, '../../src/react/_icons/')).map((file) => file.replace(/\.tsx?/, ''));
 
-const iconsTS = icons.map((icon) => `export { default as ${icon}Icon } from  './ICONS/${icon}';`).join('\n');
+const iconsTS = icons.map((icon) => `export { default as ${icon}Icon } from  './_icons/${icon}';`).join('\n');
 
 fs.writeFile(path.join(__dirname, '../../src/react/icons.ts'), iconsTS, () =>
     console.log('icons.ts generated correctly'),
 );
 
-const helpersTS = `${icons.map((icon) => `import ${icon} from  './ICONS/${icon}';`).join('\n')}
+const helpersTS = `${icons.map((icon) => `import ${icon} from  './_icons/${icon}';`).join('\n')}
 
 import { IconTag } from './types'
 

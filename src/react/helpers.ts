@@ -1,208 +1,212 @@
-import AccessibleBathroom from  './ICONS/AccessibleBathroom';
-import AccessibleEquipment from  './ICONS/AccessibleEquipment';
-import AccessiblePaths from  './ICONS/AccessiblePaths';
-import AccessibleTransportation from  './ICONS/AccessibleTransportation';
-import Accommodation from  './ICONS/Accommodation';
-import Activities from  './ICONS/Activities';
-import AdaptiveEquipment from  './ICONS/AdaptiveEquipment';
-import AirConditioner from  './ICONS/AirConditioner';
-import AirportShuttle from  './ICONS/AirportShuttle';
-import AlcoholicBeverages from  './ICONS/AlcoholicBeverages';
-import Assistance from  './ICONS/Assistance';
-import Atm from  './ICONS/Atm';
-import AudioGuides from  './ICONS/AudioGuides';
-import Auditorium from  './ICONS/Auditorium';
-import AuditoryGuidance from  './ICONS/AuditoryGuidance';
-import Baby from  './ICONS/Baby';
-import Backpacker from  './ICONS/Backpacker';
-import Baggage from  './ICONS/Baggage';
-import Bar from  './ICONS/Bar';
-import Bathroom from  './ICONS/Bathroom';
-import BathroomAccessInterior from  './ICONS/BathroomAccessInterior';
-import BathroomInterior from  './ICONS/BathroomInterior';
-import BathroomSink from  './ICONS/BathroomSink';
-import BeachAccess from  './ICONS/BeachAccess';
-import BeachFront from  './ICONS/BeachFront';
-import Bed from  './ICONS/Bed';
-import BedBreakfast from  './ICONS/BedBreakfast';
-import BedroomAccess from  './ICONS/BedroomAccess';
-import BedroomInterior from  './ICONS/BedroomInterior';
-import BeerBar from  './ICONS/BeerBar';
-import Blind from  './ICONS/Blind';
-import Boat from  './ICONS/Boat';
-import Braille from  './ICONS/Braille';
-import Breakfast from  './ICONS/Breakfast';
-import BuildingEntrance from  './ICONS/BuildingEntrance';
-import Bus from  './ICONS/Bus';
-import BusinessCenter from  './ICONS/BusinessCenter';
-import Cabin from  './ICONS/Cabin';
-import Cafeteria from  './ICONS/Cafeteria';
-import Calendar from  './ICONS/Calendar';
-import Car from  './ICONS/Car';
-import Chair from  './ICONS/Chair';
-import Champagne from  './ICONS/Champagne';
-import ChangingRoom from  './ICONS/ChangingRoom';
-import Clock from  './ICONS/Clock';
-import Closet from  './ICONS/Closet';
-import CoffeeMaker from  './ICONS/CoffeeMaker';
-import CommonBathroom from  './ICONS/CommonBathroom';
-import Complete from  './ICONS/Complete';
-import Conference from  './ICONS/Conference';
-import Crutches from  './ICONS/Crutches';
-import CulturalPlace from  './ICONS/CulturalPlace';
-import Culture from  './ICONS/Culture';
-import CurrencyExchange from  './ICONS/CurrencyExchange';
-import Daycare from  './ICONS/Daycare';
-import Deaf from  './ICONS/Deaf';
-import Dinner from  './ICONS/Dinner';
-import Done from  './ICONS/Done';
-import DryCleaning from  './ICONS/DryCleaning';
-import ElectricDeviceWheelchair from  './ICONS/ElectricDeviceWheelchair';
-import Elevator from  './ICONS/Elevator';
-import Email from  './ICONS/Email';
-import Entertainment from  './ICONS/Entertainment';
-import Entrance from  './ICONS/Entrance';
-import Equipment from  './ICONS/Equipment';
-import EventRoom from  './ICONS/EventRoom';
-import Facebook from  './ICONS/Facebook';
-import FacebookNeutral from  './ICONS/FacebookNeutral';
-import FitnessCenter from  './ICONS/FitnessCenter';
-import FoldablePowerWheelchair from  './ICONS/FoldablePowerWheelchair';
-import FoodService from  './ICONS/FoodService';
-import GeneralAttribute from  './ICONS/GeneralAttribute';
-import Google from  './ICONS/Google';
-import GoogleNeutral from  './ICONS/GoogleNeutral';
-import Gratuities from  './ICONS/Gratuities';
-import GroundTransportation from  './ICONS/GroundTransportation';
-import Guides from  './ICONS/Guides';
-import Gym from  './ICONS/Gym';
-import Health from  './ICONS/Health';
-import HearingAid from  './ICONS/HearingAid';
-import HeatedPool from  './ICONS/HeatedPool';
-import HeavyPowerWheelchair from  './ICONS/HeavyPowerWheelchair';
-import Helmet from  './ICONS/Helmet';
-import Hide from  './ICONS/Hide';
-import HighBathtub from  './ICONS/HighBathtub';
-import Hotel from  './ICONS/Hotel';
-import Housekeeping from  './ICONS/Housekeeping';
-import Id from  './ICONS/Id';
-import Instagram from  './ICONS/Instagram';
-import InstagramNeutral from  './ICONS/InstagramNeutral';
-import Instructor from  './ICONS/Instructor';
-import Insurance from  './ICONS/Insurance';
-import Interior from  './ICONS/Interior';
-import JeepCar from  './ICONS/JeepCar';
-import Key from  './ICONS/Key';
-import Keys from  './ICONS/Keys';
-import LakeSea from  './ICONS/LakeSea';
-import LandActivity from  './ICONS/LandActivity';
-import Language from  './ICONS/Language';
-import Laundry from  './ICONS/Laundry';
-import Level from  './ICONS/Level';
-import Lifevest from  './ICONS/Lifevest';
-import Lobby from  './ICONS/Lobby';
-import Location from  './ICONS/Location';
-import LocationBlack from  './ICONS/LocationBlack';
-import LowerBathtub from  './ICONS/LowerBathtub';
-import LowerSteps from  './ICONS/LowerSteps';
-import Lunch from  './ICONS/Lunch';
-import MeasuringTape from  './ICONS/MeasuringTape';
-import MeetingPoint from  './ICONS/MeetingPoint';
-import MiniFridge from  './ICONS/MiniFridge';
-import Minus from  './ICONS/Minus';
-import Missing from  './ICONS/Missing';
-import MissingAlt from  './ICONS/MissingAlt';
-import MobilePhone from  './ICONS/MobilePhone';
-import Money from  './ICONS/Money';
-import Motel from  './ICONS/Motel';
-import MultiDayTrip from  './ICONS/MultiDayTrip';
-import Next from  './ICONS/Next';
-import No from  './ICONS/No';
-import Notification from  './ICONS/Notification';
-import NotificationActive from  './ICONS/NotificationActive';
-import Nurse from  './ICONS/Nurse';
-import OneStep from  './ICONS/OneStep';
-import Other from  './ICONS/Other';
-import Outdoor from  './ICONS/Outdoor';
-import Park from  './ICONS/Park';
-import Parking from  './ICONS/Parking';
-import Pending from  './ICONS/Pending';
-import Person from  './ICONS/Person';
-import PetFriendly from  './ICONS/PetFriendly';
-import PicnicTable from  './ICONS/PicnicTable';
-import Places from  './ICONS/Places';
-import PlacesToStay from  './ICONS/PlacesToStay';
-import Plane from  './ICONS/Plane';
-import Playground from  './ICONS/Playground';
-import Plus from  './ICONS/Plus';
-import PrivateTour from  './ICONS/PrivateTour';
-import Profile from  './ICONS/Profile';
-import QueenBed from  './ICONS/QueenBed';
-import Reception from  './ICONS/Reception';
-import Resort from  './ICONS/Resort';
-import Restaurant from  './ICONS/Restaurant';
-import Restrictions from  './ICONS/Restrictions';
-import RollInShower from  './ICONS/RollInShower';
-import RoomEntrance from  './ICONS/RoomEntrance';
-import RoomService from  './ICONS/RoomService';
-import Safe from  './ICONS/Safe';
-import SafetyEquipment from  './ICONS/SafetyEquipment';
-import Sauna from  './ICONS/Sauna';
-import Save from  './ICONS/Save';
-import Scooter from  './ICONS/Scooter';
-import SedanCar from  './ICONS/SedanCar';
-import Share from  './ICONS/Share';
-import Shop from  './ICONS/Shop';
-import Shopping from  './ICONS/Shopping';
-import Shower from  './ICONS/Shower';
-import ShowerGrabBar from  './ICONS/ShowerGrabBar';
-import ShowerLowStep from  './ICONS/ShowerLowStep';
-import ShowerSeat from  './ICONS/ShowerSeat';
-import Sink from  './ICONS/Sink';
-import SinkTap from  './ICONS/SinkTap';
-import SmokeFree from  './ICONS/SmokeFree';
-import SnackBar from  './ICONS/SnackBar';
-import Snacks from  './ICONS/Snacks';
-import SocialDistancing from  './ICONS/SocialDistancing';
-import SoftDrink from  './ICONS/SoftDrink';
-import Spa from  './ICONS/Spa';
-import Stairs from  './ICONS/Stairs';
-import StepFree from  './ICONS/StepFree';
-import SwimmingPool from  './ICONS/SwimmingPool';
-import Switch from  './ICONS/Switch';
-import TV from  './ICONS/TV';
-import Taxes from  './ICONS/Taxes';
-import Tea from  './ICONS/Tea';
-import TeaRoom from  './ICONS/TeaRoom';
-import Terrace from  './ICONS/Terrace';
-import ThingsToDo from  './ICONS/ThingsToDo';
-import ThreeSteps from  './ICONS/ThreeSteps';
-import Ticket from  './ICONS/Ticket';
-import Toilet from  './ICONS/Toilet';
-import ToiletGrabBar from  './ICONS/ToiletGrabBar';
-import ToiletPaper from  './ICONS/ToiletPaper';
-import TourGuide from  './ICONS/TourGuide';
-import ToursActivities from  './ICONS/ToursActivities';
-import Transport from  './ICONS/Transport';
-import Transportation from  './ICONS/Transportation';
-import TurningRadius from  './ICONS/TurningRadius';
-import TwentyFourHour from  './ICONS/TwentyFourHour';
-import ValetParking from  './ICONS/ValetParking';
-import VendingMachine from  './ICONS/VendingMachine';
-import Verified from  './ICONS/Verified';
-import View from  './ICONS/View';
-import WTWIso from  './ICONS/WTWIso';
-import WTWLogo from  './ICONS/WTWLogo';
-import WTWLogoVertical from  './ICONS/WTWLogoVertical';
-import Walker from  './ICONS/Walker';
-import WalkingAid from  './ICONS/WalkingAid';
-import WaterActivity from  './ICONS/WaterActivity';
-import WaterBottle from  './ICONS/WaterBottle';
-import WaterFountain from  './ICONS/WaterFountain';
-import Wheelchair from  './ICONS/Wheelchair';
-import WheelchairRamp from  './ICONS/WheelchairRamp';
-import Wifi from  './ICONS/Wifi';
-import Work from  './ICONS/Work';
+import AccessibleBathroom from  './_icons/AccessibleBathroom';
+import AccessibleEquipment from  './_icons/AccessibleEquipment';
+import AccessiblePaths from  './_icons/AccessiblePaths';
+import AccessibleTransportation from  './_icons/AccessibleTransportation';
+import Accommodation from  './_icons/Accommodation';
+import Activities from  './_icons/Activities';
+import AdaptiveEquipment from  './_icons/AdaptiveEquipment';
+import AirConditioner from  './_icons/AirConditioner';
+import AirportShuttle from  './_icons/AirportShuttle';
+import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
+import Assistance from  './_icons/Assistance';
+import Atm from  './_icons/Atm';
+import AudioGuides from  './_icons/AudioGuides';
+import Auditorium from  './_icons/Auditorium';
+import AuditoryGuidance from  './_icons/AuditoryGuidance';
+import Baby from  './_icons/Baby';
+import Backpacker from  './_icons/Backpacker';
+import Baggage from  './_icons/Baggage';
+import Bar from  './_icons/Bar';
+import Bathroom from  './_icons/Bathroom';
+import BathroomAccessInterior from  './_icons/BathroomAccessInterior';
+import BathroomInterior from  './_icons/BathroomInterior';
+import BathroomSink from  './_icons/BathroomSink';
+import BeachAccess from  './_icons/BeachAccess';
+import BeachFront from  './_icons/BeachFront';
+import Bed from  './_icons/Bed';
+import BedBreakfast from  './_icons/BedBreakfast';
+import BedroomAccess from  './_icons/BedroomAccess';
+import BedroomInterior from  './_icons/BedroomInterior';
+import BeerBar from  './_icons/BeerBar';
+import Blind from  './_icons/Blind';
+import Boat from  './_icons/Boat';
+import Braille from  './_icons/Braille';
+import Breakfast from  './_icons/Breakfast';
+import BuildingEntrance from  './_icons/BuildingEntrance';
+import Bus from  './_icons/Bus';
+import BusinessCenter from  './_icons/BusinessCenter';
+import Cabin from  './_icons/Cabin';
+import Cafeteria from  './_icons/Cafeteria';
+import Calendar from  './_icons/Calendar';
+import Car from  './_icons/Car';
+import Chair from  './_icons/Chair';
+import Champagne from  './_icons/Champagne';
+import ChangingRoom from  './_icons/ChangingRoom';
+import Clock from  './_icons/Clock';
+import Closet from  './_icons/Closet';
+import CoffeeMaker from  './_icons/CoffeeMaker';
+import CommonBathroom from  './_icons/CommonBathroom';
+import Complete from  './_icons/Complete';
+import Conference from  './_icons/Conference';
+import Crutches from  './_icons/Crutches';
+import CulturalPlace from  './_icons/CulturalPlace';
+import Culture from  './_icons/Culture';
+import CurrencyExchange from  './_icons/CurrencyExchange';
+import Daycare from  './_icons/Daycare';
+import Deaf from  './_icons/Deaf';
+import Dinner from  './_icons/Dinner';
+import Documentation from  './_icons/Documentation';
+import Done from  './_icons/Done';
+import DryCleaning from  './_icons/DryCleaning';
+import ElectricDeviceWheelchair from  './_icons/ElectricDeviceWheelchair';
+import Electricity from  './_icons/Electricity';
+import Elevator from  './_icons/Elevator';
+import Email from  './_icons/Email';
+import Entertainment from  './_icons/Entertainment';
+import Entrance from  './_icons/Entrance';
+import Equipment from  './_icons/Equipment';
+import EventRoom from  './_icons/EventRoom';
+import Facebook from  './_icons/Facebook';
+import FacebookNeutral from  './_icons/FacebookNeutral';
+import FitnessCenter from  './_icons/FitnessCenter';
+import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
+import FoodService from  './_icons/FoodService';
+import GeneralAttribute from  './_icons/GeneralAttribute';
+import Google from  './_icons/Google';
+import GoogleNeutral from  './_icons/GoogleNeutral';
+import Gratuities from  './_icons/Gratuities';
+import GroundTransportation from  './_icons/GroundTransportation';
+import Guides from  './_icons/Guides';
+import Gym from  './_icons/Gym';
+import Health from  './_icons/Health';
+import HearingAid from  './_icons/HearingAid';
+import HeatedPool from  './_icons/HeatedPool';
+import HeavyPowerWheelchair from  './_icons/HeavyPowerWheelchair';
+import Helmet from  './_icons/Helmet';
+import Hide from  './_icons/Hide';
+import HighBathtub from  './_icons/HighBathtub';
+import Hotel from  './_icons/Hotel';
+import Housekeeping from  './_icons/Housekeeping';
+import Id from  './_icons/Id';
+import Instagram from  './_icons/Instagram';
+import InstagramNeutral from  './_icons/InstagramNeutral';
+import Instructor from  './_icons/Instructor';
+import Insurance from  './_icons/Insurance';
+import Interior from  './_icons/Interior';
+import JeepCar from  './_icons/JeepCar';
+import Key from  './_icons/Key';
+import Keys from  './_icons/Keys';
+import LakeSea from  './_icons/LakeSea';
+import LandActivity from  './_icons/LandActivity';
+import Language from  './_icons/Language';
+import Laundry from  './_icons/Laundry';
+import Level from  './_icons/Level';
+import Lifevest from  './_icons/Lifevest';
+import Lobby from  './_icons/Lobby';
+import Location from  './_icons/Location';
+import LocationBlack from  './_icons/LocationBlack';
+import LowerBathtub from  './_icons/LowerBathtub';
+import LowerSteps from  './_icons/LowerSteps';
+import Lunch from  './_icons/Lunch';
+import MeasuringTape from  './_icons/MeasuringTape';
+import MeetingPoint from  './_icons/MeetingPoint';
+import MiniFridge from  './_icons/MiniFridge';
+import Minus from  './_icons/Minus';
+import Missing from  './_icons/Missing';
+import MissingAlt from  './_icons/MissingAlt';
+import MobilePhone from  './_icons/MobilePhone';
+import Money from  './_icons/Money';
+import Motel from  './_icons/Motel';
+import MultiDayTrip from  './_icons/MultiDayTrip';
+import Next from  './_icons/Next';
+import No from  './_icons/No';
+import Notification from  './_icons/Notification';
+import NotificationActive from  './_icons/NotificationActive';
+import Nurse from  './_icons/Nurse';
+import OneStep from  './_icons/OneStep';
+import Other from  './_icons/Other';
+import Outdoor from  './_icons/Outdoor';
+import Park from  './_icons/Park';
+import Parking from  './_icons/Parking';
+import Pending from  './_icons/Pending';
+import Person from  './_icons/Person';
+import PetFriendly from  './_icons/PetFriendly';
+import PicnicTable from  './_icons/PicnicTable';
+import Places from  './_icons/Places';
+import PlacesToStay from  './_icons/PlacesToStay';
+import Plane from  './_icons/Plane';
+import Playground from  './_icons/Playground';
+import Plus from  './_icons/Plus';
+import PrivateTour from  './_icons/PrivateTour';
+import Profile from  './_icons/Profile';
+import QueenBed from  './_icons/QueenBed';
+import Reception from  './_icons/Reception';
+import Resort from  './_icons/Resort';
+import Restaurant from  './_icons/Restaurant';
+import Restrictions from  './_icons/Restrictions';
+import RollInShower from  './_icons/RollInShower';
+import RoomEntrance from  './_icons/RoomEntrance';
+import RoomService from  './_icons/RoomService';
+import Safe from  './_icons/Safe';
+import SafetyEquipment from  './_icons/SafetyEquipment';
+import Sauna from  './_icons/Sauna';
+import Save from  './_icons/Save';
+import Scooter from  './_icons/Scooter';
+import Security from  './_icons/Security';
+import SedanCar from  './_icons/SedanCar';
+import Share from  './_icons/Share';
+import Shop from  './_icons/Shop';
+import Shopping from  './_icons/Shopping';
+import Shower from  './_icons/Shower';
+import ShowerGrabBar from  './_icons/ShowerGrabBar';
+import ShowerLowStep from  './_icons/ShowerLowStep';
+import ShowerSeat from  './_icons/ShowerSeat';
+import Sink from  './_icons/Sink';
+import SinkTap from  './_icons/SinkTap';
+import SmokeFree from  './_icons/SmokeFree';
+import SnackBar from  './_icons/SnackBar';
+import Snacks from  './_icons/Snacks';
+import SocialDistancing from  './_icons/SocialDistancing';
+import SoftDrink from  './_icons/SoftDrink';
+import Spa from  './_icons/Spa';
+import Stairs from  './_icons/Stairs';
+import StepFree from  './_icons/StepFree';
+import SwimmingPool from  './_icons/SwimmingPool';
+import Switch from  './_icons/Switch';
+import TV from  './_icons/TV';
+import Taxes from  './_icons/Taxes';
+import Tea from  './_icons/Tea';
+import TeaRoom from  './_icons/TeaRoom';
+import Terrace from  './_icons/Terrace';
+import ThingsToDo from  './_icons/ThingsToDo';
+import ThreeSteps from  './_icons/ThreeSteps';
+import Ticket from  './_icons/Ticket';
+import Toilet from  './_icons/Toilet';
+import ToiletGrabBar from  './_icons/ToiletGrabBar';
+import ToiletPaper from  './_icons/ToiletPaper';
+import TourGuide from  './_icons/TourGuide';
+import ToursActivities from  './_icons/ToursActivities';
+import Transport from  './_icons/Transport';
+import Transportation from  './_icons/Transportation';
+import TurningRadius from  './_icons/TurningRadius';
+import TwentyFourHour from  './_icons/TwentyFourHour';
+import ValetParking from  './_icons/ValetParking';
+import VendingMachine from  './_icons/VendingMachine';
+import Verified from  './_icons/Verified';
+import View from  './_icons/View';
+import WTWIso from  './_icons/WTWIso';
+import WTWLogo from  './_icons/WTWLogo';
+import WTWLogoVertical from  './_icons/WTWLogoVertical';
+import Walker from  './_icons/Walker';
+import WalkingAid from  './_icons/WalkingAid';
+import WaterActivity from  './_icons/WaterActivity';
+import WaterBottle from  './_icons/WaterBottle';
+import WaterFountain from  './_icons/WaterFountain';
+import Weather from  './_icons/Weather';
+import Wheelchair from  './_icons/Wheelchair';
+import WheelchairRamp from  './_icons/WheelchairRamp';
+import Wifi from  './_icons/Wifi';
+import Work from  './_icons/Work';
 
 import { IconTag } from './types'
 
@@ -264,9 +268,11 @@ export const iconsArray = [
 	'daycare',
 	'deaf',
 	'dinner',
+	'documentation',
 	'done',
 	'drycleaning',
 	'electricdevicewheelchair',
+	'electricity',
 	'elevator',
 	'email',
 	'entertainment',
@@ -359,6 +365,7 @@ export const iconsArray = [
 	'sauna',
 	'save',
 	'scooter',
+	'security',
 	'sedancar',
 	'share',
 	'shop',
@@ -408,6 +415,7 @@ export const iconsArray = [
 	'wateractivity',
 	'waterbottle',
 	'waterfountain',
+	'weather',
 	'wheelchair',
 	'wheelchairramp',
 	'wifi',
@@ -472,9 +480,11 @@ export const iconsObject = {
 	daycare: Daycare,
 	deaf: Deaf,
 	dinner: Dinner,
+	documentation: Documentation,
 	done: Done,
 	drycleaning: DryCleaning,
 	electricdevicewheelchair: ElectricDeviceWheelchair,
+	electricity: Electricity,
 	elevator: Elevator,
 	email: Email,
 	entertainment: Entertainment,
@@ -567,6 +577,7 @@ export const iconsObject = {
 	sauna: Sauna,
 	save: Save,
 	scooter: Scooter,
+	security: Security,
 	sedancar: SedanCar,
 	share: Share,
 	shop: Shop,
@@ -616,6 +627,7 @@ export const iconsObject = {
 	wateractivity: WaterActivity,
 	waterbottle: WaterBottle,
 	waterfountain: WaterFountain,
+	weather: Weather,
 	wheelchair: Wheelchair,
 	wheelchairramp: WheelchairRamp,
 	wifi: Wifi,
