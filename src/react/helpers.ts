@@ -32,6 +32,7 @@ import Blind from  './_icons/Blind';
 import Boat from  './_icons/Boat';
 import Braille from  './_icons/Braille';
 import Breakfast from  './_icons/Breakfast';
+import Browse from  './_icons/Browse';
 import BuildingEntrance from  './_icons/BuildingEntrance';
 import Bus from  './_icons/Bus';
 import BusinessCenter from  './_icons/BusinessCenter';
@@ -42,6 +43,7 @@ import Car from  './_icons/Car';
 import Chair from  './_icons/Chair';
 import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
+import CheckList from  './_icons/CheckList';
 import Clock from  './_icons/Clock';
 import Closet from  './_icons/Closet';
 import CoffeeMaker from  './_icons/CoffeeMaker';
@@ -161,6 +163,7 @@ import Shower from  './_icons/Shower';
 import ShowerGrabBar from  './_icons/ShowerGrabBar';
 import ShowerLowStep from  './_icons/ShowerLowStep';
 import ShowerSeat from  './_icons/ShowerSeat';
+import SignUp from  './_icons/SignUp';
 import Sink from  './_icons/Sink';
 import SinkTap from  './_icons/SinkTap';
 import SmokeFree from  './_icons/SmokeFree';
@@ -245,6 +248,7 @@ export const iconsArray = [
 	'boat',
 	'braille',
 	'breakfast',
+	'browse',
 	'buildingentrance',
 	'bus',
 	'businesscenter',
@@ -255,6 +259,7 @@ export const iconsArray = [
 	'chair',
 	'champagne',
 	'changingroom',
+	'checklist',
 	'clock',
 	'closet',
 	'coffeemaker',
@@ -374,6 +379,7 @@ export const iconsArray = [
 	'showergrabbar',
 	'showerlowstep',
 	'showerseat',
+	'signup',
 	'sink',
 	'sinktap',
 	'smokefree',
@@ -457,6 +463,7 @@ export const iconsObject = {
 	boat: Boat,
 	braille: Braille,
 	breakfast: Breakfast,
+	browse: Browse,
 	buildingentrance: BuildingEntrance,
 	bus: Bus,
 	businesscenter: BusinessCenter,
@@ -467,6 +474,7 @@ export const iconsObject = {
 	chair: Chair,
 	champagne: Champagne,
 	changingroom: ChangingRoom,
+	checklist: CheckList,
 	clock: Clock,
 	closet: Closet,
 	coffeemaker: CoffeeMaker,
@@ -586,6 +594,7 @@ export const iconsObject = {
 	showergrabbar: ShowerGrabBar,
 	showerlowstep: ShowerLowStep,
 	showerseat: ShowerSeat,
+	signup: SignUp,
 	sink: Sink,
 	sinktap: SinkTap,
 	smokefree: SmokeFree,
