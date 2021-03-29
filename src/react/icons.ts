@@ -60,7 +60,7 @@ export { default as DinnerIcon } from  './_icons/Dinner';
 export { default as DocumentationIcon } from  './_icons/Documentation';
 export { default as DoneIcon } from  './_icons/Done';
 export { default as DryCleaningIcon } from  './_icons/DryCleaning';
-export { default as EditIconIcon } from  './_icons/EditIcon';
+export { default as EditIcon } from  './_icons/Edit';
 export { default as ElectricDeviceWheelchairIcon } from  './_icons/ElectricDeviceWheelchair';
 export { default as ElectricityIcon } from  './_icons/Electricity';
 export { default as ElevatorIcon } from  './_icons/Elevator';
