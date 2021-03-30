@@ -102,6 +102,7 @@ import Language from  './_icons/Language';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import Lifevest from  './_icons/Lifevest';
+import LinkedinBlack from  './_icons/LinkedinBlack';
 import Lobby from  './_icons/Lobby';
 import Location from  './_icons/Location';
 import LocationBlack from  './_icons/LocationBlack';
@@ -190,6 +191,7 @@ import Transport from  './_icons/Transport';
 import Transportation from  './_icons/Transportation';
 import TurningRadius from  './_icons/TurningRadius';
 import TwentyFourHour from  './_icons/TwentyFourHour';
+import TwitterBlack from  './_icons/TwitterBlack';
 import ValetParking from  './_icons/ValetParking';
 import VendingMachine from  './_icons/VendingMachine';
 import Verified from  './_icons/Verified';
@@ -207,6 +209,7 @@ import Wheelchair from  './_icons/Wheelchair';
 import WheelchairRamp from  './_icons/WheelchairRamp';
 import Wifi from  './_icons/Wifi';
 import Work from  './_icons/Work';
+import YoutubeBlack from  './_icons/YoutubeBlack';
 
 import { IconTag } from './types'
 
@@ -315,6 +318,7 @@ export const iconsArray = [
 	'laundry',
 	'level',
 	'lifevest',
+	'linkedinblack',
 	'lobby',
 	'location',
 	'locationblack',
@@ -403,6 +407,7 @@ export const iconsArray = [
 	'transportation',
 	'turningradius',
 	'twentyfourhour',
+	'twitterblack',
 	'valetparking',
 	'vendingmachine',
 	'verified',
@@ -420,6 +425,7 @@ export const iconsArray = [
 	'wheelchairramp',
 	'wifi',
 	'work',
+	'youtubeblack',
 ] as const;
 
 export const iconsObject = {
@@ -527,6 +533,7 @@ export const iconsObject = {
 	laundry: Laundry,
 	level: Level,
 	lifevest: Lifevest,
+	linkedinblack: LinkedinBlack,
 	lobby: Lobby,
 	location: Location,
 	locationblack: LocationBlack,
@@ -615,6 +622,7 @@ export const iconsObject = {
 	transportation: Transportation,
 	turningradius: TurningRadius,
 	twentyfourhour: TwentyFourHour,
+	twitterblack: TwitterBlack,
 	valetparking: ValetParking,
 	vendingmachine: VendingMachine,
 	verified: Verified,
@@ -632,6 +640,7 @@ export const iconsObject = {
 	wheelchairramp: WheelchairRamp,
 	wifi: Wifi,
 	work: Work,
+	youtubeblack: YoutubeBlack,
 } as const;
 
 export function isValidIcon(possibleIcon: any): possibleIcon is IconTag {
