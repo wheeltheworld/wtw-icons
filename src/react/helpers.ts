@@ -58,6 +58,7 @@ import Dinner from  './_icons/Dinner';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
 import DryCleaning from  './_icons/DryCleaning';
+import Edit from  './_icons/Edit';
 import ElectricDeviceWheelchair from  './_icons/ElectricDeviceWheelchair';
 import Electricity from  './_icons/Electricity';
 import Elevator from  './_icons/Elevator';
@@ -274,6 +275,7 @@ export const iconsArray = [
 	'documentation',
 	'done',
 	'drycleaning',
+	'edit',
 	'electricdevicewheelchair',
 	'electricity',
 	'elevator',
@@ -489,6 +491,7 @@ export const iconsObject = {
 	documentation: Documentation,
 	done: Done,
 	drycleaning: DryCleaning,
+	edit: Edit,
 	electricdevicewheelchair: ElectricDeviceWheelchair,
 	electricity: Electricity,
 	elevator: Elevator,
