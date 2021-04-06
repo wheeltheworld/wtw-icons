@@ -100,6 +100,7 @@ import Keys from  './_icons/Keys';
 import LakeSea from  './_icons/LakeSea';
 import LandActivity from  './_icons/LandActivity';
 import Language from  './_icons/Language';
+import LanguageMessage from  './_icons/LanguageMessage';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import Lifevest from  './_icons/Lifevest';
@@ -133,6 +134,7 @@ import Parking from  './_icons/Parking';
 import Pending from  './_icons/Pending';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
+import Phone from  './_icons/Phone';
 import PicnicTable from  './_icons/PicnicTable';
 import Places from  './_icons/Places';
 import PlacesToStay from  './_icons/PlacesToStay';
@@ -317,6 +319,7 @@ export const iconsArray = [
 	'lakesea',
 	'landactivity',
 	'language',
+	'languagemessage',
 	'laundry',
 	'level',
 	'lifevest',
@@ -350,6 +353,7 @@ export const iconsArray = [
 	'pending',
 	'person',
 	'petfriendly',
+	'phone',
 	'picnictable',
 	'places',
 	'placestostay',
@@ -533,6 +537,7 @@ export const iconsObject = {
 	lakesea: LakeSea,
 	landactivity: LandActivity,
 	language: Language,
+	languagemessage: LanguageMessage,
 	laundry: Laundry,
 	level: Level,
 	lifevest: Lifevest,
@@ -566,6 +571,7 @@ export const iconsObject = {
 	pending: Pending,
 	person: Person,
 	petfriendly: PetFriendly,
+	phone: Phone,
 	picnictable: PicnicTable,
 	places: Places,
 	placestostay: PlacesToStay,
