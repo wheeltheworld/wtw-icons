@@ -108,6 +108,7 @@ import LinkedinBlack from  './_icons/LinkedinBlack';
 import Lobby from  './_icons/Lobby';
 import Location from  './_icons/Location';
 import LocationBlack from  './_icons/LocationBlack';
+import Lock from  './_icons/Lock';
 import LowerBathtub from  './_icons/LowerBathtub';
 import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
@@ -327,6 +328,7 @@ export const iconsArray = [
 	'lobby',
 	'location',
 	'locationblack',
+	'lock',
 	'lowerbathtub',
 	'lowersteps',
 	'lunch',
@@ -545,6 +547,7 @@ export const iconsObject = {
 	lobby: Lobby,
 	location: Location,
 	locationblack: LocationBlack,
+	lock: Lock,
 	lowerbathtub: LowerBathtub,
 	lowersteps: LowerSteps,
 	lunch: Lunch,

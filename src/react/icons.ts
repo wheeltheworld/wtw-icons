@@ -108,6 +108,7 @@ export { default as LinkedinBlackIcon } from  './_icons/LinkedinBlack';
 export { default as LobbyIcon } from  './_icons/Lobby';
 export { default as LocationIcon } from  './_icons/Location';
 export { default as LocationBlackIcon } from  './_icons/LocationBlack';
+export { default as LockIcon } from  './_icons/Lock';
 export { default as LowerBathtubIcon } from  './_icons/LowerBathtub';
 export { default as LowerStepsIcon } from  './_icons/LowerSteps';
 export { default as LunchIcon } from  './_icons/Lunch';
