@@ -142,6 +142,7 @@ export { default as PlacesToStayIcon } from  './_icons/PlacesToStay';
 export { default as PlaneIcon } from  './_icons/Plane';
 export { default as PlaygroundIcon } from  './_icons/Playground';
 export { default as PlusIcon } from  './_icons/Plus';
+export { default as PreviousIcon } from  './_icons/Previous';
 export { default as PrivateTourIcon } from  './_icons/PrivateTour';
 export { default as ProfileIcon } from  './_icons/Profile';
 export { default as QueenBedIcon } from  './_icons/QueenBed';
