@@ -142,6 +142,7 @@ import PlacesToStay from  './_icons/PlacesToStay';
 import Plane from  './_icons/Plane';
 import Playground from  './_icons/Playground';
 import Plus from  './_icons/Plus';
+import Previous from  './_icons/Previous';
 import PrivateTour from  './_icons/PrivateTour';
 import Profile from  './_icons/Profile';
 import QueenBed from  './_icons/QueenBed';
@@ -362,6 +363,7 @@ export const iconsArray = [
 	'plane',
 	'playground',
 	'plus',
+	'previous',
 	'privatetour',
 	'profile',
 	'queenbed',
@@ -581,6 +583,7 @@ export const iconsObject = {
 	plane: Plane,
 	playground: Playground,
 	plus: Plus,
+	previous: Previous,
 	privatetour: PrivateTour,
 	profile: Profile,
 	queenbed: QueenBed,
