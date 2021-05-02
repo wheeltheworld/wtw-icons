@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+	<g>
+
+		<g>
+			<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M3,7.5h6.8c0-1.9-1.5-3.4-3.4-3.4S3,5.6,3,7.5z" />
+			<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M1,23.2V3.4c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7v0.7" />
+			<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M8.5,10.5V9.8" />
+			<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M6.4,11.8v-0.7" />
+			<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M4.4,10.5V9.8" />
+		</g>
+		<g>
+			<g transform="translate(0.5 0.5)">
+				<polyline fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="22.5,19.9 6.6,19.9 6.6,22.7 		" />
+			</g>
+			<line fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="5.4" y1="23.2" x2="23" y2="23.2" />
+		</g>
+	</g>
+</svg>

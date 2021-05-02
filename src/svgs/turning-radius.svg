@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+	<g>
+		<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M3.8,14.5V2.4h16.3v12.2H3.8z" />
+		<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M1,1.2l2.8,1.2" />
+		<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23,1.2l-2.9,1.2" />
+		<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M1,16.4l2.8-1.8" />
+		<path fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23,16.4l-2.9-1.8" />
+		<ellipse fill="none" stroke="#232323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12.2" cy="19.6" rx="5.4" ry="3.1" />
+	</g>
+</svg>
