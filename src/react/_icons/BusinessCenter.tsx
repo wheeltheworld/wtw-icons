@@ -1,24 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const BusinessCenter: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            className="prefix__nc-icon-wrapper"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeMiterlimit={10}
-            strokeWidth={1.5}
-            strokeLinejoin="round"
-        >
-            <path d="M5.5 23.5h-4v-10h4" />
-            <path data-color="color-2" d="M9.5 16.5h2M9.5 19.5h2M9.5 13.5h2" />
-            <path d="M13.5 6.5v-4l10 3v18h-18v-14h10v14" />
-            <path data-color="color-2" d="M19.5 19.5v-10" />
-        </g>
-    </Icon>
-);
-
-export default BusinessCenter;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const BusinessCenter: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g transform="translate(0.5, 0.5)" fill="currentColor"><polyline points="5 23 1 23 1 13 5 13" fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} strokeLinejoin="round" /><line x1={9} y1={16} x2={11} y2={16} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /><line x1={9} y1={19} x2={11} y2={19} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /><line x1={9} y1={13} x2={11} y2={13} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /><polyline points="13 6 13 2 23 5 23 23 5 23 5 9 15 9 15 23" fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} strokeLinejoin="round" /><line x1={19} y1={19} x2={19} y2={9} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default BusinessCenter;
+    

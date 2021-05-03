@@ -1,3 +1,4 @@
+import Accessibility from  './_icons/Accessibility';
 import AccessibleBathroom from  './_icons/AccessibleBathroom';
 import AccessibleEquipment from  './_icons/AccessibleEquipment';
 import AccessiblePaths from  './_icons/AccessiblePaths';
@@ -5,36 +6,45 @@ import AccessibleTransportation from  './_icons/AccessibleTransportation';
 import Accommodation from  './_icons/Accommodation';
 import Activities from  './_icons/Activities';
 import AdaptiveEquipment from  './_icons/AdaptiveEquipment';
+import Add from  './_icons/Add';
 import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
+import ArrowBack from  './_icons/ArrowBack';
 import Assistance from  './_icons/Assistance';
 import Atm from  './_icons/Atm';
-import AudioGuides from  './_icons/AudioGuides';
+import Attachment from  './_icons/Attachment';
+import Audioguides from  './_icons/Audioguides';
 import Auditorium from  './_icons/Auditorium';
 import AuditoryGuidance from  './_icons/AuditoryGuidance';
 import Baby from  './_icons/Baby';
+import Backpack from  './_icons/Backpack';
 import Backpacker from  './_icons/Backpacker';
+import Bagagge from  './_icons/Bagagge';
 import Baggage from  './_icons/Baggage';
 import Bar from  './_icons/Bar';
+import Barbecue from  './_icons/Barbecue';
 import Bathroom from  './_icons/Bathroom';
 import BathroomAccessInterior from  './_icons/BathroomAccessInterior';
 import BathroomInterior from  './_icons/BathroomInterior';
 import BathroomSink from  './_icons/BathroomSink';
 import BeachAccess from  './_icons/BeachAccess';
-import BeachFront from  './_icons/BeachFront';
+import Beachfront from  './_icons/Beachfront';
 import Bed from  './_icons/Bed';
 import BedBreakfast from  './_icons/BedBreakfast';
 import BedroomAccess from  './_icons/BedroomAccess';
 import BedroomInterior from  './_icons/BedroomInterior';
 import BeerBar from  './_icons/BeerBar';
+import Bidet from  './_icons/Bidet';
 import Blind from  './_icons/Blind';
 import Boat from  './_icons/Boat';
 import Braille from  './_icons/Braille';
 import Breakfast from  './_icons/Breakfast';
-import BuildingEntrance from  './_icons/BuildingEntrance';
+import Buildingentrance from  './_icons/Buildingentrance';
 import Bus from  './_icons/Bus';
 import BusinessCenter from  './_icons/BusinessCenter';
+import CCheck from  './_icons/CCheck';
+import CCheckFilled from  './_icons/CCheckFilled';
 import Cabin from  './_icons/Cabin';
 import Cafeteria from  './_icons/Cafeteria';
 import Calendar from  './_icons/Calendar';
@@ -46,18 +56,26 @@ import Clock from  './_icons/Clock';
 import Closet from  './_icons/Closet';
 import CoffeeMaker from  './_icons/CoffeeMaker';
 import CommonBathroom from  './_icons/CommonBathroom';
+import Companion from  './_icons/Companion';
 import Complete from  './_icons/Complete';
 import Conference from  './_icons/Conference';
+import Countries from  './_icons/Countries';
+import Crib from  './_icons/Crib';
 import Crutches from  './_icons/Crutches';
 import CulturalPlace from  './_icons/CulturalPlace';
 import Culture from  './_icons/Culture';
 import CurrencyExchange from  './_icons/CurrencyExchange';
 import Daycare from  './_icons/Daycare';
 import Deaf from  './_icons/Deaf';
+import Delete from  './_icons/Delete';
+import Destinations from  './_icons/Destinations';
+import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
+import Download from  './_icons/Download';
 import DryCleaning from  './_icons/DryCleaning';
+import Duplicate from  './_icons/Duplicate';
 import Edit from  './_icons/Edit';
 import ElectricDeviceWheelchair from  './_icons/ElectricDeviceWheelchair';
 import Electricity from  './_icons/Electricity';
@@ -69,9 +87,11 @@ import Equipment from  './_icons/Equipment';
 import EventRoom from  './_icons/EventRoom';
 import Facebook from  './_icons/Facebook';
 import FacebookNeutral from  './_icons/FacebookNeutral';
+import Filter from  './_icons/Filter';
 import FitnessCenter from  './_icons/FitnessCenter';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import FoodService from  './_icons/FoodService';
+import Garden from  './_icons/Garden';
 import GeneralAttribute from  './_icons/GeneralAttribute';
 import Google from  './_icons/Google';
 import GoogleNeutral from  './_icons/GoogleNeutral';
@@ -79,41 +99,54 @@ import Gratuities from  './_icons/Gratuities';
 import GroundTransportation from  './_icons/GroundTransportation';
 import Guides from  './_icons/Guides';
 import Gym from  './_icons/Gym';
+import HairDryer from  './_icons/HairDryer';
 import Health from  './_icons/Health';
 import HearingAid from  './_icons/HearingAid';
 import HeatedPool from  './_icons/HeatedPool';
+import Heater from  './_icons/Heater';
 import HeavyPowerWheelchair from  './_icons/HeavyPowerWheelchair';
 import Helmet from  './_icons/Helmet';
+import Help from  './_icons/Help';
 import Hide from  './_icons/Hide';
 import HighBathtub from  './_icons/HighBathtub';
+import Home from  './_icons/Home';
 import Hotel from  './_icons/Hotel';
 import Housekeeping from  './_icons/Housekeeping';
 import Id from  './_icons/Id';
+import ImportantInfo from  './_icons/ImportantInfo';
 import Instagram from  './_icons/Instagram';
 import InstagramNeutral from  './_icons/InstagramNeutral';
 import Instructor from  './_icons/Instructor';
 import Insurance from  './_icons/Insurance';
 import Interior from  './_icons/Interior';
+import Invite from  './_icons/Invite';
+import Iron from  './_icons/Iron';
+import Jacuzzi from  './_icons/Jacuzzi';
 import JeepCar from  './_icons/JeepCar';
 import Key from  './_icons/Key';
 import Keys from  './_icons/Keys';
+import KingBed from  './_icons/KingBed';
 import LakeSea from  './_icons/LakeSea';
 import LandActivity from  './_icons/LandActivity';
 import Language from  './_icons/Language';
+import Language02 from  './_icons/Language02';
 import LanguageMessage from  './_icons/LanguageMessage';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import Lifevest from  './_icons/Lifevest';
-import LinkedinBlack from  './_icons/LinkedinBlack';
+import Linkedin from  './_icons/Linkedin';
+import LinkedinNeutral from  './_icons/LinkedinNeutral';
 import Lobby from  './_icons/Lobby';
 import Location from  './_icons/Location';
 import LocationBlack from  './_icons/LocationBlack';
 import Lock from  './_icons/Lock';
+import LogOut from  './_icons/LogOut';
 import LowerBathtub from  './_icons/LowerBathtub';
 import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeetingPoint from  './_icons/MeetingPoint';
+import MeetingRoom from  './_icons/MeetingRoom';
 import MiniFridge from  './_icons/MiniFridge';
 import Minus from  './_icons/Minus';
 import Missing from  './_icons/Missing';
@@ -122,21 +155,27 @@ import MobilePhone from  './_icons/MobilePhone';
 import Money from  './_icons/Money';
 import Motel from  './_icons/Motel';
 import MultiDayTrip from  './_icons/MultiDayTrip';
+import MultiDayTrips from  './_icons/MultiDayTrips';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
 import Notification from  './_icons/Notification';
 import NotificationActive from  './_icons/NotificationActive';
 import Nurse from  './_icons/Nurse';
 import OneStep from  './_icons/OneStep';
+import OpenTour from  './_icons/OpenTour';
 import Other from  './_icons/Other';
 import Outdoor from  './_icons/Outdoor';
+import Oven from  './_icons/Oven';
 import Park from  './_icons/Park';
 import Parking from  './_icons/Parking';
+import Partners from  './_icons/Partners';
 import Pending from  './_icons/Pending';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
 import Phone from  './_icons/Phone';
 import PicnicTable from  './_icons/PicnicTable';
+import Pinterest from  './_icons/Pinterest';
+import PinterestNeutral from  './_icons/PinterestNeutral';
 import Places from  './_icons/Places';
 import PlacesToStay from  './_icons/PlacesToStay';
 import Plane from  './_icons/Plane';
@@ -158,8 +197,11 @@ import SafetyEquipment from  './_icons/SafetyEquipment';
 import Sauna from  './_icons/Sauna';
 import Save from  './_icons/Save';
 import Scooter from  './_icons/Scooter';
+import Search from  './_icons/Search';
 import Security from  './_icons/Security';
 import SedanCar from  './_icons/SedanCar';
+import Senior from  './_icons/Senior';
+import Settings from  './_icons/Settings';
 import Share from  './_icons/Share';
 import Shop from  './_icons/Shop';
 import Shopping from  './_icons/Shopping';
@@ -172,21 +214,28 @@ import SinkTap from  './_icons/SinkTap';
 import SmokeFree from  './_icons/SmokeFree';
 import SnackBar from  './_icons/SnackBar';
 import Snacks from  './_icons/Snacks';
+import Snapchat from  './_icons/Snapchat';
+import SnapchatNeutral from  './_icons/SnapchatNeutral';
 import SocialDistancing from  './_icons/SocialDistancing';
 import SoftDrink from  './_icons/SoftDrink';
 import Spa from  './_icons/Spa';
 import Stairs from  './_icons/Stairs';
+import StarEmpty from  './_icons/StarEmpty';
+import StarFull from  './_icons/StarFull';
+import StarHalf from  './_icons/StarHalf';
 import StepFree from  './_icons/StepFree';
 import SwimmingPool from  './_icons/SwimmingPool';
 import Switch from  './_icons/Switch';
-import TV from  './_icons/TV';
 import Taxes from  './_icons/Taxes';
 import Tea from  './_icons/Tea';
+import TeaMakingFacilities from  './_icons/TeaMakingFacilities';
 import TeaRoom from  './_icons/TeaRoom';
 import Terrace from  './_icons/Terrace';
 import ThingsToDo from  './_icons/ThingsToDo';
 import ThreeSteps from  './_icons/ThreeSteps';
 import Ticket from  './_icons/Ticket';
+import Tiktok from  './_icons/Tiktok';
+import TiktokNeutral from  './_icons/TiktokNeutral';
 import Toilet from  './_icons/Toilet';
 import ToiletGrabBar from  './_icons/ToiletGrabBar';
 import ToiletPaper from  './_icons/ToiletPaper';
@@ -194,31 +243,46 @@ import TourGuide from  './_icons/TourGuide';
 import ToursActivities from  './_icons/ToursActivities';
 import Transport from  './_icons/Transport';
 import Transportation from  './_icons/Transportation';
+import Traveler from  './_icons/Traveler';
 import TurningRadius from  './_icons/TurningRadius';
+import Tv from  './_icons/Tv';
 import TwentyFourHour from  './_icons/TwentyFourHour';
-import TwitterBlack from  './_icons/TwitterBlack';
+import TwinBed from  './_icons/TwinBed';
+import Twitter from  './_icons/Twitter';
+import TwitterNeutral from  './_icons/TwitterNeutral';
+import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
 import VendingMachine from  './_icons/VendingMachine';
 import Verified from  './_icons/Verified';
 import View from  './_icons/View';
+import Vimeo from  './_icons/Vimeo';
+import VimeoNeutral from  './_icons/VimeoNeutral';
 import WTWIso from  './_icons/WTWIso';
 import WTWLogo from  './_icons/WTWLogo';
 import WTWLogoVertical from  './_icons/WTWLogoVertical';
 import Walker from  './_icons/Walker';
 import WalkingAid from  './_icons/WalkingAid';
+import Warning from  './_icons/Warning';
+import WarningFilled from  './_icons/WarningFilled';
+import WashHands from  './_icons/WashHands';
 import WaterActivity from  './_icons/WaterActivity';
 import WaterBottle from  './_icons/WaterBottle';
 import WaterFountain from  './_icons/WaterFountain';
 import Weather from  './_icons/Weather';
+import Whatsapp from  './_icons/Whatsapp';
+import WhatsappNeutral from  './_icons/WhatsappNeutral';
 import Wheelchair from  './_icons/Wheelchair';
 import WheelchairRamp from  './_icons/WheelchairRamp';
+import WheelchairUser from  './_icons/WheelchairUser';
 import Wifi from  './_icons/Wifi';
 import Work from  './_icons/Work';
-import YoutubeBlack from  './_icons/YoutubeBlack';
+import Youtube from  './_icons/Youtube';
+import YoutubeNeutral from  './_icons/YoutubeNeutral';
 
 import { IconTag } from './types'
 
 export const iconsArray = [
+	'accessibility',
 	'accessiblebathroom',
 	'accessibleequipment',
 	'accessiblepaths',
@@ -226,18 +290,24 @@ export const iconsArray = [
 	'accommodation',
 	'activities',
 	'adaptiveequipment',
+	'add',
 	'airconditioner',
 	'airportshuttle',
 	'alcoholicbeverages',
+	'arrowback',
 	'assistance',
 	'atm',
+	'attachment',
 	'audioguides',
 	'auditorium',
 	'auditoryguidance',
 	'baby',
+	'backpack',
 	'backpacker',
+	'bagagge',
 	'baggage',
 	'bar',
+	'barbecue',
 	'bathroom',
 	'bathroomaccessinterior',
 	'bathroominterior',
@@ -249,6 +319,7 @@ export const iconsArray = [
 	'bedroomaccess',
 	'bedroominterior',
 	'beerbar',
+	'bidet',
 	'blind',
 	'boat',
 	'braille',
@@ -256,6 +327,8 @@ export const iconsArray = [
 	'buildingentrance',
 	'bus',
 	'businesscenter',
+	'ccheck',
+	'ccheckfilled',
 	'cabin',
 	'cafeteria',
 	'calendar',
@@ -267,18 +340,26 @@ export const iconsArray = [
 	'closet',
 	'coffeemaker',
 	'commonbathroom',
+	'companion',
 	'complete',
 	'conference',
+	'countries',
+	'crib',
 	'crutches',
 	'culturalplace',
 	'culture',
 	'currencyexchange',
 	'daycare',
 	'deaf',
+	'delete',
+	'destinations',
+	'dice',
 	'dinner',
 	'documentation',
 	'done',
+	'download',
 	'drycleaning',
+	'duplicate',
 	'edit',
 	'electricdevicewheelchair',
 	'electricity',
@@ -290,9 +371,11 @@ export const iconsArray = [
 	'eventroom',
 	'facebook',
 	'facebookneutral',
+	'filter',
 	'fitnesscenter',
 	'foldablepowerwheelchair',
 	'foodservice',
+	'garden',
 	'generalattribute',
 	'google',
 	'googleneutral',
@@ -300,41 +383,54 @@ export const iconsArray = [
 	'groundtransportation',
 	'guides',
 	'gym',
+	'hairdryer',
 	'health',
 	'hearingaid',
 	'heatedpool',
+	'heater',
 	'heavypowerwheelchair',
 	'helmet',
+	'help',
 	'hide',
 	'highbathtub',
+	'home',
 	'hotel',
 	'housekeeping',
 	'id',
+	'importantinfo',
 	'instagram',
 	'instagramneutral',
 	'instructor',
 	'insurance',
 	'interior',
+	'invite',
+	'iron',
+	'jacuzzi',
 	'jeepcar',
 	'key',
 	'keys',
+	'kingbed',
 	'lakesea',
 	'landactivity',
 	'language',
+	'language02',
 	'languagemessage',
 	'laundry',
 	'level',
 	'lifevest',
-	'linkedinblack',
+	'linkedin',
+	'linkedinneutral',
 	'lobby',
 	'location',
 	'locationblack',
 	'lock',
+	'logout',
 	'lowerbathtub',
 	'lowersteps',
 	'lunch',
 	'measuringtape',
 	'meetingpoint',
+	'meetingroom',
 	'minifridge',
 	'minus',
 	'missing',
@@ -343,21 +439,27 @@ export const iconsArray = [
 	'money',
 	'motel',
 	'multidaytrip',
+	'multidaytrips',
 	'next',
 	'no',
 	'notification',
 	'notificationactive',
 	'nurse',
 	'onestep',
+	'opentour',
 	'other',
 	'outdoor',
+	'oven',
 	'park',
 	'parking',
+	'partners',
 	'pending',
 	'person',
 	'petfriendly',
 	'phone',
 	'picnictable',
+	'pinterest',
+	'pinterestneutral',
 	'places',
 	'placestostay',
 	'plane',
@@ -379,8 +481,11 @@ export const iconsArray = [
 	'sauna',
 	'save',
 	'scooter',
+	'search',
 	'security',
 	'sedancar',
+	'senior',
+	'settings',
 	'share',
 	'shop',
 	'shopping',
@@ -393,21 +498,28 @@ export const iconsArray = [
 	'smokefree',
 	'snackbar',
 	'snacks',
+	'snapchat',
+	'snapchatneutral',
 	'socialdistancing',
 	'softdrink',
 	'spa',
 	'stairs',
+	'starempty',
+	'starfull',
+	'starhalf',
 	'stepfree',
 	'swimmingpool',
 	'switch',
-	'tv',
 	'taxes',
 	'tea',
+	'teamakingfacilities',
 	'tearoom',
 	'terrace',
 	'thingstodo',
 	'threesteps',
 	'ticket',
+	'tiktok',
+	'tiktokneutral',
 	'toilet',
 	'toiletgrabbar',
 	'toiletpaper',
@@ -415,30 +527,45 @@ export const iconsArray = [
 	'toursactivities',
 	'transport',
 	'transportation',
+	'traveler',
 	'turningradius',
+	'tv',
 	'twentyfourhour',
-	'twitterblack',
+	'twinbed',
+	'twitter',
+	'twitterneutral',
+	'upload',
 	'valetparking',
 	'vendingmachine',
 	'verified',
 	'view',
+	'vimeo',
+	'vimeoneutral',
 	'wtwiso',
 	'wtwlogo',
 	'wtwlogovertical',
 	'walker',
 	'walkingaid',
+	'warning',
+	'warningfilled',
+	'washhands',
 	'wateractivity',
 	'waterbottle',
 	'waterfountain',
 	'weather',
+	'whatsapp',
+	'whatsappneutral',
 	'wheelchair',
 	'wheelchairramp',
+	'wheelchairuser',
 	'wifi',
 	'work',
-	'youtubeblack',
+	'youtube',
+	'youtubeneutral',
 ] as const;
 
 export const iconsObject = {
+	accessibility: Accessibility,
 	accessiblebathroom: AccessibleBathroom,
 	accessibleequipment: AccessibleEquipment,
 	accessiblepaths: AccessiblePaths,
@@ -446,36 +573,45 @@ export const iconsObject = {
 	accommodation: Accommodation,
 	activities: Activities,
 	adaptiveequipment: AdaptiveEquipment,
+	add: Add,
 	airconditioner: AirConditioner,
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
+	arrowback: ArrowBack,
 	assistance: Assistance,
 	atm: Atm,
-	audioguides: AudioGuides,
+	attachment: Attachment,
+	audioguides: Audioguides,
 	auditorium: Auditorium,
 	auditoryguidance: AuditoryGuidance,
 	baby: Baby,
+	backpack: Backpack,
 	backpacker: Backpacker,
+	bagagge: Bagagge,
 	baggage: Baggage,
 	bar: Bar,
+	barbecue: Barbecue,
 	bathroom: Bathroom,
 	bathroomaccessinterior: BathroomAccessInterior,
 	bathroominterior: BathroomInterior,
 	bathroomsink: BathroomSink,
 	beachaccess: BeachAccess,
-	beachfront: BeachFront,
+	beachfront: Beachfront,
 	bed: Bed,
 	bedbreakfast: BedBreakfast,
 	bedroomaccess: BedroomAccess,
 	bedroominterior: BedroomInterior,
 	beerbar: BeerBar,
+	bidet: Bidet,
 	blind: Blind,
 	boat: Boat,
 	braille: Braille,
 	breakfast: Breakfast,
-	buildingentrance: BuildingEntrance,
+	buildingentrance: Buildingentrance,
 	bus: Bus,
 	businesscenter: BusinessCenter,
+	ccheck: CCheck,
+	ccheckfilled: CCheckFilled,
 	cabin: Cabin,
 	cafeteria: Cafeteria,
 	calendar: Calendar,
@@ -487,18 +623,26 @@ export const iconsObject = {
 	closet: Closet,
 	coffeemaker: CoffeeMaker,
 	commonbathroom: CommonBathroom,
+	companion: Companion,
 	complete: Complete,
 	conference: Conference,
+	countries: Countries,
+	crib: Crib,
 	crutches: Crutches,
 	culturalplace: CulturalPlace,
 	culture: Culture,
 	currencyexchange: CurrencyExchange,
 	daycare: Daycare,
 	deaf: Deaf,
+	delete: Delete,
+	destinations: Destinations,
+	dice: Dice,
 	dinner: Dinner,
 	documentation: Documentation,
 	done: Done,
+	download: Download,
 	drycleaning: DryCleaning,
+	duplicate: Duplicate,
 	edit: Edit,
 	electricdevicewheelchair: ElectricDeviceWheelchair,
 	electricity: Electricity,
@@ -510,9 +654,11 @@ export const iconsObject = {
 	eventroom: EventRoom,
 	facebook: Facebook,
 	facebookneutral: FacebookNeutral,
+	filter: Filter,
 	fitnesscenter: FitnessCenter,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	foodservice: FoodService,
+	garden: Garden,
 	generalattribute: GeneralAttribute,
 	google: Google,
 	googleneutral: GoogleNeutral,
@@ -520,41 +666,54 @@ export const iconsObject = {
 	groundtransportation: GroundTransportation,
 	guides: Guides,
 	gym: Gym,
+	hairdryer: HairDryer,
 	health: Health,
 	hearingaid: HearingAid,
 	heatedpool: HeatedPool,
+	heater: Heater,
 	heavypowerwheelchair: HeavyPowerWheelchair,
 	helmet: Helmet,
+	help: Help,
 	hide: Hide,
 	highbathtub: HighBathtub,
+	home: Home,
 	hotel: Hotel,
 	housekeeping: Housekeeping,
 	id: Id,
+	importantinfo: ImportantInfo,
 	instagram: Instagram,
 	instagramneutral: InstagramNeutral,
 	instructor: Instructor,
 	insurance: Insurance,
 	interior: Interior,
+	invite: Invite,
+	iron: Iron,
+	jacuzzi: Jacuzzi,
 	jeepcar: JeepCar,
 	key: Key,
 	keys: Keys,
+	kingbed: KingBed,
 	lakesea: LakeSea,
 	landactivity: LandActivity,
 	language: Language,
+	language02: Language02,
 	languagemessage: LanguageMessage,
 	laundry: Laundry,
 	level: Level,
 	lifevest: Lifevest,
-	linkedinblack: LinkedinBlack,
+	linkedin: Linkedin,
+	linkedinneutral: LinkedinNeutral,
 	lobby: Lobby,
 	location: Location,
 	locationblack: LocationBlack,
 	lock: Lock,
+	logout: LogOut,
 	lowerbathtub: LowerBathtub,
 	lowersteps: LowerSteps,
 	lunch: Lunch,
 	measuringtape: MeasuringTape,
 	meetingpoint: MeetingPoint,
+	meetingroom: MeetingRoom,
 	minifridge: MiniFridge,
 	minus: Minus,
 	missing: Missing,
@@ -563,21 +722,27 @@ export const iconsObject = {
 	money: Money,
 	motel: Motel,
 	multidaytrip: MultiDayTrip,
+	multidaytrips: MultiDayTrips,
 	next: Next,
 	no: No,
 	notification: Notification,
 	notificationactive: NotificationActive,
 	nurse: Nurse,
 	onestep: OneStep,
+	opentour: OpenTour,
 	other: Other,
 	outdoor: Outdoor,
+	oven: Oven,
 	park: Park,
 	parking: Parking,
+	partners: Partners,
 	pending: Pending,
 	person: Person,
 	petfriendly: PetFriendly,
 	phone: Phone,
 	picnictable: PicnicTable,
+	pinterest: Pinterest,
+	pinterestneutral: PinterestNeutral,
 	places: Places,
 	placestostay: PlacesToStay,
 	plane: Plane,
@@ -599,8 +764,11 @@ export const iconsObject = {
 	sauna: Sauna,
 	save: Save,
 	scooter: Scooter,
+	search: Search,
 	security: Security,
 	sedancar: SedanCar,
+	senior: Senior,
+	settings: Settings,
 	share: Share,
 	shop: Shop,
 	shopping: Shopping,
@@ -613,21 +781,28 @@ export const iconsObject = {
 	smokefree: SmokeFree,
 	snackbar: SnackBar,
 	snacks: Snacks,
+	snapchat: Snapchat,
+	snapchatneutral: SnapchatNeutral,
 	socialdistancing: SocialDistancing,
 	softdrink: SoftDrink,
 	spa: Spa,
 	stairs: Stairs,
+	starempty: StarEmpty,
+	starfull: StarFull,
+	starhalf: StarHalf,
 	stepfree: StepFree,
 	swimmingpool: SwimmingPool,
 	switch: Switch,
-	tv: TV,
 	taxes: Taxes,
 	tea: Tea,
+	teamakingfacilities: TeaMakingFacilities,
 	tearoom: TeaRoom,
 	terrace: Terrace,
 	thingstodo: ThingsToDo,
 	threesteps: ThreeSteps,
 	ticket: Ticket,
+	tiktok: Tiktok,
+	tiktokneutral: TiktokNeutral,
 	toilet: Toilet,
 	toiletgrabbar: ToiletGrabBar,
 	toiletpaper: ToiletPaper,
@@ -635,27 +810,41 @@ export const iconsObject = {
 	toursactivities: ToursActivities,
 	transport: Transport,
 	transportation: Transportation,
+	traveler: Traveler,
 	turningradius: TurningRadius,
+	tv: Tv,
 	twentyfourhour: TwentyFourHour,
-	twitterblack: TwitterBlack,
+	twinbed: TwinBed,
+	twitter: Twitter,
+	twitterneutral: TwitterNeutral,
+	upload: Upload,
 	valetparking: ValetParking,
 	vendingmachine: VendingMachine,
 	verified: Verified,
 	view: View,
+	vimeo: Vimeo,
+	vimeoneutral: VimeoNeutral,
 	wtwiso: WTWIso,
 	wtwlogo: WTWLogo,
 	wtwlogovertical: WTWLogoVertical,
 	walker: Walker,
 	walkingaid: WalkingAid,
+	warning: Warning,
+	warningfilled: WarningFilled,
+	washhands: WashHands,
 	wateractivity: WaterActivity,
 	waterbottle: WaterBottle,
 	waterfountain: WaterFountain,
 	weather: Weather,
+	whatsapp: Whatsapp,
+	whatsappneutral: WhatsappNeutral,
 	wheelchair: Wheelchair,
 	wheelchairramp: WheelchairRamp,
+	wheelchairuser: WheelchairUser,
 	wifi: Wifi,
 	work: Work,
-	youtubeblack: YoutubeBlack,
+	youtube: Youtube,
+	youtubeneutral: YoutubeNeutral,
 } as const;
 
 export function isValidIcon(possibleIcon: any): possibleIcon is IconTag {

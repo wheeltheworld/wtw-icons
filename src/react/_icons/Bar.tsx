@@ -1,61 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Bar: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M23.62,9.89a7.24,7.24,0,1,1,7.24,7.24A8.11,8.11,0,0,1,26,15.32"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="8.42"
-                y1="17.13"
-                x2="24.34"
-                y2="17.13"
-            />
-            <polygon
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="30.86 9.89 16.38 26.18 1.9 9.89 30.86 9.89"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="16.38"
-                y1="26.18"
-                x2="16.38"
-                y2="38.85"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="7.33"
-                y1="38.85"
-                x2="25.43"
-                y2="38.85"
-            />
-        </g>
-    </Icon>
-);
-
-export default Bar;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Bar: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g transform="translate(0.5, 0.5)" fill="currentColor"><path data-cap="butt" data-color="color-2" fill="none" stroke="currentColor" strokeWidth={1.5} strokeMiterlimit={10} d="M15,6c0-2.2,1.8-4,4-4 s4,1.8,4,4s-1.8,4-4,4c-1,0-1.9-0.4-2.7-1" strokeLinejoin="round" strokeLinecap="round" /><line data-cap="butt" data-color="color-2" fill="none" stroke="currentColor" strokeWidth={1.5} strokeMiterlimit={10} x1={6.6} y1={10} x2={15.4} y2={10} strokeLinejoin="round" strokeLinecap="round" /><polygon fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} points="19,6 11,15 3,6 " strokeLinejoin="round" /><line fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} x1={11} y1={15} x2={11} y2={22} strokeLinejoin="round" /><line fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} x1={6} y1={22} x2={16} y2={22} strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default Bar;
+    

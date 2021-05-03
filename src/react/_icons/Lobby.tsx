@@ -1,78 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Lobby: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M22.17,7.85H37.79v8.61H22.17Z"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                cx="12.25"
-                cy="7.44"
-                r="3.24"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M10.05,9.82A9.08,9.08,0,0,0,9,10.69c-1,.93-2.21,2.74-2.21,6.22v2.91"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M17.83,19.82V16.91c0-3.48-1.2-5.29-2.21-6.22a9.82,9.82,0,0,0-1.17-.87"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M1.17,21H38.83"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M27.74,20.11V16.46"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M32.1,20.11V16.46"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M35.47,21V38.85h-31V21"
-            />
-        </g>
-    </Icon>
-);
-
-export default Lobby;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Lobby: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g fill="currentColor"><path d="M13.27 4.01h9.12v5.03h-9.12z" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><circle cx={7.47} cy={3.77} r={1.89} fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M6.19 5.16c-.15.09-.48.37-.63.51-.59.54-1.29 1.6-1.29 3.63V11" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M10.73 11V9.3c0-2.03-.7-3.09-1.29-3.63-.15-.14-.53-.42-.68-.51" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M1 11.67h22" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M16.52 11.17V9.04" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M19.07 11.17V9.04" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M21.04 11.67v10.45H2.9V11.67" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /></g>
+        </Icon>
+    );
+    
+    export default Lobby;
+    

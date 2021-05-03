@@ -1,52 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const ATM: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M29.85,15.87V38.13a.73.73,0,0,1-.73.72H10.88a.72.72,0,0,1-.73-.72V15.87"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M29.85,22.24h3.9a3.93,3.93,0,0,0,4.3-4.3V13.51a3.93,3.93,0,0,0-4.3-4.3H6.25A3.93,3.93,0,0,0,2,13.51v4.43a3.93,3.93,0,0,0,4.3,4.3h3.9"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M6.85,15.87H33"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M20,19.78V34.07"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M23.1,22.8A3.9,3.9,0,0,0,20,21.73h-.81a2.55,2.55,0,0,0-2.54,2.55c0,1.41.67,2.18,2.54,2.54l1.79.12a2.74,2.74,0,1,1,0,5.48,8.8,8.8,0,0,1-4.73-1.14"
-            />
-        </g>
-    </Icon>
-);
-
-export default ATM;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Atm: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g fill="currentColor"><path d="M18 7.03v13.56c0 .24-.2.44-.44.44H6.44c-.24 0-.44-.19-.44-.44V7.03" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M18 10.91h2.38c1.65 0 2.62-.97 2.62-2.62v-2.7c0-1.65-.97-2.62-2.62-2.62H3.62C1.97 2.97 1 3.94 1 5.59v2.7c0 1.65.97 2.62 2.62 2.62H6" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M3.99 7.03h15.9" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M12.01 9.41v8.71" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M13.89 11.25s-.51-.65-1.88-.65h-.49c-.85 0-1.55.69-1.55 1.55s.41 1.33 1.55 1.55l1.09.07c.92 0 1.67.75 1.67 1.67s-.75 1.67-1.67 1.67c0 0-1.71.1-2.88-.69" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /></g>
+        </Icon>
+    );
+    
+    export default Atm;
+    

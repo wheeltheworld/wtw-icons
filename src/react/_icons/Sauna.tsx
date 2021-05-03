@@ -1,78 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Sauna: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                cx="14.92"
-                cy="10.66"
-                r="3.59"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M2.85,34.9H25"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M12.59,17.6h6.24v13H12.59Z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M5.8,31.21,11.9,17.6"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M18.83,29H27l4.42,9.82"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M26.94,10.66a2.86,2.86,0,0,0-.69-1.9,1.45,1.45,0,0,1-.39-1,1.41,1.41,0,0,1,.39-1,2.86,2.86,0,0,0,.69-1.91A2.86,2.86,0,0,0,26.25,3"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M32,10.66a2.91,2.91,0,0,0-.68-1.9,1.41,1.41,0,0,1-.39-1,1.36,1.36,0,0,1,.39-1A2.92,2.92,0,0,0,32,4.86,2.92,2.92,0,0,0,31.36,3"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M37.15,10.66a2.86,2.86,0,0,0-.69-1.9,1.45,1.45,0,0,1-.39-1,1.41,1.41,0,0,1,.39-1,2.86,2.86,0,0,0,.69-1.91A2.86,2.86,0,0,0,36.46,3"
-            />
-        </g>
-    </Icon>
-);
-
-export default Sauna;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Sauna: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g fill="currentColor"><circle cx={8.34} cy={5.72} r={2.2} fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M.94 20.58h13.6" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M6.91 9.97h3.83v7.96H6.91z" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M2.75 18.32l3.74-8.35" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M10.74 16.98h5L18.45 23" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M15.71 5.72c0-.6-.24-.93-.42-1.17-.15-.2-.24-.32-.24-.61s.09-.41.24-.61c.18-.24.42-.57.42-1.17s-.24-.93-.42-1.17" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M18.84 5.72c0-.6-.24-.93-.42-1.17-.15-.2-.24-.32-.24-.61s.09-.41.24-.61c.18-.24.42-.57.42-1.17s-.24-.93-.42-1.17" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /><path d="M21.97 5.72c0-.6-.24-.93-.42-1.17-.15-.2-.24-.32-.24-.61s.09-.41.24-.61c.18-.24.42-.57.42-1.17s-.24-.93-.42-1.17" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} /></g>
+        </Icon>
+    );
+    
+    export default Sauna;
+    

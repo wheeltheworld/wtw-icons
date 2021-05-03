@@ -1,52 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Shower: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2px"
-                d="M16.31,13.8A12.3,12.3,0,0,0,4,26.1h24.6A12.29,12.29,0,0,0,16.31,13.8Z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2px"
-                d="M16.31,13.8V11.33a9.84,9.84,0,0,1,19.68,0V38.38"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2px"
-                d="M8.92,31v2.46"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2px"
-                d="M16.31,35.93v2.45"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2px"
-                d="M23.68,31v2.46"
-            />
-        </g>
-    </Icon>
-);
-
-export default Shower;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Shower: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g fill="currentColor"><path d="M9.84 8.4c-3.98 0-7.21 3.23-7.21 7.21h14.42c0-3.99-3.23-7.21-7.21-7.21z" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M9.84 8.4V6.95c0-3.18 2.58-5.77 5.77-5.77 3.18 0 5.77 2.58 5.77 5.77v15.86" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M5.51 18.49v1.44" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M9.84 21.37v1.44" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M14.16 18.49v1.44" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default Shower;
+    

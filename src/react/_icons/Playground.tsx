@@ -1,71 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Playground: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="15.11 24.16 21.63 24.16 33.05 38.85 37.95 38.85"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="23.26"
-                y1="35.59"
-                x2="23.26"
-                y2="38.85"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                cx="8.58"
-                cy="16.01"
-                r="1.63"
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="2.05 38.85 2.05 12.74 8.58 6.21 15.11 12.74 15.11 38.85"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="2.05"
-                y1="24.16"
-                x2="15.1"
-                y2="24.16"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                x1="2.05"
-                y1="32.32"
-                x2="15.1"
-                y2="32.32"
-            />
-        </g>
-    </Icon>
-);
-
-export default Playground;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Playground: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g transform="translate(0.5, 0.5)" fill="currentColor"><polyline points="9 13 13 13 20 22 23 22" fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /><line x1={14} y1={20} x2={14} y2={22} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} data-color="color-2" strokeLinejoin="round" /><circle cx={5} cy={8} r={1} fill="currentColor" data-cap="butt" data-color="color-2" data-stroke="none" strokeLinecap="round" /><polyline points="1 22 1 6 5 2 9 6 9 22" fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} strokeLinejoin="round" /><line x1={1} y1={13} x2={9} y2={13} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} strokeLinejoin="round" /><line x1={1} y1={18} x2={9} y2={18} fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit={10} strokeWidth={1.5} strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default Playground;
+    

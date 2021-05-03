@@ -1,25 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Wifi: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path fill="currentColor" d="M20,39.61a3.28,3.28,0,1,1,3.38-3.28A3.33,3.33,0,0,1,20,39.61Z" />
-            <path
-                fill="currentColor"
-                d="M1.58,19.35a1.37,1.37,0,0,1-1.11-.58A1.36,1.36,0,0,1,.8,16.88a33.21,33.21,0,0,1,38.42,0,1.33,1.33,0,0,1,.56.88,1.36,1.36,0,0,1-2.12,1.34,30.51,30.51,0,0,0-35.29,0A1.37,1.37,0,0,1,1.58,19.35Z"
-            />
-            <path
-                fill="currentColor"
-                d="M33.05,25.43a1.37,1.37,0,0,1-.79-.25,21.14,21.14,0,0,0-24.5,0,1.35,1.35,0,0,1-1.89-.33,1.35,1.35,0,0,1-.23-1A1.36,1.36,0,0,1,6.19,23a23.9,23.9,0,0,1,27.64,0,1.36,1.36,0,0,1,.33,1.89A1.37,1.37,0,0,1,33.05,25.43Z"
-            />
-            <path
-                fill="currentColor"
-                d="M27.65,31.51a1.37,1.37,0,0,1-.78-.25,12,12,0,0,0-13.71,0A1.36,1.36,0,0,1,11.59,29a14.81,14.81,0,0,1,16.85,0,1.37,1.37,0,0,1,.32,1.9A1.35,1.35,0,0,1,27.65,31.51Z"
-            />
-        </g>
-    </Icon>
-);
-
-export default Wifi;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Wifi: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g transform="translate(0.5, 0.5)" fill="currentColor"><circle data-color="color-2" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} cx={12} cy={18} r={2} strokeLinejoin="round" /><path fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} d="M17.7,12.3 C16.2,10.9,14.2,10,12,10c-2.2,0-4.2,0.9-5.7,2.3" strokeLinejoin="round" /><path fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} d="M21.9,8.1 C19.4,5.6,15.9,4,12,4C8.1,4,4.6,5.6,2.1,8.1" strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default Wifi;
+    

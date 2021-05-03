@@ -1,44 +1,12 @@
 import React from 'react';
-import Icon from '../components/Icon';
-import { IconComponent } from '../types';
-
-const Boat: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="9.66 12.99 9.66 4.37 16.55 4.37 16.55 12.99"
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="6.21 19.89 6.21 12.99 26.9 12.99 30.34 19.89"
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                points="6.21 30.23 2.76 19.89 37.24 19.89 32.07 30.23"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M1,32a6.91,6.91,0,0,0,6.89,6.9,7.12,7.12,0,0,0,6-3.62,7.09,7.09,0,0,0,6,3.62,7.09,7.09,0,0,0,6-3.62,7.12,7.12,0,0,0,6,3.62A6.91,6.91,0,0,0,39,32"
-            />
-        </g>
-    </Icon>
-);
-
-export default Boat;
+    import Icon from '../components/Icon';
+    import { IconComponent } from '../types';
+    
+    const Boat: IconComponent = (props) => (
+        <Icon viewBox="0 0 24 24" fill="undefined" {...props}>
+            <g transform="translate(0.5, 0.5)" fill="currentColor"><polyline fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} points="6,7 6,2 10,2 10,7 " strokeLinejoin="round" /><polyline data-cap="butt" fill="none" stroke="currentColor" strokeWidth={1.5} strokeMiterlimit={10} points="4,11 4,7 16,7 18,11 " strokeLinejoin="round" strokeLinecap="round" /><polyline fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} points="4,17 2,11 22,11 19,17 " strokeLinejoin="round" /><path data-color="color-2" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeMiterlimit={10} d="M1,18 c0,2.2,1.8,4,4,4c1.5,0,2.8-0.9,3.5-2.1c0.7,1.2,2,2.1,3.5,2.1s2.8-0.9,3.5-2.1c0.7,1.2,2,2.1,3.5,2.1c2.2,0,4-1.8,4-4" strokeLinejoin="round" /></g>
+        </Icon>
+    );
+    
+    export default Boat;
+    
