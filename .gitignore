@@ -105,6 +105,4 @@ dist
 
 lib/
 
-src/react/_icons/
-src/react/helpers.ts
-src/react/icons.ts
+*.svg
