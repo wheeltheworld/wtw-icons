@@ -184,6 +184,7 @@ export { default as PlusIcon } from  './_icons/Plus';
 export { default as PreviousIcon } from  './_icons/Previous';
 export { default as PrivateTourIcon } from  './_icons/PrivateTour';
 export { default as ProfileIcon } from  './_icons/Profile';
+export { default as ProfileOutlineIcon } from  './_icons/ProfileOutline';
 export { default as QueenBedIcon } from  './_icons/QueenBed';
 export { default as ReceptionIcon } from  './_icons/Reception';
 export { default as ResortIcon } from  './_icons/Resort';
