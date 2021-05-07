@@ -184,6 +184,7 @@ import Plus from  './_icons/Plus';
 import Previous from  './_icons/Previous';
 import PrivateTour from  './_icons/PrivateTour';
 import Profile from  './_icons/Profile';
+import ProfileOutline from  './_icons/ProfileOutline';
 import QueenBed from  './_icons/QueenBed';
 import Reception from  './_icons/Reception';
 import Resort from  './_icons/Resort';
@@ -468,6 +469,7 @@ export const iconsArray = [
 	'previous',
 	'privatetour',
 	'profile',
+	'profileoutline',
 	'queenbed',
 	'reception',
 	'resort',
@@ -751,6 +753,7 @@ export const iconsObject = {
 	previous: Previous,
 	privatetour: PrivateTour,
 	profile: Profile,
+	profileoutline: ProfileOutline,
 	queenbed: QueenBed,
 	reception: Reception,
 	resort: Resort,
