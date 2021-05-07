@@ -50,16 +50,16 @@ const generateTsx = async (svg: typeof svgs[number]) => {
     const viewBox = node.attr().viewBox;
     const fill = node.attr().fill;
     node.each(function () {
-        // @ts-expect-error
+        // @ts-ignore
         $(this).find('title').remove();
 
-        // @ts-expect-error
+        // @ts-ignore
         if ($(this).find('style').length) {
             console.warn(
                 `There seems to be an style tag in ${svg.file}, this might end up with a mistaken parse of the svg, make sure the elements that use thos styles have the styles themselves`,
             );
         }
-        // @ts-expect-error
+        // @ts-ignore
         $(this).find('style').remove();
     });
     const res = ((await svgr(

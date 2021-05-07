@@ -10,7 +10,7 @@
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "pregen": "tsc ./src/react/gen/ --outDir ./lib/gen --esModuleInterop",
+        "pregen": "tsc ./src/react/gen/* --outDir ./lib/gen/ --esModuleInterop",
         "gen": "yarn gen:icons && yarn gen:helpers",
         "gen:helpers": "node ./lib/gen/genHelpers.js",
         "gen:icons": "node ./lib/gen/genIcons.js",
