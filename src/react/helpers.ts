@@ -11,6 +11,7 @@ import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
 import ArrowBack from  './_icons/ArrowBack';
+import ArrowForward from  './_icons/ArrowForward';
 import Assistance from  './_icons/Assistance';
 import Atm from  './_icons/Atm';
 import Attachment from  './_icons/Attachment';
@@ -296,6 +297,7 @@ export const iconsArray = [
 	'airportshuttle',
 	'alcoholicbeverages',
 	'arrowback',
+	'arrowforward',
 	'assistance',
 	'atm',
 	'attachment',
@@ -580,6 +582,7 @@ export const iconsObject = {
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
 	arrowback: ArrowBack,
+	arrowforward: ArrowForward,
 	assistance: Assistance,
 	atm: Atm,
 	attachment: Attachment,
