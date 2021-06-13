@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const ArrowForward: IconComponent = (props) => (
-    <Icon viewBox="0 0 10 17" fill="undefined" {...props}>
+    <Icon viewBox="0 0 10 17" {...props}>
         <path
             fill="none"
             stroke="currentColor"
