@@ -11,6 +11,7 @@ export { default as AirConditionerIcon } from  './_icons/AirConditioner';
 export { default as AirportShuttleIcon } from  './_icons/AirportShuttle';
 export { default as AlcoholicBeveragesIcon } from  './_icons/AlcoholicBeverages';
 export { default as ArrowBackIcon } from  './_icons/ArrowBack';
+export { default as ArrowForwardIcon } from  './_icons/ArrowForward';
 export { default as AssistanceIcon } from  './_icons/Assistance';
 export { default as AtmIcon } from  './_icons/Atm';
 export { default as AttachmentIcon } from  './_icons/Attachment';

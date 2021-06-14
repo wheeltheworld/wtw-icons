@@ -32,7 +32,7 @@ const template = (name: string, content: string, opts: { viewBox: string; fill: 
     import { IconComponent } from '../types';
     
     const ${name}: IconComponent = (props) => (
-        <Icon viewBox="${opts.viewBox}" fill="${opts.fill}" {...props}>
+        <Icon viewBox="${opts.viewBox}" fill="${opts.fill || ''}" {...props}>
             ${content}
         </Icon>
     );
