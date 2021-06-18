@@ -11,6 +11,6 @@
 
 ## How to add a new icon
 
-- add a new icon component at `/src/react/_icons/YourIcon.tsx`
-- remove the style tag if present and add the properties fo the class to the elements that have that class
+- add a new icon component at `/src/react/_icons/YourIcon.tsx` or add the `svg` to `/src/svgs/your-icon.svg`
+- remove the style tag if present and add the properties for the class to the elements that have that class
 - run `yarn gen`
