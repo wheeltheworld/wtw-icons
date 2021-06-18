@@ -3,34 +3,104 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Backpack: IconComponent = (props) => (
-    <Icon viewBox="0 0 48 48" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
-            fill="currentColor"
-            stroke="currentColor"
-        >
+    <Icon viewBox="0 0 24 24" {...props}>
+        <g transform="translate(0.5 0.5)">
             <path
                 fill="none"
                 stroke="currentColor"
+                strokeWidth={1.5}
                 strokeMiterlimit={10}
-                d="M40,46H8V18 c0-4.4,3.6-8,8-8h16c4.4,0,8,3.6,8,8V46z"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5,22.5h-16v-14c0-2.2,1.8-4,4-4h8c2.2,0,4,1.8,4,4V22.5z"
             />
-            <path fill="none" stroke="currentColor" strokeMiterlimit={10} d="M8,32L8,32 c-3.3,0-6,2.7-6,6v8h6" />
-            <path fill="none" stroke="currentColor" strokeMiterlimit={10} d="M40,32L40,32 c3.3,0,6,2.7,6,6v8h-6" />
-            <line fill="none" stroke="currentColor" strokeMiterlimit={10} x1={8} y1={26} x2={40} y2={26} />
             <path
-                data-color="color-2"
                 fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
                 strokeMiterlimit={10}
-                d="M16,14v-4 c0-4.4,3.6-8,8-8l0,0c4.4,0,8,3.6,8,8v4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.5,15.5L3.5,15.5c-1.7,0-3,1.4-3,3v4h3"
             />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={14} y1={34} x2={18} y2={34} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={30} y1={34} x2={34} y2={34} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={16} y1={22} x2={16} y2={38} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={32} y1={22} x2={32} y2={38} />
+            <path
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5,15.5L19.5,15.5c1.6,0,3,1.4,3,3v4h-3"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="3.5"
+                y1="12.5"
+                x2="19.5"
+                y2="12.5"
+            />
+            <path
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M7.5,6.5v-2c0-2.2,1.8-4,4-4l0,0c2.2,0,4,1.8,4,4v2"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="6.5"
+                y1="16.5"
+                x2="8.5"
+                y2="16.5"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="14.5"
+                y1="16.5"
+                x2="16.5"
+                y2="16.5"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="7.5"
+                y1="10.5"
+                x2="7.5"
+                y2="18.5"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="15.5"
+                y1="10.5"
+                x2="15.5"
+                y2="18.5"
+            />
         </g>
     </Icon>
 );
