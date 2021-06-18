@@ -3,11 +3,13 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Done: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <path
-            fill="#00a000"
-            d="M20 2.41A18.6 18.6 0 1038.6 21 18.6 18.6 0 0020 2.41zm11.77 15.66l-.07.06-13.95 11.62a2.48 2.48 0 01-1.85.53 2.36 2.36 0 01-1.6-1l-4.65-7a2.33 2.33 0 113.83-2.64v.06l3.2 4.83 12-10a2.33 2.33 0 013.07 3.51z"
-        />
+    <Icon viewBox="0 0 24 24" {...props}>
+        <g fill="currentColor">
+            <path
+                d="M12,0A12,12,0,1,0,24,12,12.035,12.035,0,0,0,12,0ZM10,17.414,4.586,12,6,10.586l4,4,8-8L19.414,8Z"
+                fill="currentColor"
+            />
+        </g>
     </Icon>
 );
 

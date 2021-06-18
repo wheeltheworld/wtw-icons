@@ -11,7 +11,9 @@ import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
 import ArrowBack from  './_icons/ArrowBack';
+import ArrowDown from  './_icons/ArrowDown';
 import ArrowForward from  './_icons/ArrowForward';
+import ArrowUp from  './_icons/ArrowUp';
 import Assistance from  './_icons/Assistance';
 import Atm from  './_icons/Atm';
 import Attachment from  './_icons/Attachment';
@@ -23,6 +25,7 @@ import Backpack from  './_icons/Backpack';
 import Backpacker from  './_icons/Backpacker';
 import Bagagge from  './_icons/Bagagge';
 import Baggage from  './_icons/Baggage';
+import Balcony from  './_icons/Balcony';
 import Bar from  './_icons/Bar';
 import Barbecue from  './_icons/Barbecue';
 import Bathroom from  './_icons/Bathroom';
@@ -49,6 +52,7 @@ import CCheckFilled from  './_icons/CCheckFilled';
 import Cabin from  './_icons/Cabin';
 import Cafeteria from  './_icons/Cafeteria';
 import Calendar from  './_icons/Calendar';
+import Camera from  './_icons/Camera';
 import Car from  './_icons/Car';
 import Chair from  './_icons/Chair';
 import Champagne from  './_icons/Champagne';
@@ -56,6 +60,7 @@ import ChangingRoom from  './_icons/ChangingRoom';
 import Clock from  './_icons/Clock';
 import Closet from  './_icons/Closet';
 import CoffeeMaker from  './_icons/CoffeeMaker';
+import Comment from  './_icons/Comment';
 import CommonBathroom from  './_icons/CommonBathroom';
 import Companion from  './_icons/Companion';
 import Complete from  './_icons/Complete';
@@ -134,6 +139,7 @@ import Language02 from  './_icons/Language02';
 import LanguageMessage from  './_icons/LanguageMessage';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
+import LeverHandle from  './_icons/LeverHandle';
 import Lifevest from  './_icons/Lifevest';
 import Linkedin from  './_icons/Linkedin';
 import LinkedinNeutral from  './_icons/LinkedinNeutral';
@@ -148,6 +154,8 @@ import Lunch from  './_icons/Lunch';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeetingPoint from  './_icons/MeetingPoint';
 import MeetingRoom from  './_icons/MeetingRoom';
+import Menu from  './_icons/Menu';
+import MessengerNeutral from  './_icons/MessengerNeutral';
 import MiniFridge from  './_icons/MiniFridge';
 import Minus from  './_icons/Minus';
 import Missing from  './_icons/Missing';
@@ -157,6 +165,7 @@ import Money from  './_icons/Money';
 import Motel from  './_icons/Motel';
 import MultiDayTrip from  './_icons/MultiDayTrip';
 import MultiDayTrips from  './_icons/MultiDayTrips';
+import NarrowShower from  './_icons/NarrowShower';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
 import Notification from  './_icons/Notification';
@@ -221,6 +230,7 @@ import SnapchatNeutral from  './_icons/SnapchatNeutral';
 import SocialDistancing from  './_icons/SocialDistancing';
 import SoftDrink from  './_icons/SoftDrink';
 import Spa from  './_icons/Spa';
+import StairHandrails from  './_icons/StairHandrails';
 import Stairs from  './_icons/Stairs';
 import StarEmpty from  './_icons/StarEmpty';
 import StarFull from  './_icons/StarFull';
@@ -256,6 +266,7 @@ import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
 import VendingMachine from  './_icons/VendingMachine';
 import Verified from  './_icons/Verified';
+import VideoCamera from  './_icons/VideoCamera';
 import View from  './_icons/View';
 import Vimeo from  './_icons/Vimeo';
 import VimeoNeutral from  './_icons/VimeoNeutral';
@@ -297,7 +308,9 @@ export const iconsArray = [
 	'airportshuttle',
 	'alcoholicbeverages',
 	'arrowback',
+	'arrowdown',
 	'arrowforward',
+	'arrowup',
 	'assistance',
 	'atm',
 	'attachment',
@@ -309,6 +322,7 @@ export const iconsArray = [
 	'backpacker',
 	'bagagge',
 	'baggage',
+	'balcony',
 	'bar',
 	'barbecue',
 	'bathroom',
@@ -335,6 +349,7 @@ export const iconsArray = [
 	'cabin',
 	'cafeteria',
 	'calendar',
+	'camera',
 	'car',
 	'chair',
 	'champagne',
@@ -342,6 +357,7 @@ export const iconsArray = [
 	'clock',
 	'closet',
 	'coffeemaker',
+	'comment',
 	'commonbathroom',
 	'companion',
 	'complete',
@@ -420,6 +436,7 @@ export const iconsArray = [
 	'languagemessage',
 	'laundry',
 	'level',
+	'leverhandle',
 	'lifevest',
 	'linkedin',
 	'linkedinneutral',
@@ -434,6 +451,8 @@ export const iconsArray = [
 	'measuringtape',
 	'meetingpoint',
 	'meetingroom',
+	'menu',
+	'messengerneutral',
 	'minifridge',
 	'minus',
 	'missing',
@@ -443,6 +462,7 @@ export const iconsArray = [
 	'motel',
 	'multidaytrip',
 	'multidaytrips',
+	'narrowshower',
 	'next',
 	'no',
 	'notification',
@@ -507,6 +527,7 @@ export const iconsArray = [
 	'socialdistancing',
 	'softdrink',
 	'spa',
+	'stairhandrails',
 	'stairs',
 	'starempty',
 	'starfull',
@@ -542,6 +563,7 @@ export const iconsArray = [
 	'valetparking',
 	'vendingmachine',
 	'verified',
+	'videocamera',
 	'view',
 	'vimeo',
 	'vimeoneutral',
@@ -582,7 +604,9 @@ export const iconsObject = {
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
 	arrowback: ArrowBack,
+	arrowdown: ArrowDown,
 	arrowforward: ArrowForward,
+	arrowup: ArrowUp,
 	assistance: Assistance,
 	atm: Atm,
 	attachment: Attachment,
@@ -594,6 +618,7 @@ export const iconsObject = {
 	backpacker: Backpacker,
 	bagagge: Bagagge,
 	baggage: Baggage,
+	balcony: Balcony,
 	bar: Bar,
 	barbecue: Barbecue,
 	bathroom: Bathroom,
@@ -620,6 +645,7 @@ export const iconsObject = {
 	cabin: Cabin,
 	cafeteria: Cafeteria,
 	calendar: Calendar,
+	camera: Camera,
 	car: Car,
 	chair: Chair,
 	champagne: Champagne,
@@ -627,6 +653,7 @@ export const iconsObject = {
 	clock: Clock,
 	closet: Closet,
 	coffeemaker: CoffeeMaker,
+	comment: Comment,
 	commonbathroom: CommonBathroom,
 	companion: Companion,
 	complete: Complete,
@@ -705,6 +732,7 @@ export const iconsObject = {
 	languagemessage: LanguageMessage,
 	laundry: Laundry,
 	level: Level,
+	leverhandle: LeverHandle,
 	lifevest: Lifevest,
 	linkedin: Linkedin,
 	linkedinneutral: LinkedinNeutral,
@@ -719,6 +747,8 @@ export const iconsObject = {
 	measuringtape: MeasuringTape,
 	meetingpoint: MeetingPoint,
 	meetingroom: MeetingRoom,
+	menu: Menu,
+	messengerneutral: MessengerNeutral,
 	minifridge: MiniFridge,
 	minus: Minus,
 	missing: Missing,
@@ -728,6 +758,7 @@ export const iconsObject = {
 	motel: Motel,
 	multidaytrip: MultiDayTrip,
 	multidaytrips: MultiDayTrips,
+	narrowshower: NarrowShower,
 	next: Next,
 	no: No,
 	notification: Notification,
@@ -792,6 +823,7 @@ export const iconsObject = {
 	socialdistancing: SocialDistancing,
 	softdrink: SoftDrink,
 	spa: Spa,
+	stairhandrails: StairHandrails,
 	stairs: Stairs,
 	starempty: StarEmpty,
 	starfull: StarFull,
@@ -827,6 +859,7 @@ export const iconsObject = {
 	valetparking: ValetParking,
 	vendingmachine: VendingMachine,
 	verified: Verified,
+	videocamera: VideoCamera,
 	view: View,
 	vimeo: Vimeo,
 	vimeoneutral: VimeoNeutral,

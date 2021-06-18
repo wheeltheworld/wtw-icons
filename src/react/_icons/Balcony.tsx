@@ -2,9 +2,9 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const Backpack: IconComponent = (props) => (
+const Balcony: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
+        <g>
             <path
                 fill="none"
                 stroke="currentColor"
@@ -12,25 +12,7 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M19.5,22.5h-16v-14c0-2.2,1.8-4,4-4h8c2.2,0,4,1.8,4,4V22.5z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.5,15.5L3.5,15.5c-1.7,0-3,1.4-3,3v4h3"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5,15.5L19.5,15.5c1.6,0,3,1.4,3,3v4h-3"
+                d="M17.8,15.9V8.1c0-3.2-2.6-5.8-5.8-5.8S6.2,4.9,6.2,8.1v7.7"
             />
             <line
                 fill="none"
@@ -39,19 +21,10 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                x1="3.5"
-                y1="12.5"
-                x2="19.5"
-                y2="12.5"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M7.5,6.5v-2c0-2.2,1.8-4,4-4l0,0c2.2,0,4,1.8,4,4v2"
+                x1="1"
+                y1="15.9"
+                x2="23"
+                y2="15.9"
             />
             <line
                 fill="none"
@@ -60,10 +33,10 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                x1="6.5"
-                y1="16.5"
-                x2="8.5"
-                y2="16.5"
+                x1="12"
+                y1="2.3"
+                x2="12"
+                y2="15.8"
             />
             <line
                 fill="none"
@@ -72,10 +45,19 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                x1="14.5"
-                y1="16.5"
-                x2="16.5"
-                y2="16.5"
+                x1="6.2"
+                y1="9"
+                x2="17.8"
+                y2="9"
+            />
+            <polyline
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                points="2.3,15.9 2.3,21.7 21.7,21.7 21.7,15.9 	"
             />
             <line
                 fill="none"
@@ -84,10 +66,10 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                x1="7.5"
-                y1="10.5"
-                x2="7.5"
-                y2="18.5"
+                x1="6.1"
+                y1="21.7"
+                x2="6.1"
+                y2="15.9"
             />
             <line
                 fill="none"
@@ -96,13 +78,37 @@ const Backpack: IconComponent = (props) => (
                 strokeMiterlimit={10}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                x1="15.5"
-                y1="10.5"
-                x2="15.5"
-                y2="18.5"
+                x1="17.8"
+                y1="21.7"
+                x2="17.8"
+                y2="15.9"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="10"
+                y1="21.7"
+                x2="10"
+                y2="15.9"
+            />
+            <line
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                x1="13.9"
+                y1="21.7"
+                x2="13.9"
+                y2="15.9"
             />
         </g>
     </Icon>
 );
 
-export default Backpack;
+export default Balcony;
