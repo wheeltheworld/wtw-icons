@@ -91,6 +91,7 @@ export { default as EntertainmentIcon } from  './_icons/Entertainment';
 export { default as EntranceIcon } from  './_icons/Entrance';
 export { default as EquipmentIcon } from  './_icons/Equipment';
 export { default as EventRoomIcon } from  './_icons/EventRoom';
+export { default as ExhibitionIcon } from  './_icons/Exhibition';
 export { default as FacebookIcon } from  './_icons/Facebook';
 export { default as FacebookNeutralIcon } from  './_icons/FacebookNeutral';
 export { default as FilterIcon } from  './_icons/Filter';
