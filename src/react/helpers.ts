@@ -91,6 +91,7 @@ import Entertainment from  './_icons/Entertainment';
 import Entrance from  './_icons/Entrance';
 import Equipment from  './_icons/Equipment';
 import EventRoom from  './_icons/EventRoom';
+import Exhibition from  './_icons/Exhibition';
 import Facebook from  './_icons/Facebook';
 import FacebookNeutral from  './_icons/FacebookNeutral';
 import Filter from  './_icons/Filter';
@@ -388,6 +389,7 @@ export const iconsArray = [
 	'entrance',
 	'equipment',
 	'eventroom',
+	'exhibition',
 	'facebook',
 	'facebookneutral',
 	'filter',
@@ -684,6 +686,7 @@ export const iconsObject = {
 	entrance: Entrance,
 	equipment: Equipment,
 	eventroom: EventRoom,
+	exhibition: Exhibition,
 	facebook: Facebook,
 	facebookneutral: FacebookNeutral,
 	filter: Filter,
