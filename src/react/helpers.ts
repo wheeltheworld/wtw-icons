@@ -213,6 +213,7 @@ import Search from  './_icons/Search';
 import Security from  './_icons/Security';
 import SedanCar from  './_icons/SedanCar';
 import Senior from  './_icons/Senior';
+import ServiceDog from  './_icons/ServiceDog';
 import Settings from  './_icons/Settings';
 import Share from  './_icons/Share';
 import Shop from  './_icons/Shop';
@@ -511,6 +512,7 @@ export const iconsArray = [
 	'security',
 	'sedancar',
 	'senior',
+	'servicedog',
 	'settings',
 	'share',
 	'shop',
@@ -808,6 +810,7 @@ export const iconsObject = {
 	security: Security,
 	sedancar: SedanCar,
 	senior: Senior,
+	servicedog: ServiceDog,
 	settings: Settings,
 	share: Share,
 	shop: Shop,

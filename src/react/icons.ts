@@ -213,6 +213,7 @@ export { default as SearchIcon } from  './_icons/Search';
 export { default as SecurityIcon } from  './_icons/Security';
 export { default as SedanCarIcon } from  './_icons/SedanCar';
 export { default as SeniorIcon } from  './_icons/Senior';
+export { default as ServiceDogIcon } from  './_icons/ServiceDog';
 export { default as SettingsIcon } from  './_icons/Settings';
 export { default as ShareIcon } from  './_icons/Share';
 export { default as ShopIcon } from  './_icons/Shop';
