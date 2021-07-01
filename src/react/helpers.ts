@@ -244,6 +244,7 @@ import Taxes from  './_icons/Taxes';
 import Tea from  './_icons/Tea';
 import TeaMakingFacilities from  './_icons/TeaMakingFacilities';
 import TeaRoom from  './_icons/TeaRoom';
+import TermsAndConditions from  './_icons/TermsAndConditions';
 import Terrace from  './_icons/Terrace';
 import ThingsToDo from  './_icons/ThingsToDo';
 import ThreeSteps from  './_icons/ThreeSteps';
@@ -543,6 +544,7 @@ export const iconsArray = [
 	'tea',
 	'teamakingfacilities',
 	'tearoom',
+	'termsandconditions',
 	'terrace',
 	'thingstodo',
 	'threesteps',
@@ -841,6 +843,7 @@ export const iconsObject = {
 	tea: Tea,
 	teamakingfacilities: TeaMakingFacilities,
 	tearoom: TeaRoom,
+	termsandconditions: TermsAndConditions,
 	terrace: Terrace,
 	thingstodo: ThingsToDo,
 	threesteps: ThreeSteps,

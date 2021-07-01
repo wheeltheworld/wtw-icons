@@ -244,6 +244,7 @@ export { default as TaxesIcon } from  './_icons/Taxes';
 export { default as TeaIcon } from  './_icons/Tea';
 export { default as TeaMakingFacilitiesIcon } from  './_icons/TeaMakingFacilities';
 export { default as TeaRoomIcon } from  './_icons/TeaRoom';
+export { default as TermsAndConditionsIcon } from  './_icons/TermsAndConditions';
 export { default as TerraceIcon } from  './_icons/Terrace';
 export { default as ThingsToDoIcon } from  './_icons/ThingsToDo';
 export { default as ThreeStepsIcon } from  './_icons/ThreeSteps';
