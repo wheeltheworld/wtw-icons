@@ -59,6 +59,7 @@ import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
 import Clock from  './_icons/Clock';
 import Closet from  './_icons/Closet';
+import Clothes from  './_icons/Clothes';
 import CoffeeMaker from  './_icons/CoffeeMaker';
 import Comment from  './_icons/Comment';
 import CommonBathroom from  './_icons/CommonBathroom';
@@ -285,6 +286,7 @@ import WaterActivity from  './_icons/WaterActivity';
 import WaterBottle from  './_icons/WaterBottle';
 import WaterFountain from  './_icons/WaterFountain';
 import Weather from  './_icons/Weather';
+import WeightScale from  './_icons/WeightScale';
 import Whatsapp from  './_icons/Whatsapp';
 import WhatsappNeutral from  './_icons/WhatsappNeutral';
 import Wheelchair from  './_icons/Wheelchair';
@@ -359,6 +361,7 @@ export const iconsArray = [
 	'changingroom',
 	'clock',
 	'closet',
+	'clothes',
 	'coffeemaker',
 	'comment',
 	'commonbathroom',
@@ -585,6 +588,7 @@ export const iconsArray = [
 	'waterbottle',
 	'waterfountain',
 	'weather',
+	'weightscale',
 	'whatsapp',
 	'whatsappneutral',
 	'wheelchair',
@@ -658,6 +662,7 @@ export const iconsObject = {
 	changingroom: ChangingRoom,
 	clock: Clock,
 	closet: Closet,
+	clothes: Clothes,
 	coffeemaker: CoffeeMaker,
 	comment: Comment,
 	commonbathroom: CommonBathroom,
@@ -884,6 +889,7 @@ export const iconsObject = {
 	waterbottle: WaterBottle,
 	waterfountain: WaterFountain,
 	weather: Weather,
+	weightscale: WeightScale,
 	whatsapp: Whatsapp,
 	whatsappneutral: WhatsappNeutral,
 	wheelchair: Wheelchair,
