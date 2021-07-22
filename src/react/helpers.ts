@@ -1,5 +1,6 @@
 import Accessibility from  './_icons/Accessibility';
 import AccessibleBathroom from  './_icons/AccessibleBathroom';
+import AccessibleElevator from  './_icons/AccessibleElevator';
 import AccessibleEquipment from  './_icons/AccessibleEquipment';
 import AccessiblePaths from  './_icons/AccessiblePaths';
 import AccessibleTransportation from  './_icons/AccessibleTransportation';
@@ -14,6 +15,7 @@ import ArrowBack from  './_icons/ArrowBack';
 import ArrowDown from  './_icons/ArrowDown';
 import ArrowForward from  './_icons/ArrowForward';
 import ArrowUp from  './_icons/ArrowUp';
+import Art from  './_icons/Art';
 import Assistance from  './_icons/Assistance';
 import Atm from  './_icons/Atm';
 import Attachment from  './_icons/Attachment';
@@ -49,6 +51,7 @@ import Bus from  './_icons/Bus';
 import BusinessCenter from  './_icons/BusinessCenter';
 import CCheck from  './_icons/CCheck';
 import CCheckFilled from  './_icons/CCheckFilled';
+import CDelete from  './_icons/CDelete';
 import Cabin from  './_icons/Cabin';
 import Cafeteria from  './_icons/Cafeteria';
 import Calendar from  './_icons/Calendar';
@@ -78,6 +81,7 @@ import Delete from  './_icons/Delete';
 import Destinations from  './_icons/Destinations';
 import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
+import Document from  './_icons/Document';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
 import Download from  './_icons/Download';
@@ -177,7 +181,9 @@ import OneStep from  './_icons/OneStep';
 import OpenTour from  './_icons/OpenTour';
 import Other from  './_icons/Other';
 import Outdoor from  './_icons/Outdoor';
+import OutdoorSpace from  './_icons/OutdoorSpace';
 import Oven from  './_icons/Oven';
+import PPark from  './_icons/PPark';
 import Park from  './_icons/Park';
 import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
@@ -223,6 +229,7 @@ import Shower from  './_icons/Shower';
 import ShowerGrabBar from  './_icons/ShowerGrabBar';
 import ShowerLowStep from  './_icons/ShowerLowStep';
 import ShowerSeat from  './_icons/ShowerSeat';
+import SignLanguage from  './_icons/SignLanguage';
 import Sink from  './_icons/Sink';
 import SinkTap from  './_icons/SinkTap';
 import SmokeFree from  './_icons/SmokeFree';
@@ -302,6 +309,7 @@ import { IconTag } from './types'
 export const iconsArray = [
 	'accessibility',
 	'accessiblebathroom',
+	'accessibleelevator',
 	'accessibleequipment',
 	'accessiblepaths',
 	'accessibletransportation',
@@ -316,6 +324,7 @@ export const iconsArray = [
 	'arrowdown',
 	'arrowforward',
 	'arrowup',
+	'art',
 	'assistance',
 	'atm',
 	'attachment',
@@ -351,6 +360,7 @@ export const iconsArray = [
 	'businesscenter',
 	'ccheck',
 	'ccheckfilled',
+	'cdelete',
 	'cabin',
 	'cafeteria',
 	'calendar',
@@ -380,6 +390,7 @@ export const iconsArray = [
 	'destinations',
 	'dice',
 	'dinner',
+	'document',
 	'documentation',
 	'done',
 	'download',
@@ -479,7 +490,9 @@ export const iconsArray = [
 	'opentour',
 	'other',
 	'outdoor',
+	'outdoorspace',
 	'oven',
+	'ppark',
 	'park',
 	'parking',
 	'partners',
@@ -525,6 +538,7 @@ export const iconsArray = [
 	'showergrabbar',
 	'showerlowstep',
 	'showerseat',
+	'signlanguage',
 	'sink',
 	'sinktap',
 	'smokefree',
@@ -603,6 +617,7 @@ export const iconsArray = [
 export const iconsObject = {
 	accessibility: Accessibility,
 	accessiblebathroom: AccessibleBathroom,
+	accessibleelevator: AccessibleElevator,
 	accessibleequipment: AccessibleEquipment,
 	accessiblepaths: AccessiblePaths,
 	accessibletransportation: AccessibleTransportation,
@@ -617,6 +632,7 @@ export const iconsObject = {
 	arrowdown: ArrowDown,
 	arrowforward: ArrowForward,
 	arrowup: ArrowUp,
+	art: Art,
 	assistance: Assistance,
 	atm: Atm,
 	attachment: Attachment,
@@ -652,6 +668,7 @@ export const iconsObject = {
 	businesscenter: BusinessCenter,
 	ccheck: CCheck,
 	ccheckfilled: CCheckFilled,
+	cdelete: CDelete,
 	cabin: Cabin,
 	cafeteria: Cafeteria,
 	calendar: Calendar,
@@ -681,6 +698,7 @@ export const iconsObject = {
 	destinations: Destinations,
 	dice: Dice,
 	dinner: Dinner,
+	document: Document,
 	documentation: Documentation,
 	done: Done,
 	download: Download,
@@ -780,7 +798,9 @@ export const iconsObject = {
 	opentour: OpenTour,
 	other: Other,
 	outdoor: Outdoor,
+	outdoorspace: OutdoorSpace,
 	oven: Oven,
+	ppark: PPark,
 	park: Park,
 	parking: Parking,
 	partners: Partners,
@@ -826,6 +846,7 @@ export const iconsObject = {
 	showergrabbar: ShowerGrabBar,
 	showerlowstep: ShowerLowStep,
 	showerseat: ShowerSeat,
+	signlanguage: SignLanguage,
 	sink: Sink,
 	sinktap: SinkTap,
 	smokefree: SmokeFree,
