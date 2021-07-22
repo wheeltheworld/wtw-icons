@@ -183,7 +183,6 @@ import Other from  './_icons/Other';
 import Outdoor from  './_icons/Outdoor';
 import OutdoorSpace from  './_icons/OutdoorSpace';
 import Oven from  './_icons/Oven';
-import PPark from  './_icons/PPark';
 import Park from  './_icons/Park';
 import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
@@ -492,7 +491,6 @@ export const iconsArray = [
 	'outdoor',
 	'outdoorspace',
 	'oven',
-	'ppark',
 	'park',
 	'parking',
 	'partners',
@@ -800,7 +798,6 @@ export const iconsObject = {
 	outdoor: Outdoor,
 	outdoorspace: OutdoorSpace,
 	oven: Oven,
-	ppark: PPark,
 	park: Park,
 	parking: Parking,
 	partners: Partners,

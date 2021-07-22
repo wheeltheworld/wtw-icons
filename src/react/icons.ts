@@ -183,7 +183,6 @@ export { default as OtherIcon } from  './_icons/Other';
 export { default as OutdoorIcon } from  './_icons/Outdoor';
 export { default as OutdoorSpaceIcon } from  './_icons/OutdoorSpace';
 export { default as OvenIcon } from  './_icons/Oven';
-export { default as PParkIcon } from  './_icons/PPark';
 export { default as ParkIcon } from  './_icons/Park';
 export { default as ParkingIcon } from  './_icons/Parking';
 export { default as PartnersIcon } from  './_icons/Partners';
