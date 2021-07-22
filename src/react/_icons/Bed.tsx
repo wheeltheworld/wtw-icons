@@ -4,94 +4,19 @@ import { IconComponent } from '../types';
 
 const Bed: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={1}
-                y1={16}
-                x2={1}
-                y2={20}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={23}
-                y1={16}
-                x2={23}
-                y2={20}
-                strokeLinejoin="round"
-            />
-            <rect
-                x={1}
-                y={10}
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                width={22}
-                height={6}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={3}
-                y1={10}
-                x2={3}
-                y2={3}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={21}
-                y1={10}
-                x2={21}
-                y2={3}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={3}
-                y1={5}
-                x2={21}
-                y2={5}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={12}
-                y1={10}
-                x2={12}
-                y2={5}
-                strokeLinejoin="round"
-            />
-        </g>
+        <g fill="currentColor" className="nc-icon-wrapper">
+        <path
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
+          d="M4.82 13.86h13.36M4.82 17h13.36M7.18 3.64h8.64v4.71H7.18zM18.18 19.36v-5.5l-2.36-5.5M7.18 8.36l-2.36 5.5v5.5"
+          className="st0"
+          transform="translate(.5 .5)"
+        ></path>
+      </g>
     </Icon>
 );
 
