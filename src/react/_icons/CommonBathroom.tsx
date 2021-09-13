@@ -48,7 +48,7 @@ const CommonBathroom: IconComponent = (props) => (
             <path
                 d="M17 10.7c-1 0-1.8-.8-1.8-1.8C15.1 7.8 16 7 17 7s1.8.8 1.8 1.8c0 1.1-.8 1.9-1.8 1.9z"
                 fill="none"
-                stroke="#232323"
+                stroke="currentColor"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -57,7 +57,7 @@ const CommonBathroom: IconComponent = (props) => (
             <path
                 d="M10.9 2.8v18.4"
                 fill="none"
-                stroke="#232323"
+                stroke="currentColor"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
