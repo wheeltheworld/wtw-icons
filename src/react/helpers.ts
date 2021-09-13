@@ -57,6 +57,7 @@ import Cafeteria from  './_icons/Cafeteria';
 import Calendar from  './_icons/Calendar';
 import Camera from  './_icons/Camera';
 import Car from  './_icons/Car';
+import Celebrate from  './_icons/Celebrate';
 import Chair from  './_icons/Chair';
 import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
@@ -64,6 +65,7 @@ import Clock from  './_icons/Clock';
 import Closet from  './_icons/Closet';
 import Clothes from  './_icons/Clothes';
 import CoffeeMaker from  './_icons/CoffeeMaker';
+import Cognitive from  './_icons/Cognitive';
 import Comment from  './_icons/Comment';
 import CommonBathroom from  './_icons/CommonBathroom';
 import Companion from  './_icons/Companion';
@@ -84,6 +86,7 @@ import Dinner from  './_icons/Dinner';
 import Document from  './_icons/Document';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
+import DoorHandle from  './_icons/DoorHandle';
 import Download from  './_icons/Download';
 import DryCleaning from  './_icons/DryCleaning';
 import Duplicate from  './_icons/Duplicate';
@@ -101,6 +104,7 @@ import Facebook from  './_icons/Facebook';
 import FacebookNeutral from  './_icons/FacebookNeutral';
 import Filter from  './_icons/Filter';
 import FitnessCenter from  './_icons/FitnessCenter';
+import FiveHours from  './_icons/FiveHours';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import FoodService from  './_icons/FoodService';
 import Garden from  './_icons/Garden';
@@ -164,11 +168,13 @@ import Menu from  './_icons/Menu';
 import MessengerNeutral from  './_icons/MessengerNeutral';
 import MiniFridge from  './_icons/MiniFridge';
 import Minus from  './_icons/Minus';
+import Mirror from  './_icons/Mirror';
 import Missing from  './_icons/Missing';
 import MissingAlt from  './_icons/MissingAlt';
 import MobilePhone from  './_icons/MobilePhone';
 import Money from  './_icons/Money';
 import Motel from  './_icons/Motel';
+import Mountain from  './_icons/Mountain';
 import MultiDayTrip from  './_icons/MultiDayTrip';
 import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
@@ -177,12 +183,14 @@ import No from  './_icons/No';
 import Notification from  './_icons/Notification';
 import NotificationActive from  './_icons/NotificationActive';
 import Nurse from  './_icons/Nurse';
+import OneHour from  './_icons/OneHour';
 import OneStep from  './_icons/OneStep';
 import OpenTour from  './_icons/OpenTour';
 import Other from  './_icons/Other';
 import Outdoor from  './_icons/Outdoor';
 import OutdoorSpace from  './_icons/OutdoorSpace';
 import Oven from  './_icons/Oven';
+import Oxigen from  './_icons/Oxigen';
 import Park from  './_icons/Park';
 import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
@@ -221,13 +229,16 @@ import SedanCar from  './_icons/SedanCar';
 import Senior from  './_icons/Senior';
 import ServiceDog from  './_icons/ServiceDog';
 import Settings from  './_icons/Settings';
+import SevenHours from  './_icons/SevenHours';
 import Share from  './_icons/Share';
 import Shop from  './_icons/Shop';
 import Shopping from  './_icons/Shopping';
+import ShortDistances from  './_icons/ShortDistances';
 import Shower from  './_icons/Shower';
 import ShowerGrabBar from  './_icons/ShowerGrabBar';
 import ShowerLowStep from  './_icons/ShowerLowStep';
 import ShowerSeat from  './_icons/ShowerSeat';
+import ShowerWheelchair from  './_icons/ShowerWheelchair';
 import SignLanguage from  './_icons/SignLanguage';
 import Sink from  './_icons/Sink';
 import SinkTap from  './_icons/SinkTap';
@@ -272,8 +283,10 @@ import TwentyFourHour from  './_icons/TwentyFourHour';
 import TwinBed from  './_icons/TwinBed';
 import Twitter from  './_icons/Twitter';
 import TwitterNeutral from  './_icons/TwitterNeutral';
+import TwoHours from  './_icons/TwoHours';
 import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
+import Van from  './_icons/Van';
 import VendingMachine from  './_icons/VendingMachine';
 import Verified from  './_icons/Verified';
 import VideoCamera from  './_icons/VideoCamera';
@@ -298,6 +311,7 @@ import WhatsappNeutral from  './_icons/WhatsappNeutral';
 import Wheelchair from  './_icons/Wheelchair';
 import WheelchairRamp from  './_icons/WheelchairRamp';
 import WheelchairUser from  './_icons/WheelchairUser';
+import WideEntranceShower from  './_icons/WideEntranceShower';
 import Wifi from  './_icons/Wifi';
 import Work from  './_icons/Work';
 import Youtube from  './_icons/Youtube';
@@ -365,6 +379,7 @@ export const iconsArray = [
 	'calendar',
 	'camera',
 	'car',
+	'celebrate',
 	'chair',
 	'champagne',
 	'changingroom',
@@ -372,6 +387,7 @@ export const iconsArray = [
 	'closet',
 	'clothes',
 	'coffeemaker',
+	'cognitive',
 	'comment',
 	'commonbathroom',
 	'companion',
@@ -392,6 +408,7 @@ export const iconsArray = [
 	'document',
 	'documentation',
 	'done',
+	'doorhandle',
 	'download',
 	'drycleaning',
 	'duplicate',
@@ -409,6 +426,7 @@ export const iconsArray = [
 	'facebookneutral',
 	'filter',
 	'fitnesscenter',
+	'fivehours',
 	'foldablepowerwheelchair',
 	'foodservice',
 	'garden',
@@ -472,11 +490,13 @@ export const iconsArray = [
 	'messengerneutral',
 	'minifridge',
 	'minus',
+	'mirror',
 	'missing',
 	'missingalt',
 	'mobilephone',
 	'money',
 	'motel',
+	'mountain',
 	'multidaytrip',
 	'multidaytrips',
 	'narrowshower',
@@ -485,12 +505,14 @@ export const iconsArray = [
 	'notification',
 	'notificationactive',
 	'nurse',
+	'onehour',
 	'onestep',
 	'opentour',
 	'other',
 	'outdoor',
 	'outdoorspace',
 	'oven',
+	'oxigen',
 	'park',
 	'parking',
 	'partners',
@@ -529,13 +551,16 @@ export const iconsArray = [
 	'senior',
 	'servicedog',
 	'settings',
+	'sevenhours',
 	'share',
 	'shop',
 	'shopping',
+	'shortdistances',
 	'shower',
 	'showergrabbar',
 	'showerlowstep',
 	'showerseat',
+	'showerwheelchair',
 	'signlanguage',
 	'sink',
 	'sinktap',
@@ -580,8 +605,10 @@ export const iconsArray = [
 	'twinbed',
 	'twitter',
 	'twitterneutral',
+	'twohours',
 	'upload',
 	'valetparking',
+	'van',
 	'vendingmachine',
 	'verified',
 	'videocamera',
@@ -606,6 +633,7 @@ export const iconsArray = [
 	'wheelchair',
 	'wheelchairramp',
 	'wheelchairuser',
+	'wideentranceshower',
 	'wifi',
 	'work',
 	'youtube',
@@ -672,6 +700,7 @@ export const iconsObject = {
 	calendar: Calendar,
 	camera: Camera,
 	car: Car,
+	celebrate: Celebrate,
 	chair: Chair,
 	champagne: Champagne,
 	changingroom: ChangingRoom,
@@ -679,6 +708,7 @@ export const iconsObject = {
 	closet: Closet,
 	clothes: Clothes,
 	coffeemaker: CoffeeMaker,
+	cognitive: Cognitive,
 	comment: Comment,
 	commonbathroom: CommonBathroom,
 	companion: Companion,
@@ -699,6 +729,7 @@ export const iconsObject = {
 	document: Document,
 	documentation: Documentation,
 	done: Done,
+	doorhandle: DoorHandle,
 	download: Download,
 	drycleaning: DryCleaning,
 	duplicate: Duplicate,
@@ -716,6 +747,7 @@ export const iconsObject = {
 	facebookneutral: FacebookNeutral,
 	filter: Filter,
 	fitnesscenter: FitnessCenter,
+	fivehours: FiveHours,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	foodservice: FoodService,
 	garden: Garden,
@@ -779,11 +811,13 @@ export const iconsObject = {
 	messengerneutral: MessengerNeutral,
 	minifridge: MiniFridge,
 	minus: Minus,
+	mirror: Mirror,
 	missing: Missing,
 	missingalt: MissingAlt,
 	mobilephone: MobilePhone,
 	money: Money,
 	motel: Motel,
+	mountain: Mountain,
 	multidaytrip: MultiDayTrip,
 	multidaytrips: MultiDayTrips,
 	narrowshower: NarrowShower,
@@ -792,12 +826,14 @@ export const iconsObject = {
 	notification: Notification,
 	notificationactive: NotificationActive,
 	nurse: Nurse,
+	onehour: OneHour,
 	onestep: OneStep,
 	opentour: OpenTour,
 	other: Other,
 	outdoor: Outdoor,
 	outdoorspace: OutdoorSpace,
 	oven: Oven,
+	oxigen: Oxigen,
 	park: Park,
 	parking: Parking,
 	partners: Partners,
@@ -836,13 +872,16 @@ export const iconsObject = {
 	senior: Senior,
 	servicedog: ServiceDog,
 	settings: Settings,
+	sevenhours: SevenHours,
 	share: Share,
 	shop: Shop,
 	shopping: Shopping,
+	shortdistances: ShortDistances,
 	shower: Shower,
 	showergrabbar: ShowerGrabBar,
 	showerlowstep: ShowerLowStep,
 	showerseat: ShowerSeat,
+	showerwheelchair: ShowerWheelchair,
 	signlanguage: SignLanguage,
 	sink: Sink,
 	sinktap: SinkTap,
@@ -887,8 +926,10 @@ export const iconsObject = {
 	twinbed: TwinBed,
 	twitter: Twitter,
 	twitterneutral: TwitterNeutral,
+	twohours: TwoHours,
 	upload: Upload,
 	valetparking: ValetParking,
+	van: Van,
 	vendingmachine: VendingMachine,
 	verified: Verified,
 	videocamera: VideoCamera,
@@ -913,6 +954,7 @@ export const iconsObject = {
 	wheelchair: Wheelchair,
 	wheelchairramp: WheelchairRamp,
 	wheelchairuser: WheelchairUser,
+	wideentranceshower: WideEntranceShower,
 	wifi: Wifi,
 	work: Work,
 	youtube: Youtube,
