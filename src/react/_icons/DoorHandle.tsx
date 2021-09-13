@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const DoorHandle: IconComponent = (props) => (
     <Icon viewBox="0 0 40 40" {...props}>
-        <svg fill="none">
+        <g fill="none">
             <path
                 d="M38.3333 8.3335H8.33325V15.0002H38.3333V8.3335Z"
                 stroke="currentColor"
@@ -26,7 +26,7 @@ const DoorHandle: IconComponent = (props) => (
                 stroke-linecap="round"
                 stroke-linejoin="round"
             />
-        </svg>
+        </g>
     </Icon>
 );
 
