@@ -4,19 +4,15 @@ import { IconComponent } from '../types';
 
 const Minus: IconComponent = (props) => (
     <Icon viewBox="0 0 40 40" {...props}>
-        <g>
+        <g fill="none">
             <path
-                fill="currentColor"
-                d="M20,3.26A17.93,17.93,0,1,1,2.08,21.19,17.94,17.94,0,0,1,20,3.26m0-.5A18.43,18.43,0,1,0,38.42,21.19,18.43,18.43,0,0,0,20,2.76Z"
-            />
-            <path
-                fill="none"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M39 20C39 30.4937 30.4937 39 20 39C9.5063 39 1 30.4937 1 20C1 9.50632 9.5063 1 20 1C30.4937 1 39 9.50632 39 20Z"
                 stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                strokeWidth=".5"
-                d="M13.77,21.19H26.23"
+                stroke-width="1.5"
             />
+            <path d="M14.3 20H25.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
         </g>
     </Icon>
 );
