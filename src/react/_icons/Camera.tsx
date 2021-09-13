@@ -17,7 +17,7 @@ const Camera: IconComponent = (props) => (
             <path
                 d="M21,22H3a2,2,0,0,1-2-2V7A2,2,0,0,1,3,5H7L9,2h6l2,3h4a2,2,0,0,1,2,2V20A2,2,0,0,1,21,22Z"
                 fill="none"
-                stroke="#232323"
+                stroke="currentColor"
                 strokeMiterlimit="10"
             />
             <circle cx="4" cy="8" r="1" stroke="none" />
