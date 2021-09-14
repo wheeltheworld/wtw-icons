@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
 import Icon from '../components/Icon';
-import { IconComponent } from '../types'
+import { IconComponent } from '../types';
 
 const TermsAndConditions: IconComponent = (props) => {
     return (
         <Icon fill="none" viewBox="0 0 20 28" {...props}>
             <g>
                 <path
-                    stroke="#232323"
+                    stroke="currentColor"
                     strokeLinecap="round"
                     strokeMiterlimit="10"
                     strokeWidth="1.5"
                     d="M1.421 2h13.395c.105 0 .237.05.316.126l3.763 3.89a.367.367 0 01.105.277v19.305a.406.406 0 01-.421.402H1.42A.406.406 0 011 25.598V2.402C1 2.176 1.184 2 1.421 2z"
                 ></path>
                 <path
-                    stroke="#232323"
+                    stroke="currentColor"
                     strokeLinecap="round"
                     strokeMiterlimit="10"
                     strokeWidth="1.5"
@@ -22,7 +22,7 @@ const TermsAndConditions: IconComponent = (props) => {
                 ></path>
             </g>
         </Icon>
-    )
-}
+    );
+};
 
 export default TermsAndConditions;
