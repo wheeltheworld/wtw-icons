@@ -116,6 +116,7 @@ import GroundTransportation from  './_icons/GroundTransportation';
 import Guides from  './_icons/Guides';
 import Gym from  './_icons/Gym';
 import HairDryer from  './_icons/HairDryer';
+import Happy from  './_icons/Happy';
 import Health from  './_icons/Health';
 import HearingAid from  './_icons/HearingAid';
 import HeatedPool from  './_icons/HeatedPool';
@@ -438,6 +439,7 @@ export const iconsArray = [
 	'guides',
 	'gym',
 	'hairdryer',
+	'happy',
 	'health',
 	'hearingaid',
 	'heatedpool',
@@ -759,6 +761,7 @@ export const iconsObject = {
 	guides: Guides,
 	gym: Gym,
 	hairdryer: HairDryer,
+	happy: Happy,
 	health: Health,
 	hearingaid: HearingAid,
 	heatedpool: HeatedPool,
