@@ -10,9 +10,9 @@ const Money: IconComponent = (props) => (
             strokeWidth={1.5}
             transform="translate(0.5 0.5)"
             fill="currentColor"
-            stroke={props.stroke}
+            stroke={props.stroke || 'currentColor'}
         >
-            <circle fill="none" stroke={props.stroke} strokeMiterlimit={10} cx={12} cy={12} r={11} />
+            <circle fill="none" stroke={props.stroke || 'currentColor'} strokeMiterlimit={10} cx={12} cy={12} r={11} />
             <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={12} y1={5} x2={12} y2={19} />
             <path
                 data-color="color-2"

@@ -7,7 +7,7 @@ const Accessibility: IconComponent = (props) => (
         <g transform="translate(0.5 0.5)">
             <circle
                 fill="none"
-                stroke={props.stroke}
+                stroke={props.stroke || 'currentColor'}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -18,7 +18,7 @@ const Accessibility: IconComponent = (props) => (
             />
             <path
                 fill="none"
-                stroke={props.stroke}
+                stroke={props.stroke || 'currentColor'}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -27,7 +27,7 @@ const Accessibility: IconComponent = (props) => (
             />
             <path
                 fill="none"
-                stroke={props.stroke}
+                stroke={props.stroke || 'currentColor'}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
