@@ -2,12 +2,12 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const Accessibility: IconComponent = (props) => (
+const Accessibility: IconComponent = ({ fill = 'currentColor', stroke = 'currentColor', ...props }) => (
     <Icon viewBox="0 0 24 24" {...props}>
         <g transform="translate(0.5 0.5)">
             <circle
                 fill="none"
-                stroke={props.stroke || 'currentColor'}
+                stroke={stroke}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -18,7 +18,7 @@ const Accessibility: IconComponent = (props) => (
             />
             <path
                 fill="none"
-                stroke={props.stroke || 'currentColor'}
+                stroke={stroke}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -27,7 +27,7 @@ const Accessibility: IconComponent = (props) => (
             />
             <path
                 fill="none"
-                stroke={props.stroke || 'currentColor'}
+                stroke={stroke}
                 strokeWidth={1.5}
                 strokeLinecap="round"
                 strokeLinejoin="round"
