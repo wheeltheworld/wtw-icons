@@ -9,7 +9,6 @@ const MeasuringTape: IconComponent = (props) => (
         strokeMiterlimit="10"
         strokeWidth="1.5"
         clipPath="url(#clip0)"
-        fill="none"
       >
         <path
           strokeLinecap="round"
