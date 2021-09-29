@@ -9,6 +9,7 @@ const ShowerWheelchair: IconComponent = (props) => (
         strokeLinecap="round"
         strokeWidth="1.5"
         clipPath="url(#clip0)"
+        fill="none"
       >
         <path
           strokeLinejoin="round"
