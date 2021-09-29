@@ -62,6 +62,7 @@ import Chair from  './_icons/Chair';
 import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
 import Clock from  './_icons/Clock';
+import CloseButton from  './_icons/CloseButton';
 import Closet from  './_icons/Closet';
 import Clothes from  './_icons/Clothes';
 import CoffeeMaker from  './_icons/CoffeeMaker';
@@ -284,6 +285,7 @@ import TwentyFourHour from  './_icons/TwentyFourHour';
 import TwinBed from  './_icons/TwinBed';
 import Twitter from  './_icons/Twitter';
 import TwitterNeutral from  './_icons/TwitterNeutral';
+import TwoAssistants from  './_icons/TwoAssistants';
 import TwoHours from  './_icons/TwoHours';
 import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
@@ -385,6 +387,7 @@ export const iconsArray = [
 	'champagne',
 	'changingroom',
 	'clock',
+	'closebutton',
 	'closet',
 	'clothes',
 	'coffeemaker',
@@ -607,6 +610,7 @@ export const iconsArray = [
 	'twinbed',
 	'twitter',
 	'twitterneutral',
+	'twoassistants',
 	'twohours',
 	'upload',
 	'valetparking',
@@ -707,6 +711,7 @@ export const iconsObject = {
 	champagne: Champagne,
 	changingroom: ChangingRoom,
 	clock: Clock,
+	closebutton: CloseButton,
 	closet: Closet,
 	clothes: Clothes,
 	coffeemaker: CoffeeMaker,
@@ -929,6 +934,7 @@ export const iconsObject = {
 	twinbed: TwinBed,
 	twitter: Twitter,
 	twitterneutral: TwitterNeutral,
+	twoassistants: TwoAssistants,
 	twohours: TwoHours,
 	upload: Upload,
 	valetparking: ValetParking,
