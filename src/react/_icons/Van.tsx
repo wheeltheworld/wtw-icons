@@ -3,65 +3,23 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Van: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g fill="none">
-            <path
-                d="M36.3333 34.4999C37.6667 34.3333 38.5 33.1666 38.5 31.8333C38.5 30.4999 38.5 29.6666 37.8333 28.6666C37.8333 28.4999 37.6667 28.4999 37.6667 28.4999C36.5 26.9999 34.6667 25.9999 32.6667 25.9999H31.8333L26.1667 20.4999C25 19.4999 23.6667 18.8333 22.1667 18.8333H4.5C2.83333 18.8333 1.5 20.1666 1.5 21.8333V30.9999C1.5 31.1666 1.5 31.1666 1.5 31.3333C1.5 31.4999 1.5 31.4999 1.5 31.4999C1.83333 32.9999 3.16667 34.3333 4.83333 34.3333"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M12.5 34.4998H28.6667"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M31.3332 26H2.1665"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M17.833 19V25.5"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M25.8333 30.3333H15.5"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M8.66667 38.9998C10.6917 38.9998 12.3333 37.3582 12.3333 35.3332C12.3333 33.3081 10.6917 31.6665 8.66667 31.6665C6.64162 31.6665 5 33.3081 5 35.3332C5 37.3582 6.64162 38.9998 8.66667 38.9998Z"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M32.1667 38.9998C34.1917 38.9998 35.8333 37.3582 35.8333 35.3332C35.8333 33.3081 34.1917 31.6665 32.1667 31.6665C30.1416 31.6665 28.5 33.3081 28.5 35.3332C28.5 37.3582 30.1416 38.9998 32.1667 38.9998Z"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-        </g>
+    <Icon viewBox="0 0 24 24" {...props}>
+       <g
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="1.5"
+        clipPath="url(#clip0)"
+      >
+        <path d="M21.8 20.7c.8-.1 1.3-.8 1.3-1.6s0-1.3-.4-1.9c0-.1-.1-.1-.1-.1-.7-.9-1.8-1.5-3-1.5h-.5l-3.4-3.3c-.7-.6-1.5-1-2.4-1H2.7c-1 0-1.8.8-1.8 1.8v5.8c.2.9 1 1.7 2 1.7M7.5 20.7h9.7M18.8 15.6H1.3M10.7 11.4v3.9M15.5 18.2H9.3"></path>
+        <path d="M5.2 23.4a2.2 2.2 0 100-4.4 2.2 2.2 0 000 4.4zM19.3 23.4a2.2 2.2 0 100-4.4 2.2 2.2 0 000 4.4z"></path>
+      </g>
+      <defs>
+        <clipPath id="clip0">
+          <path fill="currentColor" d="M0 0H24V24H0z"></path>
+        </clipPath>
+      </defs>
     </Icon>
 );
 

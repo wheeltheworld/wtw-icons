@@ -4,54 +4,21 @@ import { IconComponent } from '../types';
 
 const Work: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <polyline
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                points=" 16,7 16,2 8,2 8,7 "
-                strokeLinejoin="round"
-            />
-            <rect
-                x={1}
-                y={7}
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                width={22}
-                height={15}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={5}
-                y1={7}
-                x2={5}
-                y2={22}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={19}
-                y1={7}
-                x2={19}
-                y2={22}
-                strokeLinejoin="round"
-            />
-        </g>
+           <g
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="1.5"
+        className="nc-icon-wrapper"
+        transform="translate(.5 .5)"
+      >
+        <path d="M16 7L16 2 8 2 8 7" data-color="color-2"></path>
+        <path d="M1 7H23V22H1z"></path>
+        <path d="M5 7L5 22"></path>
+        <path d="M19 7L19 22"></path>
+      </g>
     </Icon>
 );
 
