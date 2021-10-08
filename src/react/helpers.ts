@@ -120,6 +120,7 @@ import HairDryer from  './_icons/HairDryer';
 import Happy from  './_icons/Happy';
 import Health from  './_icons/Health';
 import HearingAid from  './_icons/HearingAid';
+import Heartbeat from  './_icons/Heartbeat';
 import HeatedPool from  './_icons/HeatedPool';
 import Heater from  './_icons/Heater';
 import HeavyPowerWheelchair from  './_icons/HeavyPowerWheelchair';
@@ -185,6 +186,7 @@ import No from  './_icons/No';
 import Notification from  './_icons/Notification';
 import NotificationActive from  './_icons/NotificationActive';
 import Nurse from  './_icons/Nurse';
+import Nutrition from  './_icons/Nutrition';
 import OneHour from  './_icons/OneHour';
 import OneStep from  './_icons/OneStep';
 import OpenTour from  './_icons/OpenTour';
@@ -208,6 +210,7 @@ import PlacesToStay from  './_icons/PlacesToStay';
 import Plane from  './_icons/Plane';
 import Playground from  './_icons/Playground';
 import Plus from  './_icons/Plus';
+import PregnantWoman from  './_icons/PregnantWoman';
 import Previous from  './_icons/Previous';
 import PrivateTour from  './_icons/PrivateTour';
 import Profile from  './_icons/Profile';
@@ -445,6 +448,7 @@ export const iconsArray = [
 	'happy',
 	'health',
 	'hearingaid',
+	'heartbeat',
 	'heatedpool',
 	'heater',
 	'heavypowerwheelchair',
@@ -510,6 +514,7 @@ export const iconsArray = [
 	'notification',
 	'notificationactive',
 	'nurse',
+	'nutrition',
 	'onehour',
 	'onestep',
 	'opentour',
@@ -533,6 +538,7 @@ export const iconsArray = [
 	'plane',
 	'playground',
 	'plus',
+	'pregnantwoman',
 	'previous',
 	'privatetour',
 	'profile',
@@ -769,6 +775,7 @@ export const iconsObject = {
 	happy: Happy,
 	health: Health,
 	hearingaid: HearingAid,
+	heartbeat: Heartbeat,
 	heatedpool: HeatedPool,
 	heater: Heater,
 	heavypowerwheelchair: HeavyPowerWheelchair,
@@ -834,6 +841,7 @@ export const iconsObject = {
 	notification: Notification,
 	notificationactive: NotificationActive,
 	nurse: Nurse,
+	nutrition: Nutrition,
 	onehour: OneHour,
 	onestep: OneStep,
 	opentour: OpenTour,
@@ -857,6 +865,7 @@ export const iconsObject = {
 	plane: Plane,
 	playground: Playground,
 	plus: Plus,
+	pregnantwoman: PregnantWoman,
 	previous: Previous,
 	privatetour: PrivateTour,
 	profile: Profile,
