@@ -176,6 +176,7 @@ export { default as MissingIcon } from  './_icons/Missing';
 export { default as MissingAltIcon } from  './_icons/MissingAlt';
 export { default as MobilePhoneIcon } from  './_icons/MobilePhone';
 export { default as MoneyIcon } from  './_icons/Money';
+export { default as MoreIcon } from  './_icons/More';
 export { default as MotelIcon } from  './_icons/Motel';
 export { default as MountainIcon } from  './_icons/Mountain';
 export { default as MultiDayTripIcon } from  './_icons/MultiDayTrip';

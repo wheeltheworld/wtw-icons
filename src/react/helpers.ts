@@ -176,6 +176,7 @@ import Missing from  './_icons/Missing';
 import MissingAlt from  './_icons/MissingAlt';
 import MobilePhone from  './_icons/MobilePhone';
 import Money from  './_icons/Money';
+import More from  './_icons/More';
 import Motel from  './_icons/Motel';
 import Mountain from  './_icons/Mountain';
 import MultiDayTrip from  './_icons/MultiDayTrip';
@@ -504,6 +505,7 @@ export const iconsArray = [
 	'missingalt',
 	'mobilephone',
 	'money',
+	'more',
 	'motel',
 	'mountain',
 	'multidaytrip',
@@ -831,6 +833,7 @@ export const iconsObject = {
 	missingalt: MissingAlt,
 	mobilephone: MobilePhone,
 	money: Money,
+	more: More,
 	motel: Motel,
 	mountain: Mountain,
 	multidaytrip: MultiDayTrip,
