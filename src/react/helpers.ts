@@ -323,6 +323,7 @@ import Wifi from  './_icons/Wifi';
 import Work from  './_icons/Work';
 import Youtube from  './_icons/Youtube';
 import YoutubeNeutral from  './_icons/YoutubeNeutral';
+import { NotComfortable, Sun } from './icons';
 
 import { IconTag } from './types'
 
@@ -980,6 +981,8 @@ export const iconsObject = {
 	work: Work,
 	youtube: Youtube,
 	youtubeneutral: YoutubeNeutral,
+	sun: Sun,
+	notComfortable: NotComfortable
 } as const;
 
 export function isValidIcon(possibleIcon: any): possibleIcon is IconTag {

@@ -323,3 +323,5 @@ export { default as WifiIcon } from  './_icons/Wifi';
 export { default as WorkIcon } from  './_icons/Work';
 export { default as YoutubeIcon } from  './_icons/Youtube';
 export { default as YoutubeNeutralIcon } from  './_icons/YoutubeNeutral';
+export { default as Sun } from  './_icons/Sun';
+export { default as NotComfortable } from  './_icons/NotComfortable';
