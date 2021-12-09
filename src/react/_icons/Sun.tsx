@@ -3,8 +3,8 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Sun: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
+    <Icon viewBox="0 0 40 40" {...props}>
+        <g fill="none">
             <path d="M30.0916 9.87181L33.4923 6.39709" stroke="currentColor" strokeWidth={1.5} strokeMiterlimit={10} strokeLinecap="round"/>
             <path d="M34.4907 19.9633L39.0005 20.0002" stroke="currentColor"  strokeWidth={1.5} strokeMiterlimit={10} strokeLinecap="round"/>
             <path d="M33.4923 33.5663L30.0916 30.0916" stroke="currentColor"  strokeWidth={1.5} strokeMiterlimit={10} strokeLinecap="round"/>

@@ -11,6 +11,7 @@ import Add from  './_icons/Add';
 import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
+import Altitude from  './_icons/Altitude';
 import ArrowBack from  './_icons/ArrowBack';
 import ArrowDown from  './_icons/ArrowDown';
 import ArrowForward from  './_icons/ArrowForward';
@@ -38,6 +39,7 @@ import BeachAccess from  './_icons/BeachAccess';
 import Beachfront from  './_icons/Beachfront';
 import Bed from  './_icons/Bed';
 import BedBreakfast from  './_icons/BedBreakfast';
+import BedHoist from  './_icons/BedHoist';
 import BedroomAccess from  './_icons/BedroomAccess';
 import BedroomInterior from  './_icons/BedroomInterior';
 import BeerBar from  './_icons/BeerBar';
@@ -67,6 +69,9 @@ import Closet from  './_icons/Closet';
 import Clothes from  './_icons/Clothes';
 import CoffeeMaker from  './_icons/CoffeeMaker';
 import Cognitive from  './_icons/Cognitive';
+import Cold from  './_icons/Cold';
+import Comfortable from  './_icons/Comfortable';
+import ComfortableEnough from  './_icons/ComfortableEnough';
 import Comment from  './_icons/Comment';
 import CommonBathroom from  './_icons/CommonBathroom';
 import Companion from  './_icons/Companion';
@@ -129,8 +134,10 @@ import Help from  './_icons/Help';
 import Hide from  './_icons/Hide';
 import HighBathtub from  './_icons/HighBathtub';
 import Home from  './_icons/Home';
+import Hot from  './_icons/Hot';
 import Hotel from  './_icons/Hotel';
 import Housekeeping from  './_icons/Housekeeping';
+import Humidity from  './_icons/Humidity';
 import Id from  './_icons/Id';
 import ImportantInfo from  './_icons/ImportantInfo';
 import Instagram from  './_icons/Instagram';
@@ -184,6 +191,7 @@ import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
+import NotComfortable from  './_icons/NotComfortable';
 import Notification from  './_icons/Notification';
 import NotificationActive from  './_icons/NotificationActive';
 import Nurse from  './_icons/Nurse';
@@ -262,6 +270,7 @@ import StarEmpty from  './_icons/StarEmpty';
 import StarFull from  './_icons/StarFull';
 import StarHalf from  './_icons/StarHalf';
 import StepFree from  './_icons/StepFree';
+import Sun from  './_icons/Sun';
 import SwimmingPool from  './_icons/SwimmingPool';
 import Switch from  './_icons/Switch';
 import Taxes from  './_icons/Taxes';
@@ -323,7 +332,6 @@ import Wifi from  './_icons/Wifi';
 import Work from  './_icons/Work';
 import Youtube from  './_icons/Youtube';
 import YoutubeNeutral from  './_icons/YoutubeNeutral';
-import { NotComfortable, Sun } from './icons';
 
 import { IconTag } from './types'
 
@@ -341,6 +349,7 @@ export const iconsArray = [
 	'airconditioner',
 	'airportshuttle',
 	'alcoholicbeverages',
+	'altitude',
 	'arrowback',
 	'arrowdown',
 	'arrowforward',
@@ -368,6 +377,7 @@ export const iconsArray = [
 	'beachfront',
 	'bed',
 	'bedbreakfast',
+	'bedhoist',
 	'bedroomaccess',
 	'bedroominterior',
 	'beerbar',
@@ -397,6 +407,9 @@ export const iconsArray = [
 	'clothes',
 	'coffeemaker',
 	'cognitive',
+	'cold',
+	'comfortable',
+	'comfortableenough',
 	'comment',
 	'commonbathroom',
 	'companion',
@@ -459,8 +472,10 @@ export const iconsArray = [
 	'hide',
 	'highbathtub',
 	'home',
+	'hot',
 	'hotel',
 	'housekeeping',
+	'humidity',
 	'id',
 	'importantinfo',
 	'instagram',
@@ -514,6 +529,7 @@ export const iconsArray = [
 	'narrowshower',
 	'next',
 	'no',
+	'notcomfortable',
 	'notification',
 	'notificationactive',
 	'nurse',
@@ -592,6 +608,7 @@ export const iconsArray = [
 	'starfull',
 	'starhalf',
 	'stepfree',
+	'sun',
 	'swimmingpool',
 	'switch',
 	'taxes',
@@ -669,6 +686,7 @@ export const iconsObject = {
 	airconditioner: AirConditioner,
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
+	altitude: Altitude,
 	arrowback: ArrowBack,
 	arrowdown: ArrowDown,
 	arrowforward: ArrowForward,
@@ -696,6 +714,7 @@ export const iconsObject = {
 	beachfront: Beachfront,
 	bed: Bed,
 	bedbreakfast: BedBreakfast,
+	bedhoist: BedHoist,
 	bedroomaccess: BedroomAccess,
 	bedroominterior: BedroomInterior,
 	beerbar: BeerBar,
@@ -725,6 +744,9 @@ export const iconsObject = {
 	clothes: Clothes,
 	coffeemaker: CoffeeMaker,
 	cognitive: Cognitive,
+	cold: Cold,
+	comfortable: Comfortable,
+	comfortableenough: ComfortableEnough,
 	comment: Comment,
 	commonbathroom: CommonBathroom,
 	companion: Companion,
@@ -787,8 +809,10 @@ export const iconsObject = {
 	hide: Hide,
 	highbathtub: HighBathtub,
 	home: Home,
+	hot: Hot,
 	hotel: Hotel,
 	housekeeping: Housekeeping,
+	humidity: Humidity,
 	id: Id,
 	importantinfo: ImportantInfo,
 	instagram: Instagram,
@@ -842,6 +866,7 @@ export const iconsObject = {
 	narrowshower: NarrowShower,
 	next: Next,
 	no: No,
+	notcomfortable: NotComfortable,
 	notification: Notification,
 	notificationactive: NotificationActive,
 	nurse: Nurse,
@@ -920,6 +945,7 @@ export const iconsObject = {
 	starfull: StarFull,
 	starhalf: StarHalf,
 	stepfree: StepFree,
+	sun: Sun,
 	swimmingpool: SwimmingPool,
 	switch: Switch,
 	taxes: Taxes,
@@ -981,8 +1007,6 @@ export const iconsObject = {
 	work: Work,
 	youtube: Youtube,
 	youtubeneutral: YoutubeNeutral,
-	sun: Sun,
-	notComfortable: NotComfortable
 } as const;
 
 export function isValidIcon(possibleIcon: any): possibleIcon is IconTag {
