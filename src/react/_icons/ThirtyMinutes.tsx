@@ -2,9 +2,13 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const TwoHours: IconComponent = (props) => (
-    <Icon viewBox="0 0 31 30" {...props}>
-        <g clipPath="url(#clip0_10728_11379)">
+const ThirtyMinutes: IconComponent = (props) => (
+    <Icon {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 31 30"
+    >
+      <g clipPath="url(#clip0_10728_11392)">
         <path
           stroke="currentColor"
           strokeMiterlimit="10"
@@ -13,15 +17,15 @@ const TwoHours: IconComponent = (props) => (
         ></path>
         <path
           fill="currentColor"
-          d="M15.625 14.75c0 .125 0 .25.125.25H16l10-6.125A3.799 3.799 0 0025.375 8 13.002 13.002 0 0021.5 4.5c-.25-.125-.625-.375-.875-.5-1.625-.75-3.25-1.125-5-1.125V14.75z"
+          d="M18.5 3.375c-1-.25-2-.375-3-.375v12h.25L18.5 3.375z"
         ></path>
       </g>
       <defs>
-        <clipPath id="clip0_10728_11379">
+        <clipPath id="clip0_10728_11392">
           <path fill="currentColor" d="M0 0H30V30H0z" transform="translate(.5)"></path>
         </clipPath>
       </defs>
     </Icon>
 );
 
-export default TwoHours;
+export default ThirtyMinutes;

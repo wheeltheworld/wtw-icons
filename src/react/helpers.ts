@@ -8,6 +8,7 @@ import Accommodation from  './_icons/Accommodation';
 import Activities from  './_icons/Activities';
 import AdaptiveEquipment from  './_icons/AdaptiveEquipment';
 import Add from  './_icons/Add';
+import Adrenaline from  './_icons/Adrenaline';
 import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
@@ -65,6 +66,7 @@ import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
 import Clock from  './_icons/Clock';
 import CloseButton from  './_icons/CloseButton';
+import ClosedCaptions from  './_icons/ClosedCaptions';
 import Closet from  './_icons/Closet';
 import Clothes from  './_icons/Clothes';
 import CoffeeMaker from  './_icons/CoffeeMaker';
@@ -77,8 +79,12 @@ import CommonBathroom from  './_icons/CommonBathroom';
 import Companion from  './_icons/Companion';
 import Complete from  './_icons/Complete';
 import Conference from  './_icons/Conference';
+import Confused from  './_icons/Confused';
+import ContrastMarking from  './_icons/ContrastMarking';
 import Countries from  './_icons/Countries';
+import CreditCard from  './_icons/CreditCard';
 import Crib from  './_icons/Crib';
+import Crowded from  './_icons/Crowded';
 import Crutches from  './_icons/Crutches';
 import CulturalPlace from  './_icons/CulturalPlace';
 import Culture from  './_icons/Culture';
@@ -113,6 +119,7 @@ import FitnessCenter from  './_icons/FitnessCenter';
 import FiveHours from  './_icons/FiveHours';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import FoodService from  './_icons/FoodService';
+import Forgetful from  './_icons/Forgetful';
 import Garden from  './_icons/Garden';
 import GeneralAttribute from  './_icons/GeneralAttribute';
 import Google from  './_icons/Google';
@@ -125,10 +132,12 @@ import HairDryer from  './_icons/HairDryer';
 import Happy from  './_icons/Happy';
 import Health from  './_icons/Health';
 import HearingAid from  './_icons/HearingAid';
+import HearingLoop from  './_icons/HearingLoop';
 import Heartbeat from  './_icons/Heartbeat';
 import HeatedPool from  './_icons/HeatedPool';
 import Heater from  './_icons/Heater';
 import HeavyPowerWheelchair from  './_icons/HeavyPowerWheelchair';
+import Heights from  './_icons/Heights';
 import Helmet from  './_icons/Helmet';
 import Help from  './_icons/Help';
 import Hide from  './_icons/Hide';
@@ -157,6 +166,7 @@ import LandActivity from  './_icons/LandActivity';
 import Language from  './_icons/Language';
 import Language02 from  './_icons/Language02';
 import LanguageMessage from  './_icons/LanguageMessage';
+import LargePrint from  './_icons/LargePrint';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import LeverHandle from  './_icons/LeverHandle';
@@ -183,6 +193,7 @@ import Missing from  './_icons/Missing';
 import MissingAlt from  './_icons/MissingAlt';
 import MobilePhone from  './_icons/MobilePhone';
 import Money from  './_icons/Money';
+import MoodSwings from  './_icons/MoodSwings';
 import More from  './_icons/More';
 import Motel from  './_icons/Motel';
 import Mountain from  './_icons/Mountain';
@@ -191,6 +202,7 @@ import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
+import Noise from  './_icons/Noise';
 import NotComfortable from  './_icons/NotComfortable';
 import Notification from  './_icons/Notification';
 import NotificationActive from  './_icons/NotificationActive';
@@ -211,6 +223,7 @@ import Pending from  './_icons/Pending';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
 import Phone from  './_icons/Phone';
+import PhysicalSpace from  './_icons/PhysicalSpace';
 import PicnicTable from  './_icons/PicnicTable';
 import Pinterest from  './_icons/Pinterest';
 import PinterestNeutral from  './_icons/PinterestNeutral';
@@ -256,6 +269,7 @@ import ShowerWheelchair from  './_icons/ShowerWheelchair';
 import SignLanguage from  './_icons/SignLanguage';
 import Sink from  './_icons/Sink';
 import SinkTap from  './_icons/SinkTap';
+import SmallSpaces from  './_icons/SmallSpaces';
 import SmokeFree from  './_icons/SmokeFree';
 import SnackBar from  './_icons/SnackBar';
 import Snacks from  './_icons/Snacks';
@@ -273,6 +287,8 @@ import StepFree from  './_icons/StepFree';
 import Sun from  './_icons/Sun';
 import SwimmingPool from  './_icons/SwimmingPool';
 import Switch from  './_icons/Switch';
+import TactilePaving from  './_icons/TactilePaving';
+import TactileReferences from  './_icons/TactileReferences';
 import Taxes from  './_icons/Taxes';
 import Tea from  './_icons/Tea';
 import TeaMakingFacilities from  './_icons/TeaMakingFacilities';
@@ -280,6 +296,8 @@ import TeaRoom from  './_icons/TeaRoom';
 import TermsAndConditions from  './_icons/TermsAndConditions';
 import Terrace from  './_icons/Terrace';
 import ThingsToDo from  './_icons/ThingsToDo';
+import ThirtyMinutes from  './_icons/ThirtyMinutes';
+import ThreeHours from  './_icons/ThreeHours';
 import ThreeSteps from  './_icons/ThreeSteps';
 import Ticket from  './_icons/Ticket';
 import Tiktok from  './_icons/Tiktok';
@@ -329,7 +347,9 @@ import WheelchairRamp from  './_icons/WheelchairRamp';
 import WheelchairUser from  './_icons/WheelchairUser';
 import WideEntranceShower from  './_icons/WideEntranceShower';
 import Wifi from  './_icons/Wifi';
+import Withdrawal from  './_icons/Withdrawal';
 import Work from  './_icons/Work';
+import WrittenInformation from  './_icons/WrittenInformation';
 import Youtube from  './_icons/Youtube';
 import YoutubeNeutral from  './_icons/YoutubeNeutral';
 
@@ -346,6 +366,7 @@ export const iconsArray = [
 	'activities',
 	'adaptiveequipment',
 	'add',
+	'adrenaline',
 	'airconditioner',
 	'airportshuttle',
 	'alcoholicbeverages',
@@ -403,6 +424,7 @@ export const iconsArray = [
 	'changingroom',
 	'clock',
 	'closebutton',
+	'closedcaptions',
 	'closet',
 	'clothes',
 	'coffeemaker',
@@ -415,8 +437,12 @@ export const iconsArray = [
 	'companion',
 	'complete',
 	'conference',
+	'confused',
+	'contrastmarking',
 	'countries',
+	'creditcard',
 	'crib',
+	'crowded',
 	'crutches',
 	'culturalplace',
 	'culture',
@@ -451,6 +477,7 @@ export const iconsArray = [
 	'fivehours',
 	'foldablepowerwheelchair',
 	'foodservice',
+	'forgetful',
 	'garden',
 	'generalattribute',
 	'google',
@@ -463,10 +490,12 @@ export const iconsArray = [
 	'happy',
 	'health',
 	'hearingaid',
+	'hearingloop',
 	'heartbeat',
 	'heatedpool',
 	'heater',
 	'heavypowerwheelchair',
+	'heights',
 	'helmet',
 	'help',
 	'hide',
@@ -495,6 +524,7 @@ export const iconsArray = [
 	'language',
 	'language02',
 	'languagemessage',
+	'largeprint',
 	'laundry',
 	'level',
 	'leverhandle',
@@ -521,6 +551,7 @@ export const iconsArray = [
 	'missingalt',
 	'mobilephone',
 	'money',
+	'moodswings',
 	'more',
 	'motel',
 	'mountain',
@@ -529,6 +560,7 @@ export const iconsArray = [
 	'narrowshower',
 	'next',
 	'no',
+	'noise',
 	'notcomfortable',
 	'notification',
 	'notificationactive',
@@ -549,6 +581,7 @@ export const iconsArray = [
 	'person',
 	'petfriendly',
 	'phone',
+	'physicalspace',
 	'picnictable',
 	'pinterest',
 	'pinterestneutral',
@@ -594,6 +627,7 @@ export const iconsArray = [
 	'signlanguage',
 	'sink',
 	'sinktap',
+	'smallspaces',
 	'smokefree',
 	'snackbar',
 	'snacks',
@@ -611,6 +645,8 @@ export const iconsArray = [
 	'sun',
 	'swimmingpool',
 	'switch',
+	'tactilepaving',
+	'tactilereferences',
 	'taxes',
 	'tea',
 	'teamakingfacilities',
@@ -618,6 +654,8 @@ export const iconsArray = [
 	'termsandconditions',
 	'terrace',
 	'thingstodo',
+	'thirtyminutes',
+	'threehours',
 	'threesteps',
 	'ticket',
 	'tiktok',
@@ -667,7 +705,9 @@ export const iconsArray = [
 	'wheelchairuser',
 	'wideentranceshower',
 	'wifi',
+	'withdrawal',
 	'work',
+	'writteninformation',
 	'youtube',
 	'youtubeneutral',
 ] as const;
@@ -683,6 +723,7 @@ export const iconsObject = {
 	activities: Activities,
 	adaptiveequipment: AdaptiveEquipment,
 	add: Add,
+	adrenaline: Adrenaline,
 	airconditioner: AirConditioner,
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
@@ -740,6 +781,7 @@ export const iconsObject = {
 	changingroom: ChangingRoom,
 	clock: Clock,
 	closebutton: CloseButton,
+	closedcaptions: ClosedCaptions,
 	closet: Closet,
 	clothes: Clothes,
 	coffeemaker: CoffeeMaker,
@@ -752,8 +794,12 @@ export const iconsObject = {
 	companion: Companion,
 	complete: Complete,
 	conference: Conference,
+	confused: Confused,
+	contrastmarking: ContrastMarking,
 	countries: Countries,
+	creditcard: CreditCard,
 	crib: Crib,
+	crowded: Crowded,
 	crutches: Crutches,
 	culturalplace: CulturalPlace,
 	culture: Culture,
@@ -788,6 +834,7 @@ export const iconsObject = {
 	fivehours: FiveHours,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	foodservice: FoodService,
+	forgetful: Forgetful,
 	garden: Garden,
 	generalattribute: GeneralAttribute,
 	google: Google,
@@ -800,10 +847,12 @@ export const iconsObject = {
 	happy: Happy,
 	health: Health,
 	hearingaid: HearingAid,
+	hearingloop: HearingLoop,
 	heartbeat: Heartbeat,
 	heatedpool: HeatedPool,
 	heater: Heater,
 	heavypowerwheelchair: HeavyPowerWheelchair,
+	heights: Heights,
 	helmet: Helmet,
 	help: Help,
 	hide: Hide,
@@ -832,6 +881,7 @@ export const iconsObject = {
 	language: Language,
 	language02: Language02,
 	languagemessage: LanguageMessage,
+	largeprint: LargePrint,
 	laundry: Laundry,
 	level: Level,
 	leverhandle: LeverHandle,
@@ -858,6 +908,7 @@ export const iconsObject = {
 	missingalt: MissingAlt,
 	mobilephone: MobilePhone,
 	money: Money,
+	moodswings: MoodSwings,
 	more: More,
 	motel: Motel,
 	mountain: Mountain,
@@ -866,6 +917,7 @@ export const iconsObject = {
 	narrowshower: NarrowShower,
 	next: Next,
 	no: No,
+	noise: Noise,
 	notcomfortable: NotComfortable,
 	notification: Notification,
 	notificationactive: NotificationActive,
@@ -886,6 +938,7 @@ export const iconsObject = {
 	person: Person,
 	petfriendly: PetFriendly,
 	phone: Phone,
+	physicalspace: PhysicalSpace,
 	picnictable: PicnicTable,
 	pinterest: Pinterest,
 	pinterestneutral: PinterestNeutral,
@@ -931,6 +984,7 @@ export const iconsObject = {
 	signlanguage: SignLanguage,
 	sink: Sink,
 	sinktap: SinkTap,
+	smallspaces: SmallSpaces,
 	smokefree: SmokeFree,
 	snackbar: SnackBar,
 	snacks: Snacks,
@@ -948,6 +1002,8 @@ export const iconsObject = {
 	sun: Sun,
 	swimmingpool: SwimmingPool,
 	switch: Switch,
+	tactilepaving: TactilePaving,
+	tactilereferences: TactileReferences,
 	taxes: Taxes,
 	tea: Tea,
 	teamakingfacilities: TeaMakingFacilities,
@@ -955,6 +1011,8 @@ export const iconsObject = {
 	termsandconditions: TermsAndConditions,
 	terrace: Terrace,
 	thingstodo: ThingsToDo,
+	thirtyminutes: ThirtyMinutes,
+	threehours: ThreeHours,
 	threesteps: ThreeSteps,
 	ticket: Ticket,
 	tiktok: Tiktok,
@@ -1004,7 +1062,9 @@ export const iconsObject = {
 	wheelchairuser: WheelchairUser,
 	wideentranceshower: WideEntranceShower,
 	wifi: Wifi,
+	withdrawal: Withdrawal,
 	work: Work,
+	writteninformation: WrittenInformation,
 	youtube: Youtube,
 	youtubeneutral: YoutubeNeutral,
 } as const;
