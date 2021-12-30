@@ -284,6 +284,8 @@ import StarEmpty from  './_icons/StarEmpty';
 import StarFull from  './_icons/StarFull';
 import StarHalf from  './_icons/StarHalf';
 import StepFree from  './_icons/StepFree';
+import StepOne from  './_icons/StepOne';
+import StepTwo from  './_icons/StepTwo';
 import Sun from  './_icons/Sun';
 import SwimmingPool from  './_icons/SwimmingPool';
 import Switch from  './_icons/Switch';
@@ -642,6 +644,8 @@ export const iconsArray = [
 	'starfull',
 	'starhalf',
 	'stepfree',
+	'stepone',
+	'steptwo',
 	'sun',
 	'swimmingpool',
 	'switch',
@@ -999,6 +1003,8 @@ export const iconsObject = {
 	starfull: StarFull,
 	starhalf: StarHalf,
 	stepfree: StepFree,
+	stepone: StepOne,
+	steptwo: StepTwo,
 	sun: Sun,
 	swimmingpool: SwimmingPool,
 	switch: Switch,

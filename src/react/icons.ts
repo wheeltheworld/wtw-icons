@@ -284,6 +284,8 @@ export { default as StarEmptyIcon } from  './_icons/StarEmpty';
 export { default as StarFullIcon } from  './_icons/StarFull';
 export { default as StarHalfIcon } from  './_icons/StarHalf';
 export { default as StepFreeIcon } from  './_icons/StepFree';
+export { default as StepOneIcon } from  './_icons/StepOne';
+export { default as StepTwoIcon } from  './_icons/StepTwo';
 export { default as SunIcon } from  './_icons/Sun';
 export { default as SwimmingPoolIcon } from  './_icons/SwimmingPool';
 export { default as SwitchIcon } from  './_icons/Switch';
