@@ -108,3 +108,5 @@ lib/
 *.svg
 
 .vscode/
+
+**/.DS_Store
