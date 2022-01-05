@@ -6,25 +6,18 @@ const ThirtyMinutes: IconComponent = (props) => (
     <Icon {...props}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      viewBox="0 0 31 30"
+      viewBox="0 0 24 24"
     >
-      <g clipPath="url(#clip0_10728_11392)">
-        <path
-          stroke="currentColor"
-          strokeMiterlimit="10"
-          strokeWidth="1.5"
-          d="M15.5 29c-2.875 0-5.625-.875-8-2.5s-4.125-4-5.125-6.625c-.625-1.875-1-3.625-.875-5.5s.5-3.625 1.25-5.25c1.25-2.5 3-4.5 5.25-5.875S12.875 1 15.5 1c2.875 0 5.625.875 8 2.5s4.125 4 5.125 6.625c.625 1.75.875 3.5.875 5.375-.125 1.875-.5 3.625-1.25 5.25-1.125 2.375-2.875 4.5-5.125 5.875C20.75 28.25 18.125 29 15.5 29z"
-        ></path>
-        <path
-          fill="currentColor"
-          d="M18.5 3.375c-1-.25-2-.375-3-.375v12h.25L18.5 3.375z"
-        ></path>
-      </g>
-      <defs>
-        <clipPath id="clip0_10728_11392">
-          <path fill="currentColor" d="M0 0H30V30H0z" transform="translate(.5)"></path>
-        </clipPath>
-      </defs>
+     <path
+        stroke="currentColor"
+        strokeMiterlimit="10"
+        strokeWidth="1.5"
+        d="M12 23.2c-2.3 0-4.5-.7-6.4-2-1.9-1.3-3.3-3.2-4.1-5.3C1 14.4.7 13 .8 11.5c.1-1.5.4-2.9 1-4.2 1-2 2.4-3.6 4.2-4.7C7.8 1.5 9.9.8 12 .8c2.3 0 4.5.7 6.4 2 1.9 1.3 3.3 3.2 4.1 5.3.5 1.4.7 2.8.7 4.3-.1 1.5-.4 2.9-1 4.2-.9 1.9-2.3 3.6-4.1 4.7-1.9 1.3-4 1.9-6.1 1.9z"
+      ></path>
+      <path
+        fill="currentColor"
+        d="M14.4 2.7c-.8-.2-1.6-.3-2.4-.3V12h.2l2.2-9.3z"
+      ></path>
     </Icon>
 );
 

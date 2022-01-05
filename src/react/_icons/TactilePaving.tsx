@@ -6,28 +6,28 @@ const TactilePaving: IconComponent = (props) => (
     <Icon {...props}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      viewBox="0 0 31 30"
+      viewBox="0 0 24 24"
     >
-      <g clipPath="url(#clip0_10728_1752)">
+      <g clipPath="url(#clip0_1585_241)">
         <g
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.5"
-          clipPath="url(#clip1_10728_1752)"
+          clipPath="url(#clip1_1585_241)"
         >
-          <path d="M29.009 1.462H1.991v27.077h27.018V1.462zM8.349 5.432v7.783M13.121 5.432v7.783M22.65 5.432v7.783M17.879 5.432v7.783M8.349 16.657v7.783M13.121 16.657v7.783M22.65 16.657v7.783M17.879 16.657v7.783"></path>
+          <path d="M22.807 1.17H1.193v21.66h21.614V1.17zM6.28 4.345v6.226M10.097 4.345v6.226M17.72 4.345v6.226M13.903 4.345v6.226M6.28 13.326v6.227M10.097 13.326v6.227M17.72 13.326v6.227M13.903 13.326v6.227"></path>
         </g>
       </g>
       <defs>
-        <clipPath id="clip0_10728_1752">
-          <path fill="currentColor" d="M0 0H30V30H0z" transform="translate(.5)"></path>
+        <clipPath id="clip0_1585_241">
+          <path fill="currentColor" d="M0 0H24V24H0z"></path>
         </clipPath>
-        <clipPath id="clip1_10728_1752">
+        <clipPath id="clip1_1585_241">
           <path
             fill="currentColor"
-            d="M0 0H28.5V28.5H0z"
-            transform="translate(1.25 .75)"
+            d="M0 0H22.8V22.8H0z"
+            transform="translate(.6 .6)"
           ></path>
         </clipPath>
       </defs>
