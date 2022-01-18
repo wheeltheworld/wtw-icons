@@ -2,9 +2,13 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const TwoHours: IconComponent = (props) => (
-    <Icon fill="none" viewBox="0 0 24 24" {...props}>
-      <path
+const ThirtyMinutes: IconComponent = (props) => (
+    <Icon {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+     <path
         stroke="currentColor"
         strokeMiterlimit="10"
         strokeWidth="1.5"
@@ -12,9 +16,9 @@ const TwoHours: IconComponent = (props) => (
       ></path>
       <path
         fill="currentColor"
-        d="M12.1 11.8c0 .1 0 .2.1.2h.2l8-4.9c-.1-.2-.3-.5-.5-.7-.8-1.1-1.9-2.1-3.1-2.8-.2-.1-.5-.3-.7-.4-1.3-.6-2.6-.9-4-.9v9.5z"
+        d="M14.4 2.7c-.8-.2-1.6-.3-2.4-.3V12h.2l2.2-9.3z"
       ></path>
     </Icon>
 );
 
-export default TwoHours;
+export default ThirtyMinutes;
