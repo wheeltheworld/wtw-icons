@@ -109,4 +109,6 @@ lib/
 
 .vscode/
 
-**/.DS_Store
+.DS_Store
+
+storybook-static/

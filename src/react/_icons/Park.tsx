@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const Park: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" fill="none" {...props}>
-          <g stroke-linecap="round" stroke-width="1.5" fill="none" stroke="currentColor" stroke-linejoin="round" className="nc-icon-wrapper">
+          <g strokeLinecap="round" strokeWidth="1.5" fill="none" stroke="currentColor" strokeLinejoin="round" className="nc-icon-wrapper">
     <line x1="1" y1="20" x2="14" y2="20"></line>
     <line x1="3" y1="20" x2="3" y2="23"></line>
     <line x1="12" y1="20" x2="12" y2="23"></line>

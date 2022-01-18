@@ -4,7 +4,7 @@ import { IconComponent } from '../types';
 
 const OutdoorSpace: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" fill="none" {...props}>
-        <g stroke-linecap="round" stroke-width="1.5" fill="none" stroke="currentColor" stroke-linejoin="round" className="nc-icon-wrapper">
+        <g strokeLinecap="round" strokeWidth="1.5" fill="none" stroke="currentColor" strokeLinejoin="round" className="nc-icon-wrapper">
     <line x1="8" y1="19" x2="8" y2="11" stroke="currentColor"></line>
     <path d="M10.523,7.15A4.971,4.971,0,0,0,11,5c0-2.209-1.343-4-3-4S5,2.791,5,5a4.971,4.971,0,0,0,.477,2.15A5.509,5.509,0,0,0,4,11c0,2.761,1.791,5,4,5s4-2.239,4-5A5.509,5.509,0,0,0,10.523,7.15Z" stroke="currentColor"></path>
     <line x1="16" y1="19" x2="16" y2="11" stroke="currentColor"></line>
