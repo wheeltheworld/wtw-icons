@@ -106,3 +106,9 @@ dist
 lib/
 
 *.svg
+
+.vscode/
+
+.DS_Store
+
+storybook-static/
