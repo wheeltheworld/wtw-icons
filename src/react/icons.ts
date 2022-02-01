@@ -149,6 +149,7 @@ export { default as HousekeepingIcon } from  './_icons/Housekeeping';
 export { default as HumidityIcon } from  './_icons/Humidity';
 export { default as IdIcon } from  './_icons/Id';
 export { default as ImportantInfoIcon } from  './_icons/ImportantInfo';
+export { default as InProgressIcon } from  './_icons/InProgress';
 export { default as InstagramIcon } from  './_icons/Instagram';
 export { default as InstagramNeutralIcon } from  './_icons/InstagramNeutral';
 export { default as InstructorIcon } from  './_icons/Instructor';
