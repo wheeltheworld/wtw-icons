@@ -149,6 +149,7 @@ import Housekeeping from  './_icons/Housekeeping';
 import Humidity from  './_icons/Humidity';
 import Id from  './_icons/Id';
 import ImportantInfo from  './_icons/ImportantInfo';
+import InProgress from  './_icons/InProgress';
 import Instagram from  './_icons/Instagram';
 import InstagramNeutral from  './_icons/InstagramNeutral';
 import Instructor from  './_icons/Instructor';
@@ -509,6 +510,7 @@ export const iconsArray = [
 	'humidity',
 	'id',
 	'importantinfo',
+	'inprogress',
 	'instagram',
 	'instagramneutral',
 	'instructor',
@@ -868,6 +870,7 @@ export const iconsObject = {
 	humidity: Humidity,
 	id: Id,
 	importantinfo: ImportantInfo,
+	inprogress: InProgress,
 	instagram: Instagram,
 	instagramneutral: InstagramNeutral,
 	instructor: Instructor,
