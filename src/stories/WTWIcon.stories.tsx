@@ -16,4 +16,5 @@ const Template: Story<WTWIconProps> = (args) => (
 export const WTWIconComponent = Template.bind({});
 WTWIconComponent.args = {
     icon: 'wtwlogo',
+    color: '#000',
 };
