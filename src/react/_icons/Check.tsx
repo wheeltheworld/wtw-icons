@@ -8,10 +8,10 @@ const Check: IconComponent = (props) => {
             <path
                 d="M1 5L5 9L13 1"
                 stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
             />
         </Icon>
     );
