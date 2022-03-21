@@ -4,36 +4,12 @@ import { IconComponent } from '../types';
 
 const Accessibility: IconComponent = ({ fill = 'currentColor', stroke = 'currentColor', ...props }) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
-            <circle
-                fill="none"
-                stroke={stroke}
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                cx={10.1}
-                cy={4.7}
-                r={2.2}
-            />
-            <path
-                fill="none"
-                stroke={stroke}
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M6.6,12.9c-2,1.3-2.6,4-1.3,6s4,2.6,6,1.3c0.6-0.4,1.1-0.9,1.4-1.5"
-            />
-            <path
-                fill="none"
-                stroke={stroke}
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M17.4,19.6l-0.5-3.4c-0.1-0.6-0.6-1-1.1-0.9l-3.5,0.2c-1.2,0.1-2.2-0.8-2.3-1.9l-0.4-3.4l5.4,0.5"
-            />
+        <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" strokeWidth="1.5"></circle>
+        <g fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="1.5">
+            <path strokeLinecap="round" d="M15.5 18.9l-1.6-5"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10.1 9H13.899999999999999V13.9H10.1z"></path>
+            <circle cx="12" cy="5.7" r="1.4"></circle>
+            <path strokeLinecap="round" d="M13.9 9l3.7-.8M6.3 8.1l3.8.9M10.1 13.9l-1.6 5"></path>
         </g>
     </Icon>
 );

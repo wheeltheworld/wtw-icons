@@ -1,8 +1,8 @@
 # How to publish
 
 - make your changes
-- run `yarn gen:helpers`
 - run `yarn build-website`
+- run `yarn gen:helpers`
 - commit your changes
 - run `npm version patch` or `npm version minor` or `npm version major` depending on the change
 - push your changes

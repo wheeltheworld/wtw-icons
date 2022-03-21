@@ -93,6 +93,7 @@ import CurrencyExchange from  './_icons/CurrencyExchange';
 import Daycare from  './_icons/Daycare';
 import Deaf from  './_icons/Deaf';
 import Delete from  './_icons/Delete';
+import DeleteSolid from  './_icons/DeleteSolid';
 import Destinations from  './_icons/Destinations';
 import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
@@ -204,6 +205,7 @@ import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
+import NoFees from  './_icons/NoFees';
 import Noise from  './_icons/Noise';
 import NotComfortable from  './_icons/NotComfortable';
 import Notification from  './_icons/Notification';
@@ -246,6 +248,7 @@ import Restaurant from  './_icons/Restaurant';
 import Restrictions from  './_icons/Restrictions';
 import RollInShower from  './_icons/RollInShower';
 import RoomEntrance from  './_icons/RoomEntrance';
+import RoomIllustration from  './_icons/RoomIllustration';
 import RoomService from  './_icons/RoomService';
 import Safe from  './_icons/Safe';
 import SafetyEquipment from  './_icons/SafetyEquipment';
@@ -455,6 +458,7 @@ export const iconsArray = [
 	'daycare',
 	'deaf',
 	'delete',
+	'deletesolid',
 	'destinations',
 	'dice',
 	'dinner',
@@ -566,6 +570,7 @@ export const iconsArray = [
 	'narrowshower',
 	'next',
 	'no',
+	'nofees',
 	'noise',
 	'notcomfortable',
 	'notification',
@@ -608,6 +613,7 @@ export const iconsArray = [
 	'restrictions',
 	'rollinshower',
 	'roomentrance',
+	'roomillustration',
 	'roomservice',
 	'safe',
 	'safetyequipment',
@@ -816,6 +822,7 @@ export const iconsObject = {
 	daycare: Daycare,
 	deaf: Deaf,
 	delete: Delete,
+	deletesolid: DeleteSolid,
 	destinations: Destinations,
 	dice: Dice,
 	dinner: Dinner,
@@ -927,6 +934,7 @@ export const iconsObject = {
 	narrowshower: NarrowShower,
 	next: Next,
 	no: No,
+	nofees: NoFees,
 	noise: Noise,
 	notcomfortable: NotComfortable,
 	notification: Notification,
@@ -969,6 +977,7 @@ export const iconsObject = {
 	restrictions: Restrictions,
 	rollinshower: RollInShower,
 	roomentrance: RoomEntrance,
+	roomillustration: RoomIllustration,
 	roomservice: RoomService,
 	safe: Safe,
 	safetyequipment: SafetyEquipment,
