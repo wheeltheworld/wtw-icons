@@ -67,7 +67,7 @@ import ChangingRoom from  './_icons/ChangingRoom';
 import Check from  './_icons/Check';
 import Clock from  './_icons/Clock';
 import CloseButton from  './_icons/CloseButton';
-import CloseButtonFilled from './_icons/CloseButtonFilled';
+import CloseButtonFilled from  './_icons/CloseButtonFilled';
 import ClosedCaptions from  './_icons/ClosedCaptions';
 import Closet from  './_icons/Closet';
 import Clothes from  './_icons/Clothes';
