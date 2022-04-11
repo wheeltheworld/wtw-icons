@@ -2,7 +2,7 @@
 
 - make your changes
 - run `yarn build-website`
-- run `yarn gen:helpers`
+- run `g`
 - commit your changes
 - run `npm version patch` or `npm version minor` or `npm version major` depending on the change
 - push your changes
