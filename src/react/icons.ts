@@ -67,6 +67,7 @@ export { default as ChangingRoomIcon } from  './_icons/ChangingRoom';
 export { default as CheckIcon } from  './_icons/Check';
 export { default as ClockIcon } from  './_icons/Clock';
 export { default as CloseButtonIcon } from  './_icons/CloseButton';
+export { default as CloseButtonFilledIcon } from  './_icons/CloseButtonFilled';
 export { default as ClosedCaptionsIcon } from  './_icons/ClosedCaptions';
 export { default as ClosetIcon } from  './_icons/Closet';
 export { default as ClothesIcon } from  './_icons/Clothes';
