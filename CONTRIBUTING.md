@@ -10,6 +10,12 @@
 - Once merged create a new release on Github
 - Update the package.json file wherever the icon will be used if warranted
 
+# How to run
+- Run `yarn storybook` 
+- Open http://localhost:6006/?path=/story/wtw-icons-wtwicon--wtw-icon-component
+- Search your component name in searchbar
+
+
 ## How to add a new icon
 
 - Convert the svg to jsx by an online tool like https://svg2jsx.com/
