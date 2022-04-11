@@ -1,6 +1,6 @@
 {
     "name": "wtw-icons",
-    "version": "1.41.0",
+    "version": "1.40.1",
     "description": "The best open source icon library with an accessibility focus",
     "main": "index.js",
     "types": "index.d.ts",

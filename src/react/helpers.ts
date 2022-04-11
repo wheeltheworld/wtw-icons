@@ -84,6 +84,7 @@ import Conference from  './_icons/Conference';
 import Confused from  './_icons/Confused';
 import ContrastMarking from  './_icons/ContrastMarking';
 import Countries from  './_icons/Countries';
+import Coupon from  './_icons/Coupon';
 import CreditCard from  './_icons/CreditCard';
 import Crib from  './_icons/Crib';
 import Crowded from  './_icons/Crowded';
@@ -450,6 +451,7 @@ export const iconsArray = [
 	'confused',
 	'contrastmarking',
 	'countries',
+	'coupon',
 	'creditcard',
 	'crib',
 	'crowded',
@@ -815,6 +817,7 @@ export const iconsObject = {
 	confused: Confused,
 	contrastmarking: ContrastMarking,
 	countries: Countries,
+	coupon: Coupon,
 	creditcard: CreditCard,
 	crib: Crib,
 	crowded: Crowded,
