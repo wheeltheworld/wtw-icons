@@ -83,6 +83,7 @@ export { default as ConferenceIcon } from  './_icons/Conference';
 export { default as ConfusedIcon } from  './_icons/Confused';
 export { default as ContrastMarkingIcon } from  './_icons/ContrastMarking';
 export { default as CountriesIcon } from  './_icons/Countries';
+export { default as CouponIcon } from  './_icons/Coupon';
 export { default as CreditCardIcon } from  './_icons/CreditCard';
 export { default as CribIcon } from  './_icons/Crib';
 export { default as CrowdedIcon } from  './_icons/Crowded';
