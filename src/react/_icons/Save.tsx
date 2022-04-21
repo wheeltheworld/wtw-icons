@@ -18,5 +18,4 @@ const Save: IconComponent = (props) => (
     </Icon>
 );
 
-
 export default Save;
