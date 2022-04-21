@@ -124,6 +124,7 @@ import FiveHours from  './_icons/FiveHours';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import FoodService from  './_icons/FoodService';
 import Forgetful from  './_icons/Forgetful';
+import Friendly from  './_icons/Friendly';
 import Garden from  './_icons/Garden';
 import GeneralAttribute from  './_icons/GeneralAttribute';
 import Google from  './_icons/Google';
@@ -491,6 +492,7 @@ export const iconsArray = [
 	'foldablepowerwheelchair',
 	'foodservice',
 	'forgetful',
+	'friendly',
 	'garden',
 	'generalattribute',
 	'google',
@@ -857,6 +859,7 @@ export const iconsObject = {
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	foodservice: FoodService,
 	forgetful: Forgetful,
+	friendly: Friendly,
 	garden: Garden,
 	generalattribute: GeneralAttribute,
 	google: Google,

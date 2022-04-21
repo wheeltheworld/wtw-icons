@@ -124,6 +124,7 @@ export { default as FiveHoursIcon } from  './_icons/FiveHours';
 export { default as FoldablePowerWheelchairIcon } from  './_icons/FoldablePowerWheelchair';
 export { default as FoodServiceIcon } from  './_icons/FoodService';
 export { default as ForgetfulIcon } from  './_icons/Forgetful';
+export { default as FriendlyIcon } from  './_icons/Friendly';
 export { default as GardenIcon } from  './_icons/Garden';
 export { default as GeneralAttributeIcon } from  './_icons/GeneralAttribute';
 export { default as GoogleIcon } from  './_icons/Google';
