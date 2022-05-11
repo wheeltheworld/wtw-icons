@@ -92,6 +92,7 @@ import Crutches from  './_icons/Crutches';
 import CulturalPlace from  './_icons/CulturalPlace';
 import Culture from  './_icons/Culture';
 import CurrencyExchange from  './_icons/CurrencyExchange';
+import CustomerSupport from  './_icons/CustomerSupport';
 import Daycare from  './_icons/Daycare';
 import Deaf from  './_icons/Deaf';
 import Delete from  './_icons/Delete';
@@ -460,6 +461,7 @@ export const iconsArray = [
 	'culturalplace',
 	'culture',
 	'currencyexchange',
+	'customersupport',
 	'daycare',
 	'deaf',
 	'delete',
@@ -827,6 +829,7 @@ export const iconsObject = {
 	culturalplace: CulturalPlace,
 	culture: Culture,
 	currencyexchange: CurrencyExchange,
+	customersupport: CustomerSupport,
 	daycare: Daycare,
 	deaf: Deaf,
 	delete: Delete,

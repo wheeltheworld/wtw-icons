@@ -92,6 +92,7 @@ export { default as CrutchesIcon } from  './_icons/Crutches';
 export { default as CulturalPlaceIcon } from  './_icons/CulturalPlace';
 export { default as CultureIcon } from  './_icons/Culture';
 export { default as CurrencyExchangeIcon } from  './_icons/CurrencyExchange';
+export { default as CustomerSupportIcon } from  './_icons/CustomerSupport';
 export { default as DaycareIcon } from  './_icons/Daycare';
 export { default as DeafIcon } from  './_icons/Deaf';
 export { default as DeleteIcon } from  './_icons/Delete';
