@@ -108,6 +108,7 @@ import Download from  './_icons/Download';
 import DryCleaning from  './_icons/DryCleaning';
 import Duplicate from  './_icons/Duplicate';
 import Edit from  './_icons/Edit';
+import Education from './_icons/Education';
 import ElectricDeviceWheelchair from  './_icons/ElectricDeviceWheelchair';
 import Electricity from  './_icons/Electricity';
 import Elevator from  './_icons/Elevator';
@@ -207,6 +208,7 @@ import Mountain from  './_icons/Mountain';
 import MultiDayTrip from  './_icons/MultiDayTrip';
 import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
+import News from './_icons/News';
 import Next from  './_icons/Next';
 import No from  './_icons/No';
 import NoFees from  './_icons/NoFees';
@@ -321,6 +323,7 @@ import ToursActivities from  './_icons/ToursActivities';
 import Transport from  './_icons/Transport';
 import Transportation from  './_icons/Transportation';
 import Traveler from  './_icons/Traveler';
+import TravelTips from './_icons/TravelTips';
 import TurningRadius from  './_icons/TurningRadius';
 import Tv from  './_icons/Tv';
 import TwentyFourHour from  './_icons/TwentyFourHour';
@@ -477,6 +480,7 @@ export const iconsArray = [
 	'drycleaning',
 	'duplicate',
 	'edit',
+	'education',
 	'electricdevicewheelchair',
 	'electricity',
 	'elevator',
@@ -576,6 +580,7 @@ export const iconsArray = [
 	'multidaytrip',
 	'multidaytrips',
 	'narrowshower',
+	'news',
 	'next',
 	'no',
 	'nofees',
@@ -690,6 +695,7 @@ export const iconsArray = [
 	'transport',
 	'transportation',
 	'traveler',
+	'traveltips',
 	'turningradius',
 	'tv',
 	'twentyfourhour',
@@ -845,6 +851,7 @@ export const iconsObject = {
 	drycleaning: DryCleaning,
 	duplicate: Duplicate,
 	edit: Edit,
+	education: Education,
 	electricdevicewheelchair: ElectricDeviceWheelchair,
 	electricity: Electricity,
 	elevator: Elevator,
@@ -944,6 +951,7 @@ export const iconsObject = {
 	multidaytrip: MultiDayTrip,
 	multidaytrips: MultiDayTrips,
 	narrowshower: NarrowShower,
+	news: News,
 	next: Next,
 	no: No,
 	nofees: NoFees,
@@ -1058,6 +1066,7 @@ export const iconsObject = {
 	transport: Transport,
 	transportation: Transportation,
 	traveler: Traveler,
+	traveltips: TravelTips,
 	turningradius: TurningRadius,
 	tv: Tv,
 	twentyfourhour: TwentyFourHour,
