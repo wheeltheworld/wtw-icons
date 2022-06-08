@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const OpenTour: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" stroke="currentColor" {...props}>
+    <Icon viewBox="0 0 32 32" stroke="currentColor" fill="none" {...props}>
         <path
             d="M5.33341 9.33333C3.86008 9.33333 2.66675 8.14 2.66675 6.66667C2.66675 5.19333 3.86008 4 5.33341 4C6.80675 4 8.00008 5.19333 8.00008 6.66667C8.00008 8.14 6.80675 9.33333 5.33341 9.33333Z"
             stroke-width="1.5"
