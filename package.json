@@ -2,8 +2,11 @@
     "name": "wtw-icons",
     "version": "1.44.0",
     "description": "The best open source icon library with an accessibility focus",
-    "main": "index.js",
-    "types": "index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc",
         "build:prod": "tsc --project ./tsconfig-prod.json",
