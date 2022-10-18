@@ -25,5 +25,5 @@
         "declaration": true,
         "jsx": "react"
     },
-    "exclude": ["node_modules", "lib", "src/stories", "src/website"]
+    "exclude": ["node_modules", "lib", "src/stories", "src/website", "dist"]
 }
