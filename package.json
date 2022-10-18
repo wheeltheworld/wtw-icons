@@ -16,8 +16,7 @@
         "gen:icons": "node ./lib/gen/genIcons.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
-        "prepare": "tsc --project ./tsconfig-prod.json",
-        "postinstall": "tsc --project ./tsconfig-prod.json"
+        "prepare": "echo 'POST' > post2.txt"
     },
     "repository": {
         "type": "git",
