@@ -5,7 +5,7 @@
     "main": "index.js",
     "types": "index.d.ts",
     "scripts": {
-        "build": "tsc",
+        "build": "microbundle-crl --no-compress --format modern,cjs",
         "build:prod": "tsc --project ./tsconfig-prod.json",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
