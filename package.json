@@ -18,6 +18,9 @@
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
         "prepare": "tsc --project ./tsconfig-prod.json"
     },
+    "files": [
+        "lib"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wheeltheworld/wtw-icons.git"
@@ -57,7 +60,6 @@
     },
     "dependencies": {
         "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "wtw-icons": "^1.44.0"
+        "react-dom": "^17.0.1"
     }
 }
