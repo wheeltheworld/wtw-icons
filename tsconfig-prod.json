@@ -1,29 +1,22 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
-        "skipLibCheck": true,
-        "sourceMap": true,
         "outDir": "dist",
+        "module": "esnext",
+        "lib": ["dom", "esnext"],
         "moduleResolution": "node",
-        "removeComments": true,
-        "noImplicitAny": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "strictNullChecks": true,
-        "strictFunctionTypes": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
         "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "resolveJsonModule": true,
-        "declaration": true,
-        "jsx": "react"
+        "allowSyntheticDefaultImports": true
     },
-    "exclude": ["node_modules", "lib", "src/stories", "src/website"]
+    "include": ["src"],
+    "exclude": ["node_modules", "dist", "example"]
 }
