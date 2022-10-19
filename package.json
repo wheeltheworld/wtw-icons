@@ -5,7 +5,7 @@
     "main": "dist/index.js",
     "module": "dist/index.modern.js",
     "scripts": {
-        "build": "microbundle-crl --no-compress --format modern,cjs",
+        "build": "tsc --project ./tsconfig-prod.json",
         "build:prod": "tsc --project ./tsconfig-prod.json",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
@@ -16,7 +16,7 @@
         "gen:icons": "node ./lib/gen/genIcons.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
-        "prepare": "microbundle-crl --no-compress --format modern,cjs"
+        "prepack": "microbundle-crl --no-compress --format modern,cjs"
     },
     "files": [
         "dist"
