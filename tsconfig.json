@@ -1,11 +1,10 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "outDir": "dist",
-        "module": "esnext",
-        "lib": ["dom", "esnext"],
+        "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
         "skipLibCheck": true,
         "sourceMap": true,
+        "outDir": "dist",
         "moduleResolution": "node",
         "removeComments": true,
         "noImplicitAny": true,

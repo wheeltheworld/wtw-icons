@@ -5,6 +5,7 @@
     "main": "dist/index.js",
     "types": "index.d.ts",
     "source": "src/react/index.ts",
+    "module": "dist/index.modern.js",
     "scripts": {
         "build": "tsc",
         "build:prod": "tsc --project ./tsconfig-prod.json",
