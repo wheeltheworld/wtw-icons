@@ -4,10 +4,11 @@
     "description": "The best open source icon library with an accessibility focus",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "source": "src/react/index.ts",
     "scripts": {
-        "prepare": "tsc",
-        "build": "tsc",
-        "build:prod": "tsc --project ./tsconfig-prod.json",
+        "prepare": "microbundle-crl --no-compress --format modern,cjs",
+        "build": "microbundle-crl --no-compress --format modern,cjs",
+        "build:prod": "microbundle-crl --no-compress --format modern,cjs",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
@@ -59,6 +60,7 @@
         "webpack-cli": "^4.5.0"
     },
     "dependencies": {
+        "microbundle-crl": "^0.13.11",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
     }
