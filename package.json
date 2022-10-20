@@ -7,8 +7,8 @@
     "source": "src/react/index.ts",
     "module": "dist/index.modern.js",
     "scripts": {
-        "build": "tsc",
-        "build:prod": "tsc --project ./tsconfig-prod.json",
+        "build": "microbundle-crl --no-compress --format modern,cjs",
+        "build:prod": "microbundle-crl --no-compress --format modern,cjs",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
