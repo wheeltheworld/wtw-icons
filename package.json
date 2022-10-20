@@ -3,11 +3,10 @@
     "version": "1.44.0",
     "description": "The best open source icon library with an accessibility focus",
     "main": "dist/index.js",
-    "source": "src/react/index.ts",
-    "module": "dist/index.modern.js",
+    "types": "dist/index.d.ts",
     "scripts": {
-        "build": "microbundle-crl --no-compress --format modern,cjs",
-        "build:prod": "microbundle-crl --no-compress --format modern,cjs",
+        "build": "tsc",
+        "build:prod": "tsc --project ./tsconfig-prod.json",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
@@ -17,7 +16,7 @@
         "gen:icons": "node ./lib/gen/genIcons.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
-        "prepare": "microbundle-crl --no-compress --format modern,cjs"
+        "prepare": "tsc --project ./tsconfig-prod.json"
     },
     "files": [
         "dist"
