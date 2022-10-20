@@ -1,0 +1,9 @@
+src/
+node_modules/
+.prettierrc.js
+docs/
+docs
+.github/
+.storybook/
+.storybook
+gen/
