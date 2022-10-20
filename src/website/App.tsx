@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { createGlobalStyle } from 'styled-components';
 import AdvancedUsage from './sections/AdvancedUsage';
 import AvailableIcons from './sections/AvailableIcons';
@@ -21,13 +21,13 @@ body {
 
 const App: React.FC<AppProps> = ({}) => {
     return (
-        <>
+        <Fragment>
             <ResetCss />
             <GetStarted />
             <AvailableIcons />
             <AdvancedUsage />
             <Social />
-        </>
+        </Fragment>
     );
 };
 

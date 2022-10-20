@@ -2,10 +2,10 @@
     "name": "wtw-icons",
     "version": "1.44.0",
     "description": "The best open source icon library with an accessibility focus",
-    "main": "dist/index.js",
-    "module": "dist/index.modern.js",
+    "main": "index.js",
+    "types": "index.d.ts",
     "scripts": {
-        "build": "tsc --project ./tsconfig-prod.json",
+        "build": "tsc",
         "build:prod": "tsc --project ./tsconfig-prod.json",
         "watch": "tsc -w",
         "storybook": "start-storybook -p 6006",
@@ -16,11 +16,8 @@
         "gen:icons": "node ./lib/gen/genIcons.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
-        "prepare": "tsc --project ./tsconfig-prod.json"
+        "prepare": ""
     },
-    "files": [
-        "dist"
-    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wheeltheworld/wtw-icons.git"
@@ -59,7 +56,6 @@
         "webpack-cli": "^4.5.0"
     },
     "dependencies": {
-        "microbundle-crl": "^0.13.10",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
     }
