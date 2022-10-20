@@ -1,5 +1,5 @@
 {
-    "name": "wtw-icons",
+    "name": "@wheeltheworld/wtw-icons",
     "version": "1.44.0",
     "description": "The best open source icon library with an accessibility focus",
     "main": "dist/index.js",
