@@ -17,7 +17,7 @@
         "gen:icons": "node ./lib/gen/genIcons.js",
         "build-website": "webpack-cli -c ./src/website/webpack.config.js",
         "build-website:dev": "webpack-cli -c ./src/website/webpack.config.js -w --mode development",
-        "preinstall": "microbundle-crl --no-compress --format modern,cjs"
+        "postinstall": "microbundle-crl --no-compress --format modern,cjs"
     },
     "files": [
         "dist"
