@@ -254,6 +254,7 @@ import Resort from  './_icons/Resort';
 import Restaurant from  './_icons/Restaurant';
 import Restrictions from  './_icons/Restrictions';
 import RollInShower from  './_icons/RollInShower';
+import RoomAccess from  './_icons/RoomAccess';
 import RoomEntrance from  './_icons/RoomEntrance';
 import RoomIllustration from  './_icons/RoomIllustration';
 import RoomService from  './_icons/RoomService';
@@ -629,6 +630,7 @@ export const iconsArray = [
 	'restaurant',
 	'restrictions',
 	'rollinshower',
+	'roomaccess',
 	'roomentrance',
 	'roomillustration',
 	'roomservice',
@@ -1003,6 +1005,7 @@ export const iconsObject = {
 	restaurant: Restaurant,
 	restrictions: Restrictions,
 	rollinshower: RollInShower,
+	roomaccess: RoomAccess,
 	roomentrance: RoomEntrance,
 	roomillustration: RoomIllustration,
 	roomservice: RoomService,
