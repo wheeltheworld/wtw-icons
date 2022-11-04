@@ -254,6 +254,7 @@ export { default as ResortIcon } from  './_icons/Resort';
 export { default as RestaurantIcon } from  './_icons/Restaurant';
 export { default as RestrictionsIcon } from  './_icons/Restrictions';
 export { default as RollInShowerIcon } from  './_icons/RollInShower';
+export { default as RoomAccessIcon } from  './_icons/RoomAccess';
 export { default as RoomEntranceIcon } from  './_icons/RoomEntrance';
 export { default as RoomIllustrationIcon } from  './_icons/RoomIllustration';
 export { default as RoomServiceIcon } from  './_icons/RoomService';
