@@ -80,6 +80,7 @@ import Comment from './_icons/Comment';
 import CommonBathroom from './_icons/CommonBathroom';
 import Companion from './_icons/Companion';
 import Complete from './_icons/Complete';
+import CompletelyFlat from './_icons/CompletelyFlat';
 import Conference from './_icons/Conference';
 import Confused from './_icons/Confused';
 import ContrastMarking from './_icons/ContrastMarking';
@@ -119,6 +120,7 @@ import Entrance from './_icons/Entrance';
 import Equipment from './_icons/Equipment';
 import EventRoom from './_icons/EventRoom';
 import Exhibition from './_icons/Exhibition';
+import ExtraFirmMattress from './_icons/ExtraFirmMattress';
 import ExtraSoftMattress from './_icons/ExtraSoftMattress';
 import Facebook from './_icons/Facebook';
 import FacebookNeutral from './_icons/FacebookNeutral';
@@ -459,6 +461,7 @@ export const iconsArray = [
     'commonbathroom',
     'companion',
     'complete',
+    'completelyflat',
     'conference',
     'confused',
     'contrastmarking',
@@ -498,6 +501,7 @@ export const iconsArray = [
     'equipment',
     'eventroom',
     'exhibition',
+    'extrafirmmattress',
     'extrasoftmattress',
     'facebook',
     'facebookneutral',
@@ -837,6 +841,7 @@ export const iconsObject = {
     commonbathroom: CommonBathroom,
     companion: Companion,
     complete: Complete,
+    completelyflat: CompletelyFlat,
     conference: Conference,
     confused: Confused,
     contrastmarking: ContrastMarking,
@@ -876,6 +881,7 @@ export const iconsObject = {
     equipment: Equipment,
     eventroom: EventRoom,
     exhibition: Exhibition,
+    extrafirmmattress: ExtraFirmMattress,
     extrasoftmattress: ExtraSoftMattress,
     facebook: Facebook,
     facebookneutral: FacebookNeutral,
