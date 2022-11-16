@@ -119,6 +119,7 @@ import Entrance from './_icons/Entrance';
 import Equipment from './_icons/Equipment';
 import EventRoom from './_icons/EventRoom';
 import Exhibition from './_icons/Exhibition';
+import ExtraSoftMattress from './_icons/ExtraSoftMattress';
 import Facebook from './_icons/Facebook';
 import FacebookNeutral from './_icons/FacebookNeutral';
 import Filter from './_icons/Filter';
@@ -497,6 +498,7 @@ export const iconsArray = [
     'equipment',
     'eventroom',
     'exhibition',
+    'extrasoftmattress',
     'facebook',
     'facebookneutral',
     'filter',
@@ -874,6 +876,7 @@ export const iconsObject = {
     equipment: Equipment,
     eventroom: EventRoom,
     exhibition: Exhibition,
+    extrasoftmattress: ExtraSoftMattress,
     facebook: Facebook,
     facebookneutral: FacebookNeutral,
     filter: Filter,
