@@ -342,6 +342,7 @@ import ValetParking from './_icons/ValetParking';
 import Van from './_icons/Van';
 import VendingMachine from './_icons/VendingMachine';
 import Verified from './_icons/Verified';
+import VerySlope from './_icons/VerySlope';
 import VideoCamera from './_icons/VideoCamera';
 import View from './_icons/View';
 import Vimeo from './_icons/Vimeo';
@@ -719,6 +720,7 @@ export const iconsArray = [
     'van',
     'vendingmachine',
     'verified',
+    'veryslope',
     'videocamera',
     'view',
     'vimeo',
@@ -1095,6 +1097,7 @@ export const iconsObject = {
     van: Van,
     vendingmachine: VendingMachine,
     verified: Verified,
+    veryslope: VerySlope,
     videocamera: VideoCamera,
     view: View,
     vimeo: Vimeo,

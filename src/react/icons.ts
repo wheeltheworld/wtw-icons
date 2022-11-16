@@ -342,6 +342,7 @@ export { default as ValetParkingIcon } from './_icons/ValetParking';
 export { default as VanIcon } from './_icons/Van';
 export { default as VendingMachineIcon } from './_icons/VendingMachine';
 export { default as VerifiedIcon } from './_icons/Verified';
+export { default as VerySlopeIcon } from './_icons/VerySlope';
 export { default as VideoCameraIcon } from './_icons/VideoCamera';
 export { default as ViewIcon } from './_icons/View';
 export { default as VimeoIcon } from './_icons/Vimeo';
