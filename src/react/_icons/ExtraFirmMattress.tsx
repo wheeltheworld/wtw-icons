@@ -4,8 +4,8 @@ import { IconComponent } from '../types';
 
 const ExtraFirmMattress: IconComponent = (props) => (
     <Icon {...props} fill="none" viewBox="0 0 60 60">
-        <g fill="white">
-            <path fill="#fff" d="M0 0H60V60H0z"></path>
+        <g fill="none">
+            <path fill="none" d="M0 0H60V60H0z"></path>
             <path
                 fill="#D7F0F0"
                 d="M54.154 22.718l-9.918-.244C43.139 24.865 31 25 31 25s-3.62.722-4-1c-.24-1.085 0-2.5 0-2.5l-8.714 2.03s-1.017-.179-1.336-.995c0 0-9.49.181-11.054.183a5.6 5.6 0 00-5.587 5.6v11.59h59.447v-11.59a5.6 5.6 0 00-5.6-5.6h-.002z"
@@ -39,11 +39,6 @@ const ExtraFirmMattress: IconComponent = (props) => (
                 mask="url(#path-8-inside-1_2034_42975)"
             ></path>
         </g>
-        <defs>
-            <clipPath id="clip0_2034_42975">
-                <path fill="#fff" d="M0 0H60V60H0z"></path>
-            </clipPath>
-        </defs>
     </Icon>
 );
 
