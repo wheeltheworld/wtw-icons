@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const VerySlope: IconComponent = ({ fill = 'currentColor', stroke = 'currentColor', ...props }) => (
-    <Icon viewBox="0 0 60 47" {...props}>
+    <Icon viewBox="0 0 60 35" {...props}>
         <g fill="none" className="nc-icon-wrapper">
             <path
                 d="M58.8834 9.81952C58.1647 9.43256 57.2517 9.43256 56.5329 9.81952L3.94596 42.6034C3.03291 43.1208 2.57534 44.2196 2.83651 45.2542C3.09768 46.2889 4.07759 47.0007 5.12227 47.0007H57.6445C58.9503 47.0007 59.995 45.966 59.995 44.6727V11.8888C60.0598 11.0487 59.6022 10.2727 58.8855 9.81952H58.8834Z"
