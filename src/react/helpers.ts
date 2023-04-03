@@ -206,6 +206,7 @@ import Missing from './_icons/Missing';
 import MissingAlt from './_icons/MissingAlt';
 import MobilePhone from './_icons/MobilePhone';
 import Money from './_icons/Money';
+import MoneyMoney from './_icons/MoneyMoney';
 import MoodSwings from './_icons/MoodSwings';
 import More from './_icons/More';
 import Motel from './_icons/Motel';
@@ -296,6 +297,7 @@ import Snapchat from './_icons/Snapchat';
 import SnapchatNeutral from './_icons/SnapchatNeutral';
 import SocialDistancing from './_icons/SocialDistancing';
 import SoftDrink from './_icons/SoftDrink';
+import Sort from './_icons/Sort';
 import Spa from './_icons/Spa';
 import StairHandrails from './_icons/StairHandrails';
 import Stairs from './_icons/Stairs';
@@ -587,6 +589,7 @@ export const iconsArray = [
     'missingalt',
     'mobilephone',
     'money',
+    'moneymoney',
     'moodswings',
     'more',
     'motel',
@@ -677,6 +680,7 @@ export const iconsArray = [
     'snapchatneutral',
     'socialdistancing',
     'softdrink',
+    'sort',
     'spa',
     'stairhandrails',
     'stairs',
@@ -967,6 +971,7 @@ export const iconsObject = {
     missingalt: MissingAlt,
     mobilephone: MobilePhone,
     money: Money,
+    moneymoney: MoneyMoney,
     moodswings: MoodSwings,
     more: More,
     motel: Motel,
@@ -1057,6 +1062,7 @@ export const iconsObject = {
     snapchatneutral: SnapchatNeutral,
     socialdistancing: SocialDistancing,
     softdrink: SoftDrink,
+    sort: Sort,
     spa: Spa,
     stairhandrails: StairHandrails,
     stairs: Stairs,
