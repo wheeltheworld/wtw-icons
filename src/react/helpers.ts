@@ -379,6 +379,7 @@ import Youtube from './_icons/Youtube';
 import YoutubeNeutral from './_icons/YoutubeNeutral';
 
 import { IconTag } from './types';
+import WTWLogoNew from './_icons/WTWLogoNew';
 
 export const iconsArray = [
     'accessibility',
@@ -737,6 +738,7 @@ export const iconsArray = [
     'vimeoneutral',
     'wtwiso',
     'wtwlogo',
+    'wtwlogonew',
     'wtwlogovertical',
     'walker',
     'walkingaid',
@@ -1119,6 +1121,7 @@ export const iconsObject = {
     vimeoneutral: VimeoNeutral,
     wtwiso: WTWIso,
     wtwlogo: WTWLogo,
+    wtwlogonew: WTWLogoNew,
     wtwlogovertical: WTWLogoVertical,
     walker: Walker,
     walkingaid: WalkingAid,
