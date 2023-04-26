@@ -354,6 +354,7 @@ import Vimeo from './_icons/Vimeo';
 import VimeoNeutral from './_icons/VimeoNeutral';
 import WTWIso from './_icons/WTWIso';
 import WTWLogo from './_icons/WTWLogo';
+import WTWLogoNew from './_icons/WTWLogoNew';
 import WTWLogoVertical from './_icons/WTWLogoVertical';
 import Walker from './_icons/Walker';
 import WalkingAid from './_icons/WalkingAid';
@@ -737,6 +738,7 @@ export const iconsArray = [
     'vimeoneutral',
     'wtwiso',
     'wtwlogo',
+    'wtwlogonew',
     'wtwlogovertical',
     'walker',
     'walkingaid',
@@ -1119,6 +1121,7 @@ export const iconsObject = {
     vimeoneutral: VimeoNeutral,
     wtwiso: WTWIso,
     wtwlogo: WTWLogo,
+    wtwlogonew: WTWLogoNew,
     wtwlogovertical: WTWLogoVertical,
     walker: Walker,
     walkingaid: WalkingAid,
