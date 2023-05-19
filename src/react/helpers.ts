@@ -380,6 +380,7 @@ import Youtube from './_icons/Youtube';
 import YoutubeNeutral from './_icons/YoutubeNeutral';
 
 import { IconTag } from './types';
+import HelpFilled from './_icons/HelpFilled';
 
 export const iconsArray = [
     'accessibility',
@@ -536,6 +537,7 @@ export const iconsArray = [
     'heights',
     'helmet',
     'help',
+    'helpfilled',
     'hide',
     'highbathtub',
     'home',
@@ -919,6 +921,7 @@ export const iconsObject = {
     heights: Heights,
     helmet: Helmet,
     help: Help,
+    helpfilled: HelpFilled,
     hide: Hide,
     highbathtub: HighBathtub,
     home: Home,
