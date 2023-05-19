@@ -152,6 +152,7 @@ export { default as HeavyPowerWheelchairIcon } from './_icons/HeavyPowerWheelcha
 export { default as HeightsIcon } from './_icons/Heights';
 export { default as HelmetIcon } from './_icons/Helmet';
 export { default as HelpIcon } from './_icons/Help';
+export { default as HelpIconFilled } from './_icons/HelpFilled';
 export { default as HideIcon } from './_icons/Hide';
 export { default as HighBathtubIcon } from './_icons/HighBathtub';
 export { default as HomeIcon } from './_icons/Home';
