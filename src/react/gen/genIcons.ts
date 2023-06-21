@@ -1,7 +1,7 @@
 import svgr from '@svgr/core';
+import cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
-import cheerio from 'cheerio';
 
 const SVGfolder = '../../src/svgs/';
 

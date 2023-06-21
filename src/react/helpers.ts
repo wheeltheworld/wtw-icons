@@ -152,6 +152,7 @@ import HeavyPowerWheelchair from './_icons/HeavyPowerWheelchair';
 import Heights from './_icons/Heights';
 import Helmet from './_icons/Helmet';
 import Help from './_icons/Help';
+import HelpFilled from './_icons/HelpFilled';
 import Hide from './_icons/Hide';
 import HighBathtub from './_icons/HighBathtub';
 import Home from './_icons/Home';
@@ -355,6 +356,7 @@ import VimeoNeutral from './_icons/VimeoNeutral';
 import WTWIso from './_icons/WTWIso';
 import WTWLogo from './_icons/WTWLogo';
 import WTWLogoNew from './_icons/WTWLogoNew';
+import WTWLogoNewWhite from './_icons/WTWLogoNewWhite';
 import WTWLogoVertical from './_icons/WTWLogoVertical';
 import Walker from './_icons/Walker';
 import WalkingAid from './_icons/WalkingAid';
@@ -378,9 +380,7 @@ import Work from './_icons/Work';
 import WrittenInformation from './_icons/WrittenInformation';
 import Youtube from './_icons/Youtube';
 import YoutubeNeutral from './_icons/YoutubeNeutral';
-
 import { IconTag } from './types';
-import HelpFilled from './_icons/HelpFilled';
 
 export const iconsArray = [
     'accessibility',
@@ -741,6 +741,7 @@ export const iconsArray = [
     'wtwiso',
     'wtwlogo',
     'wtwlogonew',
+    'wtwlogonewwhite',
     'wtwlogovertical',
     'walker',
     'walkingaid',
@@ -1125,6 +1126,7 @@ export const iconsObject = {
     wtwiso: WTWIso,
     wtwlogo: WTWLogo,
     wtwlogonew: WTWLogoNew,
+    wtwlogonewwhite: WTWLogoNewWhite,
     wtwlogovertical: WTWLogoVertical,
     walker: Walker,
     walkingaid: WalkingAid,

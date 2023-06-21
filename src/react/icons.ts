@@ -356,6 +356,7 @@ export { default as VimeoNeutralIcon } from './_icons/VimeoNeutral';
 export { default as WTWIsoIcon } from './_icons/WTWIso';
 export { default as WTWLogoIcon } from './_icons/WTWLogo';
 export { default as WTWLogoNewIcon } from './_icons/WTWLogoNew';
+export { default as WtwLogoNewWhite } from './_icons/WTWLogoNewWhite';
 export { default as WTWLogoVerticalIcon } from './_icons/WTWLogoVertical';
 export { default as WalkerIcon } from './_icons/Walker';
 export { default as WalkingAidIcon } from './_icons/WalkingAid';
