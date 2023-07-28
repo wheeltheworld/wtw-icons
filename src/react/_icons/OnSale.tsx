@@ -2,24 +2,22 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const OnSale: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" {...props}>
+const OnSale: IconComponent = ({ fill = 'currentColor', stroke = 'currentColor', ...props }) => (
+    <Icon viewBox="0 0 26 24" {...props} fill="none">
         <g id="Group 27">
             <g id="Group 26">
                 <path
                     id="Vector"
-                    d="M11.2764 5.38232L8.31798 10.5064"
-                    stroke="#2353AB"
-                    stroke-width="0.75"
+                    d="M15.9147 8.07373L11.4771 15.7599"
+                    stroke={stroke}
                     stroke-miterlimit="10"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                 />
                 <path
                     id="Vector_2"
-                    d="M11.9762 6.86966C11.603 6.21935 9.97472 4.95476 9.32619 6.07803C8.54983 7.42273 11.07 8.24482 10.3849 9.43141C9.69986 10.618 8.29165 9.6859 7.50335 8.7169"
-                    stroke="#2353AB"
-                    stroke-width="0.75"
+                    d="M16.9644 10.3047C16.4046 9.32926 13.9622 7.43238 12.9894 9.11729C11.8249 11.1343 15.6052 12.3675 14.5775 14.1474C13.5499 15.9272 11.4376 14.5291 10.2551 13.0756"
+                    stroke={stroke}
                     stroke-miterlimit="10"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -27,17 +25,18 @@ const OnSale: IconComponent = (props) => (
             </g>
             <path
                 id="Rectangle 77"
-                d="M8.67943 2.16753C8.44276 2.03088 8.16048 1.99706 7.89822 2.0739L8.03883 2.55373L7.89822 2.0739L3.25491 3.43454C2.74226 3.58476 2.43821 4.11139 2.56443 4.63048L3.70775 9.33202C3.77232 9.59757 3.94276 9.82511 4.17943 9.96175L12.3788 14.6957C12.8571 14.9718 13.4687 14.808 13.7449 14.3297L17.2449 8.26749C17.521 7.78919 17.3571 7.1776 16.8788 6.90146L8.67943 2.16753Z"
-                stroke="#2353AB"
+                d="M10.9507 3.08102L11.1616 3.80075L10.9507 3.08102L3.65409 5.21916C3.01327 5.40694 2.63321 6.06523 2.791 6.71408L4.58763 14.1022L5.31639 13.925L4.58763 14.1022C4.66835 14.4342 4.88139 14.7186 5.17723 14.8894L17.7855 22.1688C18.3834 22.514 19.1479 22.3091 19.493 21.7112L24.993 12.185C25.3382 11.5871 25.1334 10.8226 24.5355 10.4774L11.9272 3.19805C11.6314 3.02724 11.2785 2.98496 10.9507 3.08102Z"
+                stroke={stroke}
+                stroke-width="1.5"
             />
             <ellipse
                 id="Ellipse 1"
-                cx="4.98574"
-                cy="5.16718"
-                rx="0.466667"
-                ry="0.493066"
-                transform="rotate(30 4.98574 5.16718)"
-                fill="#2353AB"
+                cx="6.47946"
+                cy="7.75101"
+                rx="0.7"
+                ry="0.7396"
+                transform="rotate(30 6.47946 7.75101)"
+                stroke={stroke}
             />
         </g>
     </Icon>
