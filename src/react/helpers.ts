@@ -828,7 +828,7 @@ export const iconsObject = {
     boat: Boat,
     braille: Braille,
     breakfast: Breakfast,
-    buildingColor: BuildingColor,
+    buildingcolor: BuildingColor,
     buildingentrance: Buildingentrance,
     bus: Bus,
     businesscenter: BusinessCenter,
