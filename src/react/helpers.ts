@@ -49,6 +49,7 @@ import Blind from './_icons/Blind';
 import Boat from './_icons/Boat';
 import Braille from './_icons/Braille';
 import Breakfast from './_icons/Breakfast';
+import BuildingColor from './_icons/BuildingColor';
 import Buildingentrance from './_icons/Buildingentrance';
 import Bus from './_icons/Bus';
 import BusinessCenter from './_icons/BusinessCenter';
@@ -438,6 +439,7 @@ export const iconsArray = [
     'boat',
     'braille',
     'breakfast',
+    'buildingcolor',
     'buildingentrance',
     'bus',
     'businesscenter',
@@ -826,6 +828,7 @@ export const iconsObject = {
     boat: Boat,
     braille: Braille,
     breakfast: Breakfast,
+    buildingColor: BuildingColor,
     buildingentrance: Buildingentrance,
     bus: Bus,
     businesscenter: BusinessCenter,

@@ -49,6 +49,7 @@ export { default as BlindIcon } from './_icons/Blind';
 export { default as BoatIcon } from './_icons/Boat';
 export { default as BrailleIcon } from './_icons/Braille';
 export { default as BreakfastIcon } from './_icons/Breakfast';
+export { default as BuildingColorIcon } from './_icons/BuildingColor';
 export { default as BuildingentranceIcon } from './_icons/Buildingentrance';
 export { default as BusIcon } from './_icons/Bus';
 export { default as BusinessCenterIcon } from './_icons/BusinessCenter';
