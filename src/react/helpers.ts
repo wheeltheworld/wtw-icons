@@ -206,6 +206,7 @@ import Mirror from './_icons/Mirror';
 import Missing from './_icons/Missing';
 import MissingAlt from './_icons/MissingAlt';
 import MobilePhone from './_icons/MobilePhone';
+import MobilePhoneV2 from './_icons/MobilePhoneV2';
 import Money from './_icons/Money';
 import MoneyMoney from './_icons/MoneyMoney';
 import MoodSwings from './_icons/MoodSwings';
@@ -594,6 +595,7 @@ export const iconsArray = [
     'missing',
     'missingalt',
     'mobilephone',
+    'mobilephonev2',
     'money',
     'moneymoney',
     'moodswings',
@@ -981,6 +983,7 @@ export const iconsObject = {
     missing: Missing,
     missingalt: MissingAlt,
     mobilephone: MobilePhone,
+    mobilephonev2: MobilePhoneV2,
     money: Money,
     moneymoney: MoneyMoney,
     moodswings: MoodSwings,

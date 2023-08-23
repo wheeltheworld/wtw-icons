@@ -206,6 +206,7 @@ export { default as MirrorIcon } from './_icons/Mirror';
 export { default as MissingIcon } from './_icons/Missing';
 export { default as MissingAltIcon } from './_icons/MissingAlt';
 export { default as MobilePhoneIcon } from './_icons/MobilePhone';
+export { default as MobilePhoneV2Icon } from './_icons/MobilePhoneV2';
 export { default as MoneyIcon } from './_icons/Money';
 export { default as MoneyMoneyIcon } from './_icons/MoneyMoney';
 export { default as MoodSwingsIcon } from './_icons/MoodSwings';
