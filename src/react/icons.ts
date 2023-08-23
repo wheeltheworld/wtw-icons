@@ -143,6 +143,7 @@ export { default as GroundTransportationIcon } from './_icons/GroundTransportati
 export { default as GuidesIcon } from './_icons/Guides';
 export { default as GymIcon } from './_icons/Gym';
 export { default as HairDryerIcon } from './_icons/HairDryer';
+export { default as HandShakeColorIcon } from './_icons/HandShakeColor';
 export { default as HappyIcon } from './_icons/Happy';
 export { default as HealthIcon } from './_icons/Health';
 export { default as HearingAidIcon } from './_icons/HearingAid';

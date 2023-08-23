@@ -143,6 +143,7 @@ import GroundTransportation from './_icons/GroundTransportation';
 import Guides from './_icons/Guides';
 import Gym from './_icons/Gym';
 import HairDryer from './_icons/HairDryer';
+import HandShakeColor from './_icons/HandShakeColor';
 import Happy from './_icons/Happy';
 import Health from './_icons/Health';
 import HearingAid from './_icons/HearingAid';
@@ -535,6 +536,7 @@ export const iconsArray = [
     'guides',
     'gym',
     'hairdryer',
+    'handshakecolor',
     'happy',
     'health',
     'hearingaid',
@@ -926,6 +928,7 @@ export const iconsObject = {
     guides: Guides,
     gym: Gym,
     hairdryer: HairDryer,
+    handshakecolor: HandShakeColor,
     happy: Happy,
     health: Health,
     hearingaid: HearingAid,
