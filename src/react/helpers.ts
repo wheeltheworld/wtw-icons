@@ -65,6 +65,7 @@ import Celebrate from './_icons/Celebrate';
 import Chair from './_icons/Chair';
 import Champagne from './_icons/Champagne';
 import ChangingRoom from './_icons/ChangingRoom';
+import Chat from './_icons/Chat';
 import Check from './_icons/Check';
 import Clock from './_icons/Clock';
 import CloseButton from './_icons/CloseButton';
@@ -456,6 +457,7 @@ export const iconsArray = [
     'chair',
     'champagne',
     'changingroom',
+    'chat',
     'check',
     'clock',
     'closebutton',
@@ -846,6 +848,7 @@ export const iconsObject = {
     chair: Chair,
     champagne: Champagne,
     changingroom: ChangingRoom,
+    chat: Chat,
     check: Check,
     clock: Clock,
     closebutton: CloseButton,

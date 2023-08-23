@@ -65,6 +65,7 @@ export { default as CelebrateIcon } from './_icons/Celebrate';
 export { default as ChairIcon } from './_icons/Chair';
 export { default as ChampagneIcon } from './_icons/Champagne';
 export { default as ChangingRoomIcon } from './_icons/ChangingRoom';
+export {default as ChatIcon} from './_icons/Chat';
 export { default as CheckIcon } from './_icons/Check';
 export { default as ClockIcon } from './_icons/Clock';
 export { default as CloseButtonIcon } from './_icons/CloseButton';
