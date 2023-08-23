@@ -1,4 +1,5 @@
 import Accessibility from './_icons/Accessibility';
+import AccessibilityProfile from './_icons/AccessibilityProfile';
 import AccessibleBathroom from './_icons/AccessibleBathroom';
 import AccessibleElevator from './_icons/AccessibleElevator';
 import AccessibleEquipment from './_icons/AccessibleEquipment';
@@ -49,6 +50,7 @@ import Blind from './_icons/Blind';
 import Boat from './_icons/Boat';
 import Braille from './_icons/Braille';
 import Breakfast from './_icons/Breakfast';
+import BuildingColor from './_icons/BuildingColor';
 import Buildingentrance from './_icons/Buildingentrance';
 import Bus from './_icons/Bus';
 import BusinessCenter from './_icons/BusinessCenter';
@@ -64,6 +66,7 @@ import Celebrate from './_icons/Celebrate';
 import Chair from './_icons/Chair';
 import Champagne from './_icons/Champagne';
 import ChangingRoom from './_icons/ChangingRoom';
+import Chat from './_icons/Chat';
 import Check from './_icons/Check';
 import Clock from './_icons/Clock';
 import CloseButton from './_icons/CloseButton';
@@ -141,6 +144,7 @@ import GroundTransportation from './_icons/GroundTransportation';
 import Guides from './_icons/Guides';
 import Gym from './_icons/Gym';
 import HairDryer from './_icons/HairDryer';
+import HandShakeColor from './_icons/HandShakeColor';
 import Happy from './_icons/Happy';
 import Health from './_icons/Health';
 import HearingAid from './_icons/HearingAid';
@@ -206,6 +210,7 @@ import Mirror from './_icons/Mirror';
 import Missing from './_icons/Missing';
 import MissingAlt from './_icons/MissingAlt';
 import MobilePhone from './_icons/MobilePhone';
+import MobilePhoneV2 from './_icons/MobilePhoneV2';
 import Money from './_icons/Money';
 import MoneyMoney from './_icons/MoneyMoney';
 import MoodSwings from './_icons/MoodSwings';
@@ -334,6 +339,7 @@ import TourGuide from './_icons/TourGuide';
 import ToursActivities from './_icons/ToursActivities';
 import Transport from './_icons/Transport';
 import Transportation from './_icons/Transportation';
+import TransportationColor from './_icons/TransportationColor';
 import TravelTips from './_icons/TravelTips';
 import Traveler from './_icons/Traveler';
 import TurningRadius from './_icons/TurningRadius';
@@ -359,6 +365,7 @@ import WTWLogo from './_icons/WTWLogo';
 import WTWLogoNew from './_icons/WTWLogoNew';
 import WTWLogoNewWhite from './_icons/WTWLogoNewWhite';
 import WTWLogoVertical from './_icons/WTWLogoVertical';
+import Wallet from './_icons/Wallet';
 import Walker from './_icons/Walker';
 import WalkingAid from './_icons/WalkingAid';
 import Warning from './_icons/Warning';
@@ -385,6 +392,7 @@ import YoutubeNeutral from './_icons/YoutubeNeutral';
 import { IconTag } from './types';
 
 export const iconsArray = [
+    'accessibilityprofile',
     'accessibility',
     'accessiblebathroom',
     'accessibleelevator',
@@ -436,6 +444,7 @@ export const iconsArray = [
     'boat',
     'braille',
     'breakfast',
+    'buildingcolor',
     'buildingentrance',
     'bus',
     'businesscenter',
@@ -451,6 +460,7 @@ export const iconsArray = [
     'chair',
     'champagne',
     'changingroom',
+    'chat',
     'check',
     'clock',
     'closebutton',
@@ -528,6 +538,7 @@ export const iconsArray = [
     'guides',
     'gym',
     'hairdryer',
+    'handshakecolor',
     'happy',
     'health',
     'hearingaid',
@@ -593,6 +604,7 @@ export const iconsArray = [
     'missing',
     'missingalt',
     'mobilephone',
+    'mobilephonev2',
     'money',
     'moneymoney',
     'moodswings',
@@ -721,6 +733,7 @@ export const iconsArray = [
     'toursactivities',
     'transport',
     'transportation',
+    'transportationcolor',
     'traveltips',
     'traveler',
     'turningradius',
@@ -746,6 +759,7 @@ export const iconsArray = [
     'wtwlogonew',
     'wtwlogonewwhite',
     'wtwlogovertical',
+    'wallet',
     'walker',
     'walkingaid',
     'warning',
@@ -772,6 +786,7 @@ export const iconsArray = [
 
 export const iconsObject = {
     accessibility: Accessibility,
+    accessibilityprofile: AccessibilityProfile,
     accessiblebathroom: AccessibleBathroom,
     accessibleelevator: AccessibleElevator,
     accessibleequipment: AccessibleEquipment,
@@ -822,6 +837,7 @@ export const iconsObject = {
     boat: Boat,
     braille: Braille,
     breakfast: Breakfast,
+    buildingcolor: BuildingColor,
     buildingentrance: Buildingentrance,
     bus: Bus,
     businesscenter: BusinessCenter,
@@ -837,6 +853,7 @@ export const iconsObject = {
     chair: Chair,
     champagne: Champagne,
     changingroom: ChangingRoom,
+    chat: Chat,
     check: Check,
     clock: Clock,
     closebutton: CloseButton,
@@ -914,6 +931,7 @@ export const iconsObject = {
     guides: Guides,
     gym: Gym,
     hairdryer: HairDryer,
+    handshakecolor: HandShakeColor,
     happy: Happy,
     health: Health,
     hearingaid: HearingAid,
@@ -979,6 +997,7 @@ export const iconsObject = {
     missing: Missing,
     missingalt: MissingAlt,
     mobilephone: MobilePhone,
+    mobilephonev2: MobilePhoneV2,
     money: Money,
     moneymoney: MoneyMoney,
     moodswings: MoodSwings,
@@ -1107,6 +1126,7 @@ export const iconsObject = {
     toursactivities: ToursActivities,
     transport: Transport,
     transportation: Transportation,
+    transportationcolor: TransportationColor,
     traveltips: TravelTips,
     traveler: Traveler,
     turningradius: TurningRadius,
@@ -1132,6 +1152,7 @@ export const iconsObject = {
     wtwlogonew: WTWLogoNew,
     wtwlogonewwhite: WTWLogoNewWhite,
     wtwlogovertical: WTWLogoVertical,
+    wallet: Wallet,
     walker: Walker,
     walkingaid: WalkingAid,
     warning: Warning,
