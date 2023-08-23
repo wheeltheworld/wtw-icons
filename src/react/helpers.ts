@@ -334,6 +334,7 @@ import TourGuide from './_icons/TourGuide';
 import ToursActivities from './_icons/ToursActivities';
 import Transport from './_icons/Transport';
 import Transportation from './_icons/Transportation';
+import TransportationColor from './_icons/TransportationColor';
 import TravelTips from './_icons/TravelTips';
 import Traveler from './_icons/Traveler';
 import TurningRadius from './_icons/TurningRadius';
@@ -721,6 +722,7 @@ export const iconsArray = [
     'toursactivities',
     'transport',
     'transportation',
+    'transportationcolor',
     'traveltips',
     'traveler',
     'turningradius',
@@ -1107,6 +1109,7 @@ export const iconsObject = {
     toursactivities: ToursActivities,
     transport: Transport,
     transportation: Transportation,
+    transportationcolor: TransportationColor,
     traveltips: TravelTips,
     traveler: Traveler,
     turningradius: TurningRadius,
