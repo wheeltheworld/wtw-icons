@@ -5,8 +5,8 @@ import { IconComponent } from '../types';
 const TransportationColor: IconComponent = (props: any) => (
     <Icon viewBox="0 0 24 24" {...props}>
       <path fill="currentColor" d="M1 13H23V20H1z"></path>
-      <path fill={props.color2} d="M3 20H8V23H3z"></path>
-      <path fill={props.color2} d="M16 20H21V23H16z"></path>
+      <path fill={props.fill} d="M3 20H8V23H3z"></path>
+      <path fill={props.fill} d="M16 20H21V23H16z"></path>
       <g
         fill="none"
         stroke="#232323"

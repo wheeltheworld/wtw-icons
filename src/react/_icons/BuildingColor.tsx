@@ -3,9 +3,9 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const BuildingColor: IconComponent = (props: any) => (
-    <Icon fill="none" viewBox="0 0 24 24" {...props}>
+    <Icon viewBox="0 0 24 24" {...props} fill="none">
         <path fill="currentColor" d="M0 14H4V23H0z"></path>
-        <path fill={props.color2} d="M19 14H23V23H19z"></path>
+        <path fill={props.fill} d="M19 14H23V23H19z"></path>
         <g
         stroke="#232323"
         strokeLinecap="round"

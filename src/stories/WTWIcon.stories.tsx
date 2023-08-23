@@ -17,5 +17,5 @@ export const WTWIconComponent = Template.bind({});
 WTWIconComponent.args = {
     icon: 'wtwlogo',
     color: '#000',
-    color2: '#000',
+    fill: '#000',
 };

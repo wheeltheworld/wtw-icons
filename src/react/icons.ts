@@ -1,4 +1,5 @@
 export { default as AccessibilityIcon } from './_icons/Accessibility';
+export { default as AccessibilityProfileIcon } from './_icons/AccessibilityProfile';
 export { default as AccessibleBathroomIcon } from './_icons/AccessibleBathroom';
 export { default as AccessibleElevatorIcon } from './_icons/AccessibleElevator';
 export { default as AccessibleEquipmentIcon } from './_icons/AccessibleEquipment';

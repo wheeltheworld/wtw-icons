@@ -1,4 +1,5 @@
 import Accessibility from './_icons/Accessibility';
+import AccessibilityProfile from './_icons/AccessibilityProfile';
 import AccessibleBathroom from './_icons/AccessibleBathroom';
 import AccessibleElevator from './_icons/AccessibleElevator';
 import AccessibleEquipment from './_icons/AccessibleEquipment';
@@ -391,6 +392,7 @@ import YoutubeNeutral from './_icons/YoutubeNeutral';
 import { IconTag } from './types';
 
 export const iconsArray = [
+    'accessibilityprofile',
     'accessibility',
     'accessiblebathroom',
     'accessibleelevator',
@@ -784,6 +786,7 @@ export const iconsArray = [
 
 export const iconsObject = {
     accessibility: Accessibility,
+    accessibilityprofile: AccessibilityProfile,
     accessiblebathroom: AccessibleBathroom,
     accessibleelevator: AccessibleElevator,
     accessibleequipment: AccessibleEquipment,

@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const HandShakeColor: IconComponent = (props: any) => (
-    <Icon fill="none" viewBox="0 0 48 48" {...props}>
+    <Icon viewBox="0 0 48 48" {...props} fill="none">
       <g clipPath="url(#clip0_856_21783)">
         <path
           fill="#fff"
@@ -19,7 +19,7 @@ const HandShakeColor: IconComponent = (props: any) => (
           transform="rotate(-45 30.615 33.42)"
         ></path>
         <path
-          fill={props.color2}
+          fill={props.fill}
           d="M16.294 33.388H28.065V37.777H16.294z"
           transform="rotate(-135 16.294 33.388)"
         ></path>
