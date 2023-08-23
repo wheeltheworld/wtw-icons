@@ -361,6 +361,7 @@ export { default as WTWLogoIcon } from './_icons/WTWLogo';
 export { default as WTWLogoNewIcon } from './_icons/WTWLogoNew';
 export { default as WTWLogoNewWhiteIcon } from './_icons/WTWLogoNewWhite';
 export { default as WTWLogoVerticalIcon } from './_icons/WTWLogoVertical';
+export { default as WalletIcon } from './_icons/Wallet';
 export { default as WalkerIcon } from './_icons/Walker';
 export { default as WalkingAidIcon } from './_icons/WalkingAid';
 export { default as WarningIcon } from './_icons/Warning';

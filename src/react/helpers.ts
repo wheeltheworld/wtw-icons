@@ -362,6 +362,7 @@ import WTWLogo from './_icons/WTWLogo';
 import WTWLogoNew from './_icons/WTWLogoNew';
 import WTWLogoNewWhite from './_icons/WTWLogoNewWhite';
 import WTWLogoVertical from './_icons/WTWLogoVertical';
+import Wallet from './_icons/Wallet';
 import Walker from './_icons/Walker';
 import WalkingAid from './_icons/WalkingAid';
 import Warning from './_icons/Warning';
@@ -752,6 +753,7 @@ export const iconsArray = [
     'wtwlogonew',
     'wtwlogonewwhite',
     'wtwlogovertical',
+    'wallet',
     'walker',
     'walkingaid',
     'warning',
@@ -1141,6 +1143,7 @@ export const iconsObject = {
     wtwlogonew: WTWLogoNew,
     wtwlogonewwhite: WTWLogoNewWhite,
     wtwlogovertical: WTWLogoVertical,
+    wallet: Wallet,
     walker: Walker,
     walkingaid: WalkingAid,
     warning: Warning,
