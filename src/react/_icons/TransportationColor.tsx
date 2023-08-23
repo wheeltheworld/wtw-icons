@@ -2,8 +2,6 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-// Bus #67D1CE
-// Ruedas : #D1F1F0
 const TransportationColor: IconComponent = (props: any) => (
     <Icon viewBox="0 0 24 24" {...props}>
       <path fill="currentColor" d="M1 13H23V20H1z"></path>
