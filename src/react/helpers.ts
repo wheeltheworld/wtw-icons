@@ -7,6 +7,7 @@ import AccessiblePaths from './_icons/AccessiblePaths';
 import AccessibleTransportation from './_icons/AccessibleTransportation';
 import Accommodation from './_icons/Accommodation';
 import Activities from './_icons/Activities';
+import Activity from './_icons/Activity';
 import AdaptiveEquipment from './_icons/AdaptiveEquipment';
 import Add from './_icons/Add';
 import Adrenaline from './_icons/Adrenaline';
@@ -54,14 +55,14 @@ import BuildingColor from './_icons/BuildingColor';
 import Buildingentrance from './_icons/Buildingentrance';
 import Bus from './_icons/Bus';
 import BusinessCenter from './_icons/BusinessCenter';
-import CCheck from './_icons/CCheck';
-import CCheckFilled from './_icons/CCheckFilled';
-import CDelete from './_icons/CDelete';
 import Cabin from './_icons/Cabin';
 import Cafeteria from './_icons/Cafeteria';
 import Calendar from './_icons/Calendar';
 import Camera from './_icons/Camera';
 import Car from './_icons/Car';
+import CCheck from './_icons/CCheck';
+import CCheckFilled from './_icons/CCheckFilled';
+import CDelete from './_icons/CDelete';
 import Celebrate from './_icons/Celebrate';
 import Chair from './_icons/Chair';
 import Champagne from './_icons/Champagne';
@@ -236,6 +237,7 @@ import OnSale from './_icons/OnSale';
 import OpenTour from './_icons/OpenTour';
 import Other from './_icons/Other';
 import Outdoor from './_icons/Outdoor';
+import OutdoorAmenities from './_icons/OutdoorAmenities';
 import OutdoorSpace from './_icons/OutdoorSpace';
 import Oven from './_icons/Oven';
 import Oxigen from './_icons/Oxigen';
@@ -255,6 +257,7 @@ import PlacesToStay from './_icons/PlacesToStay';
 import Plane from './_icons/Plane';
 import Playground from './_icons/Playground';
 import Plus from './_icons/Plus';
+import PlusBig from './_icons/PlusBig';
 import PregnantWoman from './_icons/PregnantWoman';
 import Previous from './_icons/Previous';
 import PrivateTour from './_icons/PrivateTour';
@@ -315,6 +318,7 @@ import StepFree from './_icons/StepFree';
 import StepOne from './_icons/StepOne';
 import StepTwo from './_icons/StepTwo';
 import Sun from './_icons/Sun';
+import Suv from './_icons/Suv';
 import SwimmingPool from './_icons/SwimmingPool';
 import Switch from './_icons/Switch';
 import TactilePaving from './_icons/TactilePaving';
@@ -340,8 +344,8 @@ import ToursActivities from './_icons/ToursActivities';
 import Transport from './_icons/Transport';
 import Transportation from './_icons/Transportation';
 import TransportationColor from './_icons/TransportationColor';
-import TravelTips from './_icons/TravelTips';
 import Traveler from './_icons/Traveler';
+import TravelTips from './_icons/TravelTips';
 import TurningRadius from './_icons/TurningRadius';
 import Tv from './_icons/Tv';
 import TwentyFourHour from './_icons/TwentyFourHour';
@@ -360,14 +364,9 @@ import VideoCamera from './_icons/VideoCamera';
 import View from './_icons/View';
 import Vimeo from './_icons/Vimeo';
 import VimeoNeutral from './_icons/VimeoNeutral';
-import WTWIso from './_icons/WTWIso';
-import WTWLogo from './_icons/WTWLogo';
-import WTWLogoNew from './_icons/WTWLogoNew';
-import WTWLogoNewWhite from './_icons/WTWLogoNewWhite';
-import WTWLogoVertical from './_icons/WTWLogoVertical';
-import Wallet from './_icons/Wallet';
 import Walker from './_icons/Walker';
 import WalkingAid from './_icons/WalkingAid';
+import Wallet from './_icons/Wallet';
 import Warning from './_icons/Warning';
 import WarningFilled from './_icons/WarningFilled';
 import WashHands from './_icons/WashHands';
@@ -386,6 +385,11 @@ import Wifi from './_icons/Wifi';
 import Withdrawal from './_icons/Withdrawal';
 import Work from './_icons/Work';
 import WrittenInformation from './_icons/WrittenInformation';
+import WTWIso from './_icons/WTWIso';
+import WTWLogo from './_icons/WTWLogo';
+import WTWLogoNew from './_icons/WTWLogoNew';
+import WTWLogoNewWhite from './_icons/WTWLogoNewWhite';
+import WTWLogoVertical from './_icons/WTWLogoVertical';
 import Youtube from './_icons/Youtube';
 import YoutubeNeutral from './_icons/YoutubeNeutral';
 
@@ -401,6 +405,7 @@ export const iconsArray = [
     'accessibletransportation',
     'accommodation',
     'activities',
+    'activity',
     'adaptiveequipment',
     'add',
     'adrenaline',
@@ -630,6 +635,7 @@ export const iconsArray = [
     'opentour',
     'other',
     'outdoor',
+    'outdooramenities',
     'outdoorspace',
     'oven',
     'oxigen',
@@ -649,6 +655,7 @@ export const iconsArray = [
     'plane',
     'playground',
     'plus',
+    'plusbig',
     'pregnantwoman',
     'previous',
     'privatetour',
@@ -709,6 +716,7 @@ export const iconsArray = [
     'stepone',
     'steptwo',
     'sun',
+    'suv',
     'swimmingpool',
     'switch',
     'tactilepaving',
@@ -794,6 +802,7 @@ export const iconsObject = {
     accessibletransportation: AccessibleTransportation,
     accommodation: Accommodation,
     activities: Activities,
+    activity: Activity,
     adaptiveequipment: AdaptiveEquipment,
     add: Add,
     adrenaline: Adrenaline,
@@ -1023,6 +1032,7 @@ export const iconsObject = {
     opentour: OpenTour,
     other: Other,
     outdoor: Outdoor,
+    outdooramenities: OutdoorAmenities,
     outdoorspace: OutdoorSpace,
     oven: Oven,
     oxigen: Oxigen,
@@ -1042,6 +1052,7 @@ export const iconsObject = {
     plane: Plane,
     playground: Playground,
     plus: Plus,
+    plusbig: PlusBig,
     pregnantwoman: PregnantWoman,
     previous: Previous,
     privatetour: PrivateTour,
@@ -1102,6 +1113,7 @@ export const iconsObject = {
     stepone: StepOne,
     steptwo: StepTwo,
     sun: Sun,
+    suv: Suv,
     swimmingpool: SwimmingPool,
     switch: Switch,
     tactilepaving: TactilePaving,
