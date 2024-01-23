@@ -110,6 +110,7 @@ export { default as DocumentIcon } from './_icons/Document';
 export { default as DocumentationIcon } from './_icons/Documentation';
 export { default as DoneIcon } from './_icons/Done';
 export { default as DoorHandleIcon } from './_icons/DoorHandle';
+export { default as DoubleVideo } from './_icons/DoubleVideo';
 export { default as DownloadIcon } from './_icons/Download';
 export { default as DryCleaningIcon } from './_icons/DryCleaning';
 export { default as DuplicateIcon } from './_icons/Duplicate';

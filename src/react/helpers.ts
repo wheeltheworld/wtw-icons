@@ -110,6 +110,7 @@ import Document from './_icons/Document';
 import Documentation from './_icons/Documentation';
 import Done from './_icons/Done';
 import DoorHandle from './_icons/DoorHandle';
+import DoubleVideo from './_icons/DoubleVideo';
 import Download from './_icons/Download';
 import DryCleaning from './_icons/DryCleaning';
 import Duplicate from './_icons/Duplicate';
@@ -508,6 +509,7 @@ export const iconsArray = [
     'documentation',
     'done',
     'doorhandle',
+    'doubleVideo',
     'download',
     'drycleaning',
     'duplicate',
@@ -905,6 +907,7 @@ export const iconsObject = {
     documentation: Documentation,
     done: Done,
     doorhandle: DoorHandle,
+    doubleVideo: DoubleVideo,
     download: Download,
     drycleaning: DryCleaning,
     duplicate: Duplicate,
