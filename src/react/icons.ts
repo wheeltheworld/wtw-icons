@@ -88,6 +88,7 @@ export { default as CompletelyFlatIcon } from './_icons/CompletelyFlat';
 export { default as ConferenceIcon } from './_icons/Conference';
 export { default as ConfusedIcon } from './_icons/Confused';
 export { default as ContrastMarkingIcon } from './_icons/ContrastMarking';
+export { default as CopyIcon } from './_icons/Copy';
 export { default as CountriesIcon } from './_icons/Countries';
 export { default as CouponIcon } from './_icons/Coupon';
 export { default as CreditCardIcon } from './_icons/CreditCard';
