@@ -88,6 +88,7 @@ import CompletelyFlat from './_icons/CompletelyFlat';
 import Conference from './_icons/Conference';
 import Confused from './_icons/Confused';
 import ContrastMarking from './_icons/ContrastMarking';
+import Copy from './_icons/Copy';
 import Countries from './_icons/Countries';
 import Coupon from './_icons/Coupon';
 import CreditCard from './_icons/CreditCard';
@@ -487,6 +488,7 @@ export const iconsArray = [
     'conference',
     'confused',
     'contrastmarking',
+    'copy',
     'countries',
     'coupon',
     'creditcard',
@@ -885,6 +887,7 @@ export const iconsObject = {
     conference: Conference,
     confused: Confused,
     contrastmarking: ContrastMarking,
+    copy: Copy,
     countries: Countries,
     coupon: Coupon,
     creditcard: CreditCard,
