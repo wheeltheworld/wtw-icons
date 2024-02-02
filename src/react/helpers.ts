@@ -228,6 +228,7 @@ import Next from './_icons/Next';
 import No from './_icons/No';
 import NoFees from './_icons/NoFees';
 import Noise from './_icons/Noise';
+import NoPhone from './_icons/NoPhone';
 import NotComfortable from './_icons/NotComfortable';
 import Notification from './_icons/Notification';
 import NotificationActive from './_icons/NotificationActive';
@@ -631,6 +632,7 @@ export const iconsArray = [
     'notcomfortable',
     'notification',
     'notificationactive',
+    'nophone',
     'nurse',
     'nutrition',
     'onehour',
@@ -1026,6 +1028,7 @@ export const iconsObject = {
     next: Next,
     no: No,
     nofees: NoFees,
+    nophone: NoPhone,
     noise: Noise,
     notcomfortable: NotComfortable,
     notification: Notification,

@@ -227,6 +227,7 @@ export { default as NewsIcon } from './_icons/News';
 export { default as NextIcon } from './_icons/Next';
 export { default as NoIcon } from './_icons/No';
 export { default as NoFeesIcon } from './_icons/NoFees';
+export { default as NoPhoneIcon } from './_icons/NoPhone';
 export { default as NoiseIcon } from './_icons/Noise';
 export { default as NotComfortableIcon } from './_icons/NotComfortable';
 export { default as NotificationIcon } from './_icons/Notification';
@@ -393,4 +394,3 @@ export { default as WTWLogoNewWhiteIcon } from './_icons/WTWLogoNewWhite';
 export { default as WTWLogoVerticalIcon } from './_icons/WTWLogoVertical';
 export { default as YoutubeIcon } from './_icons/Youtube';
 export { default as YoutubeNeutralIcon } from './_icons/YoutubeNeutral';
-
