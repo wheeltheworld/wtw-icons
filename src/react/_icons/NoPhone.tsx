@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const NoPhone: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" {...props}>
+    <Icon viewBox="0 0 24 24" {...props} style={{ fill: 'none' }}>
         <path
             stroke="currentColor"
             strokeLinecap="round"
