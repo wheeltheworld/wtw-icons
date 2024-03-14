@@ -192,6 +192,7 @@ export { default as LaundryIcon } from  './_icons/Laundry';
 export { default as LevelIcon } from  './_icons/Level';
 export { default as LeverHandleIcon } from  './_icons/LeverHandle';
 export { default as LifevestIcon } from  './_icons/Lifevest';
+export { default as LinkArrowIcon } from  './_icons/LinkArrow';
 export { default as LinkedinIcon } from  './_icons/Linkedin';
 export { default as LinkedinNeutralIcon } from  './_icons/LinkedinNeutral';
 export { default as LobbyIcon } from  './_icons/Lobby';

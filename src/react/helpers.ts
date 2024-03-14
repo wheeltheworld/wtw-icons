@@ -192,6 +192,7 @@ import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import LeverHandle from  './_icons/LeverHandle';
 import Lifevest from  './_icons/Lifevest';
+import LinkArrow from  './_icons/LinkArrow';
 import Linkedin from  './_icons/Linkedin';
 import LinkedinNeutral from  './_icons/LinkedinNeutral';
 import Lobby from  './_icons/Lobby';
@@ -593,6 +594,7 @@ export const iconsArray = [
 	'level',
 	'leverhandle',
 	'lifevest',
+	'linkarrow',
 	'linkedin',
 	'linkedinneutral',
 	'lobby',
@@ -993,6 +995,7 @@ export const iconsObject = {
 	level: Level,
 	leverhandle: LeverHandle,
 	lifevest: Lifevest,
+	linkarrow: LinkArrow,
 	linkedin: Linkedin,
 	linkedinneutral: LinkedinNeutral,
 	lobby: Lobby,
