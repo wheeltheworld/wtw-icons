@@ -46,6 +46,7 @@ export { default as BedHoistIcon } from  './_icons/BedHoist';
 export { default as BedroomAccessIcon } from  './_icons/BedroomAccess';
 export { default as BedroomInteriorIcon } from  './_icons/BedroomInterior';
 export { default as BeerBarIcon } from  './_icons/BeerBar';
+export { default as BestIcon } from  './_icons/Best';
 export { default as BidetIcon } from  './_icons/Bidet';
 export { default as BlindIcon } from  './_icons/Blind';
 export { default as BoatIcon } from  './_icons/Boat';

@@ -46,6 +46,7 @@ import BedHoist from  './_icons/BedHoist';
 import BedroomAccess from  './_icons/BedroomAccess';
 import BedroomInterior from  './_icons/BedroomInterior';
 import BeerBar from  './_icons/BeerBar';
+import Best from  './_icons/Best';
 import Bidet from  './_icons/Bidet';
 import Blind from  './_icons/Blind';
 import Boat from  './_icons/Boat';
@@ -448,6 +449,7 @@ export const iconsArray = [
 	'bedroomaccess',
 	'bedroominterior',
 	'beerbar',
+	'best',
 	'bidet',
 	'blind',
 	'boat',
@@ -849,6 +851,7 @@ export const iconsObject = {
 	bedroomaccess: BedroomAccess,
 	bedroominterior: BedroomInterior,
 	beerbar: BeerBar,
+	best: Best,
 	bidet: Bidet,
 	blind: Blind,
 	boat: Boat,
