@@ -70,6 +70,7 @@ import Champagne from  './_icons/Champagne';
 import ChangingRoom from  './_icons/ChangingRoom';
 import Chat from  './_icons/Chat';
 import Check from  './_icons/Check';
+import Chrismas from  './_icons/Chrismas';
 import Clock from  './_icons/Clock';
 import CloseButton from  './_icons/CloseButton';
 import CloseButtonFilled from  './_icons/CloseButtonFilled';
@@ -473,6 +474,7 @@ export const iconsArray = [
 	'changingroom',
 	'chat',
 	'check',
+	'chrismas',
 	'clock',
 	'closebutton',
 	'closebuttonfilled',
@@ -875,6 +877,7 @@ export const iconsObject = {
 	changingroom: ChangingRoom,
 	chat: Chat,
 	check: Check,
+	chrismas: Chrismas,
 	clock: Clock,
 	closebutton: CloseButton,
 	closebuttonfilled: CloseButtonFilled,
