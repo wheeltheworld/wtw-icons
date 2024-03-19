@@ -1,1 +1,0 @@
-{"version":3,"file":"Notification.js","sourceRoot":"","sources":["../src/react/_icons/Notification.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,gDAA0B;AAC1B,4DAAsC;AAGtC,IAAM,YAAY,GAAkB,UAAC,KAAK;IACtC,OAAO,CACH,8BAAC,cAAI,aAAC,OAAO,EAAC,WAAW,IAAK,KAAK;QAC/B,wCACI,IAAI,EAAC,cAAc,EACnB,CAAC,EAAC,kbAAkb,GACtb,CACC,CACV,CAAC;AACN,CAAC,CAAC;AAEF,kBAAe,YAAY,CAAC"}
