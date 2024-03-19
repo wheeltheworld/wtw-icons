@@ -127,6 +127,7 @@ import Entertainment from  './_icons/Entertainment';
 import Entrance from  './_icons/Entrance';
 import Equipment from  './_icons/Equipment';
 import EventRoom from  './_icons/EventRoom';
+import Exclusive from  './_icons/Exclusive';
 import Exhibition from  './_icons/Exhibition';
 import ExtraFirmMattress from  './_icons/ExtraFirmMattress';
 import ExtraSoftMattress from  './_icons/ExtraSoftMattress';
@@ -136,6 +137,7 @@ import Filter from  './_icons/Filter';
 import FitnessCenter from  './_icons/FitnessCenter';
 import FiveHours from  './_icons/FiveHours';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
+import Food from  './_icons/Food';
 import FoodService from  './_icons/FoodService';
 import Forgetful from  './_icons/Forgetful';
 import Friendly from  './_icons/Friendly';
@@ -146,9 +148,12 @@ import Google from  './_icons/Google';
 import GoogleNeutral from  './_icons/GoogleNeutral';
 import Gratuities from  './_icons/Gratuities';
 import GroundTransportation from  './_icons/GroundTransportation';
+import GroupTours from  './_icons/GroupTours';
 import Guides from  './_icons/Guides';
 import Gym from  './_icons/Gym';
 import HairDryer from  './_icons/HairDryer';
+import Halloween from  './_icons/Halloween';
+import Halloween1 from  './_icons/Halloween1';
 import HandShakeColor from  './_icons/HandShakeColor';
 import Happy from  './_icons/Happy';
 import Health from  './_icons/Health';
@@ -172,12 +177,14 @@ import Humidity from  './_icons/Humidity';
 import Id from  './_icons/Id';
 import ImportantInfo from  './_icons/ImportantInfo';
 import InProgress from  './_icons/InProgress';
+import Independence from  './_icons/Independence';
 import Instagram from  './_icons/Instagram';
 import InstagramNeutral from  './_icons/InstagramNeutral';
 import Instructor from  './_icons/Instructor';
 import Insurance from  './_icons/Insurance';
 import Interior from  './_icons/Interior';
 import Invite from  './_icons/Invite';
+import Irish from  './_icons/Irish';
 import Iron from  './_icons/Iron';
 import Jacuzzi from  './_icons/Jacuzzi';
 import JeepCar from  './_icons/JeepCar';
@@ -190,6 +197,8 @@ import Language from  './_icons/Language';
 import Language02 from  './_icons/Language02';
 import LanguageMessage from  './_icons/LanguageMessage';
 import LargePrint from  './_icons/LargePrint';
+import Last from  './_icons/Last';
+import LastMinute from  './_icons/LastMinute';
 import Laundry from  './_icons/Laundry';
 import Level from  './_icons/Level';
 import LeverHandle from  './_icons/LeverHandle';
@@ -202,9 +211,12 @@ import Location from  './_icons/Location';
 import LocationBlack from  './_icons/LocationBlack';
 import Lock from  './_icons/Lock';
 import LogOut from  './_icons/LogOut';
+import Love from  './_icons/Love';
 import LowerBathtub from  './_icons/LowerBathtub';
+import LowerPrice from  './_icons/LowerPrice';
 import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
+import Luxe from  './_icons/Luxe';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeetingPoint from  './_icons/MeetingPoint';
 import MeetingRoom from  './_icons/MeetingRoom';
@@ -228,6 +240,7 @@ import MultiDayTrips from  './_icons/MultiDayTrips';
 import NarrowShower from  './_icons/NarrowShower';
 import News from  './_icons/News';
 import Next from  './_icons/Next';
+import Night from  './_icons/Night';
 import No from  './_icons/No';
 import NoFees from  './_icons/NoFees';
 import NoPhone from  './_icons/NoPhone';
@@ -250,6 +263,7 @@ import Oxigen from  './_icons/Oxigen';
 import Park from  './_icons/Park';
 import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
+import Pascuas from  './_icons/Pascuas';
 import Pending from  './_icons/Pending';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
@@ -271,6 +285,7 @@ import Profile from  './_icons/Profile';
 import ProfileOutline from  './_icons/ProfileOutline';
 import QueenBed from  './_icons/QueenBed';
 import Reception from  './_icons/Reception';
+import Relax from  './_icons/Relax';
 import Resort from  './_icons/Resort';
 import Restaurant from  './_icons/Restaurant';
 import Restrictions from  './_icons/Restrictions';
@@ -281,6 +296,7 @@ import RoomIllustration from  './_icons/RoomIllustration';
 import RoomService from  './_icons/RoomService';
 import Safe from  './_icons/Safe';
 import SafetyEquipment from  './_icons/SafetyEquipment';
+import Sale from  './_icons/Sale';
 import Sauna from  './_icons/Sauna';
 import Save from  './_icons/Save';
 import Scooter from  './_icons/Scooter';
@@ -335,6 +351,7 @@ import TeaMakingFacilities from  './_icons/TeaMakingFacilities';
 import TeaRoom from  './_icons/TeaRoom';
 import TermsAndConditions from  './_icons/TermsAndConditions';
 import Terrace from  './_icons/Terrace';
+import ThanksGiving from  './_icons/ThanksGiving';
 import ThingsToDo from  './_icons/ThingsToDo';
 import ThirtyMinutes from  './_icons/ThirtyMinutes';
 import ThreeHours from  './_icons/ThreeHours';
@@ -345,6 +362,7 @@ import TiktokNeutral from  './_icons/TiktokNeutral';
 import Toilet from  './_icons/Toilet';
 import ToiletGrabBar from  './_icons/ToiletGrabBar';
 import ToiletPaper from  './_icons/ToiletPaper';
+import Tour from  './_icons/Tour';
 import TourGuide from  './_icons/TourGuide';
 import ToursActivities from  './_icons/ToursActivities';
 import Transport from  './_icons/Transport';
@@ -531,6 +549,7 @@ export const iconsArray = [
 	'entrance',
 	'equipment',
 	'eventroom',
+	'exclusive',
 	'exhibition',
 	'extrafirmmattress',
 	'extrasoftmattress',
@@ -540,6 +559,7 @@ export const iconsArray = [
 	'fitnesscenter',
 	'fivehours',
 	'foldablepowerwheelchair',
+	'food',
 	'foodservice',
 	'forgetful',
 	'friendly',
@@ -550,9 +570,12 @@ export const iconsArray = [
 	'googleneutral',
 	'gratuities',
 	'groundtransportation',
+	'grouptours',
 	'guides',
 	'gym',
 	'hairdryer',
+	'halloween',
+	'halloween1',
 	'handshakecolor',
 	'happy',
 	'health',
@@ -576,12 +599,14 @@ export const iconsArray = [
 	'id',
 	'importantinfo',
 	'inprogress',
+	'independence',
 	'instagram',
 	'instagramneutral',
 	'instructor',
 	'insurance',
 	'interior',
 	'invite',
+	'irish',
 	'iron',
 	'jacuzzi',
 	'jeepcar',
@@ -594,6 +619,8 @@ export const iconsArray = [
 	'language02',
 	'languagemessage',
 	'largeprint',
+	'last',
+	'lastminute',
 	'laundry',
 	'level',
 	'leverhandle',
@@ -606,9 +633,12 @@ export const iconsArray = [
 	'locationblack',
 	'lock',
 	'logout',
+	'love',
 	'lowerbathtub',
+	'lowerprice',
 	'lowersteps',
 	'lunch',
+	'luxe',
 	'measuringtape',
 	'meetingpoint',
 	'meetingroom',
@@ -632,6 +662,7 @@ export const iconsArray = [
 	'narrowshower',
 	'news',
 	'next',
+	'night',
 	'no',
 	'nofees',
 	'nophone',
@@ -654,6 +685,7 @@ export const iconsArray = [
 	'park',
 	'parking',
 	'partners',
+	'pascuas',
 	'pending',
 	'person',
 	'petfriendly',
@@ -675,6 +707,7 @@ export const iconsArray = [
 	'profileoutline',
 	'queenbed',
 	'reception',
+	'relax',
 	'resort',
 	'restaurant',
 	'restrictions',
@@ -685,6 +718,7 @@ export const iconsArray = [
 	'roomservice',
 	'safe',
 	'safetyequipment',
+	'sale',
 	'sauna',
 	'save',
 	'scooter',
@@ -739,6 +773,7 @@ export const iconsArray = [
 	'tearoom',
 	'termsandconditions',
 	'terrace',
+	'thanksgiving',
 	'thingstodo',
 	'thirtyminutes',
 	'threehours',
@@ -749,6 +784,7 @@ export const iconsArray = [
 	'toilet',
 	'toiletgrabbar',
 	'toiletpaper',
+	'tour',
 	'tourguide',
 	'toursactivities',
 	'transport',
@@ -934,6 +970,7 @@ export const iconsObject = {
 	entrance: Entrance,
 	equipment: Equipment,
 	eventroom: EventRoom,
+	exclusive: Exclusive,
 	exhibition: Exhibition,
 	extrafirmmattress: ExtraFirmMattress,
 	extrasoftmattress: ExtraSoftMattress,
@@ -943,6 +980,7 @@ export const iconsObject = {
 	fitnesscenter: FitnessCenter,
 	fivehours: FiveHours,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
+	food: Food,
 	foodservice: FoodService,
 	forgetful: Forgetful,
 	friendly: Friendly,
@@ -953,9 +991,12 @@ export const iconsObject = {
 	googleneutral: GoogleNeutral,
 	gratuities: Gratuities,
 	groundtransportation: GroundTransportation,
+	grouptours: GroupTours,
 	guides: Guides,
 	gym: Gym,
 	hairdryer: HairDryer,
+	halloween: Halloween,
+	halloween1: Halloween1,
 	handshakecolor: HandShakeColor,
 	happy: Happy,
 	health: Health,
@@ -979,12 +1020,14 @@ export const iconsObject = {
 	id: Id,
 	importantinfo: ImportantInfo,
 	inprogress: InProgress,
+	independence: Independence,
 	instagram: Instagram,
 	instagramneutral: InstagramNeutral,
 	instructor: Instructor,
 	insurance: Insurance,
 	interior: Interior,
 	invite: Invite,
+	irish: Irish,
 	iron: Iron,
 	jacuzzi: Jacuzzi,
 	jeepcar: JeepCar,
@@ -997,6 +1040,8 @@ export const iconsObject = {
 	language02: Language02,
 	languagemessage: LanguageMessage,
 	largeprint: LargePrint,
+	last: Last,
+	lastminute: LastMinute,
 	laundry: Laundry,
 	level: Level,
 	leverhandle: LeverHandle,
@@ -1009,9 +1054,12 @@ export const iconsObject = {
 	locationblack: LocationBlack,
 	lock: Lock,
 	logout: LogOut,
+	love: Love,
 	lowerbathtub: LowerBathtub,
+	lowerprice: LowerPrice,
 	lowersteps: LowerSteps,
 	lunch: Lunch,
+	luxe: Luxe,
 	measuringtape: MeasuringTape,
 	meetingpoint: MeetingPoint,
 	meetingroom: MeetingRoom,
@@ -1035,6 +1083,7 @@ export const iconsObject = {
 	narrowshower: NarrowShower,
 	news: News,
 	next: Next,
+	night: Night,
 	no: No,
 	nofees: NoFees,
 	nophone: NoPhone,
@@ -1057,6 +1106,7 @@ export const iconsObject = {
 	park: Park,
 	parking: Parking,
 	partners: Partners,
+	pascuas: Pascuas,
 	pending: Pending,
 	person: Person,
 	petfriendly: PetFriendly,
@@ -1078,6 +1128,7 @@ export const iconsObject = {
 	profileoutline: ProfileOutline,
 	queenbed: QueenBed,
 	reception: Reception,
+	relax: Relax,
 	resort: Resort,
 	restaurant: Restaurant,
 	restrictions: Restrictions,
@@ -1088,6 +1139,7 @@ export const iconsObject = {
 	roomservice: RoomService,
 	safe: Safe,
 	safetyequipment: SafetyEquipment,
+	sale: Sale,
 	sauna: Sauna,
 	save: Save,
 	scooter: Scooter,
@@ -1142,6 +1194,7 @@ export const iconsObject = {
 	tearoom: TeaRoom,
 	termsandconditions: TermsAndConditions,
 	terrace: Terrace,
+	thanksgiving: ThanksGiving,
 	thingstodo: ThingsToDo,
 	thirtyminutes: ThirtyMinutes,
 	threehours: ThreeHours,
@@ -1152,6 +1205,7 @@ export const iconsObject = {
 	toilet: Toilet,
 	toiletgrabbar: ToiletGrabBar,
 	toiletpaper: ToiletPaper,
+	tour: Tour,
 	tourguide: TourGuide,
 	toursactivities: ToursActivities,
 	transport: Transport,
