@@ -7,3 +7,6 @@ The best open source icon library with an accessibility focus
 ## Use it in react:
  - import it ```import WTWIcon from 'wtw-icons'```
  - use it wherever you want ```<WTWIcon icon="wtwlogo" />```
+
+## Demo 
+https://wheeltheworld.github.io/wtw-icons
