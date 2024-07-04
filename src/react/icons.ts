@@ -418,5 +418,6 @@ export { default as WifiIcon } from  './_icons/Wifi';
 export { default as WithdrawalIcon } from  './_icons/Withdrawal';
 export { default as WorkIcon } from  './_icons/Work';
 export { default as WrittenInformationIcon } from  './_icons/WrittenInformation';
+export { default as XIcon } from  './_icons/X';
 export { default as YoutubeIcon } from  './_icons/Youtube';
 export { default as YoutubeNeutralIcon } from  './_icons/YoutubeNeutral';
