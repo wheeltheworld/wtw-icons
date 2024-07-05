@@ -418,6 +418,7 @@ import Wifi from  './_icons/Wifi';
 import Withdrawal from  './_icons/Withdrawal';
 import Work from  './_icons/Work';
 import WrittenInformation from  './_icons/WrittenInformation';
+import X from  './_icons/X';
 import Youtube from  './_icons/Youtube';
 import YoutubeNeutral from  './_icons/YoutubeNeutral';
 
@@ -844,6 +845,7 @@ export const iconsArray = [
 	'withdrawal',
 	'work',
 	'writteninformation',
+	'x',
 	'youtube',
 	'youtubeneutral',
 ] as const;
@@ -1269,6 +1271,7 @@ export const iconsObject = {
 	withdrawal: Withdrawal,
 	work: Work,
 	writteninformation: WrittenInformation,
+	x: X,
 	youtube: Youtube,
 	youtubeneutral: YoutubeNeutral,
 } as const;
