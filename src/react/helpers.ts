@@ -1,3 +1,4 @@
+import Academy from  './_icons/Academy';
 import Accessibility from  './_icons/Accessibility';
 import AccessibilityProfile from  './_icons/AccessibilityProfile';
 import AccessibleBathroom from  './_icons/AccessibleBathroom';
@@ -172,6 +173,7 @@ import HelpFilled from  './_icons/HelpFilled';
 import Hide from  './_icons/Hide';
 import HighBathtub from  './_icons/HighBathtub';
 import Home from  './_icons/Home';
+import HomeFilled from  './_icons/HomeFilled';
 import Hot from  './_icons/Hot';
 import Hotel from  './_icons/Hotel';
 import Housekeeping from  './_icons/Housekeeping';
@@ -208,6 +210,7 @@ import Lifevest from  './_icons/Lifevest';
 import LinkArrow from  './_icons/LinkArrow';
 import Linkedin from  './_icons/Linkedin';
 import LinkedinNeutral from  './_icons/LinkedinNeutral';
+import Listings from  './_icons/Listings';
 import Lobby from  './_icons/Lobby';
 import Location from  './_icons/Location';
 import LocationBlack from  './_icons/LocationBlack';
@@ -290,6 +293,7 @@ import ProfileOutline from  './_icons/ProfileOutline';
 import QueenBed from  './_icons/QueenBed';
 import Reception from  './_icons/Reception';
 import Relax from  './_icons/Relax';
+import Rentals from  './_icons/Rentals';
 import Resort from  './_icons/Resort';
 import Restaurant from  './_icons/Restaurant';
 import Restrictions from  './_icons/Restrictions';
@@ -425,6 +429,7 @@ import YoutubeNeutral from  './_icons/YoutubeNeutral';
 import { IconTag } from './types'
 
 export const iconsArray = [
+	'academy',
 	'accessibility',
 	'accessibilityprofile',
 	'accessiblebathroom',
@@ -599,6 +604,7 @@ export const iconsArray = [
 	'hide',
 	'highbathtub',
 	'home',
+	'homefilled',
 	'hot',
 	'hotel',
 	'housekeeping',
@@ -635,6 +641,7 @@ export const iconsArray = [
 	'linkarrow',
 	'linkedin',
 	'linkedinneutral',
+	'listings',
 	'lobby',
 	'location',
 	'locationblack',
@@ -717,6 +724,7 @@ export const iconsArray = [
 	'queenbed',
 	'reception',
 	'relax',
+	'rentals',
 	'resort',
 	'restaurant',
 	'restrictions',
@@ -851,6 +859,7 @@ export const iconsArray = [
 ] as const;
 
 export const iconsObject = {
+	academy: Academy,
 	accessibility: Accessibility,
 	accessibilityprofile: AccessibilityProfile,
 	accessiblebathroom: AccessibleBathroom,
@@ -1025,6 +1034,7 @@ export const iconsObject = {
 	hide: Hide,
 	highbathtub: HighBathtub,
 	home: Home,
+	homefilled: HomeFilled,
 	hot: Hot,
 	hotel: Hotel,
 	housekeeping: Housekeeping,
@@ -1061,6 +1071,7 @@ export const iconsObject = {
 	linkarrow: LinkArrow,
 	linkedin: Linkedin,
 	linkedinneutral: LinkedinNeutral,
+	listings: Listings,
 	lobby: Lobby,
 	location: Location,
 	locationblack: LocationBlack,
@@ -1143,6 +1154,7 @@ export const iconsObject = {
 	queenbed: QueenBed,
 	reception: Reception,
 	relax: Relax,
+	rentals: Rentals,
 	resort: Resort,
 	restaurant: Restaurant,
 	restrictions: Restrictions,
