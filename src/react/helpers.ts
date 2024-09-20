@@ -290,6 +290,7 @@ import Previous from  './_icons/Previous';
 import PrivateTour from  './_icons/PrivateTour';
 import Profile from  './_icons/Profile';
 import ProfileOutline from  './_icons/ProfileOutline';
+import Project from  './_icons/Project';
 import QueenBed from  './_icons/QueenBed';
 import Reception from  './_icons/Reception';
 import Relax from  './_icons/Relax';
@@ -721,6 +722,7 @@ export const iconsArray = [
 	'privatetour',
 	'profile',
 	'profileoutline',
+	'project',
 	'queenbed',
 	'reception',
 	'relax',
@@ -1151,6 +1153,7 @@ export const iconsObject = {
 	privatetour: PrivateTour,
 	profile: Profile,
 	profileoutline: ProfileOutline,
+	project: Project,
 	queenbed: QueenBed,
 	reception: Reception,
 	relax: Relax,
