@@ -4,66 +4,12 @@ import { IconComponent } from '../types';
 
 const Bar: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <path
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                d="M15,6c0-2.2,1.8-4,4-4 s4,1.8,4,4s-1.8,4-4,4c-1,0-1.9-0.4-2.7-1"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                x1={6.6}
-                y1={10}
-                x2={15.4}
-                y2={10}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <polygon
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                points="19,6 11,15 3,6 "
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={11}
-                y1={15}
-                x2={11}
-                y2={22}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={6}
-                y1={22}
-                x2={16}
-                y2={22}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.7877 10.5927L11.1504 14.6847V19.25H14.3999C14.8141 19.25 15.1499 19.5858 15.1499 20C15.1499 20.4142 14.8141 20.75 14.3999 20.75H6.39992C5.9857 20.75 5.64992 20.4142 5.64992 20C5.64992 19.5858 5.9857 19.25 6.39992 19.25H9.6504V14.6855L3.43946 7.69823C3.24324 7.47749 3.19484 7.16214 3.31583 6.89272C3.43682 6.62329 3.70467 6.44996 4.00001 6.44996H12.9219C13.2743 4.63179 14.8822 3.25 16.8001 3.25C18.9743 3.25 20.7501 5.02579 20.7501 7.2C20.7501 9.37421 18.9743 11.15 16.8001 11.15C16.0533 11.15 15.3807 10.9281 14.7877 10.5927ZM15.1299 7.94996C14.6246 8.51838 14.1223 9.08351 13.6187 9.65002H7.18131L5.67015 7.94996H15.1299ZM8.51465 11.15L10.4 13.2711L12.2854 11.15H8.51465ZM15.8178 9.4338C16.1391 9.57477 16.4657 9.65 16.8001 9.65C18.1459 9.65 19.2501 8.54579 19.2501 7.2C19.2501 5.85421 18.1459 4.75 16.8001 4.75C15.7155 4.75 14.7879 5.46716 14.4686 6.44996H16.8C17.0954 6.44996 17.3632 6.62329 17.4842 6.89272C17.6052 7.16214 17.5568 7.47749 17.3606 7.69823L15.8178 9.4338Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

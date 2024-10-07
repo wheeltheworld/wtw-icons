@@ -4,36 +4,12 @@ import { IconComponent } from '../types';
 
 const Audioguides: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <path
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M23,15v-3 c0-6.075-4.925-11-11-11h0C5.925,1,1,5.925,1,12v3"
-                strokeLinejoin="round"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M7,15H1v6 c0,1.105,0.895,2,2,2h4V15z"
-                strokeLinejoin="round"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M23,15h-6v8h4 c1.105,0,2-0.895,2-2V15z"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.16602 11.6054C3.16602 6.7264 7.12123 2.77118 12.0002 2.77118C16.8793 2.77118 20.8345 6.7264 20.8345 11.6054V18.4788C20.8345 19.9976 19.6033 21.2288 18.0845 21.2288H16.6831C15.7166 21.2288 14.9331 20.4453 14.9331 19.4788V15.6094C14.9331 14.6429 15.7166 13.8594 16.6831 13.8594H19.3345V11.6054C19.3345 7.55482 16.0508 4.27118 12.0002 4.27118C7.94966 4.27118 4.66602 7.55482 4.66602 11.6054V13.8594H7.29259C8.25909 13.8594 9.04259 14.6429 9.04259 15.6094V19.4788C9.04259 20.4453 8.25909 21.2288 7.29259 21.2288H5.91602C4.39723 21.2288 3.16602 19.9976 3.16602 18.4788V11.6054ZM4.66602 15.3594V18.4788C4.66602 19.1692 5.22566 19.7288 5.91602 19.7288H7.29259C7.43066 19.7288 7.54259 19.6169 7.54259 19.4788V15.6094C7.54259 15.4713 7.43066 15.3594 7.29259 15.3594H4.66602ZM19.3345 15.3594H16.6831C16.5451 15.3594 16.4331 15.4713 16.4331 15.6094V19.4788C16.4331 19.6169 16.5451 19.7288 16.6831 19.7288H18.0845C18.7748 19.7288 19.3345 19.1692 19.3345 18.4788V15.3594Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
