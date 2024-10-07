@@ -4,118 +4,12 @@ import { IconComponent } from '../types';
 
 const BedroomInterior: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
-            <path
-                d="M6.14 18.05H3.85V3.44h16.28v14.61h-2.3"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M1 2.28l2.85 1.16"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M23 2.28l-2.85 1.16"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M1 19.88l2.85-1.83"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M22.98 19.88l-2.85-1.83"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <g transform="translate(.5 .5)">
-                <path
-                    d="M5.66 19.25v2.13"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M17.34 19.25v2.13"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M5.66 16.06h11.69v3.19H5.66z"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M6.72 16.06v-3.72"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M16.28 16.06v-3.72"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M6.72 13.41h9.56"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M11.5 16.06v-2.65"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-            </g>
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.19602 4.29031C2.81237 4.13416 2.37477 4.31858 2.21862 4.70224C2.06247 5.08589 2.24689 5.52349 2.63054 5.67964L4.51753 6.44768V17.6016L2.50805 18.8919C2.1595 19.1157 2.05838 19.5797 2.28218 19.9282C2.50599 20.2768 2.96997 20.3779 3.31852 20.1541L5.48751 18.7614H6.4257V21.175C6.4257 21.5893 6.76148 21.925 7.1757 21.925C7.58991 21.925 7.9257 21.5893 7.9257 21.175V20.1656H16.0734V21.175C16.0734 21.5893 16.4092 21.925 16.8234 21.925C17.2376 21.925 17.5734 21.5893 17.5734 21.175V19.529C17.579 19.492 17.5819 19.4542 17.5819 19.4156V18.7614H18.495L20.664 20.1541C21.0125 20.3779 21.4765 20.2768 21.7003 19.9282C21.9241 19.5797 21.823 19.1157 21.4744 18.8919L19.4652 17.6018V6.4543L21.3685 5.67964C21.7521 5.52349 21.9365 5.08589 21.7804 4.70224C21.6242 4.31858 21.1866 4.13416 20.803 4.29031L18.5848 5.19316H5.41424L3.19602 4.29031ZM17.5819 17.2614H17.9652V6.69316H6.01753V17.2614H6.4257V16.7806C6.4257 16.3664 6.76148 16.0306 7.1757 16.0306H7.30133V13.7078C7.30133 13.2936 7.63712 12.9578 8.05133 12.9578C8.46554 12.9578 8.80133 13.2936 8.80133 13.7078V13.8416H15.1978V13.7078C15.1978 13.2936 15.5336 12.9578 15.9478 12.9578C16.362 12.9578 16.6978 13.2936 16.6978 13.7078C16.6978 14.4821 16.6978 15.2563 16.6978 16.0306H16.8319C17.2461 16.0306 17.5819 16.3664 17.5819 16.7806V17.2614ZM11.2495 15.3416H8.80133V16.0306H11.2495V15.3416ZM12.7495 16.0306V15.3416H15.1978V16.0306H12.7495ZM11.9995 17.5306H8.05133L7.9257 17.5306V18.6656H16.0819V18.1689C16.0711 18.1181 16.0653 18.0654 16.0653 18.0114C16.0653 17.9573 16.0711 17.9046 16.0819 17.8539V17.5306L15.9478 17.5306H11.9995Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
