@@ -4,20 +4,24 @@ import { IconComponent } from '../types';
 
 const Accommodation: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M2 3.25C2.41421 3.25 2.75 3.58579 2.75 4V12.3409H22C22.4142 12.3409 22.75 12.6767 22.75 13.0909V19.4546C22.75 19.8688 22.4142 20.2046 22 20.2046C21.5858 20.2046 21.25 19.8688 21.25 19.4546V17.4773H2.75V19.4545C2.75 19.8688 2.41421 20.2045 2 20.2045C1.58579 20.2045 1.25 19.8688 1.25 19.4545V4C1.25 3.58579 1.58579 3.25 2 3.25ZM2.75 13.8409V15.9773H21.25V13.8409H2.75Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <line x1={1} y1={21} x2={1} y2={4} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <line x1={1} y1={18} x2={23} y2={18} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <polyline points="1 14 23 14 23 21" fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <circle cx={6} cy={9} r={2} fill="none" strokeMiterlimit={10} data-color="color-2" />
-            <path d="M23,11H11V7H21a2,2,0,0,1,2,2Z" fill="none" strokeMiterlimit={10} data-color="color-2" />
-        </g>
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.97754 8.54548C3.97754 7.12711 5.12735 5.97729 6.54572 5.97729C7.96409 5.97729 9.1139 7.12711 9.1139 8.54548C9.1139 9.96384 7.96409 11.1137 6.54572 11.1137C5.12735 11.1137 3.97754 9.96384 3.97754 8.54548ZM6.54572 7.47729C5.95578 7.47729 5.47754 7.95554 5.47754 8.54548C5.47754 9.13542 5.95578 9.61366 6.54572 9.61366C7.13566 9.61366 7.6139 9.13542 7.6139 8.54548C7.6139 7.95554 7.13566 7.47729 6.54572 7.47729Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.0908 5.97729C10.6766 5.97729 10.3408 6.31308 10.3408 6.72729V10.3637C10.3408 10.7779 10.6766 11.1137 11.0908 11.1137H21.9999C22.4141 11.1137 22.7499 10.7779 22.7499 10.3637V8.54548C22.7499 7.86435 22.4793 7.21113 21.9977 6.7295C21.5161 6.24787 20.8629 5.97729 20.1817 5.97729H11.0908ZM21.2499 9.61366H11.8408V7.47729H20.1817C20.465 7.47729 20.7367 7.58984 20.937 7.79016C21.1374 7.99048 21.2499 8.26218 21.2499 8.54548V9.61366Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
