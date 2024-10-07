@@ -4,12 +4,19 @@ import { IconComponent } from '../types';
 
 const Bed: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
+        <g fill="currentColor" className="nc-icon-wrapper">
         <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M7.36376 3.22514C6.94954 3.22514 6.61376 3.56092 6.61376 3.97514V8.8447L3.97852 14.8339V20.9804C3.97852 21.3946 4.3143 21.7304 4.72852 21.7304C5.14273 21.7304 5.47852 21.3946 5.47852 20.9804V19.0629H18.4188V20.8536C18.4188 21.2678 18.7546 21.6036 19.1688 21.6036C19.583 21.6036 19.9188 21.2678 19.9188 20.8536V14.9511C19.9188 14.9425 19.9186 14.9338 19.9183 14.9252C19.9155 14.8024 19.8831 14.687 19.8281 14.5856L17.386 8.89439V3.97514C17.386 3.56092 17.0502 3.22514 16.636 3.22514H7.36376ZM5.47852 17.5629H18.4188V15.693H5.47852V17.5629ZM5.89927 14.193H18.0273L16.1337 9.7798H7.84109L5.89927 14.193ZM8.11376 8.2798V4.72514H15.886V8.2798H8.11376Z"
-            fill="currentColor"
-        />
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
+          d="M4.82 13.86h13.36M4.82 17h13.36M7.18 3.64h8.64v4.71H7.18zM18.18 19.36v-5.5l-2.36-5.5M7.18 8.36l-2.36 5.5v5.5"
+          className="st0"
+          transform="translate(.5 .5)"
+        ></path>
+      </g>
     </Icon>
 );
 

@@ -4,16 +4,18 @@ import { IconComponent } from '../types';
 
 const Add: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <path
-            d="M11.9999 7.59215C12.4142 7.59215 12.7499 7.92794 12.7499 8.34215V11.2501H15.6575C16.0718 11.2501 16.4075 11.5858 16.4075 12.0001C16.4075 12.4143 16.0718 12.7501 15.6575 12.7501H12.7499V15.6579C12.7499 16.0721 12.4142 16.4079 11.9999 16.4079C11.5857 16.4079 11.2499 16.0721 11.2499 15.6579V12.7501H8.3418C7.92758 12.7501 7.5918 12.4143 7.5918 12.0001C7.5918 11.5858 7.92758 11.2501 8.3418 11.2501H11.2499V8.34215C11.2499 7.92794 11.5857 7.59215 11.9999 7.59215Z"
+        <g
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            transform="translate(0.5 0.5)"
             fill="currentColor"
-        />
-        <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M20.0473 12C20.0473 16.4444 16.4444 20.0474 12 20.0474C7.55555 20.0474 3.95264 16.4444 3.95264 12C3.95264 7.55561 7.55555 3.9527 12 3.9527C16.4444 3.9527 20.0473 7.55561 20.0473 12ZM12 18.5474C15.616 18.5474 18.5473 15.616 18.5473 12C18.5473 8.38404 15.616 5.4527 12 5.4527C8.38398 5.4527 5.45264 8.38404 5.45264 12C5.45264 15.616 8.38398 18.5474 12 18.5474Z"
-            fill="currentColor"
-        />
+            stroke="currentColor"
+        >
+            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={12} y1={7} x2={12} y2={17} />
+            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={17} y1={12} x2={7} y2={12} />
+            <circle fill="none" stroke="currentColor" strokeMiterlimit={10} cx={12} cy={12} r={11} />
+        </g>
     </Icon>
 );
 
