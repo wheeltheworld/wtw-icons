@@ -4,12 +4,79 @@ import { IconComponent } from '../types';
 
 const AirportShuttle: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M18.8862 5.12915C20.1458 5.12915 21.1664 6.14971 21.1664 7.40937V15.8256C21.1664 16.2398 20.8306 16.5756 20.4164 16.5756H19.6114C19.4324 17.8723 18.3197 18.8708 16.9738 18.8708C15.6279 18.8708 14.5152 17.8723 14.3362 16.5756H9.66465C9.48565 17.8723 8.37296 18.8708 7.02703 18.8708C5.68112 18.8708 4.56843 17.8723 4.38941 16.5756H3.58398C3.16977 16.5756 2.83398 16.2398 2.83398 15.8256V7.40937C2.83398 6.14971 3.85454 5.12915 5.1142 5.12915H18.8862ZM4.33398 7.40937C4.33398 6.97814 4.68297 6.62915 5.1142 6.62915H15.0762V10.485H4.33398V7.40937ZM16.5762 10.485H19.6664V7.40937C19.6664 6.97814 19.3174 6.62915 18.8862 6.62915H16.5762V10.485ZM4.33398 11.985H19.6664V15.0756H19.3845C18.9589 14.1713 18.0394 13.5453 16.9738 13.5453C15.9082 13.5453 14.9887 14.1713 14.5632 15.0756H9.43767C9.0121 14.1713 8.09267 13.5453 7.02703 13.5453C5.96139 13.5453 5.04196 14.1713 4.61639 15.0756H4.33398V11.985ZM16.9738 15.0453C17.6177 15.0453 18.1366 15.5777 18.1366 16.2081C18.1366 16.8502 17.616 17.3708 16.9738 17.3708C16.3316 17.3708 15.811 16.8502 15.811 16.2081C15.811 15.5879 16.3544 15.0453 16.9738 15.0453ZM5.86426 16.2081C5.86426 15.5751 6.38351 15.0453 7.02703 15.0453C7.65298 15.0453 8.18981 15.5846 8.18981 16.2081C8.18981 16.8502 7.66922 17.3708 7.02703 17.3708C6.38485 17.3708 5.86426 16.8502 5.86426 16.2081Z"
-            fill="currentColor"
-        />
+        <g transform="translate(0.5, 0.5)" fill="currentColor">
+            <line
+                data-cap="butt"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                x1={16.051}
+                y1={17}
+                x2={7.949}
+                y2={17}
+                strokeLinecap="round"
+            />
+            <path
+                data-cap="butt"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeMiterlimit={10}
+                d="M3.051,17H1V6c0-1.105,0.895-2,2-2h18 c1.105,0,2,0.895,2,2v11h-2.051"
+                strokeLinecap="round"
+            />
+            <circle
+                data-color="color-2"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                cx={5.5}
+                cy={17.5}
+                r={2.5}
+                strokeLinejoin="round"
+            />
+            <circle
+                data-color="color-2"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                cx={18.5}
+                cy={17.5}
+                r={2.5}
+                strokeLinejoin="round"
+            />
+            <line
+                data-cap="butt"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                x1={1}
+                y1={11}
+                x2={23}
+                y2={11}
+                strokeLinejoin="round"
+            />
+            <line
+                data-cap="butt"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                x1={17}
+                y1={4}
+                x2={17}
+                y2={11}
+                strokeLinejoin="round"
+            />
+        </g>
     </Icon>
 );
 

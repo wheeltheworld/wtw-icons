@@ -4,12 +4,73 @@ import { IconComponent } from '../types';
 
 const BathroomInterior: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M20.5117 6.11149C20.8953 5.95533 21.0797 5.51774 20.9236 5.13408C20.7674 4.75043 20.3298 4.56601 19.9462 4.72216L17.9501 5.5346H6.05001L4.05393 4.72216C3.67028 4.56601 3.23268 4.75043 3.07653 5.13408C2.92038 5.51774 3.1048 5.95533 3.48845 6.11149L5.15352 6.7892V16.8042L3.36596 17.952C3.01742 18.1758 2.91629 18.6398 3.14009 18.9883C3.3639 19.3369 3.82788 19.438 4.17643 19.2142L6.12329 17.9641H9.63489C9.80327 18.0475 9.98083 18.115 10.1656 18.1647V18.5831C10.1656 18.9973 10.5014 19.3331 10.9156 19.3331H13.0626C13.4768 19.3331 13.8126 18.9973 13.8126 18.5831V18.1647C13.9974 18.115 14.1749 18.0475 14.3433 17.9641H17.8622L19.809 19.2142C20.1576 19.438 20.6216 19.3369 20.8454 18.9883C21.0692 18.6398 20.968 18.1758 20.6195 17.952L18.8323 16.8044V6.79502L20.5117 6.11149ZM13.8341 16.5291C13.7838 16.5516 13.7364 16.5794 13.6927 16.612C13.503 16.7087 13.2888 16.7633 13.0626 16.7633C12.6484 16.7633 12.3126 17.0991 12.3126 17.5133V17.8331H11.6656V17.5133C11.6656 17.0991 11.3298 16.7633 10.9156 16.7633C10.7054 16.7633 10.5056 16.7162 10.3263 16.6319C10.265 16.5821 10.1958 16.5418 10.1208 16.5132C9.76581 16.2658 9.52943 15.8583 9.51898 15.3982H14.4592C14.4486 15.8683 14.202 16.2835 13.8341 16.5291ZM15.7432 16.4641H17.3323V7.0346H6.65352V16.4641H8.23499C8.09556 16.1253 8.01861 15.7545 8.01861 15.3663V14.6482C8.01861 14.2339 8.3544 13.8982 8.76861 13.8982H9.09581V11.4314C9.09581 10.6207 9.75327 9.96325 10.564 9.96325H13.4291C14.2398 9.96325 14.8973 10.6207 14.8973 11.4314V13.8982H15.2096C15.6238 13.8982 15.9596 14.2339 15.9596 14.6482V15.3663C15.9596 15.7545 15.8827 16.1253 15.7432 16.4641ZM13.3973 13.8982V11.4632H10.5958V13.8982H13.3973Z"
-            fill="currentColor"
-        />
+        <g fill="currentColor">
+            <path
+                d="M9.13 18.97H3.85V4.36h16.28v14.61h-5.27"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit={10}
+            />
+            <path
+                d="M1 3.2l2.85 1.16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit={10}
+            />
+            <path
+                d="M23 3.2l-2.85 1.16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit={10}
+            />
+            <path
+                d="M1 20.8l2.85-1.83"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit={10}
+            />
+            <path
+                d="M22.98 20.8l-2.85-1.83"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeMiterlimit={10}
+            />
+            <g transform="translate(.5 .5)">
+                <path
+                    d="M8.62 15.04v-4.3c0-.53.43-.96.96-.96h3.83c.53 0 .96.43.96.96v4.3"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={1.5}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit={10}
+                />
+                <path
+                    d="M15.79 15.04H7.18V16c0 1.58 1.29 2.87 2.87 2.87v1.43h2.87v-1.43c1.58 0 2.87-1.29 2.87-2.87v-.96z"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={1.5}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit={10}
+                />
+            </g>
+        </g>
     </Icon>
 );
 
