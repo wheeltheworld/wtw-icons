@@ -4,84 +4,12 @@ import { IconComponent } from '../types';
 
 const Bidet: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g>
-            <g>
-                <g>
-                    <path
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={1.5}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        d="M12.6,19c1.2-0.1,2.4-0.4,3.4-1c0,0,0.5-0.3,1.1-0.7c0.3-0.2,0.6-0.5,0.9-0.8c1.6-1.5,2.5-3.5,2.5-5.5 l-17.2,0c0,2,0.9,3.9,2.5,5.5c0.3,0.3,0.6,0.5,0.9,0.8c0,0,0.5,0.4,1.1,0.7c1.1,0.6,2.2,0.9,3.4,1C12,19,12.6,19,12.6,19z"
-                    />
-                </g>
-            </g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M7.4,5.5"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M12,11.1V5.5c0-1.2-1-2.3-2.3-2.3l0,0c-1.2,0-2.3,1-2.3,2.3v0.1"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M17.7,3.9c0-1.6-1.3-2.9-2.9-2.9l0,0C13.3,1,12,2.3,12,3.9v7.2"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={7.4}
-                y1={17.7}
-                x2={7.4}
-                y2={23}
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={16.5}
-                y1={17.7}
-                x2={16.5}
-                y2={23}
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={17.7}
-                y1={23}
-                x2={6.3}
-                y2={23}
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M19.1239 10.7287H13.1296V5.84519C13.1296 4.97275 13.8423 4.29419 14.6013 4.29419C15.4566 4.29419 16.1523 4.98989 16.1523 5.84519C16.1523 6.2594 16.4881 6.59519 16.9023 6.59519C17.3165 6.59519 17.6523 6.2594 17.6523 5.84519C17.6523 4.16146 16.285 2.79419 14.6013 2.79419C13.314 2.79419 12.1975 3.66696 11.7921 4.86077C11.4288 4.65782 11.0088 4.53978 10.5545 4.53978C9.20937 4.53978 7.97953 5.64806 7.97953 7.11471V7.19405C7.97953 7.60827 8.31532 7.94405 8.72953 7.94405C9.14375 7.94405 9.47953 7.60827 9.47953 7.19405V7.11471C9.47953 6.51839 9.99528 6.03978 10.5545 6.03978C11.1508 6.03978 11.6294 6.55552 11.6294 7.11471V10.7287H5.47656C5.06235 10.7287 4.72656 11.0644 4.72656 11.4787C4.72656 13.7866 6.11256 15.9675 7.97953 17.2647V20.25H7.85712C7.44291 20.25 7.10712 20.5858 7.10712 21C7.10712 21.4142 7.44291 21.75 7.85712 21.75H16.9024C17.3166 21.75 17.6524 21.4142 17.6524 21C17.6524 20.5858 17.3166 20.25 16.9024 20.25H16.7001V17.1954C18.5718 15.9668 19.8739 13.7196 19.8739 11.4787C19.8739 11.0644 19.5381 10.7287 19.1239 10.7287ZM15.2001 20.25V18.0469C13.4134 18.7886 11.2694 18.7839 9.47953 18.0653V20.25H15.2001ZM16.0101 15.8533C17.1807 15.073 18.09 13.592 18.3125 12.2287H6.28912C6.47094 13.3153 7.04708 14.3689 7.99051 15.3123C10.198 17.5198 13.5299 17.5068 16.0101 15.8533Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

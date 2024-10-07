@@ -4,77 +4,16 @@ import { IconComponent } from '../types';
 
 const Bagagge: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={5}
-                y1={21}
-                x2={5}
-                y2={23}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={19}
-                y1={21}
-                x2={19}
-                y2={23}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={9}
-                y1={15}
-                x2={15}
-                y2={15}
-                strokeLinejoin="round"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M21,21H3V7c0-1.1,0.9-2,2-2 h14c1.1,0,2,0.9,2,2V21z"
-                strokeLinejoin="round"
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                points="15,5 15,1 9,1 9,5 "
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={3}
-                y1={11}
-                x2={21}
-                y2={11}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M9.31689 14.2668C9.31689 13.8526 9.65268 13.5168 10.0669 13.5168H14.5336C14.9478 13.5168 15.2836 13.8526 15.2836 14.2668C15.2836 14.681 14.9478 15.0168 14.5336 15.0168H10.0669C9.65268 15.0168 9.31689 14.681 9.31689 14.2668Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.31689 3.84448C9.31689 3.43027 9.65268 3.09448 10.0669 3.09448H14.5336C14.9478 3.09448 15.2836 3.43027 15.2836 3.84448V6.07214H17.5112C18.7443 6.07214 19.7501 7.07793 19.7501 8.31103V18.7333C19.7501 19.1475 19.4143 19.4833 19.0001 19.4833H18.2612V20.2222C18.2612 20.6365 17.9254 20.9722 17.5112 20.9722C17.097 20.9722 16.7612 20.6365 16.7612 20.2222V19.4833H7.83887V20.2222C7.83887 20.6365 7.50308 20.9722 7.08887 20.9722C6.67465 20.9722 6.33887 20.6365 6.33887 20.2222V19.4833H5.6001C5.18588 19.4833 4.8501 19.1475 4.8501 18.7333V8.31103C4.8501 7.07793 5.85588 6.07214 7.08899 6.07214H9.31689V3.84448ZM6.3501 12.0388V17.9833H18.2501V12.0388H6.3501ZM18.2501 10.5388H6.3501V8.31103C6.3501 7.90636 6.68431 7.57214 7.08899 7.57214H17.5112C17.9159 7.57214 18.2501 7.90636 18.2501 8.31103V10.5388ZM13.7836 4.59448V6.07214H10.8169V4.59448H13.7836Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
