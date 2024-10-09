@@ -312,6 +312,7 @@ import Scooter from  './_icons/Scooter';
 import Search from  './_icons/Search';
 import Security from  './_icons/Security';
 import SedanCar from  './_icons/SedanCar';
+import Selector from  './_icons/Selector';
 import Senior from  './_icons/Senior';
 import Sent from  './_icons/Sent';
 import ServiceDog from  './_icons/ServiceDog';
@@ -744,6 +745,7 @@ export const iconsArray = [
 	'search',
 	'security',
 	'sedancar',
+	'selector',
 	'senior',
 	'sent',
 	'servicedog',
@@ -1175,6 +1177,7 @@ export const iconsObject = {
 	search: Search,
 	security: Security,
 	sedancar: SedanCar,
+	selector: Selector,
 	senior: Senior,
 	sent: Sent,
 	servicedog: ServiceDog,

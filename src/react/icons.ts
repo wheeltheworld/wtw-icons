@@ -312,6 +312,7 @@ export { default as ScooterIcon } from  './_icons/Scooter';
 export { default as SearchIcon } from  './_icons/Search';
 export { default as SecurityIcon } from  './_icons/Security';
 export { default as SedanCarIcon } from  './_icons/SedanCar';
+export { default as SelectorIcon } from  './_icons/Selector';
 export { default as SeniorIcon } from  './_icons/Senior';
 export { default as SentIcon } from  './_icons/Sent';
 export { default as ServiceDogIcon } from  './_icons/ServiceDog';
