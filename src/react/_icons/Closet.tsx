@@ -4,70 +4,12 @@ import { IconComponent } from '../types';
 
 const Closet: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <rect
-                x={2}
-                y={1}
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                width={20}
-                height={22}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={12}
-                y1={1}
-                x2={12}
-                y2={23}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={12}
-                y1={15}
-                x2={2}
-                y2={15}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={6}
-                y1={19}
-                x2={8}
-                y2={19}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={17}
-                y1={5}
-                x2={17}
-                y2={8}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.25 3C3.25 2.58579 3.58579 2.25 4 2.25H20.3636C20.7779 2.25 21.1136 2.58579 21.1136 3V21C21.1136 21.4142 20.7779 21.75 20.3636 21.75H4C3.58579 21.75 3.25 21.4142 3.25 21V3ZM4.75 15.2045V20.25H11.4321V15.2045H4.75ZM11.4321 13.7045H4.75V3.75H11.4321V13.7045ZM12.9321 3.75V20.25H19.6136V3.75H12.9321Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

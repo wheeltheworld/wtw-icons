@@ -4,90 +4,36 @@ import { IconComponent } from '../types';
 
 const Culture: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <polygon
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                points="12,2 1,8 1,11 23,11 23,8 "
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={3}
-                y1={20}
-                x2={3}
-                y2={14}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={9}
-                y1={20}
-                x2={9}
-                y2={14}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={15}
-                y1={20}
-                x2={15}
-                y2={14}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={21}
-                y1={20}
-                x2={21}
-                y2={14}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={1}
-                y1={23}
-                x2={23}
-                y2={23}
-                strokeLinejoin="round"
-            />
-            <circle
-                data-stroke="none"
-                fill="currentColor"
-                cx={12}
-                cy={7}
-                r={1}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-        </g>
+        <path
+            d="M12.675 8.80621C12.675 9.17895 12.3729 9.48112 12.0001 9.48112C11.6274 9.48112 11.3252 9.17895 11.3252 8.80621C11.3252 8.43346 11.6274 8.13129 12.0001 8.13129C12.3729 8.13129 12.675 8.43346 12.675 8.80621Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.6411 4.77322C11.865 4.65111 12.1355 4.65111 12.3594 4.77322L19.7834 8.82271C20.0244 8.95413 20.1743 9.20667 20.1743 9.48113V11.5059C20.1743 11.9201 19.8385 12.2559 19.4243 12.2559H4.57617C4.16196 12.2559 3.82617 11.9201 3.82617 11.5059V9.48113C3.82617 9.20667 3.97609 8.95413 4.21703 8.82271L11.6411 4.77322ZM5.32617 9.92635V10.7559H18.6743V9.92635L12.0002 6.28596L5.32617 9.92635Z"
+            fill="currentColor"
+        />
+        <path
+            d="M5.92578 12.7806C6.33999 12.7806 6.67578 13.1164 6.67578 13.5306V17.5801C6.67578 17.9943 6.33999 18.3301 5.92578 18.3301C5.51157 18.3301 5.17578 17.9943 5.17578 17.5801V13.5306C5.17578 13.1164 5.51157 12.7806 5.92578 12.7806Z"
+            fill="currentColor"
+        />
+        <path
+            d="M10.7251 13.5306C10.7251 13.1164 10.3893 12.7806 9.9751 12.7806C9.56088 12.7806 9.2251 13.1164 9.2251 13.5306V17.5801C9.2251 17.9943 9.56088 18.3301 9.9751 18.3301C10.3893 18.3301 10.7251 17.9943 10.7251 17.5801V13.5306Z"
+            fill="currentColor"
+        />
+        <path
+            d="M14.0249 12.7806C14.4391 12.7806 14.7749 13.1164 14.7749 13.5306V17.5801C14.7749 17.9943 14.4391 18.3301 14.0249 18.3301C13.6107 18.3301 13.2749 17.9943 13.2749 17.5801V13.5306C13.2749 13.1164 13.6107 12.7806 14.0249 12.7806Z"
+            fill="currentColor"
+        />
+        <path
+            d="M18.8242 13.5306C18.8242 13.1164 18.4884 12.7806 18.0742 12.7806C17.66 12.7806 17.3242 13.1164 17.3242 13.5306V17.5801C17.3242 17.9943 17.66 18.3301 18.0742 18.3301C18.4884 18.3301 18.8242 17.9943 18.8242 17.5801V13.5306Z"
+            fill="currentColor"
+        />
+        <path
+            d="M3.82568 19.6048C3.82568 19.1906 4.16147 18.8548 4.57568 18.8548H19.4238C19.838 18.8548 20.1738 19.1906 20.1738 19.6048C20.1738 20.019 19.838 20.3548 19.4238 20.3548H4.57568C4.16147 20.3548 3.82568 20.019 3.82568 19.6048Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
