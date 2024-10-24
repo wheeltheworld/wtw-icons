@@ -4,21 +4,12 @@ import { IconComponent } from '../types';
 
 const Chair: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.30859 3.42383C5.89438 3.42383 5.55859 3.75961 5.55859 4.17383V11.9614H4.17432C3.7601 11.9614 3.42432 12.2972 3.42432 12.7114V19.826C3.42432 20.2402 3.7601 20.576 4.17432 20.576C4.58853 20.576 4.92432 20.2402 4.92432 19.826V17.0187H6.27002V18.4031C6.27002 18.8173 6.60581 19.1531 7.02002 19.1531C7.43423 19.1531 7.77002 18.8173 7.77002 18.4031V17.0187H16.2305V18.4031C16.2305 18.8173 16.5663 19.1531 16.9805 19.1531C17.3947 19.1531 17.7305 18.8173 17.7305 18.4031V17.0187H19.0762V19.826C19.0762 20.2402 19.412 20.576 19.8262 20.576C20.2404 20.576 20.5762 20.2402 20.5762 19.826L20.5765 12.7114C20.5765 12.2972 20.2407 11.9614 19.8265 11.9614H18.442V4.17383C18.442 3.75961 18.1062 3.42383 17.692 3.42383H6.30859ZM16.942 11.9614V4.92383H7.05859V11.9614H16.942ZM19.0765 15.5187H4.92432V13.4614H19.0765V15.5187Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={1} y1={23} x2={1} y2={18} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={23} y1={23} x2={23} y2={18} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={5} y1={21} x2={5} y2={18} />
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={19} y1={21} x2={19} y2={18} />
-            <rect x={1} y={13} fill="none" stroke="currentColor" strokeMiterlimit={10} width={22} height={5} />
-            <polyline fill="none" stroke="currentColor" strokeMiterlimit={10} points="20,13 20,1 4,1 4,13 " />
-        </g>
+        />
     </Icon>
 );
 

@@ -4,17 +4,16 @@ import { IconComponent } from '../types';
 
 const Edit: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.4565 3.28815C15.1636 2.99526 14.6888 2.99526 14.3959 3.28815L5.61696 12.0671C5.51226 12.1718 5.44089 12.3051 5.41185 12.4503L4.68027 16.1082C4.6311 16.3541 4.70806 16.6083 4.88538 16.7856C5.0627 16.9629 5.3169 17.0399 5.5628 16.9907L9.22067 16.2591C9.36587 16.2301 9.49922 16.1587 9.60392 16.054L18.3828 7.27511C18.6757 6.98222 18.6757 6.50735 18.3828 6.21445L15.4565 3.28815ZM6.37178 15.2992L6.83819 12.9671L14.9262 4.87914L16.7918 6.74478L8.70383 14.8328L6.37178 15.2992Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <line data-color="color-2" x1={2} y1={23} x2={22} y2={23} fill="none" strokeMiterlimit={10} />
-            <polygon points="8 18 3 19 4 14 16 2 20 6 8 18" fill="none" stroke="currentColor" strokeMiterlimit={10} />
-        </g>
+        />
+        <path
+            d="M4.68408 18.4316C4.26987 18.4316 3.93408 18.7674 3.93408 19.1816C3.93408 19.5958 4.26987 19.9316 4.68408 19.9316H19.3156C19.7298 19.9316 20.0656 19.5958 20.0656 19.1816C20.0656 18.7674 19.7298 18.4316 19.3156 18.4316H4.68408Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

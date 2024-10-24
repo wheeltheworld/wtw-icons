@@ -4,24 +4,12 @@ import { IconComponent } from '../types';
 
 const Champagne: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.5 3.01318C8.08579 3.01318 7.75 3.34897 7.75 3.76318V13.7106C7.75 15.7339 9.29121 17.3734 11.25 17.7121V19.4811V21.25H8.5C8.08579 21.25 7.75 21.5858 7.75 22C7.75 22.4142 8.08579 22.75 8.5 22.75C10.8333 22.75 13.1666 22.75 15.5 22.75C15.9142 22.75 16.25 22.4142 16.25 22C16.25 21.5858 15.9142 21.25 15.5 21.25H12.75V17.7121C14.7088 17.3734 16.25 15.7339 16.25 13.7106V3.76318C16.25 3.34897 15.9142 3.01318 15.5 3.01318H8.5ZM14.75 9.64478V4.51318H9.25V9.64478H14.75ZM9.25 11.1448H14.75V13.7106C14.75 15.0823 13.5495 16.2763 12 16.2763C10.4505 16.2763 9.25 15.0823 9.25 13.7106V11.1448Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <line data-color="color-2" fill="none" strokeMiterlimit={10} x1={8} y1={9} x2={16} y2={9} />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                d="M12,17L12,17 c-2.2,0-4-1.8-4-4V1h8v12C16,15.2,14.2,17,12,17z"
-            />
-            <line fill="none" stroke="currentColor" strokeMiterlimit={10} x1={12} y1={17} x2={12} y2={23} />
-            <line fill="none" stroke="currentColor" strokeMiterlimit={10} x1={8} y1={23} x2={16} y2={23} />
-        </g>
+        />
     </Icon>
 );
 
