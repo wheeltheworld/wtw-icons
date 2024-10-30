@@ -388,6 +388,7 @@ export { default as TwitterIcon } from  './_icons/Twitter';
 export { default as TwitterNeutralIcon } from  './_icons/TwitterNeutral';
 export { default as TwoAssistantsIcon } from  './_icons/TwoAssistants';
 export { default as TwoHoursIcon } from  './_icons/TwoHours';
+export { default as UnverifiedIcon } from  './_icons/Unverified';
 export { default as UploadIcon } from  './_icons/Upload';
 export { default as ValetParkingIcon } from  './_icons/ValetParking';
 export { default as VanIcon } from  './_icons/Van';
