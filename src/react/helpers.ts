@@ -112,6 +112,7 @@ import Destinations from  './_icons/Destinations';
 import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
 import Disney from  './_icons/Disney';
+import Distance from  './_icons/Distance';
 import Document from  './_icons/Document';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
@@ -139,6 +140,7 @@ import FacebookNeutral from  './_icons/FacebookNeutral';
 import Filter from  './_icons/Filter';
 import FitnessCenter from  './_icons/FitnessCenter';
 import FiveHours from  './_icons/FiveHours';
+import Flag from  './_icons/Flag';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import Food from  './_icons/Food';
 import FoodService from  './_icons/FoodService';
@@ -223,6 +225,7 @@ import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
 import Luxe from  './_icons/Luxe';
 import MapCircled from  './_icons/MapCircled';
+import Meal from  './_icons/Meal';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeasuringTapeCircled from  './_icons/MeasuringTapeCircled';
 import MeetingPoint from  './_icons/MeetingPoint';
@@ -546,6 +549,7 @@ export const iconsArray = [
 	'dice',
 	'dinner',
 	'disney',
+	'distance',
 	'document',
 	'documentation',
 	'done',
@@ -573,6 +577,7 @@ export const iconsArray = [
 	'filter',
 	'fitnesscenter',
 	'fivehours',
+	'flag',
 	'foldablepowerwheelchair',
 	'food',
 	'foodservice',
@@ -657,6 +662,7 @@ export const iconsArray = [
 	'lunch',
 	'luxe',
 	'mapcircled',
+	'meal',
 	'measuringtape',
 	'measuringtapecircled',
 	'meetingpoint',
@@ -979,6 +985,7 @@ export const iconsObject = {
 	dice: Dice,
 	dinner: Dinner,
 	disney: Disney,
+	distance: Distance,
 	document: Document,
 	documentation: Documentation,
 	done: Done,
@@ -1006,6 +1013,7 @@ export const iconsObject = {
 	filter: Filter,
 	fitnesscenter: FitnessCenter,
 	fivehours: FiveHours,
+	flag: Flag,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	food: Food,
 	foodservice: FoodService,
@@ -1090,6 +1098,7 @@ export const iconsObject = {
 	lunch: Lunch,
 	luxe: Luxe,
 	mapcircled: MapCircled,
+	meal: Meal,
 	measuringtape: MeasuringTape,
 	measuringtapecircled: MeasuringTapeCircled,
 	meetingpoint: MeetingPoint,
