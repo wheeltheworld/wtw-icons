@@ -225,6 +225,7 @@ export { default as LowerStepsIcon } from  './_icons/LowerSteps';
 export { default as LunchIcon } from  './_icons/Lunch';
 export { default as LuxeIcon } from  './_icons/Luxe';
 export { default as MapCircledIcon } from  './_icons/MapCircled';
+export { default as MealIcon } from  './_icons/Meal';
 export { default as MeasuringTapeIcon } from  './_icons/MeasuringTape';
 export { default as MeasuringTapeCircledIcon } from  './_icons/MeasuringTapeCircled';
 export { default as MeetingPointIcon } from  './_icons/MeetingPoint';

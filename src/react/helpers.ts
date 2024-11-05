@@ -225,6 +225,7 @@ import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
 import Luxe from  './_icons/Luxe';
 import MapCircled from  './_icons/MapCircled';
+import Meal from  './_icons/Meal';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeasuringTapeCircled from  './_icons/MeasuringTapeCircled';
 import MeetingPoint from  './_icons/MeetingPoint';
@@ -661,6 +662,7 @@ export const iconsArray = [
 	'lunch',
 	'luxe',
 	'mapcircled',
+	'meal',
 	'measuringtape',
 	'measuringtapecircled',
 	'meetingpoint',
@@ -1096,6 +1098,7 @@ export const iconsObject = {
 	lunch: Lunch,
 	luxe: Luxe,
 	mapcircled: MapCircled,
+	meal: Meal,
 	measuringtape: MeasuringTape,
 	measuringtapecircled: MeasuringTapeCircled,
 	meetingpoint: MeetingPoint,
