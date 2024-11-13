@@ -4,38 +4,14 @@ import { IconComponent } from '../types';
 
 const LogOut: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={7}
-                y1={12}
-                x2={22}
-                y2={12}
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                points="17,7 22,12 17,17  "
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                points="14,23 2,23 2,1 14,1  "
-            />
-        </g>
+        <path
+            d="M6.75 6.53125C6.75 5.84089 7.30964 5.28125 8 5.28125H14C14.4142 5.28125 14.75 4.94546 14.75 4.53125C14.75 4.11704 14.4142 3.78125 14 3.78125H8C6.48122 3.78125 5.25 5.01247 5.25 6.53125V17.4689C5.25 18.9877 6.48122 20.2189 8 20.2189H14C14.4142 20.2189 14.75 19.8831 14.75 19.4689C14.75 19.0547 14.4142 18.7189 14 18.7189H8C7.30964 18.7189 6.75 18.1592 6.75 17.4689V6.53125Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.4697 7.46973C15.7626 7.17684 16.2374 7.17684 16.5303 7.46973L20.5303 11.6894C20.7463 11.9113 20.7134 12.3635 20.5303 12.5304L16.5303 16.5304C16.2374 16.8233 15.7626 16.8233 15.4697 16.5304C15.1768 16.2375 15.1768 15.7626 15.4697 15.4697L18.1893 12.7501L11 12.7501C10.5858 12.7501 10.25 12.4143 10.25 12.0001C10.25 11.5858 10.5858 11.2501 11 11.2501L18.1893 11.2501L15.4697 8.53039C15.1768 8.2375 15.1768 7.76262 15.4697 7.46973Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

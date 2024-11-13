@@ -4,18 +4,24 @@ import { IconComponent } from '../types';
 
 const Level: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M16.7441 7.39087C16.3299 7.39087 15.9941 7.72666 15.9941 8.14087V20.4592C15.9941 20.8734 16.3299 21.2092 16.7441 21.2092H19.8237C20.2379 21.2092 20.5737 20.8734 20.5737 20.4592V8.14087C20.5737 7.72666 20.2379 7.39087 19.8237 7.39087H16.7441ZM17.4941 19.7092V8.89087H19.0737V19.7092H17.4941Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <rect x={2} y={14} fill="none" stroke="currentColor" strokeMiterlimit={10} width={4} height={6} />
-            <rect data-color="color-2" x={10} y={9} fill="none" strokeMiterlimit={10} width={4} height={11} />
-            <rect x={18} y={4} fill="none" stroke="currentColor" strokeMiterlimit={10} width={4} height={16} />
-        </g>
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.83496 11.9904C9.83496 11.5761 10.1707 11.2404 10.585 11.2404H13.6646C14.0788 11.2404 14.4146 11.5761 14.4146 11.9904V20.4592C14.4146 20.8734 14.0788 21.2092 13.6646 21.2092H10.585C10.1707 21.2092 9.83496 20.8734 9.83496 20.4592V11.9904ZM11.335 12.7404V19.7092H12.9146V12.7404H11.335Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.67578 15.8398C3.67578 15.4256 4.01157 15.0898 4.42578 15.0898H7.50537C7.91958 15.0898 8.25537 15.4256 8.25537 15.8398V20.4592C8.25537 20.8734 7.91958 21.2092 7.50537 21.2092H4.42578C4.01157 21.2092 3.67578 20.8734 3.67578 20.4592V15.8398ZM5.17578 16.5898V19.7092H6.75537V16.5898H5.17578Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

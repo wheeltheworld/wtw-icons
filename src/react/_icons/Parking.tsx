@@ -4,43 +4,18 @@ import { IconComponent } from '../types';
 
 const Parking: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <rect
-                x={1}
-                y={1}
-                width={22}
-                height={22}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={9}
-                y1={7}
-                x2={9}
-                y2={18}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M9,13h3a3,3,0,0,0,3-3h0a3,3,0,0,0-3-3H9"
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.96436 8.57141C8.96436 8.1572 9.30014 7.82141 9.71436 7.82141H12.0001C12.8052 7.82141 13.5773 8.14124 14.1466 8.71055C14.716 9.27986 15.0358 10.052 15.0358 10.8571C15.0358 11.6622 14.716 12.4344 14.1466 13.0037C13.5773 13.573 12.8052 13.8928 12.0001 13.8928H10.4644V16.5714C10.4644 16.9856 10.1286 17.3214 9.71436 17.3214C9.30014 17.3214 8.96436 16.9856 8.96436 16.5714V8.57141ZM10.4644 12.3928V9.32141H12.0001C12.4074 9.32141 12.798 9.48321 13.086 9.77121C13.374 10.0592 13.5358 10.4498 13.5358 10.8571C13.5358 11.2644 13.374 11.655 13.086 11.943C12.798 12.231 12.4074 12.3928 12.0001 12.3928H10.4644Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.25 4C3.25 3.58579 3.58579 3.25 4 3.25H20C20.4142 3.25 20.75 3.58579 20.75 4V20C20.75 20.4142 20.4142 20.75 20 20.75H4C3.58579 20.75 3.25 20.4142 3.25 20V4ZM4.75 4.75V19.25H19.25V4.75H4.75Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

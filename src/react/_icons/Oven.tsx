@@ -4,21 +4,34 @@ import { IconComponent } from '../types';
 
 const Oven: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            d="M6.90918 6.15918C6.49497 6.15918 6.15918 6.49497 6.15918 6.90918C6.15918 7.32339 6.49497 7.65918 6.90918 7.65918H8.36373C8.77794 7.65918 9.11373 7.32339 9.11373 6.90918C9.11373 6.49497 8.77794 6.15918 8.36373 6.15918H6.90918Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <rect data-color="color-2" x={5} y={9} width={14} height={10} fill="none" strokeMiterlimit={10} />
-            <line data-color="color-2" x1={5} y1={5} x2={7} y2={5} fill="none" strokeMiterlimit={10} />
-            <line data-color="color-2" x1={11} y1={5} x2={13} y2={5} fill="none" strokeMiterlimit={10} />
-            <line data-color="color-2" x1={17} y1={5} x2={19} y2={5} fill="none" strokeMiterlimit={10} />
-            <rect x={1} y={1} width={22} height={22} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <line x1={9} y1={13} x2={15} y2={13} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-        </g>
+        />
+        <path
+            d="M9.81836 11.9774C9.40415 11.9774 9.06836 12.3132 9.06836 12.7274C9.06836 13.1416 9.40415 13.4774 9.81836 13.4774H14.182C14.5962 13.4774 14.932 13.1416 14.932 12.7274C14.932 12.3132 14.5962 11.9774 14.182 11.9774H9.81836Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.90918 9.06812C6.49497 9.06812 6.15918 9.4039 6.15918 9.81812V17.0909C6.15918 17.5051 6.49497 17.8409 6.90918 17.8409H17.091C17.5052 17.8409 17.841 17.5051 17.841 17.0909V9.81812C17.841 9.4039 17.5052 9.06812 17.091 9.06812H6.90918ZM7.65918 16.3409V10.5681H16.341V16.3409H7.65918Z"
+            fill="currentColor"
+        />
+        <path
+            d="M10.5229 6.90918C10.5229 6.49497 10.8587 6.15918 11.2729 6.15918H12.7275C13.1417 6.15918 13.4775 6.49497 13.4775 6.90918C13.4775 7.32339 13.1417 7.65918 12.7275 7.65918H11.2729C10.8587 7.65918 10.5229 7.32339 10.5229 6.90918Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.6362 6.15918C15.222 6.15918 14.8862 6.49497 14.8862 6.90918C14.8862 7.32339 15.222 7.65918 15.6362 7.65918H17.0908C17.505 7.65918 17.8408 7.32339 17.8408 6.90918C17.8408 6.49497 17.505 6.15918 17.0908 6.15918H15.6362Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.25 4C3.25 3.58579 3.58579 3.25 4 3.25H20C20.4143 3.25 20.75 3.58579 20.75 4V20C20.75 20.4143 20.4143 20.75 20 20.75H4C3.58579 20.75 3.25 20.4143 3.25 20V4ZM4.75 4.75V19.25H19.25V4.75H4.75Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

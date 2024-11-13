@@ -3,73 +3,13 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Outdoor: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M1.49,28.34a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2v-.59a2,2,0,0,0-2-2h-33a2,2,0,0,0-2,2v.59Z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M6.62,15.47a2,2,0,0,0,2,2H31.35a2,2,0,0,0,2-2v-.61a2,2,0,0,0-2-2H8.64a2,2,0,0,0-2,2Z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M30.72,25.73l-1.67-8.26"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M27.54,30.36l1.53,7.54a1.18,1.18,0,0,0,1.15,1H32a1.16,1.16,0,0,0,.9-.43,1.19,1.19,0,0,0,.25-1l-1.45-7.1"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M25,17.47l1.67,8.26"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M13.67,25.73l1.67-8.26"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M8.62,30.36l-1.44,7.1a1.17,1.17,0,0,0,1.15,1.39h1.75a1.18,1.18,0,0,0,1.15-1l1.52-7.54"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M11.24,17.47,9.55,25.73"
-            />
-        </g>
+    <Icon viewBox="0 0 24 24" {...props}>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.61181 4.54785C4.58183 4.54785 3.748 5.38168 3.748 6.41166V6.74671C3.748 7.77669 4.58183 8.61053 5.61181 8.61053H6.13152L5.50723 11.6653H2.76863C0.287399 11.6653 0.362893 15.7189 2.77768 15.7189H4.68525L4.07114 18.7406C3.9924 19.1406 4.09963 19.5574 4.34618 19.8798C4.35065 19.8857 4.35522 19.8915 4.35986 19.8972C4.6213 20.219 5.02605 20.4097 5.43999 20.4097H6.40892C7.08283 20.4097 7.64429 19.9322 7.77739 19.2857L8.4985 15.7189H15.4391L16.1585 19.2773C16.2818 19.9318 16.8648 20.4097 17.5287 20.4097H18.4976C18.9071 20.4097 19.3024 20.2316 19.5746 19.901L19.5777 19.8972C19.838 19.5769 19.9461 19.1456 19.8665 18.7406L19.2524 15.7189H21.0062C23.4803 15.7189 23.4238 11.6653 21.0062 11.6653H18.4228L17.8046 8.61053H18.1535C19.1835 8.61053 20.0173 7.77669 20.0173 6.74671V6.41166C20.0173 5.38168 19.1835 4.54785 18.1535 4.54785H5.61181ZM21.0062 13.1653C21.508 13.1653 21.5382 14.2189 21.0062 14.2189C14.9299 14.2189 8.85385 14.2189 2.77768 14.2189C2.28824 14.2189 2.22843 13.1653 2.76863 13.1653C8.84804 13.1653 14.9269 13.1653 21.0062 13.1653ZM7.03823 11.6653L7.66252 8.61053H8.39687L7.77863 11.6653H7.03823ZM18.1535 7.11053C18.3551 7.11053 18.5173 6.94827 18.5173 6.74671V6.41166C18.5173 6.21011 18.3551 6.04785 18.1535 6.04785H5.61181C5.41026 6.04785 5.248 6.21011 5.248 6.41166V6.74671C5.248 6.94827 5.41026 7.11053 5.61181 7.11053H18.1535ZM5.56744 18.9097L6.21591 15.7189H6.96816L6.32307 18.9097H5.56744ZM9.30904 11.6653L9.92728 8.61053H14.0104L14.6287 11.6653H9.30904ZM16.1591 11.6653L15.5408 8.61053H16.2742L16.8924 11.6653H16.1591ZM16.9695 15.7189H17.7217L18.3702 18.9097H17.6145L16.9695 15.7189Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

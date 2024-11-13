@@ -4,29 +4,12 @@ import { IconComponent } from '../types';
 
 const Iron: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.7876 7.16775C3.7876 6.64107 4.22163 6.20703 4.74831 6.20703H10.7358C11.15 6.20703 11.4858 5.87124 11.4858 5.45703C11.4858 5.04282 11.15 4.70703 10.7358 4.70703H4.74831C3.39321 4.70703 2.2876 5.81264 2.2876 7.16775V19.1429C2.2876 19.5571 2.62338 19.8929 3.0376 19.8929H21.0001C21.26 19.8929 21.5014 19.7583 21.6381 19.5372C21.7747 19.316 21.7872 19.0399 21.6709 18.8075L20.0372 15.5401C19.9402 11.4452 16.5638 8.12842 12.4465 8.12842H3.7876V7.16775ZM3.7876 16.4713H18.8258L19.7866 18.3929H3.7876V16.4713ZM3.7876 9.62842V14.9713H18.4931C18.1201 11.9719 15.5421 9.62842 12.4465 9.62842H3.7876Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <polyline
-                data-cap="butt"
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                points="1,16 1,20 22,20 20,16 "
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                d="M20,16H1V8h11 C16.4,8,20,11.6,20,16L20,16z"
-            />
-            <path fill="none" stroke="currentColor" strokeMiterlimit={10} d="M1,8V6c0-1.1,0.9-2,2-2h7" />
-        </g>
+        />
     </Icon>
 );
 

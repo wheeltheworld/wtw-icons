@@ -4,70 +4,12 @@ import { IconComponent } from '../types';
 
 const Interior: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g>
-            <g>
-                <rect
-                    x={3.8}
-                    y={4.4}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    width={16.3}
-                    height={14.6}
-                />
-                <line
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    x1={1}
-                    y1={3.2}
-                    x2={3.8}
-                    y2={4.4}
-                />
-                <line
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    x1={23}
-                    y1={3.2}
-                    x2={20.1}
-                    y2={4.4}
-                />
-                <line
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    x1={1}
-                    y1={20.8}
-                    x2={3.8}
-                    y2={19}
-                />
-                <line
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    x1={23}
-                    y1={20.8}
-                    x2={20.1}
-                    y2={19}
-                />
-            </g>
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M21.2065 5.55747C21.5892 5.39909 21.7711 4.96043 21.6127 4.57769C21.4543 4.19495 21.0157 4.01307 20.6329 4.17144L18.4192 5.08748H5.50511L3.3762 4.17509C2.99548 4.01193 2.55457 4.18829 2.3914 4.56901C2.22823 4.94974 2.4046 5.39064 2.78532 5.55381L4.601 6.33196V17.2666L2.67519 18.5047C2.32676 18.7287 2.22589 19.1927 2.44987 19.5411C2.67386 19.8895 3.1379 19.9904 3.48633 19.7664L5.57144 18.426H18.3544L20.5242 19.7728C20.8761 19.9912 21.3385 19.883 21.5569 19.5311C21.7754 19.1791 21.6672 18.7168 21.3152 18.4983L19.318 17.2586V6.33891L21.2065 5.55747ZM6.101 6.58748V16.926H17.818V6.58748H6.101Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

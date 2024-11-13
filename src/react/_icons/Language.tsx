@@ -4,58 +4,12 @@ import { IconComponent } from '../types';
 
 const Language: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M11.5,22.5c3.9-1.9,6-6.1,6-11s-2.1-9.1-6-11"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M11.5,22.5c-3.9-1.9-6-6.1-6-11s2.1-9.1,6-11"
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                points="11.5,22.5 11.5,21.5 11.5,1.5 11.5,0.5  "
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={0.5}
-                y1={11.5}
-                x2={22.5}
-                y2={11.5}
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                cx={11.5}
-                cy={11.5}
-                r={11}
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.0173 3.36811C12.0115 3.36798 12.0058 3.36792 12.0001 3.36792C11.9943 3.36792 11.9886 3.36798 11.9828 3.36811C7.22347 3.37741 3.36816 7.23846 3.36816 12C3.36816 16.7614 7.22343 20.6225 11.9827 20.6318C11.9885 20.6319 11.9943 20.632 12.0001 20.632C12.0058 20.632 12.0116 20.6319 12.0174 20.6318C16.7767 20.6225 20.6319 16.7614 20.6319 12C20.6319 7.23847 16.7766 3.37743 12.0173 3.36811ZM19.0929 11.25H17.0272C16.8968 9.05302 16.1898 7.03135 14.923 5.49264C17.1873 6.51131 18.8241 8.67715 19.0929 11.25ZM19.0929 12.75C18.8241 15.3228 17.1873 17.4886 14.923 18.5073C16.1898 16.9686 16.8968 14.9469 17.0272 12.75H19.0929ZM9.07717 18.5073C7.81027 16.9686 7.10329 14.9469 6.97294 12.75H4.90713C5.17601 15.3228 6.81277 17.4886 9.07717 18.5073ZM4.90713 11.25H6.97294C7.10329 9.05301 7.81027 7.03133 9.07717 5.49261C6.81277 6.51128 5.17601 8.67714 4.90713 11.25ZM12.75 5.46234C14.3824 6.72602 15.3603 8.78739 15.5245 11.25H12.75V5.46234ZM11.25 5.46236V11.25H8.47557C8.63981 8.7874 9.61773 6.72604 11.25 5.46236ZM11.25 12.75H8.47557C8.63981 15.2125 9.61773 17.2739 11.25 18.5376V12.75ZM15.5245 12.75H12.75V18.5376C14.3824 17.2739 15.3603 15.2125 15.5245 12.75Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

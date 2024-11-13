@@ -4,63 +4,20 @@ import { IconComponent } from '../types';
 
 const Instructor: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                x1={7}
-                y1={23}
-                x2={7}
-                y2={8}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <circle
-                cx={4}
-                cy={3}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <path
-                d="M1,23V10A2,2,0,0,1,3,8H15"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="10 3 23 3 23 16 11 16"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={17}
-                y1={16}
-                x2={20}
-                y2={23}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.44141 5.87243C4.44141 4.70618 5.38684 3.76074 6.55309 3.76074C7.71934 3.76074 8.66478 4.70618 8.66478 5.87243C8.66478 7.03868 7.71934 7.98411 6.55309 7.98411C5.38684 7.98411 4.44141 7.03868 4.44141 5.87243ZM6.55309 5.26074C6.21527 5.26074 5.94141 5.5346 5.94141 5.87243C5.94141 6.21025 6.21527 6.48411 6.55309 6.48411C6.89091 6.48411 7.16478 6.21025 7.16478 5.87243C7.16478 5.5346 6.89091 5.26074 6.55309 5.26074Z"
+            fill="currentColor"
+        />
+        <path
+            d="M9.3457 10.0266H14.0425C14.4567 10.0266 14.7925 9.69084 14.7925 9.27663C14.7925 8.86241 14.4567 8.52663 14.0425 8.52663H5.87243C5.31237 8.52663 4.77526 8.74911 4.37924 9.14512C3.98322 9.54114 3.76074 10.0783 3.76074 10.6383V19.4893C3.76074 19.9035 4.09653 20.2393 4.51074 20.2393C4.92496 20.2393 5.26074 19.9035 5.26074 19.4893V10.6383C5.26074 10.4761 5.32519 10.3205 5.4399 10.2058C5.55461 10.0911 5.7102 10.0266 5.87243 10.0266H7.8457V19.4893C7.8457 19.9035 8.18149 20.2393 8.5957 20.2393C9.00992 20.2393 9.3457 19.9035 9.3457 19.4893V10.0266Z"
+            fill="currentColor"
+        />
+        <path
+            d="M9.88818 5.87251C9.88818 5.45829 10.224 5.12251 10.6382 5.12251H19.4891C19.9033 5.12251 20.2391 5.45829 20.2391 5.87251V14.7235C20.2391 15.1377 19.9033 15.4735 19.4891 15.4735H16.5418L18.1362 19.1938C18.2993 19.5745 18.123 20.0154 17.7423 20.1786C17.3615 20.3417 16.9206 20.1654 16.7575 19.7847L14.9098 15.4735H11.319C10.9048 15.4735 10.569 15.1377 10.569 14.7235C10.569 14.3092 10.9048 13.9735 11.319 13.9735H15.3819C15.3966 13.973 15.4113 13.973 15.426 13.9735H18.7391V6.62251H10.6382C10.224 6.62251 9.88818 6.28672 9.88818 5.87251Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
