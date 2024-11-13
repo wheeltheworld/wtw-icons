@@ -4,18 +4,20 @@ import { IconComponent } from '../types';
 
 const ImportantInfo: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            d="M12 10.5184C12.4142 10.5184 12.75 10.8542 12.75 11.2684V15.6579C12.75 16.0721 12.4142 16.4079 12 16.4079C11.5858 16.4079 11.25 16.0721 11.25 15.6579V11.2684C11.25 10.8542 11.5858 10.5184 12 10.5184Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <circle cx={12} cy={12} r={11} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <line data-color="color-2" x1={12} y1={11} x2={12} y2={17} fill="none" strokeMiterlimit={10} />
-            <circle data-color="color-2" data-stroke="none" cx={12} cy={7} r={1} stroke="none" />
-        </g>
+        />
+        <path
+            d="M12.7317 8.34205C12.7317 8.74609 12.4042 9.07362 12.0001 9.07362C11.5961 9.07362 11.2686 8.74609 11.2686 8.34205C11.2686 7.93801 11.5961 7.61047 12.0001 7.61047C12.4042 7.61047 12.7317 7.93801 12.7317 8.34205Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.0473 12C20.0473 16.4444 16.4444 20.0473 12 20.0473C7.55555 20.0473 3.95264 16.4444 3.95264 12C3.95264 7.55555 7.55555 3.95264 12 3.95264C16.4444 3.95264 20.0473 7.55555 20.0473 12ZM12 18.5473C15.616 18.5473 18.5473 15.616 18.5473 12C18.5473 8.38398 15.616 5.45264 12 5.45264C8.38398 5.45264 5.45264 8.38398 5.45264 12C5.45264 15.616 8.38398 18.5473 12 18.5473Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

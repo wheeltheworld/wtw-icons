@@ -4,31 +4,10 @@ import { IconComponent } from '../types';
 
 const OneStep: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g>
-            <g transform="translate(0.5 0.5)">
-                <polyline
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    points="22.5,16.5 1.5,16.5 1.5,21.5  "
-                />
-            </g>
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={1}
-                y1={22}
-                x2={23}
-                y2={22}
-            />
-        </g>
+        <path
+            d="M20.513 9.29492H6.91895L6.91906 13.2051H3.16309C2.74887 13.2051 2.41309 13.5409 2.41309 13.9551C2.41309 14.3693 2.74887 14.7051 3.16309 14.7051H7.65439C7.65929 14.7052 7.66419 14.7052 7.66911 14.7052C7.67401 14.7052 7.67891 14.7052 7.68378 14.7051H20.8369C21.2511 14.7051 21.5869 14.3693 21.5869 13.9551C21.5869 13.5409 21.2511 13.2051 20.8369 13.2051H8.41906L8.41899 10.7949H20.513C20.9272 10.7949 21.263 10.4591 21.263 10.0449C21.263 9.63071 20.9272 9.29492 20.513 9.29492Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

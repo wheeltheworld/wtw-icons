@@ -4,86 +4,24 @@ import { IconComponent } from '../types';
 
 const GroundTransportation: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                x1={22}
-                y1={13}
-                x2={2}
-                y2={13}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="8 19 8 22 4 22 4 19"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="20 19 20 22 16 22 16 19"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M22,4V19H2V4A2,2,0,0,1,4,2H20A2,2,0,0,1,22,4Z"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={9}
-                y1={5}
-                x2={15}
-                y2={5}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={6}
-                y1={16}
-                x2={8}
-                y2={16}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={16}
-                y1={16}
-                x2={18}
-                y2={16}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M9.60645 5.66565C9.19223 5.66565 8.85645 6.00144 8.85645 6.41565C8.85645 6.82986 9.19223 7.16565 9.60645 7.16565H14.393C14.8072 7.16565 15.143 6.82986 15.143 6.41565C15.143 6.00144 14.8072 5.66565 14.393 5.66565H9.60645Z"
+            fill="currentColor"
+        />
+        <path
+            d="M6.46289 15.1909C6.46289 14.7767 6.79868 14.4409 7.21289 14.4409H8.80839C9.22261 14.4409 9.55839 14.7767 9.55839 15.1909C9.55839 15.6051 9.22261 15.9409 8.80839 15.9409H7.21289C6.79868 15.9409 6.46289 15.6051 6.46289 15.1909Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.1909 14.4409C14.7767 14.4409 14.4409 14.7767 14.4409 15.1909C14.4409 15.6051 14.7767 15.9409 15.1909 15.9409H16.7864C17.2006 15.9409 17.5364 15.6051 17.5364 15.1909C17.5364 14.7767 17.2006 14.4409 16.7864 14.4409H15.1909Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.27246 5.61796V17.5842C3.27246 17.9985 3.60825 18.3342 4.02246 18.3342H4.86768V19.9775C4.86768 20.3917 5.20346 20.7275 5.61768 20.7275H8.80868C9.2229 20.7275 9.55868 20.3917 9.55868 19.9775V18.3342H14.4409V19.9775C14.4409 20.3917 14.7767 20.7275 15.1909 20.7275H18.3819C18.7961 20.7275 19.1319 20.3917 19.1319 19.9775V18.3342H19.9775C20.3917 18.3342 20.7275 17.9985 20.7275 17.5842V5.61796C20.7275 4.9959 20.4804 4.39931 20.0405 3.95944C19.6006 3.51958 19.0041 3.27246 18.382 3.27246H5.61796C4.9959 3.27246 4.39931 3.51958 3.95944 3.95944C3.51958 4.39931 3.27246 4.9959 3.27246 5.61796ZM5.61796 4.77246C5.39372 4.77246 5.17867 4.86154 5.0201 5.0201C4.86154 5.17867 4.77246 5.39372 4.77246 5.61796V12.0479H19.2275V5.61796C19.2275 5.39372 19.1384 5.17867 18.9798 5.0201C18.8213 4.86154 18.6062 4.77246 18.382 4.77246H5.61796ZM4.77246 16.8342H19.2275V13.5479H4.77246V16.8342ZM6.36768 19.2275V18.3342H8.05868V19.2275H6.36768ZM15.9409 19.2275V18.3342H17.6319V19.2275H15.9409Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

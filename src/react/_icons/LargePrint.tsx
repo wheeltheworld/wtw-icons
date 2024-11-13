@@ -3,34 +3,13 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const LargePrint: IconComponent = (props) => (
-    <Icon {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-    >
-     <g clipPath="url(#clip0_1585_196)">
-        <g
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="1.5"
-          clipPath="url(#clip1_1585_196)"
-        >
-          <path d="M5.961 22.841h6.387M8.958 22.714V1.19M9.171 2.53h8.8M11.057 2.53v15.81h5.657V2.53"></path>
-        </g>
-      </g>
-      <defs>
-        <clipPath id="clip0_1585_196">
-          <path fill="currentColor" d="M0 0H24V24H0z"></path>
-        </clipPath>
-        <clipPath id="clip1_1585_196">
-          <path
+    <Icon {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.1284 2.19751C10.1284 1.7833 9.79263 1.44751 9.37842 1.44751C8.9642 1.44751 8.62842 1.7833 8.62842 2.19751V21.0525H6.66455C6.25034 21.0525 5.91455 21.3883 5.91455 21.8025C5.91455 22.2167 6.25034 22.5525 6.66455 22.5525H12.448C12.8622 22.5525 13.198 22.2167 13.198 21.8025C13.198 21.3883 12.8622 21.0525 12.448 21.0525H10.1284V4.15967H10.5289V17.7269C10.5289 18.1411 10.8647 18.4769 11.2789 18.4769H16.4017C16.8159 18.4769 17.1517 18.1411 17.1517 17.7269V4.15967H17.5402C17.9544 4.15967 18.2902 3.82388 18.2902 3.40967C18.2902 2.99546 17.9544 2.65967 17.5402 2.65967C15.0696 2.65967 12.599 2.65967 10.1284 2.65967V2.19751ZM12.0289 4.15967V16.9769H15.6517V4.15967L12.0289 4.15967Z"
             fill="currentColor"
-            d="M0 0H13.2V23.4H0z"
-            transform="translate(5.4)"
-          ></path>
-        </clipPath>
-      </defs>
+        />
     </Icon>
 );
 
