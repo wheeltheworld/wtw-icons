@@ -111,6 +111,7 @@ import DeleteSolid from  './_icons/DeleteSolid';
 import Destinations from  './_icons/Destinations';
 import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
+import DiscountTag from  './_icons/DiscountTag';
 import Disney from  './_icons/Disney';
 import Distance from  './_icons/Distance';
 import Document from  './_icons/Document';
@@ -548,6 +549,7 @@ export const iconsArray = [
 	'destinations',
 	'dice',
 	'dinner',
+	'discounttag',
 	'disney',
 	'distance',
 	'document',
@@ -984,6 +986,7 @@ export const iconsObject = {
 	destinations: Destinations,
 	dice: Dice,
 	dinner: Dinner,
+	discounttag: DiscountTag,
 	disney: Disney,
 	distance: Distance,
 	document: Document,

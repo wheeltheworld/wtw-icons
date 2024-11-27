@@ -111,6 +111,7 @@ export { default as DeleteSolidIcon } from  './_icons/DeleteSolid';
 export { default as DestinationsIcon } from  './_icons/Destinations';
 export { default as DiceIcon } from  './_icons/Dice';
 export { default as DinnerIcon } from  './_icons/Dinner';
+export { default as DiscountTagIcon } from  './_icons/DiscountTag';
 export { default as DisneyIcon } from  './_icons/Disney';
 export { default as DistanceIcon } from  './_icons/Distance';
 export { default as DocumentIcon } from  './_icons/Document';
