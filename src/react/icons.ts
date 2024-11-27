@@ -294,6 +294,7 @@ export { default as PrivateTourIcon } from  './_icons/PrivateTour';
 export { default as ProfileIcon } from  './_icons/Profile';
 export { default as ProfileOutlineIcon } from  './_icons/ProfileOutline';
 export { default as ProjectIcon } from  './_icons/Project';
+export { default as DiscountTag } from  './_icons/DiscountTag';
 export { default as QueenBedIcon } from  './_icons/QueenBed';
 export { default as ReceptionIcon } from  './_icons/Reception';
 export { default as RelaxIcon } from  './_icons/Relax';
