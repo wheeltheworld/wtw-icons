@@ -228,6 +228,7 @@ export { default as MapCircledIcon } from  './_icons/MapCircled';
 export { default as MealIcon } from  './_icons/Meal';
 export { default as MeasuringTapeIcon } from  './_icons/MeasuringTape';
 export { default as MeasuringTapeCircledIcon } from  './_icons/MeasuringTapeCircled';
+export { default as MediaKitIcon } from  './_icons/MediaKit';
 export { default as MeetingPointIcon } from  './_icons/MeetingPoint';
 export { default as MeetingRoomIcon } from  './_icons/MeetingRoom';
 export { default as MenuIcon } from  './_icons/Menu';
