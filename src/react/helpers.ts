@@ -228,6 +228,7 @@ import MapCircled from  './_icons/MapCircled';
 import Meal from  './_icons/Meal';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeasuringTapeCircled from  './_icons/MeasuringTapeCircled';
+import MediaKit from  './_icons/MediaKit';
 import MeetingPoint from  './_icons/MeetingPoint';
 import MeetingRoom from  './_icons/MeetingRoom';
 import Menu from  './_icons/Menu';
@@ -665,6 +666,7 @@ export const iconsArray = [
 	'meal',
 	'measuringtape',
 	'measuringtapecircled',
+	'mediakit',
 	'meetingpoint',
 	'meetingroom',
 	'menu',
@@ -1101,6 +1103,7 @@ export const iconsObject = {
 	meal: Meal,
 	measuringtape: MeasuringTape,
 	measuringtapecircled: MeasuringTapeCircled,
+	mediakit: MediaKit,
 	meetingpoint: MeetingPoint,
 	meetingroom: MeetingRoom,
 	menu: Menu,
