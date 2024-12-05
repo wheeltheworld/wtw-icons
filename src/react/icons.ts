@@ -19,6 +19,7 @@ export { default as AltitudeIcon } from  './_icons/Altitude';
 export { default as ArrowBackIcon } from  './_icons/ArrowBack';
 export { default as ArrowDownIcon } from  './_icons/ArrowDown';
 export { default as ArrowForwardIcon } from  './_icons/ArrowForward';
+export { default as ArrowNarrowRight } from  './_icons/ArrowNarrowRight';
 export { default as ArrowUpIcon } from  './_icons/ArrowUp';
 export { default as ArtIcon } from  './_icons/Art';
 export { default as AssistanceIcon } from  './_icons/Assistance';

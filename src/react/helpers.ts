@@ -19,6 +19,7 @@ import Altitude from  './_icons/Altitude';
 import ArrowBack from  './_icons/ArrowBack';
 import ArrowDown from  './_icons/ArrowDown';
 import ArrowForward from  './_icons/ArrowForward';
+import ArrowNarrowRight from  './_icons/ArrowNarrowRight';
 import ArrowUp from  './_icons/ArrowUp';
 import Art from  './_icons/Art';
 import Assistance from  './_icons/Assistance';
@@ -457,6 +458,7 @@ export const iconsArray = [
 	'arrowback',
 	'arrowdown',
 	'arrowforward',
+	'arrownarrowright',
 	'arrowup',
 	'art',
 	'assistance',
@@ -894,6 +896,7 @@ export const iconsObject = {
 	arrowback: ArrowBack,
 	arrowdown: ArrowDown,
 	arrowforward: ArrowForward,
+	arrownarrowright: ArrowNarrowRight,
 	arrowup: ArrowUp,
 	art: Art,
 	assistance: Assistance,
