@@ -4,55 +4,12 @@ import { IconComponent } from '../types';
 
 const TwinBed: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
-            <g transform="translate(.5 .5)">
-                <path
-                    d="M4.82 13.86h13.36"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M4.82 17h13.36"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M7.18 3.64h8.64v4.71H7.18z"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M18.18 19.36v-5.5l-2.36-5.5"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-                <path
-                    d="M7.18 8.36l-2.36 5.5v5.5"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                />
-            </g>
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.67667 5.20312C8.26246 5.20312 7.92667 5.53891 7.92667 5.95312V9.42951L6.17814 13.5045C6.13492 13.5992 6.11084 13.7045 6.11084 13.8154V18.0466C6.11084 18.4608 6.44663 18.7966 6.86084 18.7966C7.27505 18.7966 7.61084 18.4608 7.61084 18.0466V16.9811H16.3888V18.0466C16.3888 18.4608 16.7246 18.7966 17.1388 18.7966C17.553 18.7966 17.8888 18.4608 17.8888 18.0466L17.8888 13.8154C17.8888 13.807 17.8886 13.7986 17.8884 13.7902C17.885 13.6886 17.8614 13.592 17.8215 13.5045L16.0735 9.43077V5.95312C16.0735 5.53891 15.7377 5.20312 15.3235 5.20312H8.67667ZM7.61084 15.4811H16.3888V14.5654H7.61084V15.4811ZM7.99879 13.0654H16.0008L14.8256 10.3266H9.17402L7.99879 13.0654ZM9.42667 8.82656V6.70312H14.5735V8.82656H9.42667Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

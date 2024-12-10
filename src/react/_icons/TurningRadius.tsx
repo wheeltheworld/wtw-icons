@@ -4,65 +4,18 @@ import { IconComponent } from '../types';
 
 const TurningRadius: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M3.8,14.5V2.4h16.3v12.2H3.8z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M1,1.2l2.8,1.2"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M23,1.2l-2.9,1.2"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M1,16.4l2.8-1.8"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                d="M23,16.4l-2.9-1.8"
-            />
-            <ellipse
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                cx={12.2}
-                cy={19.6}
-                rx={5.4}
-                ry={3.1}
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M21.3452 3.20806C21.5036 3.5908 21.3217 4.02946 20.939 4.18784L19.121 4.94013V13.617L21.0478 14.8129C21.3997 15.0313 21.5079 15.4937 21.2895 15.8456C21.071 16.1976 20.6086 16.3058 20.2567 16.0873L18.1574 14.7844H5.77091L3.7539 16.081C3.40548 16.305 2.94144 16.2041 2.71745 15.8557C2.49346 15.5073 2.59434 15.0432 2.94277 14.8192L4.80049 13.625V4.93315L3.0529 4.18418C2.67218 4.02102 2.49581 3.58011 2.65898 3.19939C2.82214 2.81866 3.26305 2.6423 3.64378 2.80547L5.70457 3.68867H18.2222L20.3655 2.80181C20.7482 2.64344 21.1869 2.82532 21.3452 3.20806ZM6.30049 13.2844V5.18867H17.621V13.2844H6.30049Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.1571 15.53C10.8961 15.53 9.71747 15.7767 8.82622 16.2095C7.98628 16.6174 7.15986 17.3244 7.15986 18.3426C7.15986 19.3609 7.98628 20.0679 8.82622 20.4758C9.71747 20.9086 10.8961 21.1553 12.1571 21.1553C13.4182 21.1553 14.5968 20.9086 15.488 20.4758C16.328 20.0679 17.1544 19.3609 17.1544 18.3426C17.1544 17.3244 16.328 16.6174 15.488 16.2095C14.5968 15.7767 13.4182 15.53 12.1571 15.53ZM8.65986 18.3426C8.65986 18.2217 8.78422 17.8974 9.48149 17.5588C10.1275 17.2451 11.0725 17.03 12.1571 17.03C13.2418 17.03 14.1868 17.2451 14.8328 17.5588C15.53 17.8974 15.6544 18.2217 15.6544 18.3426C15.6544 18.4636 15.53 18.7879 14.8328 19.1265C14.1868 19.4402 13.2418 19.6553 12.1571 19.6553C11.0725 19.6553 10.1275 19.4402 9.48149 19.1265C8.78422 18.7879 8.65986 18.4636 8.65986 18.3426Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
