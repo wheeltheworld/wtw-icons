@@ -4,63 +4,24 @@ import { IconComponent } from '../types';
 
 const PlacesToStay: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                x1={1}
-                y1={21}
-                x2={1}
-                y2={4}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={1}
-                y1={18}
-                x2={23}
-                y2={18}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="1 14 23 14 23 21"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <circle
-                cx={6}
-                cy={9}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M23,11H11V7H21a2,2,0,0,1,2,2Z"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.1201 4.19922C3.48792 4.19922 3.7861 4.4974 3.7861 4.86522V12.272H20.8801C21.2479 12.272 21.5461 12.5701 21.5461 12.938V18.5889C21.5461 18.9567 21.2479 19.2549 20.8801 19.2549C20.5123 19.2549 20.2141 18.9567 20.2141 18.5889V16.833H3.7861V18.5888C3.7861 18.9567 3.48792 19.2548 3.1201 19.2548C2.75228 19.2548 2.4541 18.9567 2.4541 18.5888V4.86522C2.4541 4.4974 2.75228 4.19922 3.1201 4.19922ZM3.7861 13.604V15.501H20.2141V13.604H3.7861Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.87615 8.9016C4.87615 7.64209 5.89719 6.62105 7.1567 6.62105C8.41621 6.62105 9.43724 7.64209 9.43724 8.9016C9.43724 10.1611 8.41621 11.1821 7.1567 11.1821C5.89719 11.1821 4.87615 10.1611 4.87615 8.9016ZM7.1567 7.95305C6.63283 7.95305 6.20815 8.37773 6.20815 8.9016C6.20815 9.42546 6.63283 9.85014 7.1567 9.85014C7.68056 9.85014 8.10524 9.42546 8.10524 8.9016C8.10524 8.37773 7.68056 7.95305 7.1567 7.95305Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.1927 6.62105C10.8249 6.62105 10.5267 6.91923 10.5267 7.28705V10.5161C10.5267 10.884 10.8249 11.1821 11.1927 11.1821H20.88C21.2478 11.1821 21.546 10.884 21.546 10.5161V8.9016C21.546 8.29676 21.3057 7.71669 20.8781 7.28901C20.4504 6.86133 19.8703 6.62105 19.2655 6.62105H11.1927ZM20.214 9.85014H11.8587V7.95305H19.2655C19.517 7.95305 19.7583 8.05299 19.9362 8.23088C20.1141 8.40876 20.214 8.65003 20.214 8.9016V9.85014Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

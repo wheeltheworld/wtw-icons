@@ -4,81 +4,28 @@ import { IconComponent } from '../types';
 
 const ShowerGrabBar: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g>
-            <g>
-                <g>
-                    <g>
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={1.5}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M5.3,6.1l6,0c0-1.7-1.3-3-3-3C6.7,3.1,5.3,4.4,5.3,6.1z"
-                        />
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={1.5}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M10.5,8.8l0-0.7"
-                        />
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={1.5}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M8.3,10.2l0-0.7"
-                        />
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={1.5}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M6.2,8.8l0-0.7"
-                        />
-                    </g>
-                </g>
-                <line
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    x1={8.4}
-                    y1={3.1}
-                    x2={8.4}
-                    y2={0.7}
-                />
-            </g>
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                x1={0.7}
-                y1={0.7}
-                x2={8.3}
-                y2={0.7}
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                x1={5.2}
-                y1={15.4}
-                x2={19.3}
-                y2={22.3}
-            />
-            <circle fill="currentColor" cx={5.3} cy={15.4} r={1.7} />
-            <circle fill="currentColor" cx={19.4} cy={22.3} r={1.7} />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M2.9248 3.01563L8.38043 3.01563C10.2703 3.01562 11.829 4.43421 12.0495 6.26473C13.4139 6.60878 14.3873 7.81722 14.3873 9.30753C14.3873 9.72175 14.0515 10.0575 13.6373 10.0575H8.85466C8.44045 10.0575 8.10466 9.72175 8.10466 9.30753C8.10466 7.78364 9.17411 6.5727 10.5278 6.2506C10.316 5.25913 9.43505 4.51562 8.38043 4.51562L2.9248 4.51563C2.51059 4.51563 2.1748 4.17984 2.1748 3.76563C2.1748 3.35141 2.51059 3.01563 2.9248 3.01563ZM12.7202 8.55753H9.78687C10.0645 8.02282 10.627 7.66621 11.246 7.66621C11.9126 7.66621 12.4586 8.01786 12.7202 8.55753Z"
+            fill="currentColor"
+        />
+        <path
+            d="M13.4997 10.9017C13.4997 10.6256 13.2758 10.4017 12.9997 10.4017C12.7235 10.4017 12.4997 10.6256 12.4997 10.9017V11.4597C12.4997 11.7359 12.7235 11.9597 12.9997 11.9597C13.2758 11.9597 13.4997 11.7359 13.4997 11.4597V10.9017Z"
+            fill="currentColor"
+        />
+        <path
+            d="M11.2463 11.5177C11.5224 11.5177 11.7463 11.7416 11.7463 12.0177V12.5757C11.7463 12.8518 11.5224 13.0757 11.2463 13.0757C10.9701 13.0757 10.7463 12.8518 10.7463 12.5757V12.0177C10.7463 11.7416 10.9701 11.5177 11.2463 11.5177Z"
+            fill="currentColor"
+        />
+        <path
+            d="M10.0719 10.9017C10.0719 10.6256 9.84809 10.4017 9.57194 10.4017C9.2958 10.4017 9.07194 10.6256 9.07194 10.9017V11.4597C9.07194 11.7359 9.2958 11.9597 9.57194 11.9597C9.84809 11.9597 10.0719 11.7359 10.0719 11.4597V10.9017Z"
+            fill="currentColor"
+        />
+        <path
+            d="M8.38192 14.7142C8.93568 14.622 9.46324 14.9359 9.66019 15.4385L18.2266 17.9956C18.3661 17.8966 18.5296 17.827 18.7096 17.797C19.3454 17.6911 19.9467 18.1207 20.0526 18.7566C20.1585 19.3925 19.7289 19.9938 19.093 20.0997C18.5662 20.1874 18.0631 19.9075 17.8458 19.4473L9.18294 16.8614C9.05867 16.9375 8.91797 16.9915 8.7654 17.0169C8.12953 17.1228 7.52821 16.6931 7.42231 16.0573C7.31642 15.4214 7.74605 14.8201 8.38192 14.7142Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

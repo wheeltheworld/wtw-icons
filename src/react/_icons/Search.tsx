@@ -4,31 +4,12 @@ import { IconComponent } from '../types';
 
 const Search: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                x1={22}
-                y1={22}
-                x2={15.7}
-                y2={15.7}
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                cx={10}
-                cy={10}
-                r={8}
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.0367 3.93408C7.39017 3.93408 4.43408 6.89017 4.43408 10.5367C4.43408 14.1832 7.39017 17.1393 11.0367 17.1393C12.5897 17.1393 14.0175 16.6031 15.1451 15.7057L19.2853 19.8459C19.5782 20.1388 20.0531 20.1388 20.346 19.8459C20.6388 19.553 20.6388 19.0781 20.3459 18.7853L16.2057 14.6451C17.1031 13.5175 17.6393 12.0897 17.6393 10.5367C17.6393 6.89017 14.6832 3.93408 11.0367 3.93408ZM5.93408 10.5367C5.93408 7.7186 8.21859 5.43408 11.0367 5.43408C13.8548 5.43408 16.1393 7.7186 16.1393 10.5367C16.1393 13.3548 13.8548 15.6393 11.0367 15.6393C8.21859 15.6393 5.93408 13.3548 5.93408 10.5367Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
