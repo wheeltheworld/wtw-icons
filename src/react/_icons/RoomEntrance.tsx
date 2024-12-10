@@ -4,35 +4,16 @@ import { IconComponent } from '../types';
 
 const RoomEntrance: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
-            <path
-                d="M12.84 2.07h5.86c.22 0 .41.18.41.41v19.13c0 .22-.18.41-.41.41h-5.86"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M4.9 5.26v15.92c0 .19.13.35.32.39l1.36.27L12 22.93l.37.06c.02.01.05.01.07.01.09 0 .18-.03.25-.09a.42.42 0 0 0 .15-.31V1.39c0-.12-.06-.24-.16-.32-.1-.08-.23-.1-.34-.07L5.9 2.73l-.71.19c-.17.05-.29.2-.29.38v1.96z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M10.48 12.86H9.03"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-        </g>
+        <path
+            d="M11.1816 12.0926C11.1816 11.6784 10.8459 11.3426 10.4316 11.3426C10.0174 11.3426 9.68164 11.6784 9.68164 12.0926V13.1067C9.68164 13.5209 10.0174 13.8567 10.4316 13.8567C10.8459 13.8567 11.1816 13.5209 11.1816 13.1067V12.0926Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.0433 3.58047C12.3346 3.50165 12.6756 3.55224 12.9452 3.76785C13.1116 3.90103 13.2403 4.08786 13.3007 4.30292H16.6875C17.2436 4.30292 17.7242 4.75277 17.7242 5.33968V18.7196C17.7242 19.2757 17.2744 19.7563 16.6875 19.7563H13.2773C13.2157 19.928 13.1084 20.0828 12.9685 20.201C12.7723 20.3677 12.5332 20.4418 12.3088 20.4418C10.5788 20.4418 8.78941 19.7601 7.10445 19.4255C6.62966 19.3256 6.28516 18.9116 6.28516 18.4188V5.91321C6.28516 5.43477 6.60771 5.05104 7.02636 4.92791L12.0433 3.58047ZM13.3385 18.2563V5.80292H16.2242V18.2563H13.3385ZM11.8385 5.18867L7.78516 6.2774V18.0314L8.35805 18.1451L11.8385 18.8451V5.18867Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

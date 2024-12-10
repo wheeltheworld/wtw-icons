@@ -3,57 +3,25 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Transportation: IconComponent = (props: any) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g>
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M38.28,23.86H1.72"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M12.69,33.36v5.49H5.38V33.36"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M34.62,33.36v5.49H27.31V33.36"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M38.28,5.94V33.36H1.72V5.94A3.65,3.65,0,0,1,5.38,2.29H34.62A3.65,3.65,0,0,1,38.28,5.94Z"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M9,28.63h3.66"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5px"
-                d="M27.31,28.63H31"
-            />
-        </g>
+    <Icon viewBox="0 0 24 24" {...props}>
+        <path
+            d="M9.60645 5.66565C9.19223 5.66565 8.85645 6.00144 8.85645 6.41565C8.85645 6.82986 9.19223 7.16565 9.60645 7.16565H14.393C14.8072 7.16565 15.143 6.82986 15.143 6.41565C15.143 6.00144 14.8072 5.66565 14.393 5.66565H9.60645Z"
+            fill="currentColor"
+        />
+        <path
+            d="M6.46289 15.1909C6.46289 14.7767 6.79868 14.4409 7.21289 14.4409H8.80839C9.22261 14.4409 9.55839 14.7767 9.55839 15.1909C9.55839 15.6051 9.22261 15.9409 8.80839 15.9409H7.21289C6.79868 15.9409 6.46289 15.6051 6.46289 15.1909Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.1909 14.4409C14.7767 14.4409 14.4409 14.7767 14.4409 15.1909C14.4409 15.6051 14.7767 15.9409 15.1909 15.9409H16.7864C17.2006 15.9409 17.5364 15.6051 17.5364 15.1909C17.5364 14.7767 17.2006 14.4409 16.7864 14.4409H15.1909Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.27246 5.61796V17.5842C3.27246 17.9985 3.60825 18.3342 4.02246 18.3342H4.86768V19.9775C4.86768 20.3917 5.20346 20.7275 5.61768 20.7275H8.80868C9.2229 20.7275 9.55868 20.3917 9.55868 19.9775V18.3342H14.4409V19.9775C14.4409 20.3917 14.7767 20.7275 15.1909 20.7275H18.3819C18.7961 20.7275 19.1319 20.3917 19.1319 19.9775V18.3342H19.9775C20.3917 18.3342 20.7275 17.9985 20.7275 17.5842V5.61796C20.7275 4.9959 20.4804 4.39931 20.0405 3.95944C19.6006 3.51958 19.0041 3.27246 18.382 3.27246H5.61796C4.9959 3.27246 4.39931 3.51958 3.95944 3.95944C3.51958 4.39931 3.27246 4.9959 3.27246 5.61796ZM5.61796 4.77246C5.39372 4.77246 5.17867 4.86154 5.0201 5.0201C4.86154 5.17867 4.77246 5.39372 4.77246 5.61796V12.0479H19.2275V5.61796C19.2275 5.39372 19.1384 5.17867 18.9798 5.0201C18.8213 4.86154 18.6062 4.77246 18.382 4.77246H5.61796ZM4.77246 16.8342H19.2275V13.5479H4.77246V16.8342ZM6.36768 19.2275V18.3342H8.05868V19.2275H6.36768ZM15.9409 19.2275V18.3342H17.6319V19.2275H15.9409Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

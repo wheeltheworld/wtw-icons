@@ -4,69 +4,12 @@ import { IconComponent } from '../types';
 
 const Share: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                x1={7.6}
-                y1={10.5}
-                x2={16.4}
-                y2={5.5}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                x1={7.6}
-                y1={13.5}
-                x2={16.4}
-                y2={18.5}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={5}
-                cy={12}
-                r={3}
-                strokeLinejoin="round"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={19}
-                cy={4}
-                r={3}
-                strokeLinejoin="round"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={19}
-                cy={20}
-                r={3}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.1723 6.2253C14.1723 4.60986 15.4819 3.30029 17.0973 3.30029C18.7127 3.30029 20.0223 4.60986 20.0223 6.2253C20.0223 7.84073 18.7127 9.1503 17.0973 9.1503C16.285 9.1503 15.5501 8.81921 15.0201 8.28462L9.77294 11.266C9.83785 11.5081 9.87247 11.7627 9.87247 12.0253C9.87247 12.2879 9.83786 12.5424 9.77295 12.7846L15.0201 15.7659C15.5501 15.2314 16.285 14.9003 17.0973 14.9003C18.7127 14.9003 20.0223 16.2098 20.0223 17.8253C20.0223 19.4407 18.7127 20.7503 17.0973 20.7503C15.4819 20.7503 14.1723 19.4407 14.1723 17.8253C14.1723 17.5627 14.2069 17.3081 14.2718 17.066L9.02465 14.0846C8.49464 14.6192 7.75972 14.9503 6.94746 14.9503C5.33203 14.9503 4.02246 13.6407 4.02246 12.0253C4.02246 10.4098 5.33203 9.10028 6.94746 9.10028C7.75971 9.10028 8.49463 9.43135 9.02464 9.96591L14.2718 6.98456C14.2069 6.74243 14.1723 6.48791 14.1723 6.2253ZM17.0973 4.80029C16.3103 4.80029 15.6723 5.43829 15.6723 6.2253C15.6723 7.0123 16.3103 7.6503 17.0973 7.6503C17.8843 7.6503 18.5223 7.0123 18.5223 6.2253C18.5223 5.43829 17.8843 4.80029 17.0973 4.80029ZM5.52246 12.0253C5.52246 11.2383 6.16046 10.6003 6.94746 10.6003C7.73447 10.6003 8.37247 11.2383 8.37247 12.0253C8.37247 12.8123 7.73447 13.4503 6.94746 13.4503C6.16046 13.4503 5.52246 12.8123 5.52246 12.0253ZM15.6723 17.8253C15.6723 17.0383 16.3103 16.4003 17.0973 16.4003C17.8843 16.4003 18.5223 17.0383 18.5223 17.8253C18.5223 18.6123 17.8843 19.2503 17.0973 19.2503C16.3103 19.2503 15.6723 18.6123 15.6723 17.8253Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
