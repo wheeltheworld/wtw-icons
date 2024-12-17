@@ -277,6 +277,7 @@ import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
 import Pascuas from  './_icons/Pascuas';
 import Pending from  './_icons/Pending';
+import Performance from  './_icons/Performance';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
 import Phone from  './_icons/Phone';
@@ -716,6 +717,7 @@ export const iconsArray = [
 	'partners',
 	'pascuas',
 	'pending',
+	'performance',
 	'person',
 	'petfriendly',
 	'phone',
@@ -1154,6 +1156,7 @@ export const iconsObject = {
 	partners: Partners,
 	pascuas: Pascuas,
 	pending: Pending,
+	performance: Performance,
 	person: Person,
 	petfriendly: PetFriendly,
 	phone: Phone,
