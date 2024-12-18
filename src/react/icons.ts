@@ -75,6 +75,7 @@ export { default as ChatIcon } from  './_icons/Chat';
 export { default as CheckIcon } from  './_icons/Check';
 export { default as ChristmasIcon } from  './_icons/Christmas';
 export { default as ClockIcon } from  './_icons/Clock';
+export { default as CloseIcon } from  './_icons/Close';
 export { default as CloseButtonIcon } from  './_icons/CloseButton';
 export { default as CloseButtonFilledIcon } from  './_icons/CloseButtonFilled';
 export { default as ClosedCaptionsIcon } from  './_icons/ClosedCaptions';
