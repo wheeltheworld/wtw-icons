@@ -99,6 +99,7 @@ export { default as CountriesIcon } from  './_icons/Countries';
 export { default as CouponIcon } from  './_icons/Coupon';
 export { default as CreditCardIcon } from  './_icons/CreditCard';
 export { default as CribIcon } from  './_icons/Crib';
+export { default as CrossIcon } from  './_icons/Cross';
 export { default as CrowdedIcon } from  './_icons/Crowded';
 export { default as CruiseIcon } from  './_icons/Cruise';
 export { default as CrutchesIcon } from  './_icons/Crutches';

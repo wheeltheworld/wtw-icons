@@ -99,6 +99,7 @@ import Countries from  './_icons/Countries';
 import Coupon from  './_icons/Coupon';
 import CreditCard from  './_icons/CreditCard';
 import Crib from  './_icons/Crib';
+import Cross from  './_icons/Cross';
 import Crowded from  './_icons/Crowded';
 import Cruise from  './_icons/Cruise';
 import Crutches from  './_icons/Crutches';
@@ -540,6 +541,7 @@ export const iconsArray = [
 	'coupon',
 	'creditcard',
 	'crib',
+	'cross',
 	'crowded',
 	'cruise',
 	'crutches',
@@ -980,6 +982,7 @@ export const iconsObject = {
 	coupon: Coupon,
 	creditcard: CreditCard,
 	crib: Crib,
+	cross: Cross,
 	crowded: Crowded,
 	cruise: Cruise,
 	crutches: Crutches,
