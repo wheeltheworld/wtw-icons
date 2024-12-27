@@ -75,7 +75,6 @@ import Chat from  './_icons/Chat';
 import Check from  './_icons/Check';
 import Christmas from  './_icons/Christmas';
 import Clock from  './_icons/Clock';
-import Close from  './_icons/Close';
 import CloseButton from  './_icons/CloseButton';
 import CloseButtonFilled from  './_icons/CloseButtonFilled';
 import ClosedCaptions from  './_icons/ClosedCaptions';
@@ -99,6 +98,7 @@ import Countries from  './_icons/Countries';
 import Coupon from  './_icons/Coupon';
 import CreditCard from  './_icons/CreditCard';
 import Crib from  './_icons/Crib';
+import Cross from  './_icons/Cross';
 import Crowded from  './_icons/Crowded';
 import Cruise from  './_icons/Cruise';
 import Crutches from  './_icons/Crutches';
@@ -516,7 +516,6 @@ export const iconsArray = [
 	'check',
 	'christmas',
 	'clock',
-	'close',
 	'closebutton',
 	'closebuttonfilled',
 	'closedcaptions',
@@ -540,6 +539,7 @@ export const iconsArray = [
 	'coupon',
 	'creditcard',
 	'crib',
+	'cross',
 	'crowded',
 	'cruise',
 	'crutches',
@@ -956,7 +956,6 @@ export const iconsObject = {
 	check: Check,
 	christmas: Christmas,
 	clock: Clock,
-	close: Close,
 	closebutton: CloseButton,
 	closebuttonfilled: CloseButtonFilled,
 	closedcaptions: ClosedCaptions,
@@ -980,6 +979,7 @@ export const iconsObject = {
 	coupon: Coupon,
 	creditcard: CreditCard,
 	crib: Crib,
+	cross: Cross,
 	crowded: Crowded,
 	cruise: Cruise,
 	crutches: Crutches,
