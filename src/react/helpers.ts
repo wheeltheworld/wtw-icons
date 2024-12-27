@@ -75,7 +75,6 @@ import Chat from  './_icons/Chat';
 import Check from  './_icons/Check';
 import Christmas from  './_icons/Christmas';
 import Clock from  './_icons/Clock';
-import Close from  './_icons/Close';
 import CloseButton from  './_icons/CloseButton';
 import CloseButtonFilled from  './_icons/CloseButtonFilled';
 import ClosedCaptions from  './_icons/ClosedCaptions';
@@ -517,7 +516,6 @@ export const iconsArray = [
 	'check',
 	'christmas',
 	'clock',
-	'close',
 	'closebutton',
 	'closebuttonfilled',
 	'closedcaptions',
@@ -958,7 +956,6 @@ export const iconsObject = {
 	check: Check,
 	christmas: Christmas,
 	clock: Clock,
-	close: Close,
 	closebutton: CloseButton,
 	closebuttonfilled: CloseButtonFilled,
 	closedcaptions: ClosedCaptions,
