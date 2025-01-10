@@ -4,74 +4,20 @@ import { IconComponent } from '../types';
 
 const Playground: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <polyline
-                points="9 13 13 13 20 22 23 22"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={14}
-                y1={20}
-                x2={14}
-                y2={22}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <circle
-                cx={5}
-                cy={8}
-                r={1}
-                fill="currentColor"
-                data-cap="butt"
-                data-color="color-2"
-                data-stroke="none"
-                strokeLinecap="round"
-            />
-            <polyline
-                points="1 22 1 6 5 2 9 6 9 22"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={1}
-                y1={13}
-                x2={9}
-                y2={13}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={1}
-                y1={18}
-                x2={9}
-                y2={18}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M7.27229 9.72739C7.72417 9.72739 8.09048 9.36107 8.09048 8.90919C8.09048 8.45732 7.72417 8.091 7.27229 8.091C6.82042 8.091 6.4541 8.45732 6.4541 8.90919C6.4541 9.36107 6.82042 9.72739 7.27229 9.72739Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.8031 3.46967C7.66244 3.32902 7.47168 3.25 7.27277 3.25C7.07385 3.25 6.88309 3.32902 6.74244 3.46967L3.46967 6.74244C3.32902 6.88309 3.25 7.07385 3.25 7.27277V20.3638C3.25 20.778 3.58579 21.1138 4 21.1138C4.41421 21.1138 4.75 20.778 4.75 20.3638V17.8411H9.79553V20.3638C9.79553 20.778 10.1313 21.1138 10.5455 21.1138C10.9597 21.1138 11.2955 20.778 11.2955 20.3638V13.7501H13.4514L18.9535 20.8242C19.0956 21.0069 19.3141 21.1138 19.5455 21.1138H22.0001C22.4143 21.1138 22.7501 20.778 22.7501 20.3638C22.7501 19.9496 22.4143 19.6138 22.0001 19.6138H19.9123L14.4102 12.5396C14.2681 12.3569 14.0496 12.2501 13.8182 12.2501H11.2955V7.27277C11.2955 7.07385 11.2165 6.88309 11.0759 6.74244L7.8031 3.46967ZM9.79553 16.3411V13.7501H4.75V16.3411H9.79553ZM9.79553 7.58343V12.2501H4.75V7.58343L7.27277 5.06066L9.79553 7.58343Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.3862 18.7277C15.3862 18.3135 15.0504 17.9777 14.6362 17.9777C14.222 17.9777 13.8862 18.3135 13.8862 18.7277V20.3641C13.8862 20.7783 14.222 21.1141 14.6362 21.1141C15.0504 21.1141 15.3862 20.7783 15.3862 20.3641V18.7277Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

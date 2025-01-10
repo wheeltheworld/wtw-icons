@@ -4,48 +4,12 @@ import { IconComponent } from '../types';
 
 const SoftDrink: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                x1={4}
-                y1={12}
-                x2={20}
-                y2={12}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="5 12 6 23 18 23 19 12"
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                strokeLinecap="round"
-            />
-            <path
-                d="M5,12a7,7,0,0,1,14,0"
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                strokeLinecap="round"
-            />
-            <polyline
-                points="12 18 11 1 7 1"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.57422 3.31494C8.16 3.31494 7.82422 3.65073 7.82422 4.06494C7.82422 4.47915 8.16 4.81494 8.57422 4.81494H10.848L10.9443 6.45197C9.86875 6.70297 8.87466 7.24992 8.08109 8.04349C6.86381 9.26076 6.39329 11.5125 6.33838 11.5125C5.92417 11.5125 5.58838 11.8482 5.58838 12.2625C5.58838 12.6767 5.92417 13.0125 6.33838 13.0125L7.14382 21.21H17.4565L18.2017 13.0125C18.6309 13.0125 19.0121 12.718 19.0121 12.2625C19.0121 11.8205 18.6431 11.5125 18.2195 11.5125C18.054 10.2066 17.4599 8.98417 16.5192 8.04349C15.4327 6.95701 13.9704 6.33281 12.4378 6.29748L12.3039 4.0209C12.2805 3.62448 11.9523 3.31494 11.5552 3.31494H8.57422ZM11.0341 7.97907C10.3257 8.18848 9.67356 8.57234 9.14175 9.10415C8.48303 9.76287 8.0513 10.6061 7.89691 11.5125H11.242L11.0341 7.97907ZM12.7445 11.5125L12.5263 7.80162C13.6285 7.85745 14.6743 8.31994 15.4585 9.10415C16.1173 9.76287 16.549 10.6061 16.7034 11.5125H12.7445ZM11.3302 13.0125L11.5517 16.778C11.576 17.1915 11.9309 17.507 12.3444 17.4826C12.7579 17.4583 13.0734 17.1034 13.0491 16.6899L12.8328 13.0125H16.6955L16.0866 19.71H8.51364L7.90477 13.0125H11.3302Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
