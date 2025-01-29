@@ -3,7 +3,7 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Alert: IconComponent = (props) => (
-    <Icon viewBox="0 0 24 24" {...props}>
+    <Icon viewBox="0 0 16 17" {...props}>
         <path
             fill-rule="evenodd"
             clip-rule="evenodd"
