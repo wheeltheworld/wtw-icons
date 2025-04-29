@@ -396,6 +396,7 @@ import Twitter from  './_icons/Twitter';
 import TwitterNeutral from  './_icons/TwitterNeutral';
 import TwoAssistants from  './_icons/TwoAssistants';
 import TwoHours from  './_icons/TwoHours';
+import Unavailable from  './_icons/Unavailable';
 import Unverified from  './_icons/Unverified';
 import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
@@ -838,6 +839,7 @@ export const iconsArray = [
 	'twitterneutral',
 	'twoassistants',
 	'twohours',
+	'unavailable',
 	'unverified',
 	'upload',
 	'valetparking',
@@ -1279,6 +1281,7 @@ export const iconsObject = {
 	twitterneutral: TwitterNeutral,
 	twoassistants: TwoAssistants,
 	twohours: TwoHours,
+	unavailable: Unavailable,
 	unverified: Unverified,
 	upload: Upload,
 	valetparking: ValetParking,
