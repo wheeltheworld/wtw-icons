@@ -133,6 +133,7 @@ export { default as EmailIcon } from  './_icons/Email';
 export { default as EntertainmentIcon } from  './_icons/Entertainment';
 export { default as EntranceIcon } from  './_icons/Entrance';
 export { default as EquipmentIcon } from  './_icons/Equipment';
+export { default as ErrorSquareFilledIcon } from  './_icons/ErrorSquareFilled';
 export { default as EventRoomIcon } from  './_icons/EventRoom';
 export { default as ExclusiveIcon } from  './_icons/Exclusive';
 export { default as ExhibitionIcon } from  './_icons/Exhibition';

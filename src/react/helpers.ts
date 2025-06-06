@@ -133,6 +133,7 @@ import Email from  './_icons/Email';
 import Entertainment from  './_icons/Entertainment';
 import Entrance from  './_icons/Entrance';
 import Equipment from  './_icons/Equipment';
+import ErrorSquareFilled from  './_icons/ErrorSquareFilled';
 import EventRoom from  './_icons/EventRoom';
 import Exclusive from  './_icons/Exclusive';
 import Exhibition from  './_icons/Exhibition';
@@ -578,6 +579,7 @@ export const iconsArray = [
 	'entertainment',
 	'entrance',
 	'equipment',
+	'errorsquarefilled',
 	'eventroom',
 	'exclusive',
 	'exhibition',
@@ -1022,6 +1024,7 @@ export const iconsObject = {
 	entertainment: Entertainment,
 	entrance: Entrance,
 	equipment: Equipment,
+	errorsquarefilled: ErrorSquareFilled,
 	eventroom: EventRoom,
 	exclusive: Exclusive,
 	exhibition: Exhibition,
