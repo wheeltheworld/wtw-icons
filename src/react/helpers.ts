@@ -211,9 +211,11 @@ import LargePrint from  './_icons/LargePrint';
 import Last from  './_icons/Last';
 import LastMinute from  './_icons/LastMinute';
 import Laundry from  './_icons/Laundry';
+import Laurels from  './_icons/Laurels';
 import Level from  './_icons/Level';
 import LeverHandle from  './_icons/LeverHandle';
 import Lifevest from  './_icons/Lifevest';
+import Like from  './_icons/Like';
 import LinkArrow from  './_icons/LinkArrow';
 import Linkedin from  './_icons/Linkedin';
 import LinkedinNeutral from  './_icons/LinkedinNeutral';
@@ -657,9 +659,11 @@ export const iconsArray = [
 	'last',
 	'lastminute',
 	'laundry',
+	'laurels',
 	'level',
 	'leverhandle',
 	'lifevest',
+	'like',
 	'linkarrow',
 	'linkedin',
 	'linkedinneutral',
@@ -1102,9 +1106,11 @@ export const iconsObject = {
 	last: Last,
 	lastminute: LastMinute,
 	laundry: Laundry,
+	laurels: Laurels,
 	level: Level,
 	leverhandle: LeverHandle,
 	lifevest: Lifevest,
+	like: Like,
 	linkarrow: LinkArrow,
 	linkedin: Linkedin,
 	linkedinneutral: LinkedinNeutral,
