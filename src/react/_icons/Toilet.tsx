@@ -4,42 +4,12 @@ import { IconComponent } from '../types';
 
 const Toilet: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                x1={3.1}
-                y1={15}
-                x2={20.9}
-                y2={15}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <path
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                d="M6,12V3c0-1.1,0.9-2,2-2h8 c1.1,0,2,0.9,2,2v9"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M21,12H3v2c0,3.3,2.7,6,6,6 l0,0v3h6v-3l0,0c3.3,0,6-2.7,6-6V12z"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M16.9248 11.25V5.73779C16.9248 4.5582 15.9628 3.59619 14.7832 3.59619H9.2168C8.0372 3.59619 7.0752 4.5582 7.0752 5.73779V11.25H5.73779C5.32358 11.25 4.98779 11.5858 4.98779 12V13.3916C4.98779 15.8471 6.80536 17.8956 9.1626 18.2591V19.6538C9.1626 20.068 9.49838 20.4038 9.9126 20.4038H14.0874C14.5016 20.4038 14.8374 20.068 14.8374 19.6538V18.2591C17.1946 17.8956 19.0122 15.8471 19.0122 13.3916V12C19.0122 11.5858 18.6764 11.25 18.2622 11.25H16.9248ZM9.2168 5.09619C8.86563 5.09619 8.5752 5.38663 8.5752 5.73779V11.25H15.4248V5.73779C15.4248 5.38663 15.1344 5.09619 14.7832 5.09619H9.2168ZM6.48779 12.75V13.3374H17.5122V12.75H6.48779ZM17.1895 14.8374H6.81052C7.35873 16.0032 8.54631 16.8164 9.9126 16.8164C10.3268 16.8164 10.6626 17.1522 10.6626 17.5664V18.9038H13.3374V17.5664C13.3374 17.1522 13.6732 16.8164 14.0874 16.8164C15.4537 16.8164 16.6413 16.0032 17.1895 14.8374Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

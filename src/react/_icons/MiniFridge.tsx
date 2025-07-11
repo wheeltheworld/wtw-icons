@@ -4,32 +4,16 @@ import { IconComponent } from '../types';
 
 const MiniFridge: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
-            <path
-                d="M6.78 12.73v2.94"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M3.85 1h16.13c.81 0 1.47.66 1.47 1.47v19.07c0 .81-.66 1.47-1.47 1.47H3.85c-.81 0-1.47-.66-1.47-1.47V2.47c0-.81.66-1.47 1.47-1.47z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M2.38 8.33h19.07"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M8.55762 11.7581C8.97183 11.7581 9.30762 12.0939 9.30762 12.5081V14.6507C9.30762 15.065 8.97183 15.4007 8.55762 15.4007C8.1434 15.4007 7.80762 15.065 7.80762 14.6507V12.5081C7.80762 12.0939 8.1434 11.7581 8.55762 11.7581Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.60107 5.03078C4.60107 4.02626 5.41786 3.20947 6.42239 3.20947H18.1777C19.1822 3.20947 19.999 4.02626 19.999 5.03078V18.9287C19.999 19.9332 19.1822 20.75 18.1777 20.75H6.42239C5.41786 20.75 4.60107 19.9332 4.60107 18.9287V5.03078ZM6.42239 4.70947C6.24628 4.70947 6.10107 4.85468 6.10107 5.03078V8.55145H18.499V5.03078C18.499 4.85468 18.3538 4.70947 18.1777 4.70947H6.42239ZM18.499 10.0515H6.10107V18.9287C6.10107 19.1048 6.24628 19.25 6.42239 19.25H18.1777C18.3538 19.25 18.499 19.1048 18.499 18.9287V10.0515Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

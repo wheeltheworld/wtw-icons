@@ -4,43 +4,18 @@ import { IconComponent } from '../types';
 
 const Laundry: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <path
-                data-cap="butt"
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeMiterlimit={10}
-                d="M5,12c8.3-5.5,5.5,5.7,14,0"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-            />
-            <rect
-                x={1}
-                y={1}
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                width={22}
-                height={22}
-                strokeLinejoin="round"
-            />
-            <circle
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={12}
-                cy={12}
-                r={7}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.1591 11.9992C6.15775 15.1828 8.81714 17.8409 12 17.8409C15.144 17.8409 17.9113 15.1727 17.8409 11.9827C17.8316 8.7648 15.2201 6.15907 12 6.15907C8.77442 6.15907 6.15951 8.77374 6.1591 11.9992ZM16.3231 11.6039C16.1231 9.39213 14.2639 7.65907 12 7.65907C10.0999 7.65907 8.48496 8.87988 7.8967 10.5799C8.81941 10.1583 9.60449 10.0298 10.3108 10.1574C11.2902 10.3344 11.9411 10.9876 12.4135 11.4617C12.8197 11.8689 13.2562 12.3535 13.8544 12.445C14.3083 12.5144 15.0492 12.3988 16.3231 11.6039ZM7.67723 12.3994C7.87883 14.6096 9.73724 16.3409 12 16.3409C13.8925 16.3409 15.5021 15.1299 16.0962 13.4406C15.1491 13.8888 14.3466 14.0377 13.6276 13.9277C12.6 13.7706 11.9309 13.1009 11.4457 12.6153C11.0495 12.2189 10.6233 11.7382 10.044 11.6335C9.61356 11.5557 8.90698 11.6458 7.67723 12.3994Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.25 4C3.25 3.58579 3.58579 3.25 4 3.25H20C20.4143 3.25 20.75 3.58579 20.75 4V20C20.75 20.4143 20.4143 20.75 20 20.75H4C3.58579 20.75 3.25 20.4143 3.25 20V4ZM4.75 4.75V19.25H19.25V4.75H4.75Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

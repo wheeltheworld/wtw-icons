@@ -4,59 +4,12 @@ import { IconComponent } from '../types';
 
 const Calendar: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-color="color-2"
-                x1={17}
-                y1={4}
-                x2={17}
-                y2={1}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                x1={7}
-                y1={4}
-                x2={7}
-                y2={1}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                x1={1}
-                y1={8}
-                x2={23}
-                y2={8}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinecap="round"
-            />
-            <rect
-                x={1}
-                y={4}
-                width={22}
-                height={18}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.85809 4.44644C8.85809 4.03223 8.52231 3.69644 8.10809 3.69644C7.69388 3.69644 7.35809 4.03223 7.35809 4.44644V5.89357H6.71387C4.6428 5.89357 2.96387 7.5725 2.96387 9.64357V16.8262C2.96387 18.8973 4.6428 20.5762 6.71387 20.5762H16.826C18.8971 20.5762 20.576 18.8973 20.576 16.8262V9.64357C20.576 7.5725 18.8971 5.89357 16.826 5.89357H16.1818V4.44644C16.1818 4.03223 15.846 3.69644 15.4318 3.69644C15.0175 3.69644 14.6818 4.03223 14.6818 4.44644V5.89357H8.85809V4.44644ZM19.076 9.82303V9.64357C19.076 8.40093 18.0687 7.39357 16.826 7.39357H6.71387C5.47123 7.39357 4.46387 8.40093 4.46387 9.64357V9.82303H19.076ZM4.46387 11.323H19.076V16.8262C19.076 18.0689 18.0687 19.0762 16.826 19.0762H6.71387C5.47123 19.0762 4.46387 18.0689 4.46387 16.8262V11.323Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

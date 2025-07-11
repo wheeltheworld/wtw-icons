@@ -3,46 +3,13 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const Wallet: IconComponent = (props: any) => (
-    <Icon fill="none" viewBox="0 0 40 40" {...props}>
-      <g clipPath="url(#clip0_856_21786)">
-        <path fill="#fff" d="M28.25 2l6 10-26.5-.5 15-9.5 3-1 2.5 1z"></path>
+    <Icon fill="none" viewBox="0 0 24 24" {...props}>
         <path
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M28.177 4L15 11.5"
-        ></path>
-        <path
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M30.5 6.5L21 12"
-        ></path>
-        <path
-          fill="#fff"
-          stroke="currentColor"
-          strokeWidth="2"
-          d="M34 12H4a3 3 0 00-3 3v21a3 3 0 003 3h30a3 3 0 003-3V15a3 3 0 00-3-3z"
-        ></path>
-        <path
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeWidth="2"
-          d="M7 11.5L24.585 1.478a3 3 0 014.084 1.106l5.258 9.108"
-        ></path>
-        <path
-          fill="#fff"
-          stroke="currentColor"
-          strokeWidth="2"
-          d="M26 25.5a4.5 4.5 0 014.5-4.5H36a3 3 0 013 3v3a3 3 0 01-3 3h-5.5a4.5 4.5 0 01-4.5-4.5z"
-        ></path>
-        <rect width="3" height="3" x="29" y="24" fill="currentColor" rx="1.5"></rect>
-      </g>
-      <defs>
-        <clipPath id="clip0_856_21786">
-          <path fill="#fff" d="M0 0H40V40H0z"></path>
-        </clipPath>
-      </defs>
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.0171 6.00404C14.9702 5.87298 14.8252 5.80554 14.6947 5.85406L9.99746 7.6003H15.5892L15.0171 6.00404ZM14.172 4.44807L5.69282 7.6003H5.48779C4.5213 7.6003 3.73779 8.3838 3.73779 9.3503V18.2C3.73779 19.1665 4.5213 19.95 5.48779 19.95H17.0099C17.9764 19.95 18.7599 19.1665 18.7599 18.2V16.5895C19.6093 16.4693 20.2626 15.7394 20.2626 14.8569V13.1862C20.2626 12.3037 19.6093 11.5738 18.7599 11.4536V9.3503C18.7599 8.44316 18.0697 7.69723 17.1858 7.60903L16.4292 5.49797C16.1004 4.58054 15.0855 4.10847 14.172 4.44807ZM17.2599 11.4362V9.3503C17.2599 9.21223 17.148 9.1003 17.0099 9.1003H5.48779C5.34972 9.1003 5.23779 9.21223 5.23779 9.3503V18.2C5.23779 18.338 5.34972 18.45 5.48779 18.45H17.0099C17.148 18.45 17.2599 18.338 17.2599 18.2V16.6069H15.5469C14.5804 16.6069 13.7969 15.8234 13.7969 14.8569V13.1862C13.7969 12.2197 14.5804 11.4362 15.5469 11.4362H17.2599ZM15.2969 13.1862C15.2969 13.0482 15.4088 12.9362 15.5469 12.9362H18.5126C18.6506 12.9362 18.7626 13.0482 18.7626 13.1862V14.8569C18.7626 14.9949 18.6506 15.1069 18.5126 15.1069H15.5469C15.4088 15.1069 15.2969 14.9949 15.2969 14.8569V13.1862Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

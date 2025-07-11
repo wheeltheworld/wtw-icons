@@ -15,10 +15,12 @@ import Adrenaline from  './_icons/Adrenaline';
 import AirConditioner from  './_icons/AirConditioner';
 import AirportShuttle from  './_icons/AirportShuttle';
 import AlcoholicBeverages from  './_icons/AlcoholicBeverages';
+import Alert from  './_icons/Alert';
 import Altitude from  './_icons/Altitude';
 import ArrowBack from  './_icons/ArrowBack';
 import ArrowDown from  './_icons/ArrowDown';
 import ArrowForward from  './_icons/ArrowForward';
+import ArrowNarrowRight from  './_icons/ArrowNarrowRight';
 import ArrowUp from  './_icons/ArrowUp';
 import Art from  './_icons/Art';
 import Assistance from  './_icons/Assistance';
@@ -97,6 +99,7 @@ import Countries from  './_icons/Countries';
 import Coupon from  './_icons/Coupon';
 import CreditCard from  './_icons/CreditCard';
 import Crib from  './_icons/Crib';
+import Cross from  './_icons/Cross';
 import Crowded from  './_icons/Crowded';
 import Cruise from  './_icons/Cruise';
 import Crutches from  './_icons/Crutches';
@@ -112,6 +115,7 @@ import Destinations from  './_icons/Destinations';
 import Dice from  './_icons/Dice';
 import Dinner from  './_icons/Dinner';
 import Disney from  './_icons/Disney';
+import Distance from  './_icons/Distance';
 import Document from  './_icons/Document';
 import Documentation from  './_icons/Documentation';
 import Done from  './_icons/Done';
@@ -129,6 +133,7 @@ import Email from  './_icons/Email';
 import Entertainment from  './_icons/Entertainment';
 import Entrance from  './_icons/Entrance';
 import Equipment from  './_icons/Equipment';
+import ErrorSquareFilled from  './_icons/ErrorSquareFilled';
 import EventRoom from  './_icons/EventRoom';
 import Exclusive from  './_icons/Exclusive';
 import Exhibition from  './_icons/Exhibition';
@@ -139,6 +144,7 @@ import FacebookNeutral from  './_icons/FacebookNeutral';
 import Filter from  './_icons/Filter';
 import FitnessCenter from  './_icons/FitnessCenter';
 import FiveHours from  './_icons/FiveHours';
+import Flag from  './_icons/Flag';
 import FoldablePowerWheelchair from  './_icons/FoldablePowerWheelchair';
 import Food from  './_icons/Food';
 import FoodService from  './_icons/FoodService';
@@ -180,6 +186,7 @@ import Housekeeping from  './_icons/Housekeeping';
 import Humidity from  './_icons/Humidity';
 import Id from  './_icons/Id';
 import ImportantInfo from  './_icons/ImportantInfo';
+import ImportantInfoFilled from  './_icons/ImportantInfoFilled';
 import InProgress from  './_icons/InProgress';
 import Independence from  './_icons/Independence';
 import Instagram from  './_icons/Instagram';
@@ -225,8 +232,10 @@ import LowerSteps from  './_icons/LowerSteps';
 import Lunch from  './_icons/Lunch';
 import Luxe from  './_icons/Luxe';
 import MapCircled from  './_icons/MapCircled';
+import Meal from  './_icons/Meal';
 import MeasuringTape from  './_icons/MeasuringTape';
 import MeasuringTapeCircled from  './_icons/MeasuringTapeCircled';
+import MediaKit from  './_icons/MediaKit';
 import MeetingPoint from  './_icons/MeetingPoint';
 import MeetingRoom from  './_icons/MeetingRoom';
 import Menu from  './_icons/Menu';
@@ -274,6 +283,7 @@ import Parking from  './_icons/Parking';
 import Partners from  './_icons/Partners';
 import Pascuas from  './_icons/Pascuas';
 import Pending from  './_icons/Pending';
+import Performance from  './_icons/Performance';
 import Person from  './_icons/Person';
 import PetFriendly from  './_icons/PetFriendly';
 import Phone from  './_icons/Phone';
@@ -390,6 +400,8 @@ import Twitter from  './_icons/Twitter';
 import TwitterNeutral from  './_icons/TwitterNeutral';
 import TwoAssistants from  './_icons/TwoAssistants';
 import TwoHours from  './_icons/TwoHours';
+import Unavailable from  './_icons/Unavailable';
+import Unverified from  './_icons/Unverified';
 import Upload from  './_icons/Upload';
 import ValetParking from  './_icons/ValetParking';
 import Van from  './_icons/Van';
@@ -410,6 +422,7 @@ import WalkingAid from  './_icons/WalkingAid';
 import Wallet from  './_icons/Wallet';
 import Warning from  './_icons/Warning';
 import WarningFilled from  './_icons/WarningFilled';
+import WarningTriangleFilled from  './_icons/WarningTriangleFilled';
 import WashHands from  './_icons/WashHands';
 import WaterActivity from  './_icons/WaterActivity';
 import WaterBottle from  './_icons/WaterBottle';
@@ -450,10 +463,12 @@ export const iconsArray = [
 	'airconditioner',
 	'airportshuttle',
 	'alcoholicbeverages',
+	'alert',
 	'altitude',
 	'arrowback',
 	'arrowdown',
 	'arrowforward',
+	'arrownarrowright',
 	'arrowup',
 	'art',
 	'assistance',
@@ -532,6 +547,7 @@ export const iconsArray = [
 	'coupon',
 	'creditcard',
 	'crib',
+	'cross',
 	'crowded',
 	'cruise',
 	'crutches',
@@ -547,6 +563,7 @@ export const iconsArray = [
 	'dice',
 	'dinner',
 	'disney',
+	'distance',
 	'document',
 	'documentation',
 	'done',
@@ -564,6 +581,7 @@ export const iconsArray = [
 	'entertainment',
 	'entrance',
 	'equipment',
+	'errorsquarefilled',
 	'eventroom',
 	'exclusive',
 	'exhibition',
@@ -574,6 +592,7 @@ export const iconsArray = [
 	'filter',
 	'fitnesscenter',
 	'fivehours',
+	'flag',
 	'foldablepowerwheelchair',
 	'food',
 	'foodservice',
@@ -615,6 +634,7 @@ export const iconsArray = [
 	'humidity',
 	'id',
 	'importantinfo',
+	'importantinfofilled',
 	'inprogress',
 	'independence',
 	'instagram',
@@ -660,8 +680,10 @@ export const iconsArray = [
 	'lunch',
 	'luxe',
 	'mapcircled',
+	'meal',
 	'measuringtape',
 	'measuringtapecircled',
+	'mediakit',
 	'meetingpoint',
 	'meetingroom',
 	'menu',
@@ -709,6 +731,7 @@ export const iconsArray = [
 	'partners',
 	'pascuas',
 	'pending',
+	'performance',
 	'person',
 	'petfriendly',
 	'phone',
@@ -825,6 +848,8 @@ export const iconsArray = [
 	'twitterneutral',
 	'twoassistants',
 	'twohours',
+	'unavailable',
+	'unverified',
 	'upload',
 	'valetparking',
 	'van',
@@ -845,6 +870,7 @@ export const iconsArray = [
 	'wallet',
 	'warning',
 	'warningfilled',
+	'warningtrianglefilled',
 	'washhands',
 	'wateractivity',
 	'waterbottle',
@@ -884,10 +910,12 @@ export const iconsObject = {
 	airconditioner: AirConditioner,
 	airportshuttle: AirportShuttle,
 	alcoholicbeverages: AlcoholicBeverages,
+	alert: Alert,
 	altitude: Altitude,
 	arrowback: ArrowBack,
 	arrowdown: ArrowDown,
 	arrowforward: ArrowForward,
+	arrownarrowright: ArrowNarrowRight,
 	arrowup: ArrowUp,
 	art: Art,
 	assistance: Assistance,
@@ -966,6 +994,7 @@ export const iconsObject = {
 	coupon: Coupon,
 	creditcard: CreditCard,
 	crib: Crib,
+	cross: Cross,
 	crowded: Crowded,
 	cruise: Cruise,
 	crutches: Crutches,
@@ -981,6 +1010,7 @@ export const iconsObject = {
 	dice: Dice,
 	dinner: Dinner,
 	disney: Disney,
+	distance: Distance,
 	document: Document,
 	documentation: Documentation,
 	done: Done,
@@ -998,6 +1028,7 @@ export const iconsObject = {
 	entertainment: Entertainment,
 	entrance: Entrance,
 	equipment: Equipment,
+	errorsquarefilled: ErrorSquareFilled,
 	eventroom: EventRoom,
 	exclusive: Exclusive,
 	exhibition: Exhibition,
@@ -1008,6 +1039,7 @@ export const iconsObject = {
 	filter: Filter,
 	fitnesscenter: FitnessCenter,
 	fivehours: FiveHours,
+	flag: Flag,
 	foldablepowerwheelchair: FoldablePowerWheelchair,
 	food: Food,
 	foodservice: FoodService,
@@ -1049,6 +1081,7 @@ export const iconsObject = {
 	humidity: Humidity,
 	id: Id,
 	importantinfo: ImportantInfo,
+	importantinfofilled: ImportantInfoFilled,
 	inprogress: InProgress,
 	independence: Independence,
 	instagram: Instagram,
@@ -1094,8 +1127,10 @@ export const iconsObject = {
 	lunch: Lunch,
 	luxe: Luxe,
 	mapcircled: MapCircled,
+	meal: Meal,
 	measuringtape: MeasuringTape,
 	measuringtapecircled: MeasuringTapeCircled,
+	mediakit: MediaKit,
 	meetingpoint: MeetingPoint,
 	meetingroom: MeetingRoom,
 	menu: Menu,
@@ -1143,6 +1178,7 @@ export const iconsObject = {
 	partners: Partners,
 	pascuas: Pascuas,
 	pending: Pending,
+	performance: Performance,
 	person: Person,
 	petfriendly: PetFriendly,
 	phone: Phone,
@@ -1259,6 +1295,8 @@ export const iconsObject = {
 	twitterneutral: TwitterNeutral,
 	twoassistants: TwoAssistants,
 	twohours: TwoHours,
+	unavailable: Unavailable,
+	unverified: Unverified,
 	upload: Upload,
 	valetparking: ValetParking,
 	van: Van,
@@ -1279,6 +1317,7 @@ export const iconsObject = {
 	wallet: Wallet,
 	warning: Warning,
 	warningfilled: WarningFilled,
+	warningtrianglefilled: WarningTriangleFilled,
 	washhands: WashHands,
 	wateractivity: WaterActivity,
 	waterbottle: WaterBottle,

@@ -4,82 +4,12 @@ import { IconComponent } from '../types';
 
 const Lobby: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g fill="currentColor">
-            <path
-                d="M13.27 4.01h9.12v5.03h-9.12z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <circle
-                cx={7.47}
-                cy={3.77}
-                r={1.89}
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M6.19 5.16c-.15.09-.48.37-.63.51-.59.54-1.29 1.6-1.29 3.63V11"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M10.73 11V9.3c0-2.03-.7-3.09-1.29-3.63-.15-.14-.53-.42-.68-.51"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M1 11.67h22"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M16.52 11.17V9.04"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M19.07 11.17V9.04"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-            <path
-                d="M21.04 11.67v10.45H2.9V11.67"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.64355 11.0417V12.0106H4.02197C3.60776 12.0106 3.27197 12.3464 3.27197 12.7606C3.27197 13.1748 3.60776 13.5106 4.02197 13.5106H4.6499V20.3397C4.6499 20.7539 4.98569 21.0897 5.3999 21.0897H18.5564C18.9706 21.0897 19.3064 20.7539 19.3064 20.3397V13.5106H19.978C20.3922 13.5106 20.728 13.1748 20.728 12.7606C20.728 12.3464 20.3922 12.0106 19.978 12.0106H17.8774V11.6031H19.5354C19.9496 11.6031 20.2854 11.2673 20.2854 10.8531V7.20499C20.2854 6.79078 19.9496 6.45499 19.5354 6.45499H12.9209C12.5067 6.45499 12.1709 6.79078 12.1709 7.20499V10.8531C12.1709 11.2673 12.5067 11.6031 12.9209 11.6031H14.5283V12.0106H11.8287V11.0417C11.8287 9.38706 11.2525 8.41459 10.6634 7.86858C10.774 7.61162 10.8353 7.32843 10.8353 7.03093C10.8353 5.85966 9.88579 4.91016 8.71452 4.91016C7.54325 4.91016 6.59375 5.85966 6.59375 7.03093C6.59375 7.33956 6.65968 7.6328 6.77822 7.89732C6.19998 8.44847 5.64355 9.41571 5.64355 11.0417ZM8.09375 7.03093C8.09375 6.68808 8.37168 6.41016 8.71452 6.41016C9.05736 6.41016 9.33529 6.68808 9.33529 7.03093C9.33529 7.37377 9.05736 7.6517 8.71452 7.6517C8.55855 7.6517 8.41601 7.59417 8.30696 7.49918C8.29856 7.49106 8.28998 7.48316 8.28125 7.47549C8.16558 7.36274 8.09375 7.20522 8.09375 7.03093ZM8.71452 9.1517C8.40118 9.1517 8.10371 9.08374 7.83605 8.96177C7.5741 9.20152 7.14355 9.76481 7.14355 11.0417V12.0106H10.3287V11.0417C10.3287 10.3037 10.1975 9.46902 9.6216 8.94847C9.34659 9.07879 9.03907 9.1517 8.71452 9.1517ZM17.8064 13.5106H6.1499V19.5897H17.8064V13.5106ZM16.3774 11.6031V12.0106H16.0283V11.6031H16.3774ZM18.7854 10.1031H13.6709V7.95499H18.7854V10.1031Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

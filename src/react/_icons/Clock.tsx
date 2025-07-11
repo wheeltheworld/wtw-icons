@@ -4,29 +4,16 @@ import { IconComponent } from '../types';
 
 const Clock: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={12}
-                cy={12}
-                r={11}
-                strokeLinejoin="round"
-            />
-            <polyline
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                points=" 12,6 12,12 18,12 "
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M12.7505 8.1985C12.7505 7.78429 12.4147 7.4485 12.0005 7.4485C11.5863 7.4485 11.2505 7.78429 11.2505 8.1985V12.588C11.2505 13.0022 11.5863 13.338 12.0005 13.338H16.3899C16.8042 13.338 17.1399 13.0022 17.1399 12.588C17.1399 12.1737 16.8042 11.838 16.3899 11.838H12.7505V8.1985Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.0005 3.20264C7.14182 3.20264 3.20312 7.14134 3.20312 12C3.20312 16.8586 7.14182 20.7973 12.0005 20.7973C16.8591 20.7973 20.7978 16.8586 20.7978 12C20.7978 7.14134 16.8591 3.20264 12.0005 3.20264ZM4.70312 12C4.70312 7.96976 7.97025 4.70264 12.0005 4.70264C16.0307 4.70264 19.2978 7.96976 19.2978 12C19.2978 16.0302 16.0307 19.2973 12.0005 19.2973C7.97025 19.2973 4.70312 16.0302 4.70312 12Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

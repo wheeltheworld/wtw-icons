@@ -3,30 +3,17 @@ import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
 const DoorHandle: IconComponent = (props) => (
-    <Icon viewBox="0 0 40 40" {...props}>
-        <g fill="none">
-            <path
-                d="M38.3333 8.3335H8.33325V15.0002H38.3333V8.3335Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M8.33325 31.6667V26.6667"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-            <path
-                d="M15 8.33341V1.66675H1.66663V38.3334H15V21.6667"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-        </g>
+    <Icon viewBox="0 0 24 24" {...props}>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.24658 3.49683C3.83237 3.49683 3.49658 3.83261 3.49658 4.24683V20.6661C3.49658 21.0803 3.83237 21.4161 4.24658 21.4161H10.2172C10.6314 21.4161 10.9672 21.0803 10.9672 20.6661V13.2028C10.9672 12.7886 10.6314 12.4528 10.2172 12.4528C9.80301 12.4528 9.46722 12.7886 9.46722 13.2028V19.9161H4.99658V4.99683H9.46722V6.48214H7.2325C6.81829 6.48214 6.4825 6.81793 6.4825 7.23214V10.2175C6.4825 10.6317 6.81829 10.9675 7.2325 10.9675H20.6664C21.0806 10.9675 21.4164 10.6317 21.4164 10.2175V7.23214C21.4164 6.81793 21.0806 6.48214 20.6664 6.48214H10.9672V4.24683C10.9672 3.83261 10.6314 3.49683 10.2172 3.49683H4.24658ZM7.9825 7.98214V9.46746H19.9164V7.98214C15.9385 7.98214 11.9605 7.98214 7.9825 7.98214Z"
+            fill="currentColor"
+        />
+        <path
+            d="M7.2325 14.6918C7.64672 14.6918 7.9825 15.0276 7.9825 15.4418V17.6808C7.9825 18.095 7.64672 18.4308 7.2325 18.4308C6.81829 18.4308 6.4825 18.095 6.4825 17.6808V15.4418C6.4825 15.0276 6.81829 14.6918 7.2325 14.6918Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

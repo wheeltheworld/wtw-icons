@@ -4,26 +4,14 @@ import { IconComponent } from '../types';
 
 const Home: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5 0.5)">
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                points="1,10 12,1 23,10  "
-            />
-            <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit={10}
-                points="4,12 4,22 20,22 20,12  "
-            />
-        </g>
+        <path
+            d="M12.4747 4.83433C12.1984 4.60828 11.8011 4.60828 11.5248 4.83433L4.62617 10.4787C4.30558 10.741 4.25833 11.2135 4.52063 11.5341C4.78292 11.8547 5.25544 11.9019 5.57603 11.6396L11.9998 6.38384L18.4235 11.6396C18.7441 11.9019 19.2166 11.8547 19.4789 11.5341C19.7412 11.2135 19.6939 10.741 19.3733 10.4787L12.4747 4.83433Z"
+            fill="currentColor"
+        />
+        <path
+            d="M7.73238 12.3135C7.73238 11.8993 7.39659 11.5635 6.98238 11.5635C6.56816 11.5635 6.23238 11.8993 6.23238 12.3135V18.585C6.23238 18.9992 6.56816 19.335 6.98238 19.335H17.0168C17.431 19.335 17.7668 18.9992 17.7668 18.585V12.3135C17.7668 11.8993 17.431 11.5635 17.0168 11.5635C16.6026 11.5635 16.2668 11.8993 16.2668 12.3135V17.835H7.73238V12.3135Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

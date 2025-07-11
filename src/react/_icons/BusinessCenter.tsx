@@ -4,78 +4,28 @@ import { IconComponent } from '../types';
 
 const BusinessCenter: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <polyline
-                points="5 23 1 23 1 13 5 13"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={9}
-                y1={16}
-                x2={11}
-                y2={16}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={9}
-                y1={19}
-                x2={11}
-                y2={19}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={9}
-                y1={13}
-                x2={11}
-                y2={13}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <polyline
-                points="13 6 13 2 23 5 23 23 5 23 5 9 15 9 15 23"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={19}
-                y1={19}
-                x2={19}
-                y2={9}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M9.49072 14.4868C9.07651 14.4868 8.74072 14.8226 8.74072 15.2368C8.74072 15.651 9.07651 15.9868 9.49072 15.9868H11.1062C11.5204 15.9868 11.8562 15.651 11.8562 15.2368C11.8562 14.8226 11.5204 14.4868 11.1062 14.4868H9.49072Z"
+            fill="currentColor"
+        />
+        <path
+            d="M8.74072 17.66C8.74072 17.2458 9.07651 16.91 9.49072 16.91H11.1062C11.5204 16.91 11.8562 17.2458 11.8562 17.66C11.8562 18.0743 11.5204 18.41 11.1062 18.41H9.49072C9.07651 18.41 8.74072 18.0743 8.74072 17.66Z"
+            fill="currentColor"
+        />
+        <path
+            d="M9.49072 12.0636C9.07651 12.0636 8.74072 12.3994 8.74072 12.8136C8.74072 13.2278 9.07651 13.5636 9.49072 13.5636H11.1062C11.5204 13.5636 11.8562 13.2278 11.8562 12.8136C11.8562 12.3994 11.5204 12.0636 11.1062 12.0636H9.49072Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.2745 3.32675C12.4647 3.18523 12.7106 3.14198 12.9377 3.2101L21.0151 5.63333C21.3323 5.7285 21.5496 6.02049 21.5496 6.3517V20.891C21.5496 21.3053 21.2138 21.641 20.7996 21.641L3.02881 21.641C2.6146 21.641 2.27881 21.3052 2.27881 20.891V12.8136C2.27881 12.3994 2.6146 12.0636 3.02881 12.0636H5.51025V9.58266C5.51025 9.16845 5.84604 8.83266 6.26025 8.83266H14.3377C14.7519 8.83266 15.0877 9.16845 15.0877 9.58266V20.141H20.0496V6.90972L13.4722 4.9365V7.15944C13.4722 7.57365 13.1364 7.90944 12.7222 7.90944C12.308 7.90944 11.9722 7.57365 11.9722 7.15944V3.92847C11.9722 3.69139 12.0843 3.46827 12.2745 3.32675ZM5.51025 13.5636V20.141H3.77881V13.5636H5.51025ZM13.5877 20.141V10.3327H7.01025V20.141H13.5877Z"
+            fill="currentColor"
+        />
+        <path
+            d="M18.3184 9.58271C18.3184 9.1685 17.9826 8.83271 17.5684 8.83271C17.1541 8.83271 16.8184 9.1685 16.8184 9.58271V17.6601C16.8184 18.0743 17.1541 18.4101 17.5684 18.4101C17.9826 18.4101 18.3184 18.0743 18.3184 17.6601V9.58271Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

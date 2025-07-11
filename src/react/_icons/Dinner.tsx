@@ -4,79 +4,24 @@ import { IconComponent } from '../types';
 
 const Dinner: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={12}
-                y1={1}
-                x2={12}
-                y2={4}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={7}
-                y1={3}
-                x2={7}
-                y2={6}
-                strokeLinejoin="round"
-            />
-            <line
-                data-color="color-2"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={17}
-                y1={3}
-                x2={17}
-                y2={6}
-                strokeLinejoin="round"
-            />
-            <line
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                x1={1}
-                y1={23}
-                x2={22.8}
-                y2={23}
-                strokeLinejoin="round"
-            />
-            <circle
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                cx={12}
-                cy={11}
-                r={2}
-                strokeLinejoin="round"
-            />
-            <path
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                d="M2,23c0-5.5,4.5-10,10-10 s10,4.5,10,10"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M12.7222 4.59326C12.7222 4.17905 12.3864 3.84326 11.9722 3.84326C11.558 3.84326 11.2222 4.17905 11.2222 4.59326V6.61102C11.2222 7.02524 11.558 7.36102 11.9722 7.36102C12.3864 7.36102 12.7222 7.02524 12.7222 6.61102V4.59326Z"
+            fill="currentColor"
+        />
+        <path
+            d="M9.35938 5.93839C9.35938 5.52417 9.02359 5.18839 8.60938 5.18839C8.19516 5.18839 7.85938 5.52417 7.85938 5.93839V7.95615C7.85938 8.37036 8.19516 8.70615 8.60938 8.70615C9.02359 8.70615 9.35938 8.37036 9.35938 7.95615V5.93839Z"
+            fill="currentColor"
+        />
+        <path
+            d="M15.335 5.18839C15.7492 5.18839 16.085 5.52417 16.085 5.93839V7.95615C16.085 8.37036 15.7492 8.70615 15.335 8.70615C14.9207 8.70615 14.585 8.37036 14.585 7.95615V5.93839C14.585 5.52417 14.9207 5.18839 15.335 5.18839Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.53355 18.6412C4.13802 18.6621 3.82373 18.9894 3.82373 19.3902C3.82373 19.8044 4.15952 20.1402 4.57373 20.1402H19.2361C19.6503 20.1402 19.9861 19.8044 19.9861 19.3902C19.9861 19.0366 19.7415 18.7402 19.4123 18.661C19.1063 15.533 16.8536 12.9559 13.8896 12.1649C14.0038 11.9062 14.0673 11.6201 14.0673 11.3191C14.0673 10.162 13.1293 9.22397 11.9721 9.22397C10.815 9.22397 9.87695 10.162 9.87695 11.3191C9.87695 11.6201 9.9404 11.9062 10.0546 12.1648C7.09673 12.954 4.84711 15.5221 4.53355 18.6412ZM6.04334 18.6402H17.9006C17.5301 15.7188 14.9103 13.4167 11.9687 13.4143C8.93899 13.416 6.41542 15.7064 6.04334 18.6402Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

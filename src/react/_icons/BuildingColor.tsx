@@ -2,25 +2,44 @@ import React from 'react';
 import Icon from '../components/Icon';
 import { IconComponent } from '../types';
 
-const BuildingColor: IconComponent = (props: any) => (
-    <Icon viewBox="0 0 24 24" {...props} fill="none">
-        <path fill="currentColor" d="M0 14H4V23H0z"></path>
-        <path fill={props.fill} d="M19 14H23V23H19z"></path>
-        <g
-        stroke="#232323"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeMiterlimit="10"
-        strokeWidth="1.5"
-        clipPath="url(#clip0_856_21772)"
-        >
-            <path d="M4.745 23.4H.6v-9.327h4.145M19.255 23.4H23.4v-9.327h-4.145M19.255.6H4.745v22.8h14.51V.6zM8.89 4.745h1.037M14.073 4.745h1.036M8.89 8.89h1.037M14.073 8.89h1.036M8.89 13.036h1.037M14.073 13.036h1.036M8.89 17.182h1.037M14.073 17.182h1.036M12 23.4v-2.073"></path>
-        </g>
-        <defs>
-            <clipPath id="clip0_856_21772">
-                <path fill="#fff" d="M0 0H24V24H0z"></path>
-            </clipPath>
-        </defs>
+const BuildingColor: IconComponent = (props) => (
+    <Icon viewBox="0 0 24 24" {...props} color={props.color || 'white'}>
+        <path
+            d="M4.74506 23.8999H0.599609V14.5726H4.74506"
+            fill="currentColor"
+            stroke="#232323"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+        <path
+            d="M19.2539 23.8999H23.3994V14.5726H19.2539"
+            fill="currentColor"
+            stroke="#232323"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+        <path
+            d="M19.2542 1.09998H4.74512V23.9H19.2542V1.09998Z"
+            fill="#FFFFFF"
+            stroke="#232323"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+        <path d="M8.89062 5.24548H9.92699" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M14.0723 5.24548H15.1086" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M8.89062 9.39087H9.92699" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M14.0723 9.39087H15.1086" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M8.89062 13.5364H9.92699" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M14.0723 13.5364H15.1086" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M8.89062 17.6819H9.92699" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M14.0723 17.6819H15.1086" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M12 23.9V21.8273" stroke="#232323" strokeWidth="1.5" strokeLinecap="round" />
     </Icon>
 );
 

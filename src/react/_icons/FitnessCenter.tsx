@@ -4,91 +4,20 @@ import { IconComponent } from '../types';
 
 const FitnessCenter: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <line
-                x1={8}
-                y1={15}
-                x2={8}
-                y2={23}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                strokeLinecap="round"
-            />
-            <line
-                x1={16}
-                y1={15}
-                x2={16}
-                y2={23}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                strokeLinecap="round"
-            />
-            <path
-                d="M19,7l-3,8H8L5,7"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <circle
-                cx={12}
-                cy={9.5}
-                r={2.5}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                strokeLinejoin="round"
-            />
-            <line
-                x1={1}
-                y1={4}
-                x2={23}
-                y2={4}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={2}
-                y1={1}
-                x2={2}
-                y2={7}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-            <line
-                x1={22}
-                y1={1}
-                x2={22}
-                y2={7}
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-color="color-2"
-                strokeLinejoin="round"
-            />
-        </g>
+        <path
+            d="M4 2.25C4.41421 2.25 4.75 2.58579 4.75 3V4.25H19.25V3C19.25 2.58579 19.5858 2.25 20 2.25C20.4142 2.25 20.75 2.58579 20.75 3V4.25H21C21.4142 4.25 21.75 4.58579 21.75 5C21.75 5.41421 21.4142 5.75 21 5.75H20.75V7C20.75 7.41421 20.4142 7.75 20 7.75C19.5858 7.75 19.25 7.41421 19.25 7V5.75H4.75V7C4.75 7.41421 4.41421 7.75 4 7.75C3.58579 7.75 3.25 7.41421 3.25 7V5.75H3C2.58579 5.75 2.25 5.41421 2.25 5C2.25 4.58579 2.58579 4.25 3 4.25H3.25V3C3.25 2.58579 3.58579 2.25 4 2.25Z"
+            fill="currentColor"
+        />
+        <path
+            d="M7.71715 7.78046C7.5959 7.38439 7.17654 7.1616 6.78046 7.28285C6.38439 7.4041 6.1616 7.82346 6.28285 8.21954L8.28704 14.7666C8.263 14.84 8.25 14.9185 8.25 15V20C8.25 20.4142 8.58579 20.75 9 20.75C9.41421 20.75 9.75 20.4142 9.75 20V15.75H14.25V20C14.25 20.4142 14.5858 20.75 15 20.75C15.4142 20.75 15.75 20.4142 15.75 20V15C15.75 14.9185 15.737 14.84 15.713 14.7666L17.7171 8.21954C17.8384 7.82346 17.6156 7.4041 17.2195 7.28285C16.8235 7.1616 16.4041 7.38439 16.2829 7.78046L14.3024 14.25H9.69762L7.71715 7.78046Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.25 10C9.25 8.48122 10.4812 7.25 12 7.25C13.5188 7.25 14.75 8.48122 14.75 10C14.75 11.5188 13.5188 12.75 12 12.75C10.4812 12.75 9.25 11.5188 9.25 10ZM12 8.75C11.3096 8.75 10.75 9.30964 10.75 10C10.75 10.6904 11.3096 11.25 12 11.25C12.6904 11.25 13.25 10.6904 13.25 10C13.25 9.30964 12.6904 8.75 12 8.75Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 

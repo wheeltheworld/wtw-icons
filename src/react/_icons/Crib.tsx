@@ -4,55 +4,12 @@ import { IconComponent } from '../types';
 
 const Crib: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            transform="translate(0.5 0.5)"
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.75 3C3.75 2.58579 3.41421 2.25 3 2.25C2.58579 2.25 2.25 2.58579 2.25 3V17.4C2.25 18.0763 2.51866 18.7249 2.99688 19.2032C3.4751 19.6814 4.1237 19.95 4.8 19.95H4.95002V21C4.95002 21.4142 5.2858 21.75 5.70002 21.75C6.11423 21.75 6.45002 21.4142 6.45002 21V19.95H17.55V21C17.55 21.4142 17.8858 21.75 18.3 21.75C18.7142 21.75 19.05 21.4142 19.05 21V19.95H19.2C19.8763 19.95 20.525 19.6814 21.0032 19.2032C21.4814 18.7249 21.75 18.0763 21.75 17.4C21.75 12.5999 21.75 7.80004 21.75 3C21.75 2.58579 21.4143 2.25 21 2.25C20.5858 2.25 20.25 2.58579 20.25 3V4.94999H3.75V3ZM3.75 6.44999V14.85H6.75024V6.44999H3.75ZM3.75 16.35V17.4C3.75 17.6785 3.86063 17.9456 4.05754 18.1425C4.25445 18.3394 4.52153 18.45 4.8 18.45C9.59997 18.45 14.4 18.45 19.2 18.45C19.4785 18.45 19.7456 18.3394 19.9425 18.1425C20.1394 17.9456 20.25 17.6785 20.25 17.4V16.35H3.75ZM20.25 14.85V6.44999H17.2502V14.85H20.25ZM12.75 6.44999H15.7502V14.85H12.75V6.44999ZM11.25 14.85V6.44999H8.25024V14.85H11.25Z"
             fill="currentColor"
-            stroke="currentColor"
-        >
-            <line data-cap="butt" data-color="color-2" x1={7} y1={5} x2={7} y2={16} fill="none" strokeMiterlimit={10} />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                x1={12}
-                y1={5}
-                x2={12}
-                y2={16}
-                fill="none"
-                strokeMiterlimit={10}
-            />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                x1={17}
-                y1={5}
-                x2={17}
-                y2={16}
-                fill="none"
-                strokeMiterlimit={10}
-            />
-            <line
-                data-cap="butt"
-                data-color="color-2"
-                x1={2}
-                y1={16}
-                x2={22}
-                y2={16}
-                fill="none"
-                strokeMiterlimit={10}
-            />
-            <line data-cap="butt" data-color="color-2" x1={2} y1={5} x2={22} y2={5} fill="none" strokeMiterlimit={10} />
-            <line x1={5} y1={20} x2={5} y2={22} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <line x1={19} y1={20} x2={19} y2={22} fill="none" stroke="currentColor" strokeMiterlimit={10} />
-            <path
-                d="M2,2V18a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V2"
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-            />
-        </g>
+        />
     </Icon>
 );
 

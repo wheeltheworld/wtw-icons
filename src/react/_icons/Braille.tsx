@@ -4,66 +4,38 @@ import { IconComponent } from '../types';
 
 const Braille: IconComponent = (props) => (
     <Icon viewBox="0 0 24 24" {...props}>
-        <g transform="translate(0.5, 0.5)" fill="currentColor">
-            <circle
-                cx={6}
-                cy={3}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-            <circle
-                cx={6}
-                cy={21}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-            <circle
-                cx={18}
-                cy={3}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-            <circle
-                cx={18}
-                cy={12}
-                r={2}
-                fill="none"
-                stroke="currentColor"
-                strokeMiterlimit={10}
-                strokeWidth={1.5}
-                data-cap="butt"
-                data-color="color-2"
-                strokeLinecap="round"
-            />
-            <circle cx={6} cy={12} r={2} fill="currentColor" data-cap="butt" data-stroke="none" strokeLinecap="round" />
-            <circle
-                cx={18}
-                cy={21}
-                r={2}
-                fill="currentColor"
-                data-cap="butt"
-                data-stroke="none"
-                strokeLinecap="round"
-            />
-        </g>
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.5436 4.26062C7.23859 4.26062 6.18066 5.31854 6.18066 6.62356C6.18066 7.92858 7.23859 8.9865 8.5436 8.9865C9.84862 8.9865 10.9065 7.92858 10.9065 6.62356C10.9065 5.31854 9.84862 4.26062 8.5436 4.26062ZM7.68066 6.62356C7.68066 6.14697 8.06702 5.76062 8.5436 5.76062C9.02019 5.76062 9.40655 6.14697 9.40655 6.62356C9.40655 7.10015 9.02019 7.4865 8.5436 7.4865C8.06702 7.4865 7.68066 7.10015 7.68066 6.62356Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.54363 15.0136C7.23862 15.0136 6.18069 16.0715 6.18069 17.3765C6.18069 18.6815 7.23862 19.7394 8.54363 19.7394C9.84865 19.7394 10.9066 18.6815 10.9066 17.3765C10.9066 16.0715 9.84865 15.0136 8.54363 15.0136ZM7.68069 17.3765C7.68069 16.8999 8.06705 16.5136 8.54363 16.5136C9.02022 16.5136 9.40658 16.8999 9.40658 17.3765C9.40658 17.8531 9.02022 18.2394 8.54363 18.2394C8.06705 18.2394 7.68069 17.8531 7.68069 17.3765Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M13.1701 6.62356C13.1701 5.31854 14.228 4.26062 15.533 4.26062C16.8381 4.26062 17.896 5.31854 17.896 6.62356C17.896 7.92858 16.8381 8.9865 15.533 8.9865C14.228 8.9865 13.1701 7.92858 13.1701 6.62356ZM15.533 5.76062C15.0565 5.76062 14.6701 6.14697 14.6701 6.62356C14.6701 7.10015 15.0565 7.4865 15.533 7.4865C16.0096 7.4865 16.396 7.10015 16.396 6.62356C16.396 6.14697 16.0096 5.76062 15.533 5.76062Z"
+            fill="currentColor"
+        />
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.533 9.63709C14.228 9.63709 13.1701 10.695 13.1701 12C13.1701 13.305 14.228 14.363 15.533 14.363C16.8381 14.363 17.896 13.305 17.896 12C17.896 10.695 16.8381 9.63709 15.533 9.63709ZM14.6701 12C14.6701 11.5234 15.0565 11.1371 15.533 11.1371C16.0096 11.1371 16.396 11.5234 16.396 12C16.396 12.4766 16.0096 12.863 15.533 12.863C15.0565 12.863 14.6701 12.4766 14.6701 12Z"
+            fill="currentColor"
+        />
+        <path
+            d="M8.54363 13.613C9.43444 13.613 10.1566 12.8908 10.1566 12C10.1566 11.1092 9.43444 10.3871 8.54363 10.3871C7.65283 10.3871 6.93069 11.1092 6.93069 12C6.93069 12.8908 7.65283 13.613 8.54363 13.613Z"
+            fill="currentColor"
+        />
+        <path
+            d="M17.146 17.3765C17.146 18.2673 16.4238 18.9894 15.533 18.9894C14.6422 18.9894 13.9201 18.2673 13.9201 17.3765C13.9201 16.4857 14.6422 15.7636 15.533 15.7636C16.4238 15.7636 17.146 16.4857 17.146 17.3765Z"
+            fill="currentColor"
+        />
     </Icon>
 );
 
