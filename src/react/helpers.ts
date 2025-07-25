@@ -1,3 +1,4 @@
+import AI from  './_icons/AI';
 import Academy from  './_icons/Academy';
 import Accessibility from  './_icons/Accessibility';
 import AccessibilityProfile from  './_icons/AccessibilityProfile';
@@ -446,6 +447,7 @@ import YoutubeNeutral from  './_icons/YoutubeNeutral';
 import { IconTag } from './types'
 
 export const iconsArray = [
+	'ai',
 	'academy',
 	'accessibility',
 	'accessibilityprofile',
@@ -893,6 +895,7 @@ export const iconsArray = [
 ] as const;
 
 export const iconsObject = {
+	ai: AI,
 	academy: Academy,
 	accessibility: Accessibility,
 	accessibilityprofile: AccessibilityProfile,
