@@ -1,4 +1,5 @@
-export { default as AcademyIcon } from  './_icons/Academy';
+export { default as AI } from './_icons/AI';
+export { default as AcademyIcon } from './_icons/Academy';
 export { default as AccessibilityIcon } from  './_icons/Accessibility';
 export { default as AccessibilityProfileIcon } from  './_icons/AccessibilityProfile';
 export { default as AccessibleBathroomIcon } from  './_icons/AccessibleBathroom';
