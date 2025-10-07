@@ -289,6 +289,7 @@ export { default as PerformanceIcon } from './_icons/Performance';
 export { default as PersonIcon } from './_icons/Person';
 export { default as PetFriendlyIcon } from './_icons/PetFriendly';
 export { default as PhoneIcon } from './_icons/Phone';
+export { default as PhysicalDisabilityIcon } from './_icons/PhysicalDisability';
 export { default as PhysicalSpaceIcon } from './_icons/PhysicalSpace';
 export { default as PicnicTableIcon } from './_icons/PicnicTable';
 export { default as PinterestIcon } from './_icons/Pinterest';

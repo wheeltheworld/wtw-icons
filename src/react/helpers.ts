@@ -289,6 +289,7 @@ import Performance from './_icons/Performance';
 import Person from './_icons/Person';
 import PetFriendly from './_icons/PetFriendly';
 import Phone from './_icons/Phone';
+import PhysicalDisability from './_icons/PhysicalDisability';
 import PhysicalSpace from './_icons/PhysicalSpace';
 import PicnicTable from './_icons/PicnicTable';
 import Pinterest from './_icons/Pinterest';
@@ -741,6 +742,7 @@ export const iconsArray = [
     'person',
     'petfriendly',
     'phone',
+    'physicaldisability',
     'physicalspace',
     'picnictable',
     'pinterest',
@@ -1192,6 +1194,7 @@ export const iconsObject = {
     person: Person,
     petfriendly: PetFriendly,
     phone: Phone,
+    physicaldisability: PhysicalDisability,
     physicalspace: PhysicalSpace,
     picnictable: PicnicTable,
     pinterest: Pinterest,
