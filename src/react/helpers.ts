@@ -146,9 +146,6 @@ import Filter from './_icons/Filter';
 import FitnessCenter from './_icons/FitnessCenter';
 import FiveHours from './_icons/FiveHours';
 import Flag from './_icons/Flag';
-import FloatingBadge from './_icons/FloatingBadge';
-import FloatingGraduationHat from './_icons/FloatingGraduationHat';
-import FloatingLocation from './_icons/FloatingLocation';
 import FoldablePowerWheelchair from './_icons/FoldablePowerWheelchair';
 import Food from './_icons/Food';
 import FoodService from './_icons/FoodService';
@@ -602,9 +599,6 @@ export const iconsArray = [
     'fitnesscenter',
     'fivehours',
     'flag',
-    'floatingbadge',
-    'floatinggraduationhat',
-    'floatinglocation',
     'foldablepowerwheelchair',
     'food',
     'foodservice',
@@ -1057,9 +1051,6 @@ export const iconsObject = {
     fitnesscenter: FitnessCenter,
     fivehours: FiveHours,
     flag: Flag,
-    floatingbadge: FloatingBadge,
-    floatinggraduationhat: FloatingGraduationHat,
-    floatinglocation: FloatingLocation,
     foldablepowerwheelchair: FoldablePowerWheelchair,
     food: Food,
     foodservice: FoodService,
